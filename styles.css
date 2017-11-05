@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #456990;
+	color: #fff;
+	font-family: "Karla", serif;
+}
+
+/****
+TIMELINE
+****/
+
+.timeline {
+	white-space: nowrap;
+	/* overflow-x: hidden; */
+}
+
+.timeline ol {
+	font-size: 0;
+	width: 100vw;
+	padding: 325px 0;
+	transition: all 1s;
+}
+
+.timeline ol li {
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  width: 160px;
+  /* width: 50px; */
+  height: 3px;
+  background: #fff;
+}
+ 
+.timeline ol li:last-child {
+  width: 280px;
+}
+ 
+.timeline ol li:not(:first-child) {
+  margin-left: 14px;
+}
+ 
+/* .timeline ol li:not(:last-child)::after { */
+.timeline ol li::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 1px);
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #F45B69;
+}
+
+.timeline ol li div {
+  position: absolute;
+  left: calc(100% + 7px);
+  width: 280px;
+  padding: 15px;
+  font-size: 1rem;
+  white-space: normal;
+  color: black;
+  background: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+ 
+.timeline ol li div::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ol li:nth-child(odd) div {
+  top: -16px;
+  transform: translateY(-100%);
+  border-top-left-radius: 5px;
+}
+ 
+.timeline ol li:nth-child(odd) div::before {
+  top: 100%;
+  border-width: 8px 8px 0 0;
+  border-color: white transparent transparent transparent;
+}
+
+.timeline ol li:nth-child(even) div {
+  top: calc(100% + 16px);
+  border-bottom-left-radius: 5px;
+}
+ 
+.timeline ol li:nth-child(even) div::before {
+  top: -8px;
+  border-width: 8px 0 0 8px;
+  border-color: transparent transparent transparent white;
+}
+
+.timeline time {
+	font-family: "Klinic Slab", display;
+	font-weight: bold;
+}
+
+.timeline p:first-of-type {
+	/* font-weight: bold; */
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.timeline .arrows {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+ 
+.timeline .arrows .arrow__prev {
+  margin-right: 20px;
+}
+ 
+.timeline .disabled {
+  opacity: .5;
+}
+ 
+.timeline .arrows img {
+  width: 45px;
+  height: 45px;
+}
