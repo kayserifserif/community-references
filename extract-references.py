@@ -1,9 +1,6 @@
 import csv
 import spacy
-from spacy import displacy
-# from collections import Counter
-# import pprint
-# from pathlib import Path
+import sys
 import re
 
 # desired_labels = ["PERSON", "WORK_OF_ART", "ORG", "FAC"]
@@ -33,32 +30,28 @@ with open("./data/community-entities.txt", "r") as f_open:
 # https://rasa.com/
 nlp = spacy.load("en_core_web_sm")
 data = ""
-with open("./transcripts/community-s01e01.txt", "r") as f_open:
-  data = f_open.read()
-data = re.sub("\n", " ", data)
-text = nlp(data)
+if len(sys.argv) is not 2 or re.match(r"s\d\de\d\d", sys.argv[1]) is None:
+  print("Usage: python extract-references.py s01e01 (season-episode code)")
+else:
+  with open("./transcripts/community-" + sys.argv[1] + ".txt", "r") as f_open:
+    data = f_open.read()
+  data = re.sub("\n", " ", data)
+  text = nlp(data)
 
-people = []
-titles = []
+  people = []
+  titles = []
 
-# each recognised entity
-for ent in text.ents:
-  # one of the desired labels
-  if ent.label_ in desired_labels:
-    # not names from the show
-    if ent.text not in exclude_ents:
-      # either person or title
-      if ent.text in all_people:
-        people.append(ent.text)
-      elif ent.text in all_titles:
-        titles.append(ent.text)
+  # each recognised entity
+  for ent in text.ents:
+    # one of the desired labels
+    if ent.label_ in desired_labels:
+      # not names from the show
+      if ent.text not in exclude_ents:
+        # either person or title
+        if ent.text in all_people:
+          people.append(ent.text)
+        elif ent.text in all_titles:
+          titles.append(ent.text)
 
-print("PEOPLE")
-print(people)
-print("TITLES")
-print(titles)
-
-# html = displacy.render(processed, page=True, style='ent', options={"ents": ["PERSON"]})
-# html = displacy.render(text, page=True, style='ent', options={"ents": labels})
-# output_path = Path("./output/displacy.html")
-# output_path.open("w", encoding="utf-8").write(html)
+  print("PEOPLE:", people)
+  print("TITLES:", titles)
