@@ -33,7 +33,7 @@ with open("./data/community-entities.txt", "r") as f_open:
 # https://rasa.com/
 nlp = spacy.load("en_core_web_sm")
 data = ""
-with open("./transcripts/community-s01e04.txt", "r") as f_open:
+with open("./transcripts/community-s01e01.txt", "r") as f_open:
   data = f_open.read()
 data = re.sub("\n", " ", data)
 text = nlp(data)
