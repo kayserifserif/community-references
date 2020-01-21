@@ -2,6 +2,13 @@ import csv
 import spacy
 import sys
 import re
+import json
+
+
+
+# # # # # # # # # # #
+# VARIABLES AND DATA #
+# # # # # # # # # # #
 
 # desired_labels = ["PERSON", "WORK_OF_ART", "ORG", "FAC"]
 desired_labels = ["PERSON", "WORK_OF_ART", "ORG"]
@@ -26,19 +33,28 @@ with open("./data/community-entities.txt", "r") as f_open:
   for row in f_open:
     stop_ents.append(row[0])
 
-# https://towardsdatascience.com/named-entity-recognition-with-nltk-and-spacy-8c4a7d88e7da
-# https://rasa.com/
 nlp = spacy.load("en_core_web_sm")
-data = ""
-if len(sys.argv) is not 2 or re.match(r"s\d\de\d\d", sys.argv[1]) is None:
-  print("Usage: python extract-references.py s01e01 (season-episode code)")
-else:
+
+
+
+# # # # # # # # # #
+# GET EPISODE DATA #
+# # # # # # # # # #
+
+def get_episode_data(code):
+
+  ep_data = {}
 
   try:
 
-    with open("./transcripts/community-" + sys.argv[1] + ".txt", "r") as f_open:
+    data = ""
+
+    with open("./transcripts/community-" + code + ".txt", "r") as f_open:
       data = f_open.read()
-    data = re.sub("\n", " ", data)
+      data = re.sub("\n", " ", data)
+
+    print("Generating results for " + code + "...")
+
     text = nlp(data)
 
     people = []
@@ -56,8 +72,63 @@ else:
           elif ent.text in all_titles:
             titles.append(ent.text)
 
-    print("PEOPLE:", people)
-    print("TITLES:", titles)
+    ep_data["people"] = people
+    ep_data["titles"] = titles
 
   except IOError:
     print("Could not read file.")
+
+  return(ep_data)
+
+
+
+# # # # # # # # # #
+# RESPOND TO INPUT #
+# # # # # # # # # #
+
+# get option from command line input
+if len(sys.argv) is 2 and re.match(r"s\d\de\d\d", sys.argv[1]):
+
+  ep_data = get_episode_data(sys.argv[1])
+  print("people:", ep_data["people"])
+  print("titles:", ep_data["titles"])
+
+elif len(sys.argv) is 2 and sys.argv[1] == "all":
+
+  # get list of all episode codes
+  episode_list = []
+  season = 1
+  episode = 1
+  s_valid = True
+  while s_valid:
+    try:
+      code = "s" + "{:02}".format(season) + "e" + "{:02}".format(episode)
+      # add episode code if file exists
+      with open("./transcripts/community-" + code + ".txt", "r") as f_open:
+        episode_list.append(code)
+        episode += 1
+    except IOError:
+      if episode > 1:
+        # go to next season
+        season += 1
+        episode = 1
+      else:
+        # assume no more episodes
+        s_valid = False
+
+  # get data for all episodes in list
+  episode_data = {}
+  for ep in episode_list:
+    episode_data[ep] = get_episode_data(ep)
+
+  # write data to json file
+  try:
+    j = json.dumps(episode_data, indent=2)
+    with open("./output/all.json", "w") as f:
+      print(j, file=f)
+      print("Successfully saved to file ./output/all.json!")
+  except IOError:
+    print("Could not write to file.")
+
+else:
+  print("Usage: \"python extract-references.py\", followed by season-episode code (e.g. \"s01e01\") OR \"all\"")
