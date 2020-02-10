@@ -14,19 +14,47 @@ import json
 # desired_labels = ["PERSON", "WORK_OF_ART", "ORG", "FAC"]
 desired_labels = ["PERSON", "WORK_OF_ART", "ORG"]
 
-all_people = []
+# all_people = []
+all_people = {}
 with open("./data/name.basics.min.tsv", newline='') as f_open:
   f_open = csv.reader(f_open, delimiter='\t')
   next(f_open) # skip header
   for row in f_open:
-    all_people.append(row[1]) # add name
+    # all_people.append(row[1]) # add name
+    nconst = row[0]
+    birthYear = row[2]
+    try:
+      birthYear = int(birthYear)
+    except ValueError:
+      birthYear = birthYear
+    deathYear = row[3]
+    try:
+      deathYear = int(deathYear)
+    except ValueError:
+      deathYear = deathYear
+    all_people[row[1]] = [nconst, birthYear, deathYear]
 
-all_titles = []
+# all_titles = []
+all_titles = {}
 with open("./data/title.basics.min.tsv", newline='') as f_open:
   f_open = csv.reader(f_open, delimiter='\t')
   next(f_open) # skip header
   for row in f_open:
-    all_titles.append(row[2]) # add name
+    # all_titles.append(row[2]) # add name
+    tconst = row[0]
+    titleType = row[1]
+    startYear = row[5]
+    try:
+      startYear = int(startYear)
+    except ValueError:
+      startYear = startYear
+    endYear = row[6]
+    try:
+      endYear = int(endYear)
+    except ValueError:
+      endYear = endYear
+    genres = row[8].split(",")
+    all_titles[row[2]] = [tconst, titleType, startYear, endYear, genres]
 
 stop_ents = []
 with open("./data/community-entities.txt", "r") as f_open:
@@ -68,10 +96,34 @@ def get_episode_data(code):
         # not names from the show
         if ent.text not in stop_ents:
           # either person or title
+          ent_info = {}
+          reference_info = {
+            "entity": ent.text,
+            "sentence": ent.sent.text,
+            "startIndex": ent.start_char,
+            "endIndex": ent.end_char
+          }
+          ent_info["reference"] = reference_info
           if ent.text in all_people:
-            people.append([ent.text, ent.sent])
+            person_info = {
+              "name": ent.text,
+              "nconst": all_people[ent.text][0],
+              "birthYear": all_people[ent.text][1],
+              "deathYear": all_people[ent.text][2]
+            }
+            ent_info["referent"] = person_info
+            people.append(ent_info)
           elif ent.text in all_titles:
-            titles.append([ent.text, ent.sent])
+            title_info = {
+              "title": ent.text,
+              "tconst": all_titles[ent.text][0],
+              "titleType": all_titles[ent.text][1],
+              "startYear": all_titles[ent.text][2],
+              "endYear": all_titles[ent.text][3],
+              "genres": all_titles[ent.text][4]
+            }
+            ent_info["referent"] = title_info
+            titles.append(ent_info)
 
     ep_data["people"] = people
     ep_data["titles"] = titles
@@ -83,7 +135,35 @@ def get_episode_data(code):
 
 
 
-# # # # # # # # # #
+# # # # # # # # # # #
+# FIND SEARCH STRING #
+# # # # # # # # # # #
+
+def find(code, search, type):
+  try:
+    with open("./transcripts/community-" + code + ".txt", "r") as f_open:
+      data = f_open.read()
+      data = re.sub("\n", " ", data)
+    start = data.index(search)
+    end = start + len(search) - 1
+    print(start, end)
+    print(data[start-20:end+20])
+    if type == "p":
+      if search in all_people:
+        person_info = all_people[search].copy()
+        person_info.insert(0, search)
+        print(person_info)
+    elif type == "t":
+      if search in all_titles:
+        title_info = all_titles[search].copy()
+        title_info.insert(0, search)
+        print(title_info)
+  except IOError:
+    print("Could not read file.")
+
+
+
+# # # # # # # # # # #
 # RESPOND TO INPUT #
 # # # # # # # # # #
 
@@ -119,20 +199,26 @@ elif len(sys.argv) is 2 and sys.argv[1] == "all":
       else:
         # assume no more episodes
         s_valid = False
+  # episode_list = ["s01e01"]
 
   # get data for all episodes in list
   episode_data = {}
   for ep in episode_list:
-    episode_data[ep] = get_episode_data(ep)
+    # episode_data[ep] = get_episode_data(ep)
+    episode_data[ep] = get_episode_data(ep)[0]
 
   # write data to json file
   try:
     j = json.dumps(episode_data, indent=2)
+    # print(j)
     with open("./output/all.json", "w") as f:
       print(j, file=f)
       print("Successfully saved to file ./output/all.json!")
   except IOError:
     print("Could not write to file.")
+
+elif len(sys.argv) is 4:
+  find(sys.argv[1], sys.argv[2], sys.argv[3])
 
 else:
   print("Usage: \"python extract-references.py\", followed by season-episode code (e.g. \"s01e01\") OR \"all\"")
