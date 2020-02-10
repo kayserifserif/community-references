@@ -1,5 +1,6 @@
 import csv
 import spacy
+from spacy import displacy
 import sys
 import re
 import json
@@ -68,9 +69,9 @@ def get_episode_data(code):
         if ent.text not in stop_ents:
           # either person or title
           if ent.text in all_people:
-            people.append(ent.text)
+            people.append([ent.text, ent.sent])
           elif ent.text in all_titles:
-            titles.append(ent.text)
+            titles.append([ent.text, ent.sent])
 
     ep_data["people"] = people
     ep_data["titles"] = titles
@@ -78,7 +79,7 @@ def get_episode_data(code):
   except IOError:
     print("Could not read file.")
 
-  return(ep_data)
+  return ep_data, text
 
 
 
@@ -89,9 +90,12 @@ def get_episode_data(code):
 # get option from command line input
 if len(sys.argv) is 2 and re.match(r"s\d\de\d\d", sys.argv[1]):
 
-  ep_data = get_episode_data(sys.argv[1])
+  results = get_episode_data(sys.argv[1])
+  ep_data = results[0]
+  text = results[1]
   print("people:", ep_data["people"])
   print("titles:", ep_data["titles"])
+  displacy.serve(text, style="ent")
 
 elif len(sys.argv) is 2 and sys.argv[1] == "all":
 
