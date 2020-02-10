@@ -221,4 +221,12 @@ elif len(sys.argv) is 4:
   find(sys.argv[1], sys.argv[2], sys.argv[3])
 
 else:
-  print("Usage: \"python extract-references.py\", followed by season-episode code (e.g. \"s01e01\") OR \"all\"")
+  print("usage:\n\
+    commands:\n\
+    \t extract-references.py [episodeCode]\n\
+    \t extract-references.py [episodeCode] [searchString] [entityType]\n\
+    \t extract-references.py all\n\
+    arguments:\n\
+    \t [episodeCode]: code of episode to analyse, in the form of s01e01\n\
+    \t [searchString]: string to search for, in quotes\n\
+    \t [entityType]: expected entity type, as t for title or p for person")
