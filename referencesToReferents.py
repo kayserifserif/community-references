@@ -7,10 +7,11 @@ with open("./output/references.json", "r") as f:
 people = {}
 titles = {}
 
-for epcode in data:
-  episode = data[epcode]
+for epCode in data:
+  episode = data[epCode]
   for instance in episode["people"]:
     reference = instance["reference"]
+    reference["epCode"] = epCode
     details = instance["referent"]
     name = details["name"]
     if name not in people:
@@ -24,6 +25,7 @@ for epcode in data:
       people[name]["references"].append(reference)
   for instance in episode["titles"]:
     reference = instance["reference"]
+    reference["epCode"] = epCode
     details = instance["referent"]
     title = details["title"]
     if title not in titles:
