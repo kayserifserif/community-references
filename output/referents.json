@@ -1295,40 +1295,6 @@
         }
       ]
     },
-    "Benny Hill": {
-      "count": 2,
-      "details": {
-        "name": "Benny Hill",
-        "nconst": "nm0001350",
-        "birthYear": 1924,
-        "deathYear": 1992,
-        "professions": [
-          "soundtrack",
-          "writer",
-          "actor"
-        ],
-        "knownFor": [
-          "tt0059797",
-          "tt0064505",
-          "tt0063869",
-          "tt0062803"
-        ]
-      },
-      "references": [
-        {
-          "entity": "Benny Hill",
-          "sentence": "I can make them go quicker, it's like Benny Hill.",
-          "startIndex": 5714,
-          "endIndex": 5724
-        },
-        {
-          "entity": "Benny Hill",
-          "sentence": "Hey, meatball, did you take Annie's pen to make life more like Benny Hill or whatever you do?",
-          "startIndex": 2641,
-          "endIndex": 2651
-        }
-      ]
-    },
     "John Lennon": {
       "count": 2,
       "details": {
@@ -5038,95 +5004,6 @@
         }
       ]
     },
-    "Dungeons & Dragons": {
-      "count": 12,
-      "details": {
-        "title": "Dungeons & Dragons",
-        "tconst": "tt0190374",
-        "titleType": "movie",
-        "startYear": 2000,
-        "endYear": "\\N",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Fantasy"
-        ]
-      },
-      "references": [
-        {
-          "entity": "Dungeons & Dragons",
-          "sentence": "It was Jeff who pretended to be interested in Dungeons & Dragons in an effort to lift Neil's spirits.",
-          "startIndex": 852,
-          "endIndex": 870
-        },
-        {
-          "entity": "Dungeons & Dragons",
-          "sentence": "They would invite Neil that Saturday to a game of Dungeons & Dragons designed by Abed to help Neil reclaim his confidence.",
-          "startIndex": 1569,
-          "endIndex": 1587
-        },
-        {
-          "entity": "Dungeons & Dragons",
-          "sentence": "What they couldn't have known was that they had just scheduled the most important game of Dungeons & Dragons ever.",
-          "startIndex": 1845,
-          "endIndex": 1863
-        },
-        {
-          "entity": "Dungeons & Dragons",
-          "sentence": "You guys suddenly wanted to play Dungeons & Dragons?",
-          "startIndex": 2183,
-          "endIndex": 2201
-        },
-        {
-          "entity": "Dungeons & Dragons",
-          "sentence": "We're playing Dungeons & Dragons.",
-          "startIndex": 4828,
-          "endIndex": 4846
-        },
-        {
-          "entity": "Dungeons & Dragons",
-          "sentence": "I won Dungeons & Dragons.",
-          "startIndex": 14379,
-          "endIndex": 14397
-        },
-        {
-          "entity": "Dungeons & Dragons",
-          "sentence": "You don't invite me to your Dungeons & Dragons games or your secret trampoline.",
-          "startIndex": 12959,
-          "endIndex": 12977
-        },
-        {
-          "entity": "Dungeons & Dragons",
-          "sentence": "We played Dungeons & Dragons together.",
-          "startIndex": 555,
-          "endIndex": 573
-        },
-        {
-          "entity": "Dungeons & Dragons",
-          "sentence": "Come back in a few hours, we're playing \"Dungeons & Dragons.\"  ",
-          "startIndex": 12265,
-          "endIndex": 12283
-        },
-        {
-          "entity": "Dungeons & Dragons",
-          "sentence": "We play Dungeons & Dragons.",
-          "startIndex": 770,
-          "endIndex": 788
-        },
-        {
-          "entity": "Dungeons & Dragons",
-          "sentence": "All in favor of a game of Dungeons & Dragons to reunite hickey and his son tomorrow night?",
-          "startIndex": 1324,
-          "endIndex": 1342
-        },
-        {
-          "entity": "Dungeons & Dragons",
-          "sentence": "Um, what is it about Dungeons & Dragons that suddenly leapt out at you at age 60?",
-          "startIndex": 1514,
-          "endIndex": 1532
-        }
-      ]
-    },
     "Die Hard": {
       "count": 10,
       "details": {
@@ -5953,7 +5830,7 @@
           "entity": "Chandler and Phoebe",
           "sentence": "I figured we were really more like Chandler and Phoebe.",
           "startIndex": 2851,
-          "endIndex": 3870
+          "endIndex": 2870
         },
         {
           "entity": "Chandler",
@@ -5992,6 +5869,33 @@
         }
       ]
     },
+    "The Benny Hill Show": {
+      "count": 2,
+      "details": {
+        "title": "The Benny Hill Show",
+        "tconst": "tt0063869",
+        "titleType": "tvSeries",
+        "startYear": 1969,
+        "endYear": 1989,
+        "genres": [
+          "Comedy"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Benny Hill",
+          "sentence": "I can make them go quicker, it's like Benny Hill.",
+          "startIndex": 5714,
+          "endIndex": 5724
+        },
+        {
+          "entity": "Benny Hill",
+          "sentence": "Hey, meatball, did you take Annie's pen to make life more like Benny Hill or whatever you do?",
+          "startIndex": 2641,
+          "endIndex": 2651
+        }
+      ]
+    },
     "Rain Man": {
       "count": 2,
       "details": {
@@ -6016,35 +5920,6 @@
           "sentence": "You, me, and Jeff and Rain Man, and big boobs and medium boobs and black boobs, we're a family.",
           "startIndex": 8495,
           "endIndex": 8503
-        }
-      ]
-    },
-    "The Cowboy Way": {
-      "count": 2,
-      "details": {
-        "title": "The Cowboy Way",
-        "tconst": "tt0109493",
-        "titleType": "movie",
-        "startYear": 1994,
-        "endYear": "\\N",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Crime"
-        ]
-      },
-      "references": [
-        {
-          "entity": "The Cowboy Way",
-          "sentence": "Particularly Carlito's Way, The Cowboy Way, The Hard Way and Q&A.",
-          "startIndex": 1303,
-          "endIndex": 1317
-        },
-        {
-          "entity": "The Cowboy Way",
-          "sentence": "Particularly Carlito's Way, The Cowboy Way, The Hard Way and Q&A.",
-          "startIndex": 1303,
-          "endIndex": 1317
         }
       ]
     },
@@ -6922,6 +6797,29 @@
         }
       ]
     },
+    "The Cowboy Way": {
+      "count": 1,
+      "details": {
+        "title": "The Cowboy Way",
+        "tconst": "tt0109493",
+        "titleType": "movie",
+        "startYear": 1994,
+        "endYear": "\\N",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime"
+        ]
+      },
+      "references": [
+        {
+          "entity": "The Cowboy Way",
+          "sentence": "Particularly Carlito's Way, The Cowboy Way, The Hard Way and Q&A.",
+          "startIndex": 1303,
+          "endIndex": 1317
+        }
+      ]
+    },
     "The Hard Way": {
       "count": 1,
       "details": {
@@ -6942,6 +6840,29 @@
           "sentence": "Particularly Carlito's Way, The Cowboy Way, The Hard Way and Q&A.",
           "startIndex": 1319,
           "endIndex": 1331
+        }
+      ]
+    },
+    "Q & A": {
+      "count": 1,
+      "details": {
+        "title": "Q & A",
+        "tconst": "tt0100442",
+        "titleType": "movie",
+        "startYear": 1990,
+        "endYear": "\\N",
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Q&A",
+          "sentence": "Particularly Carlito's Way, The Cowboy Way, The Hard Way and Q&A.",
+          "startIndex": 1336,
+          "endIndex": 1339
         }
       ]
     },
@@ -7696,27 +7617,6 @@
           "sentence": "We did a modern retelling of Macbeth set in gangland Chicago.",
           "startIndex": 10164,
           "endIndex": 10171
-        }
-      ]
-    },
-    "Liar": {
-      "count": 1,
-      "details": {
-        "title": "Liar",
-        "tconst": "tt0405101",
-        "titleType": "movie",
-        "startYear": 2004,
-        "endYear": "\\N",
-        "genres": [
-          "Comedy"
-        ]
-      },
-      "references": [
-        {
-          "entity": "Liar",
-          "sentence": "It was, strangely, Jeff the Liar, son of William the Barely Known, who first became concerned.",
-          "startIndex": 731,
-          "endIndex": 735
         }
       ]
     },

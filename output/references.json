@@ -5330,146 +5330,7 @@
   },
   "s02e14": {
     "people": [],
-    "titles": [
-      {
-        "reference": {
-          "entity": "Liar",
-          "sentence": "It was, strangely, Jeff the Liar, son of William the Barely Known, who first became concerned.",
-          "startIndex": 731,
-          "endIndex": 735
-        },
-        "referent": {
-          "title": "Liar",
-          "tconst": "tt0405101",
-          "titleType": "movie",
-          "startYear": 2004,
-          "endYear": "\\N",
-          "genres": [
-            "Comedy"
-          ]
-        }
-      },
-      {
-        "reference": {
-          "entity": "Dungeons & Dragons",
-          "sentence": "It was Jeff who pretended to be interested in Dungeons & Dragons in an effort to lift Neil's spirits.",
-          "startIndex": 852,
-          "endIndex": 870
-        },
-        "referent": {
-          "title": "Dungeons & Dragons",
-          "tconst": "tt0190374",
-          "titleType": "movie",
-          "startYear": 2000,
-          "endYear": "\\N",
-          "genres": [
-            "Action",
-            "Adventure",
-            "Fantasy"
-          ]
-        }
-      },
-      {
-        "reference": {
-          "entity": "Dungeons & Dragons",
-          "sentence": "They would invite Neil that Saturday to a game of Dungeons & Dragons designed by Abed to help Neil reclaim his confidence.",
-          "startIndex": 1569,
-          "endIndex": 1587
-        },
-        "referent": {
-          "title": "Dungeons & Dragons",
-          "tconst": "tt0190374",
-          "titleType": "movie",
-          "startYear": 2000,
-          "endYear": "\\N",
-          "genres": [
-            "Action",
-            "Adventure",
-            "Fantasy"
-          ]
-        }
-      },
-      {
-        "reference": {
-          "entity": "Dungeons & Dragons",
-          "sentence": "What they couldn't have known was that they had just scheduled the most important game of Dungeons & Dragons ever.",
-          "startIndex": 1845,
-          "endIndex": 1863
-        },
-        "referent": {
-          "title": "Dungeons & Dragons",
-          "tconst": "tt0190374",
-          "titleType": "movie",
-          "startYear": 2000,
-          "endYear": "\\N",
-          "genres": [
-            "Action",
-            "Adventure",
-            "Fantasy"
-          ]
-        }
-      },
-      {
-        "reference": {
-          "entity": "Dungeons & Dragons",
-          "sentence": "You guys suddenly wanted to play Dungeons & Dragons?",
-          "startIndex": 2183,
-          "endIndex": 2201
-        },
-        "referent": {
-          "title": "Dungeons & Dragons",
-          "tconst": "tt0190374",
-          "titleType": "movie",
-          "startYear": 2000,
-          "endYear": "\\N",
-          "genres": [
-            "Action",
-            "Adventure",
-            "Fantasy"
-          ]
-        }
-      },
-      {
-        "reference": {
-          "entity": "Dungeons & Dragons",
-          "sentence": "We're playing Dungeons & Dragons.",
-          "startIndex": 4828,
-          "endIndex": 4846
-        },
-        "referent": {
-          "title": "Dungeons & Dragons",
-          "tconst": "tt0190374",
-          "titleType": "movie",
-          "startYear": 2000,
-          "endYear": "\\N",
-          "genres": [
-            "Action",
-            "Adventure",
-            "Fantasy"
-          ]
-        }
-      },
-      {
-        "reference": {
-          "entity": "Dungeons & Dragons",
-          "sentence": "I won Dungeons & Dragons.",
-          "startIndex": 14379,
-          "endIndex": 14397
-        },
-        "referent": {
-          "title": "Dungeons & Dragons",
-          "tconst": "tt0190374",
-          "titleType": "movie",
-          "startYear": 2000,
-          "endYear": "\\N",
-          "genres": [
-            "Action",
-            "Adventure",
-            "Fantasy"
-          ]
-        }
-      }
-    ]
+    "titles": []
   },
   "s02e15": {
     "people": [],
@@ -5797,26 +5658,6 @@
           "genres": [
             "Drama",
             "Horror"
-          ]
-        }
-      },
-      {
-        "reference": {
-          "entity": "Dungeons & Dragons",
-          "sentence": "You don't invite me to your Dungeons & Dragons games or your secret trampoline.",
-          "startIndex": 12959,
-          "endIndex": 12977
-        },
-        "referent": {
-          "title": "Dungeons & Dragons",
-          "tconst": "tt0190374",
-          "titleType": "movie",
-          "startYear": 2000,
-          "endYear": "\\N",
-          "genres": [
-            "Action",
-            "Adventure",
-            "Fantasy"
           ]
         }
       }
@@ -6406,28 +6247,7 @@
   },
   "s02e23": {
     "people": [],
-    "titles": [
-      {
-        "reference": {
-          "entity": "Dungeons & Dragons",
-          "sentence": "We played Dungeons & Dragons together.",
-          "startIndex": 555,
-          "endIndex": 573
-        },
-        "referent": {
-          "title": "Dungeons & Dragons",
-          "tconst": "tt0190374",
-          "titleType": "movie",
-          "startYear": 2000,
-          "endYear": "\\N",
-          "genres": [
-            "Action",
-            "Adventure",
-            "Fantasy"
-          ]
-        }
-      }
-    ]
+    "titles": []
   },
   "s02e24": {
     "people": [],
@@ -8904,26 +8724,6 @@
       },
       {
         "reference": {
-          "entity": "Dungeons & Dragons",
-          "sentence": "Come back in a few hours, we're playing \"Dungeons & Dragons.\"  ",
-          "startIndex": 12265,
-          "endIndex": 12283
-        },
-        "referent": {
-          "title": "Dungeons & Dragons",
-          "tconst": "tt0190374",
-          "titleType": "movie",
-          "startYear": 2000,
-          "endYear": "\\N",
-          "genres": [
-            "Action",
-            "Adventure",
-            "Fantasy"
-          ]
-        }
-      },
-      {
-        "reference": {
           "entity": "Heroes",
           "sentence": "You're like those guys on Hogan's Heroes, the Nazis.",
           "startIndex": 12392,
@@ -11064,68 +10864,7 @@
   },
   "s05e10": {
     "people": [],
-    "titles": [
-      {
-        "reference": {
-          "entity": "Dungeons & Dragons",
-          "sentence": "We play Dungeons & Dragons.",
-          "startIndex": 770,
-          "endIndex": 788
-        },
-        "referent": {
-          "title": "Dungeons & Dragons",
-          "tconst": "tt0190374",
-          "titleType": "movie",
-          "startYear": 2000,
-          "endYear": "\\N",
-          "genres": [
-            "Action",
-            "Adventure",
-            "Fantasy"
-          ]
-        }
-      },
-      {
-        "reference": {
-          "entity": "Dungeons & Dragons",
-          "sentence": "All in favor of a game of Dungeons & Dragons to reunite hickey and his son tomorrow night?",
-          "startIndex": 1324,
-          "endIndex": 1342
-        },
-        "referent": {
-          "title": "Dungeons & Dragons",
-          "tconst": "tt0190374",
-          "titleType": "movie",
-          "startYear": 2000,
-          "endYear": "\\N",
-          "genres": [
-            "Action",
-            "Adventure",
-            "Fantasy"
-          ]
-        }
-      },
-      {
-        "reference": {
-          "entity": "Dungeons & Dragons",
-          "sentence": "Um, what is it about Dungeons & Dragons that suddenly leapt out at you at age 60?",
-          "startIndex": 1514,
-          "endIndex": 1532
-        },
-        "referent": {
-          "title": "Dungeons & Dragons",
-          "tconst": "tt0190374",
-          "titleType": "movie",
-          "startYear": 2000,
-          "endYear": "\\N",
-          "genres": [
-            "Action",
-            "Adventure",
-            "Fantasy"
-          ]
-        }
-      }
-    ]
+    "titles": []
   },
   "s05e11": {
     "people": [],

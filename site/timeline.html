@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    html {
+      height: 100%;
+    }
+
+    body {
+      height: 100%;
+    }
+
+    #timeline {
+      height: 100%;
+    }
+
+    /* g:hover text {
+      display: block;
+    } */
+
+    text {
+      /* display: none; */
+      font-size: 0.8em;
+    }
+
+    line {
+      stroke: black;
+      stroke-width: 1;
+    }
+
+    .movie {
+      fill: #465fc1;
+    }
+
+    .tvSeries {
+      fill: #f7317b;
+    }
+
+    .tvMovie {
+      fill: #36952e;
+    }
+
+    .tvMiniSeries {
+      fill: #2eaab0;
+    }
+  </style>
+</head>
+<body>
+  <div id="timeline"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.min.js"></script>
+  <script>
+    var svg = d3.select("#timeline")
+                .append("svg")
+                .attr("width", "100%")
+                .attr("height", "100%");
+
+    d3.json("/output/referents.json").then(function(data) {
+      titles = Object.values(data.titles);
+
+      var timeline = svg
+                      // .data([1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020])
+                      .append("line")
+                      .attr("x1", (1950 - 1900) * 10)
+                      .attr("y1", window.innerHeight - 50)
+                      .attr("x2", (2020 - 1900) * 10)
+                      .attr("y2", window.innerHeight - 50)
+                      ;
+
+      var points = svg
+                      .selectAll("g")
+                      .data(titles)
+                      .enter().append("g")
+                      .style("opacity", function(d) { return Math.min(d.count / 23 + 0.5, 1); })
+                      .attr("transform", function(d) {
+                        var x1 = (d.details.startYear - 1930) * 16;
+                        var y = window.innerHeight - 50;
+                        y -= d.count * 30;
+                        return "translate(" + x1 + "," + y + ")";
+                      })
+                      .on("mouseover", function(d) {
+                        d3.select(this).raise();
+                        d3.select(this).style("opacity", 1);
+                      })
+                      .on("mouseout", function(d) {
+                        d3.select(this).style("opacity", function(d) {
+                          return Math.min(d.count / 23 + 0.5, 1);
+                        })
+                      })
+                      ;
+      points.each(function(d) {
+        this.classList.add(d.details.titleType);
+      });
+      points.attr("data-legend", function(d) { return d.classList; });
+      
+      var circles = points
+                      .append("circle")
+                      .attr("r", 5)
+                      ;
+
+      var info = points
+                      .append("text")
+                      .text(function(d) { return d.details.title; })
+                      .attr("transform", "translate(0,-10)")
+                      ;
+
+      var legend = svg.append("g")
+                  .attr("class","legend")
+                  .attr("transform","translate(300,300)")
+                  ;
+
+      var legendItem = legend
+                      .selectAll("g")
+                      .data(["movie", "tvSeries", "tvMovie", "tvMiniSeries"])
+                      .enter().append("g")
+                      .attr("transform", function(d, i) {
+                        return "translate(0," + i*20 + ")";
+                      })
+                      ;
+      legendItem.each(function(d) {
+        this.classList.add(d);
+      })
+
+      var legendText = legendItem
+                      .append("text")
+                      .text(function(d) { return d; })
+                      ;
+      
+      var legendCircle = legendItem
+                      .append("circle")
+                      .attr("r", 5)
+                      .attr("transform", "translate(-10, -4)")
+                      ;
+    });
+  </script>
+</body>
+</html>
