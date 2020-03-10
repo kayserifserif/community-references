@@ -17,12 +17,36 @@ def makeAnnotations(epCode):
   lines = ""
   # collect all indices
   indices = []
-  for refType in epRefs:
-    for instance in epRefs[refType]:
-      reference = instance["reference"]
-      indices.append([
-        reference["startIndex"], reference["endIndex"], reference["entity"], refType
-      ])
+  for instance in epRefs["people"]:
+    reference = instance["reference"]
+    referent = instance["referent"]
+    indices.append([
+      reference["startIndex"],
+      reference["endIndex"],
+      reference["entity"],
+      "people",
+      referent["name"],
+      referent["nconst"],
+      referent["birthYear"],
+      referent["deathYear"],
+      referent["professions"],
+      referent["knownFor"]
+    ])
+  for instance in epRefs["titles"]:
+    reference = instance["reference"]
+    referent = instance["referent"]
+    indices.append([
+      reference["startIndex"],
+      reference["endIndex"],
+      reference["entity"],
+      "titles",
+      referent["title"],
+      referent["tconst"],
+      referent["titleType"],
+      referent["startYear"],
+      referent["endYear"],
+      referent["genres"]
+    ])
   indices = sorted(indices)
   # if there are any references
   if len(indices) > 0:
@@ -30,7 +54,54 @@ def makeAnnotations(epCode):
     lines += transcript[:indices[0][0]]
     # wrap the reference and add it
     for i, indexSet in enumerate(indices):
-      lines += "<span class=\"reference " + indexSet[3] + "\">" + indexSet[2] + "</span>"
+      ref = "<span class=\"ref\">"
+      reference = "<span class=\"reference " + indexSet[3] + "\">" + indexSet[2] + "</span>"
+      ref += reference
+      popup = "<span class=\"popup\">"
+      label = "<span class=\"label\">"
+      if indexSet[3] == "people":
+        label += "<a href=\"https://www.imdb.com/name/" + indexSet[5] + "\">" + indexSet[4] + "</a></span>"
+      else:
+        label += "<a href=\"https://www.imdb.com/title/" + indexSet[5] + "\">" + indexSet[4] + "</a></span>"
+      popup += label
+      if indexSet[3] == "titles":
+        popup += "<span class=\"titleType\">" + indexSet[6] + "</span>"
+      years = "<span class=\"years\">"
+      if indexSet[3] == "people":
+        if indexSet[6] != "\\N":
+          years += str(indexSet[6])
+        years += "&ndash;"
+        if indexSet[7] != "\\N":
+          years += str(indexSet[7])
+      else:
+        if indexSet[7] != "\\N":
+          years += str(indexSet[7])
+        years += "&ndash;"
+        if indexSet[8] != "\\N":
+          years += str(indexSet[8])
+      years += "</span>"
+      popup += years
+      if indexSet[3] == "people":
+        professions = "<span class=\"profs list\">"
+        for p in indexSet[8]:
+          professions += "<span class=\"tag prof\">" + p + "</span>"
+        professions += "</span>"
+        popup += professions
+        knownFor = "<span class=\"knownFor list\">"
+        for k in indexSet[9]:
+          knownFor += "<span class=\"tag knownFor\"><a href=\"https://www.imdb.com/title/" + k + "\">" + k + "</a></span>"
+        knownFor += "</span>"
+        popup += knownFor
+      if indexSet[3] == "titles":
+        genres = "<span class=\"genres list\">"
+        for g in indexSet[9]:
+          genres += "<span class=\"tag genre\">" + g + "</span>"
+        genres += "</span>"
+        popup += genres
+      popup += "</span>"
+      ref += popup
+      ref += "</span>"
+      lines += ref
       # continue adding the transcript up until the next reference
       end = indexSet[1]
       if (i is not (len(indices) - 1)):
@@ -47,17 +118,8 @@ def makeAnnotations(epCode):
   # set up html
   html = "<!DOCTYPE html>\n<html lang=\"en\">\n"
   head = "<head>\n" \
-       + "<meta charset=\"UTF-8\">\n"\
-       + "<style>\n" \
-       + "body {{ line-height: 1.5; font-family: sans-serif }}\n" \
-       + ".nav {{ display: flex; justify-content: center; text-align: center; width: 200px; margin: auto; }}\n" \
-       + ".nav a:first-of-type {{ margin-right: 1em }}\n" \
-       + "#title {{ text-align: center }}\n" \
-       + "#transcript {{ width: 60%; margin: 100px auto; }}\n" \
-       + ".reference {{ display: inline-block; padding: 0.2em 0.5em; }}\n" \
-       + ".people {{ background-color: #c0eeee }}\n" \
-       + ".titles {{ background-color: #eedcc0 }}\n" \
-       + "</style>\n" \
+       + "<meta charset=\"UTF-8\">\n" \
+       + "<link rel=\"stylesheet\" href=\"assets/styles.css\">\n" \
        + "</head>\n"
   html += head
   body = "<body>\n"
@@ -78,11 +140,12 @@ def makeAnnotations(epCode):
   body += lines
   body += "\n</div>\n"
   body += nav
+  body += "<script src=\"assets/scripts.js\"></script>"
   body += "</body>\n"
   html += body
   html += "</html>"
   # output html file
-  with open("./annotated/community-" + epCode + ".html", "w") as f:
+  with open("./site/community-" + epCode + ".html", "w") as f:
     f.write(html.format(htmlText=html))
 
 def main():

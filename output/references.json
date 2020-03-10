@@ -12,7 +12,18 @@
           "name": "Elisabeth Shue",
           "nconst": "nm0000223",
           "birthYear": 1963,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "soundtrack",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0120053",
+            "tt0113627",
+            "tt0164052",
+            "tt0092513"
+          ]
         }
       },
       {
@@ -26,7 +37,18 @@
           "name": "Ryan Seacrest",
           "nconst": "nm0780435",
           "birthYear": 1974,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "writer",
+            "actor"
+          ],
+          "knownFor": [
+            "tt4118584",
+            "tt0319931",
+            "tt0425061",
+            "tt0892791"
+          ]
         }
       },
       {
@@ -40,7 +62,18 @@
           "name": "Elisabeth Shue",
           "nconst": "nm0000223",
           "birthYear": 1963,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "soundtrack",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0120053",
+            "tt0113627",
+            "tt0164052",
+            "tt0092513"
+          ]
         }
       },
       {
@@ -54,7 +87,18 @@
           "name": "Ben Affleck",
           "nconst": "nm0000255",
           "birthYear": 1972,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "actor",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0119217",
+            "tt0840361",
+            "tt1024648",
+            "tt2267998"
+          ]
         }
       },
       {
@@ -68,7 +112,18 @@
           "name": "Ben Affleck",
           "nconst": "nm0000255",
           "birthYear": 1972,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "actor",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0119217",
+            "tt0840361",
+            "tt1024648",
+            "tt2267998"
+          ]
         }
       },
       {
@@ -82,7 +137,18 @@
           "name": "Bill Murray",
           "nconst": "nm0000195",
           "birthYear": 1950,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "soundtrack",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0362270",
+            "tt0335266",
+            "tt1748122",
+            "tt0128445"
+          ]
         }
       },
       {
@@ -96,7 +162,18 @@
           "name": "Bill Murray",
           "nconst": "nm0000195",
           "birthYear": 1950,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "soundtrack",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0362270",
+            "tt0335266",
+            "tt1748122",
+            "tt0128445"
+          ]
         }
       },
       {
@@ -110,7 +187,18 @@
           "name": "Michael Douglas",
           "nconst": "nm0000140",
           "birthYear": 1944,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt1291580",
+            "tt0103772",
+            "tt0093010",
+            "tt0094291"
+          ]
         }
       },
       {
@@ -124,7 +212,18 @@
           "name": "Michael Douglas",
           "nconst": "nm0000140",
           "birthYear": 1944,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt1291580",
+            "tt0103772",
+            "tt0093010",
+            "tt0094291"
+          ]
         }
       }
     ],
@@ -158,10 +257,10 @@
           "title": "The Breakfast Club",
           "tconst": "tt0088847",
           "titleType": "movie",
-          "startYear": 1985, 
-          "endYear": "\\N", 
+          "startYear": 1985,
+          "endYear": "\\N",
           "genres": [
-            "Comedy", 
+            "Comedy",
             "Drama"
           ]
         }
@@ -196,10 +295,10 @@
           "title": "The Breakfast Club",
           "tconst": "tt0088847",
           "titleType": "movie",
-          "startYear": 1985, 
-          "endYear": "\\N", 
+          "startYear": 1985,
+          "endYear": "\\N",
           "genres": [
-            "Comedy", 
+            "Comedy",
             "Drama"
           ]
         }
@@ -313,7 +412,18 @@
           "name": "Jodie Foster",
           "nconst": "nm0000149",
           "birthYear": 1962,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0102926",
+            "tt0118884",
+            "tt0075314",
+            "tt0476964"
+          ]
         }
       },
       {
@@ -327,7 +437,18 @@
           "name": "Susan Sarandon",
           "nconst": "nm0000215",
           "birthYear": 1946,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0112818",
+            "tt0120686",
+            "tt0094812",
+            "tt0103074"
+          ]
         }
       }
     ],
@@ -346,7 +467,18 @@
           "name": "Dane Cook",
           "nconst": "nm0176981",
           "birthYear": 1972,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "writer",
+            "director"
+          ],
+          "knownFor": [
+            "tt1046163",
+            "tt0424993",
+            "tt0780571",
+            "tt0452625"
+          ]
         }
       },
       {
@@ -360,7 +492,18 @@
           "name": "Robin Williams",
           "nconst": "nm0000245",
           "birthYear": 1951,
-          "deathYear": 2014
+          "deathYear": 2014,
+          "professions": [
+            "actor",
+            "soundtrack",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0093105",
+            "tt0107614",
+            "tt0265459",
+            "tt0119217"
+          ]
         }
       },
       {
@@ -374,7 +517,18 @@
           "name": "Weezer",
           "nconst": "nm1143053",
           "birthYear": "\\N",
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0478087",
+            "tt0280590",
+            "tt1322312",
+            "tt0817538"
+          ]
         }
       }
     ],
@@ -388,7 +542,7 @@
         },
         "referent": {
           "title": "Dead Poets Society",
-          "tcost": "tt0097165",
+          "tconst": "tt0097165",
           "titleType": "movie",
           "startYear": 1989,
           "endYear": "\\N",
@@ -470,7 +624,18 @@
           "name": "Benny Hill",
           "nconst": "nm0001350",
           "birthYear": 1924,
-          "deathYear": 1992
+          "deathYear": 1992,
+          "professions": [
+            "soundtrack",
+            "writer",
+            "actor"
+          ],
+          "knownFor": [
+            "tt0059797",
+            "tt0064505",
+            "tt0063869",
+            "tt0062803"
+          ]
         }
       },
       {
@@ -484,7 +649,18 @@
           "name": "John Lennon",
           "nconst": "nm0006168",
           "birthYear": 1940,
-          "deathYear": 1980
+          "deathYear": 1980,
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0058182",
+            "tt0063823",
+            "tt0078239",
+            "tt0445922"
+          ]
         }
       },
       {
@@ -498,7 +674,18 @@
           "name": "Ryan Seacrest",
           "nconst": "nm0780435",
           "birthYear": 1974,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "writer",
+            "actor"
+          ],
+          "knownFor": [
+            "tt4118584",
+            "tt0319931",
+            "tt0425061",
+            "tt0892791"
+          ]
         }
       }
     ],
@@ -701,30 +888,52 @@
     "people": [
       {
         "reference": {
-          "entity": "Luis Guzmán",
-          "sentence": "This is your dean reminding you that among your school's prestigious alumni is Mr. Luis Guzmán.",
+          "entity": "Luis Guzm\u00e1n",
+          "sentence": "This is your dean reminding you that among your school's prestigious alumni is Mr. Luis Guzm\u00e1n.",
           "startIndex": 126,
           "endIndex": 137
         },
         "referent": {
-          "name": "Luis Guzmán",
+          "name": "Luis Guzm\u00e1n",
           "nconst": "nm0350079",
           "birthYear": 1956,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "miscellaneous"
+          ],
+          "knownFor": [
+            "tt0245844",
+            "tt0272338",
+            "tt0118749",
+            "tt0181865"
+          ]
         }
       },
       {
         "reference": {
-          "entity": "Guzmán",
-          "sentence": "This Friday, we will be dedicating a statue of Guzmán, and unveiling our brand-new school song.",
+          "entity": "Guzm\u00e1n",
+          "sentence": "This Friday, we will be dedicating a statue of Guzm\u00e1n, and unveiling our brand-new school song.",
           "startIndex": 236,
           "endIndex": 242
         },
         "referent": {
-          "name": "Luis Guzmán",
+          "name": "Luis Guzm\u00e1n",
           "nconst": "nm0350079",
           "birthYear": 1956,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "miscellaneous"
+          ],
+          "knownFor": [
+            "tt0245844",
+            "tt0272338",
+            "tt0118749",
+            "tt0181865"
+          ]
         }
       },
       {
@@ -738,35 +947,68 @@
           "name": "Cate Blanchett",
           "nconst": "nm0000949",
           "birthYear": 1969,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0127536",
+            "tt0338751",
+            "tt2334873",
+            "tt2402927"
+          ]
         }
       },
       {
         "reference": {
-          "entity": "Luis Guzmán",
-          "sentence": "You think Luis Guzmán will come to visit his statue? If so, I'd like to ask him about his movie choices.",
+          "entity": "Luis Guzm\u00e1n",
+          "sentence": "You think Luis Guzm\u00e1n will come to visit his statue? If so, I'd like to ask him about his movie choices.",
           "startIndex": 1180,
           "endIndex": 1191
         },
         "referent": {
-          "name": "Luis Guzmán",
+          "name": "Luis Guzm\u00e1n",
           "nconst": "nm0350079",
           "birthYear": 1956,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "miscellaneous"
+          ],
+          "knownFor": [
+            "tt0245844",
+            "tt0272338",
+            "tt0118749",
+            "tt0181865"
+          ]
         }
       },
       {
         "reference": {
-          "entity": "Luis Guzmán",
-          "sentence": "Luis Guzmán is on a private jet from Hollywood because he can't wait to have that conversation with you.",
+          "entity": "Luis Guzm\u00e1n",
+          "sentence": "Luis Guzm\u00e1n is on a private jet from Hollywood because he can't wait to have that conversation with you.",
           "startIndex": 1347,
           "endIndex": 1358
         },
         "referent": {
-          "name": "Luis Guzmán",
+          "name": "Luis Guzm\u00e1n",
           "nconst": "nm0350079",
           "birthYear": 1956,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "miscellaneous"
+          ],
+          "knownFor": [
+            "tt0245844",
+            "tt0272338",
+            "tt0118749",
+            "tt0181865"
+          ]
         }
       },
       {
@@ -780,7 +1022,18 @@
           "name": "Danny Glover",
           "nconst": "nm0000418",
           "birthYear": 1946,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0122151",
+            "tt1190080",
+            "tt0104714",
+            "tt0093409"
+          ]
         }
       },
       {
@@ -794,21 +1047,43 @@
           "name": "Billy Joel",
           "nconst": "nm0005055",
           "birthYear": 1949,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt2704998",
+            "tt0993846",
+            "tt0104694",
+            "tt0095776"
+          ]
         }
       },
       {
         "reference": {
-          "entity": "Luis Guzmán",
-          "sentence": "One, two, Luis Guzmán.",
+          "entity": "Luis Guzm\u00e1n",
+          "sentence": "One, two, Luis Guzm\u00e1n.",
           "startIndex": 15816,
           "endIndex": 15827
         },
         "referent": {
-          "name": "Luis Guzmán",
+          "name": "Luis Guzm\u00e1n",
           "nconst": "nm0350079",
           "birthYear": 1956,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "miscellaneous"
+          ],
+          "knownFor": [
+            "tt0245844",
+            "tt0272338",
+            "tt0118749",
+            "tt0181865"
+          ]
         }
       },
       {
@@ -819,10 +1094,21 @@
           "endIndex": 15856
         },
         "referent": {
-          "name": "Luis Guzmán",
+          "name": "Luis Guzm\u00e1n",
           "nconst": "nm0350079",
           "birthYear": 1956,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "miscellaneous"
+          ],
+          "knownFor": [
+            "tt0245844",
+            "tt0272338",
+            "tt0118749",
+            "tt0181865"
+          ]
         }
       },
       {
@@ -836,7 +1122,18 @@
           "name": "Bruce Hornsby",
           "nconst": "nm0395193",
           "birthYear": 1954,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "composer",
+            "actor"
+          ],
+          "knownFor": [
+            "tt0117918",
+            "tt1262981",
+            "tt0101393",
+            "tt1321511"
+          ]
         }
       }
     ],
@@ -974,7 +1271,18 @@
           "name": "Yoko Ono",
           "nconst": "nm0648780",
           "birthYear": 1933,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "director",
+            "actress"
+          ],
+          "knownFor": [
+            "tt1758830",
+            "tt5104604",
+            "tt0125022",
+            "tt0271241"
+          ]
         }
       },
       {
@@ -988,7 +1296,18 @@
           "name": "Moby",
           "nconst": "nm0005240",
           "birthYear": 1965,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "composer",
+            "music_department"
+          ],
+          "knownFor": [
+            "tt1194173",
+            "tt0120053",
+            "tt0405336",
+            "tt1458175"
+          ]
         }
       },
       {
@@ -1002,7 +1321,18 @@
           "name": "Phylicia Rashad",
           "nconst": "nm0711118",
           "birthYear": 1948,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "soundtrack",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0086687",
+            "tt6343314",
+            "tt1405500",
+            "tt3076658"
+          ]
         }
       },
       {
@@ -1016,7 +1346,18 @@
           "name": "Seal",
           "nconst": "nm0780499",
           "birthYear": 1963,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0457433",
+            "tt0137494",
+            "tt0454921",
+            "tt0112462"
+          ]
         }
       },
       {
@@ -1030,7 +1371,18 @@
           "name": "Seal",
           "nconst": "nm0780499",
           "birthYear": 1963,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0457433",
+            "tt0137494",
+            "tt0454921",
+            "tt0112462"
+          ]
         }
       },
       {
@@ -1044,7 +1396,18 @@
           "name": "Seal",
           "nconst": "nm0780499",
           "birthYear": 1963,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0457433",
+            "tt0137494",
+            "tt0454921",
+            "tt0112462"
+          ]
         }
       },
       {
@@ -1058,7 +1421,16 @@
           "name": "Desmond Tutu",
           "nconst": "nm0878379",
           "birthYear": 1931,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor"
+          ],
+          "knownFor": [
+            "tt0948457",
+            "tt1313049",
+            "tt1631666",
+            "tt1822239"
+          ]
         }
       },
       {
@@ -1072,7 +1444,18 @@
           "name": "Lou Diamond Phillips",
           "nconst": "nm0001617",
           "birthYear": 1962,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "director",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0120609",
+            "tt0096487",
+            "tt0093378",
+            "tt0115956"
+          ]
         }
       }
     ],
@@ -1172,7 +1555,18 @@
           "name": "Katherine Heigl",
           "nconst": "nm0001337",
           "birthYear": 1978,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0413573",
+            "tt1598828",
+            "tt1142988",
+            "tt0478311"
+          ]
         }
       },
       {
@@ -1186,7 +1580,18 @@
           "name": "Gerard Butler",
           "nconst": "nm0124930",
           "birthYear": 1969,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt1038919",
+            "tt0293508",
+            "tt1197624",
+            "tt0416449"
+          ]
         }
       },
       {
@@ -1200,7 +1605,18 @@
           "name": "Pink Floyd",
           "nconst": "nm0969139",
           "birthYear": "\\N",
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "composer",
+            "music_department"
+          ],
+          "knownFor": [
+            "tt1211837",
+            "tt0401085",
+            "tt1231583",
+            "tt0084503"
+          ]
         }
       }
     ],
@@ -1649,7 +2065,18 @@
           "name": "Gwen Stefani",
           "nconst": "nm0005461",
           "birthYear": 1969,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "writer"
+          ],
+          "knownFor": [
+            "tt1679335",
+            "tt0338751",
+            "tt0196229",
+            "tt1291150"
+          ]
         }
       },
       {
@@ -1663,7 +2090,18 @@
           "name": "Goldie Hawn",
           "nconst": "nm0000443",
           "birthYear": 1945,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0104070",
+            "tt0116313",
+            "tt0116242",
+            "tt0093693"
+          ]
         }
       },
       {
@@ -1677,7 +2115,18 @@
           "name": "Goldie Hawn",
           "nconst": "nm0000443",
           "birthYear": 1945,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0104070",
+            "tt0116313",
+            "tt0116242",
+            "tt0093693"
+          ]
         }
       },
       {
@@ -1691,7 +2140,18 @@
           "name": "Kurt Russell",
           "nconst": "nm0000621",
           "birthYear": 1951,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "writer"
+          ],
+          "knownFor": [
+            "tt3460252",
+            "tt0116253",
+            "tt0116225",
+            "tt0098439"
+          ]
         }
       },
       {
@@ -1705,7 +2165,18 @@
           "name": "Kurt Russell",
           "nconst": "nm0000621",
           "birthYear": 1951,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "writer"
+          ],
+          "knownFor": [
+            "tt3460252",
+            "tt0116253",
+            "tt0116225",
+            "tt0098439"
+          ]
         }
       },
       {
@@ -1719,7 +2190,18 @@
           "name": "Michael Richards",
           "nconst": "nm0724245",
           "birthYear": 1949,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "writer",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0100419",
+            "tt0098546",
+            "tt0098904",
+            "tt0109068"
+          ]
         }
       },
       {
@@ -1733,7 +2215,18 @@
           "name": "Art Garfunkel",
           "nconst": "nm0307316",
           "birthYear": 1941,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "music_department",
+            "soundtrack",
+            "actor"
+          ],
+          "knownFor": [
+            "tt1205535",
+            "tt0066892",
+            "tt0119822",
+            "tt0065528"
+          ]
         }
       },
       {
@@ -1747,7 +2240,18 @@
           "name": "Art Garfunkel",
           "nconst": "nm0307316",
           "birthYear": 1941,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "music_department",
+            "soundtrack",
+            "actor"
+          ],
+          "knownFor": [
+            "tt1205535",
+            "tt0066892",
+            "tt0119822",
+            "tt0065528"
+          ]
         }
       },
       {
@@ -1761,7 +2265,18 @@
           "name": "Phil Spector",
           "nconst": "nm0817489",
           "birthYear": 1939,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "composer",
+            "music_department"
+          ],
+          "knownFor": [
+            "tt0092513",
+            "tt0088128",
+            "tt0092099",
+            "tt0092890"
+          ]
         }
       }
     ],
@@ -1932,7 +2447,18 @@
           "name": "Styx",
           "nconst": "nm1381746",
           "birthYear": "\\N",
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actor",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0159097",
+            "tt0419984",
+            "tt0480687",
+            "tt0112508"
+          ]
         }
       },
       {
@@ -1946,7 +2472,18 @@
           "name": "Sade",
           "nconst": "nm0755442",
           "birthYear": 1959,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0446029",
+            "tt0111503",
+            "tt1596350",
+            "tt0098273"
+          ]
         }
       }
     ],
@@ -2043,7 +2580,18 @@
           "name": "Green Day",
           "nconst": "nm1554564",
           "birthYear": "\\N",
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "composer",
+            "actor"
+          ],
+          "knownFor": [
+            "tt1055369",
+            "tt0465602",
+            "tt0145660",
+            "tt1956620"
+          ]
         }
       },
       {
@@ -2057,7 +2605,18 @@
           "name": "Green Day",
           "nconst": "nm1554564",
           "birthYear": "\\N",
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "composer",
+            "actor"
+          ],
+          "knownFor": [
+            "tt1055369",
+            "tt0465602",
+            "tt0145660",
+            "tt1956620"
+          ]
         }
       },
       {
@@ -2071,7 +2630,18 @@
           "name": "Jack Nicholson",
           "nconst": "nm0000197",
           "birthYear": 1937,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "soundtrack",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0119822",
+            "tt0071315",
+            "tt0073486",
+            "tt0407887"
+          ]
         }
       },
       {
@@ -2085,7 +2655,18 @@
           "name": "Green Day",
           "nconst": "nm1554564",
           "birthYear": "\\N",
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "composer",
+            "actor"
+          ],
+          "knownFor": [
+            "tt1055369",
+            "tt0465602",
+            "tt0145660",
+            "tt1956620"
+          ]
         }
       }
     ],
@@ -2303,7 +2884,18 @@
           "name": "Madonna",
           "nconst": "nm0000187",
           "birthYear": 1958,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "music_department"
+          ],
+          "knownFor": [
+            "tt0156841",
+            "tt0116250",
+            "tt0099422",
+            "tt0246460"
+          ]
         }
       },
       {
@@ -2317,7 +2909,18 @@
           "name": "Harvey Keitel",
           "nconst": "nm0000172",
           "birthYear": 1939,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0103759",
+            "tt2278388",
+            "tt0110912",
+            "tt0105236"
+          ]
         }
       },
       {
@@ -2331,7 +2934,18 @@
           "name": "Jay-Z",
           "nconst": "nm0419650",
           "birthYear": 1969,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actor",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0120812",
+            "tt1599348",
+            "tt1343092",
+            "tt1583421"
+          ]
         }
       },
       {
@@ -2345,7 +2959,18 @@
           "name": "Sylvester Stallone",
           "nconst": "nm0000230",
           "birthYear": 1946,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "writer",
+            "producer"
+          ],
+          "knownFor": [
+            "tt3076658",
+            "tt0075148",
+            "tt0084602",
+            "tt0089927"
+          ]
         }
       }
     ],
@@ -2423,7 +3048,18 @@
           "name": "Billy Joel",
           "nconst": "nm0005055",
           "birthYear": 1949,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt2704998",
+            "tt0993846",
+            "tt0104694",
+            "tt0095776"
+          ]
         }
       },
       {
@@ -2437,7 +3073,18 @@
           "name": "Billy Joel",
           "nconst": "nm0005055",
           "birthYear": 1949,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt2704998",
+            "tt0993846",
+            "tt0104694",
+            "tt0095776"
+          ]
         }
       },
       {
@@ -2451,7 +3098,18 @@
           "name": "Chuck Norris",
           "nconst": "nm0001569",
           "birthYear": 1940,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "music_department",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0094792",
+            "tt1764651",
+            "tt0068935",
+            "tt0106168"
+          ]
         }
       },
       {
@@ -2465,7 +3123,17 @@
           "name": "Lou Ferrigno",
           "nconst": "nm0002073",
           "birthYear": 1951,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "miscellaneous"
+          ],
+          "knownFor": [
+            "tt0286716",
+            "tt0800080",
+            "tt0085672",
+            "tt0077031"
+          ]
         }
       },
       {
@@ -2479,7 +3147,18 @@
           "name": "Rosie O'Donnell",
           "nconst": "nm0005280",
           "birthYear": 1962,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0109813",
+            "tt0108160",
+            "tt0104694",
+            "tt0120855"
+          ]
         }
       }
     ],
@@ -2539,7 +3218,18 @@
           "name": "Tom Wolfe",
           "nconst": "nm0004366",
           "birthYear": 1930,
-          "deathYear": 2018
+          "deathYear": 2018,
+          "professions": [
+            "writer",
+            "actor",
+            "miscellaneous"
+          ],
+          "knownFor": [
+            "tt1049951",
+            "tt0086197",
+            "tt0099165",
+            "tt7423322"
+          ]
         }
       },
       {
@@ -2553,7 +3243,18 @@
           "name": "Toni Braxton",
           "nconst": "nm0004772",
           "birthYear": 1966,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0246002",
+            "tt6626022",
+            "tt1520498",
+            "tt0278488"
+          ]
         }
       }
     ],
@@ -2572,7 +3273,18 @@
           "name": "Mickey Rooney",
           "nconst": "nm0001682",
           "birthYear": 1920,
-          "deathYear": 2014
+          "deathYear": 2014,
+          "professions": [
+            "actor",
+            "soundtrack",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0031066",
+            "tt0054698",
+            "tt0057193",
+            "tt0477347"
+          ]
         }
       },
       {
@@ -2586,7 +3298,18 @@
           "name": "Fred Astaire",
           "nconst": "nm0000001",
           "birthYear": 1899,
-          "deathYear": 1987
+          "deathYear": 1987,
+          "professions": [
+            "soundtrack",
+            "actor",
+            "miscellaneous"
+          ],
+          "knownFor": [
+            "tt0053137",
+            "tt0050419",
+            "tt0043044",
+            "tt0072308"
+          ]
         }
       },
       {
@@ -2600,7 +3323,16 @@
           "name": "Jerry Rice",
           "nconst": "nm0005357",
           "birthYear": 1962,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor"
+          ],
+          "knownFor": [
+            "tt0790772",
+            "tt0772137",
+            "tt1276107",
+            "tt0484082"
+          ]
         }
       },
       {
@@ -2614,7 +3346,18 @@
           "name": "Jim Belushi",
           "nconst": "nm0000902",
           "birthYear": 1954,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "music_department",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0117468",
+            "tt0095963",
+            "tt0091419",
+            "tt0072562"
+          ]
         }
       },
       {
@@ -2628,7 +3371,18 @@
           "name": "Jim Belushi",
           "nconst": "nm0000902",
           "birthYear": 1954,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "music_department",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0117468",
+            "tt0095963",
+            "tt0091419",
+            "tt0072562"
+          ]
         }
       },
       {
@@ -2642,7 +3396,18 @@
           "name": "Beau Bridges",
           "nconst": "nm0000977",
           "birthYear": 1941,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0467197",
+            "tt0097322",
+            "tt0120086",
+            "tt1033575"
+          ]
         }
       }
     ],
@@ -2680,7 +3445,18 @@
           "name": "Tom Selleck",
           "nconst": "nm0000633",
           "birthYear": 1945,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0119360",
+            "tt0094137",
+            "tt0080240",
+            "tt1595859"
+          ]
         }
       },
       {
@@ -2694,7 +3470,18 @@
           "name": "Tom Selleck",
           "nconst": "nm0000633",
           "birthYear": 1945,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0119360",
+            "tt0094137",
+            "tt0080240",
+            "tt1595859"
+          ]
         }
       },
       {
@@ -2708,7 +3495,18 @@
           "name": "Tom Selleck",
           "nconst": "nm0000633",
           "birthYear": 1945,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0119360",
+            "tt0094137",
+            "tt0080240",
+            "tt1595859"
+          ]
         }
       },
       {
@@ -2722,7 +3520,18 @@
           "name": "Robin Williams",
           "nconst": "nm0000245",
           "birthYear": 1951,
-          "deathYear": 2014
+          "deathYear": 2014,
+          "professions": [
+            "actor",
+            "soundtrack",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0093105",
+            "tt0107614",
+            "tt0265459",
+            "tt0119217"
+          ]
         }
       }
     ],
@@ -2799,7 +3608,18 @@
           "name": "Meryl Streep",
           "nconst": "nm0000658",
           "birthYear": 1949,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "soundtrack",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0089755",
+            "tt0084707",
+            "tt0458352",
+            "tt0918927"
+          ]
         }
       },
       {
@@ -2813,7 +3633,18 @@
           "name": "Christian Bale",
           "nconst": "nm0000288",
           "birthYear": 1974,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "editorial_department",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0468569",
+            "tt6266538",
+            "tt1800241",
+            "tt0372784"
+          ]
         }
       },
       {
@@ -2827,7 +3658,18 @@
           "name": "Jodie Foster",
           "nconst": "nm0000149",
           "birthYear": 1962,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0102926",
+            "tt0118884",
+            "tt0075314",
+            "tt0476964"
+          ]
         }
       },
       {
@@ -2841,7 +3683,18 @@
           "name": "Courtney Love",
           "nconst": "nm0001482",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "soundtrack",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0137338",
+            "tt0091954",
+            "tt0125664",
+            "tt0117318"
+          ]
         }
       }
     ],
@@ -2880,7 +3733,18 @@
           "name": "Dick Van Dyke",
           "nconst": "nm0001813",
           "birthYear": 1925,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0058331",
+            "tt5028340",
+            "tt0062803",
+            "tt0054533"
+          ]
         }
       },
       {
@@ -2894,7 +3758,18 @@
           "name": "Hilary Swank",
           "nconst": "nm0005476",
           "birthYear": 1974,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0405159",
+            "tt0431308",
+            "tt0171804",
+            "tt0463998"
+          ]
         }
       }
     ],
@@ -3025,7 +3900,18 @@
           "name": "Halle Berry",
           "nconst": "nm0000932",
           "birthYear": 1966,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "executive"
+          ],
+          "knownFor": [
+            "tt0246460",
+            "tt0285742",
+            "tt0327554",
+            "tt0348836"
+          ]
         }
       }
     ],
@@ -3065,7 +3951,18 @@
           "name": "Eddie Murphy",
           "nconst": "nm0000552",
           "birthYear": 1961,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "writer",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0443489",
+            "tt0094898",
+            "tt0117218",
+            "tt0097481"
+          ]
         }
       }
     ],
@@ -3150,7 +4047,18 @@
           "name": "Hal Holbrook",
           "nconst": "nm0001358",
           "birthYear": 1925,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "director",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0074119",
+            "tt0758758",
+            "tt0080749",
+            "tt0443272"
+          ]
         }
       }
     ],
@@ -3248,7 +4156,18 @@
           "name": "Winona Ryder",
           "nconst": "nm0000213",
           "birthYear": 1971,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0172493",
+            "tt0118583",
+            "tt0097493",
+            "tt0110367"
+          ]
         }
       },
       {
@@ -3262,7 +4181,18 @@
           "name": "Sting",
           "nconst": "nm0001776",
           "birthYear": 1951,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0203009",
+            "tt0087182",
+            "tt0120917",
+            "tt0159365"
+          ]
         }
       }
     ],
@@ -3330,7 +4260,18 @@
           "name": "Sam Elliott",
           "nconst": "nm0000385",
           "birthYear": 1944,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0118715",
+            "tt1517451",
+            "tt0277434",
+            "tt0098206"
+          ]
         }
       },
       {
@@ -3344,7 +4285,18 @@
           "name": "Woody Allen",
           "nconst": "nm0000095",
           "birthYear": 1935,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "writer",
+            "director",
+            "actor"
+          ],
+          "knownFor": [
+            "tt0097123",
+            "tt0118954",
+            "tt0075686",
+            "tt0079522"
+          ]
         }
       },
       {
@@ -3358,7 +4310,18 @@
           "name": "Dudley Moore",
           "nconst": "nm0001545",
           "birthYear": 1935,
-          "deathYear": 2002
+          "deathYear": 2002,
+          "professions": [
+            "actor",
+            "writer",
+            "music_department"
+          ],
+          "knownFor": [
+            "tt0078721",
+            "tt0082031",
+            "tt0061391",
+            "tt0076161"
+          ]
         }
       }
     ],
@@ -3396,7 +4359,18 @@
           "name": "George Clooney",
           "nconst": "nm0000123",
           "birthYear": 1961,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt1124035",
+            "tt1193138",
+            "tt0465538",
+            "tt2177771"
+          ]
         }
       }
     ],
@@ -3531,7 +4505,18 @@
           "name": "Rob Lowe",
           "nconst": "nm0000507",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0086066",
+            "tt0105793",
+            "tt0118884",
+            "tt0090060"
+          ]
         }
       },
       {
@@ -3545,7 +4530,18 @@
           "name": "James Spader",
           "nconst": "nm0000652",
           "birthYear": 1960,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0402711",
+            "tt2741602",
+            "tt2395427",
+            "tt0098724"
+          ]
         }
       }
     ],
@@ -3584,7 +4580,18 @@
           "name": "Tom Berenger",
           "nconst": "nm0000297",
           "birthYear": 1949,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "writer"
+          ],
+          "knownFor": [
+            "tt1375666",
+            "tt0091763",
+            "tt0097815",
+            "tt1433108"
+          ]
         }
       }
     ],
@@ -3646,7 +4653,18 @@
           "name": "Dolly Parton",
           "nconst": "nm0000573",
           "birthYear": 1946,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "music_department",
+            "actress"
+          ],
+          "knownFor": [
+            "tt0073984",
+            "tt0162822",
+            "tt0092342",
+            "tt0080319"
+          ]
         }
       },
       {
@@ -3660,7 +4678,18 @@
           "name": "Ricardo Montalban",
           "nconst": "nm0001544",
           "birthYear": 1920,
-          "deathYear": 2009
+          "deathYear": 2009,
+          "professions": [
+            "actor",
+            "soundtrack",
+            "director"
+          ],
+          "knownFor": [
+            "tt0084726",
+            "tt0095705",
+            "tt0067065",
+            "tt0338459"
+          ]
         }
       }
     ],
@@ -3700,7 +4729,18 @@
           "name": "George Takei",
           "nconst": "nm0001786",
           "birthYear": 1937,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "soundtrack",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0060028",
+            "tt0102975",
+            "tt0092007",
+            "tt0084726"
+          ]
         }
       },
       {
@@ -3714,7 +4754,18 @@
           "name": "Greg Kinnear",
           "nconst": "nm0001427",
           "birthYear": 1963,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0449059",
+            "tt0119822",
+            "tt0114319",
+            "tt0128853"
+          ]
         }
       },
       {
@@ -3728,7 +4779,16 @@
           "name": "Michelle Kwan",
           "nconst": "nm0005111",
           "birthYear": 1980,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress"
+          ],
+          "knownFor": [
+            "tt0228769",
+            "tt1411276",
+            "tt0123801",
+            "tt0115341"
+          ]
         }
       },
       {
@@ -3742,7 +4802,18 @@
           "name": "George Takei",
           "nconst": "nm0001786",
           "birthYear": 1937,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "soundtrack",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0060028",
+            "tt0102975",
+            "tt0092007",
+            "tt0084726"
+          ]
         }
       },
       {
@@ -3756,7 +4827,18 @@
           "name": "George Takei",
           "nconst": "nm0001786",
           "birthYear": 1937,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "soundtrack",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0060028",
+            "tt0102975",
+            "tt0092007",
+            "tt0084726"
+          ]
         }
       }
     ],
@@ -3775,7 +4857,18 @@
           "name": "Michael Penn",
           "nconst": "nm0005304",
           "birthYear": 1958,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "composer",
+            "soundtrack",
+            "music_department"
+          ],
+          "knownFor": [
+            "tt0118749",
+            "tt1723816",
+            "tt0862846",
+            "tt0119256"
+          ]
         }
       },
       {
@@ -3789,7 +4882,18 @@
           "name": "Tom Cruise",
           "nconst": "nm0000129",
           "birthYear": 1962,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0325710",
+            "tt0181689",
+            "tt0116695",
+            "tt0092099"
+          ]
         }
       }
     ],
@@ -3829,7 +4933,18 @@
           "name": "Benny Hill",
           "nconst": "nm0001350",
           "birthYear": 1924,
-          "deathYear": 1992
+          "deathYear": 1992,
+          "professions": [
+            "soundtrack",
+            "writer",
+            "actor"
+          ],
+          "knownFor": [
+            "tt0059797",
+            "tt0064505",
+            "tt0063869",
+            "tt0062803"
+          ]
         }
       },
       {
@@ -3843,7 +4958,18 @@
           "name": "Harvey Keitel",
           "nconst": "nm0000172",
           "birthYear": 1939,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0103759",
+            "tt2278388",
+            "tt0110912",
+            "tt0105236"
+          ]
         }
       },
       {
@@ -3857,7 +4983,18 @@
           "name": "Mike Tyson",
           "nconst": "nm0005512",
           "birthYear": 1966,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt1119646",
+            "tt1411697",
+            "tt1661382",
+            "tt2888046"
+          ]
         }
       },
       {
@@ -3871,7 +5008,18 @@
           "name": "Stephen Fry",
           "nconst": "nm0000410",
           "birthYear": 1957,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "writer",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0280707",
+            "tt0120514",
+            "tt0371724",
+            "tt0434409"
+          ]
         }
       },
       {
@@ -3885,7 +5033,18 @@
           "name": "Stephen Fry",
           "nconst": "nm0000410",
           "birthYear": 1957,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "writer",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0280707",
+            "tt0120514",
+            "tt0371724",
+            "tt0434409"
+          ]
         }
       }
     ],
@@ -3927,7 +5086,18 @@
           "name": "Tyra Banks",
           "nconst": "nm0004723",
           "birthYear": 1973,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "writer",
+            "actress"
+          ],
+          "knownFor": [
+            "tt0200550",
+            "tt0942385",
+            "tt0363307",
+            "tt0220506"
+          ]
         }
       },
       {
@@ -3941,7 +5111,17 @@
           "name": "Marisa Tomei",
           "nconst": "nm0000673",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0207201",
+            "tt0247425",
+            "tt1125849",
+            "tt0104952"
+          ]
         }
       },
       {
@@ -3955,7 +5135,18 @@
           "name": "Claude Renoir",
           "nconst": "nm0005841",
           "birthYear": 1913,
-          "deathYear": 1993
+          "deathYear": 1993,
+          "professions": [
+            "cinematographer",
+            "camera_department",
+            "set_decorator"
+          ],
+          "knownFor": [
+            "tt0056937",
+            "tt0028950",
+            "tt0076752",
+            "tt0062711"
+          ]
         }
       },
       {
@@ -3969,7 +5160,18 @@
           "name": "Anne Hathaway",
           "nconst": "nm0004266",
           "birthYear": 1982,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "soundtrack",
+            "producer"
+          ],
+          "knownFor": [
+            "tt1084950",
+            "tt1707386",
+            "tt1345836",
+            "tt0758752"
+          ]
         }
       }
     ],
@@ -3988,7 +5190,18 @@
           "name": "Tim Burton",
           "nconst": "nm0000318",
           "birthYear": 1958,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "miscellaneous",
+            "director"
+          ],
+          "knownFor": [
+            "tt0099487",
+            "tt0121164",
+            "tt0408236",
+            "tt1142977"
+          ]
         }
       }
     ],
@@ -4007,7 +5220,18 @@
           "name": "Johnny Depp",
           "nconst": "nm0000136",
           "birthYear": 1963,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0325980",
+            "tt0383574",
+            "tt0408236",
+            "tt0449088"
+          ]
         }
       },
       {
@@ -4021,7 +5245,18 @@
           "name": "Vince Vaughn",
           "nconst": "nm0000681",
           "birthYear": 1970,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "actor",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0452594",
+            "tt5657856",
+            "tt1078940",
+            "tt0396269"
+          ]
         }
       },
       {
@@ -4035,7 +5270,18 @@
           "name": "Michael Chiklis",
           "nconst": "nm0004821",
           "birthYear": 1963,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0120667",
+            "tt0101069",
+            "tt1844624",
+            "tt0286486"
+          ]
         }
       },
       {
@@ -4049,7 +5295,18 @@
           "name": "Jamie Lee Curtis",
           "nconst": "nm0000130",
           "birthYear": 1958,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0095159",
+            "tt1502407",
+            "tt0322330",
+            "tt0111503"
+          ]
         }
       },
       {
@@ -4063,7 +5320,18 @@
           "name": "Yahoo Serious",
           "nconst": "nm0000635",
           "birthYear": 1953,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "director",
+            "actor",
+            "writer"
+          ],
+          "knownFor": [
+            "tt6893696",
+            "tt0156807",
+            "tt0107930",
+            "tt0096486"
+          ]
         }
       }
     ],
@@ -4329,7 +5597,18 @@
           "name": "Gregory Hines",
           "nconst": "nm0002138",
           "birthYear": 1946,
-          "deathYear": 2003
+          "deathYear": 2003,
+          "professions": [
+            "actor",
+            "soundtrack",
+            "miscellaneous"
+          ],
+          "knownFor": [
+            "tt0157246",
+            "tt0082517",
+            "tt0114885",
+            "tt0091875"
+          ]
         }
       },
       {
@@ -4343,7 +5622,18 @@
           "name": "LeVar Burton",
           "nconst": "nm0000996",
           "birthYear": 1957,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0120844",
+            "tt0075572",
+            "tt0111280",
+            "tt0117731"
+          ]
         }
       },
       {
@@ -4357,7 +5647,18 @@
           "name": "LeVar Burton",
           "nconst": "nm0000996",
           "birthYear": 1957,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0120844",
+            "tt0075572",
+            "tt0111280",
+            "tt0117731"
+          ]
         }
       },
       {
@@ -4371,7 +5672,18 @@
           "name": "John Grisham",
           "nconst": "nm0001300",
           "birthYear": 1955,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "writer",
+            "producer",
+            "actor"
+          ],
+          "knownFor": [
+            "tt0119978",
+            "tt0117913",
+            "tt0313542",
+            "tt0106918"
+          ]
         }
       },
       {
@@ -4385,7 +5697,18 @@
           "name": "LeVar Burton",
           "nconst": "nm0000996",
           "birthYear": 1957,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0120844",
+            "tt0075572",
+            "tt0111280",
+            "tt0117731"
+          ]
         }
       },
       {
@@ -4399,7 +5722,18 @@
           "name": "LeVar Burton",
           "nconst": "nm0000996",
           "birthYear": 1957,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0120844",
+            "tt0075572",
+            "tt0111280",
+            "tt0117731"
+          ]
         }
       }
     ],
@@ -4559,7 +5893,18 @@
           "name": "Quentin Tarantino",
           "nconst": "nm0000233",
           "birthYear": 1963,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "writer",
+            "actor",
+            "producer"
+          ],
+          "knownFor": [
+            "tt3460252",
+            "tt0116367",
+            "tt0110912",
+            "tt0105236"
+          ]
         }
       }
     ],
@@ -4730,7 +6075,18 @@
           "name": "Tony Danza",
           "nconst": "nm0001103",
           "birthYear": 1951,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt2229499",
+            "tt0077089",
+            "tt0086827",
+            "tt0109127"
+          ]
         }
       },
       {
@@ -4744,7 +6100,18 @@
           "name": "Alyssa Milano",
           "nconst": "nm0000192",
           "birthYear": 1972,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0158552",
+            "tt0086827",
+            "tt0088944",
+            "tt0116287"
+          ]
         }
       }
     ],
@@ -4864,7 +6231,16 @@
           "name": "Harrison Ford",
           "nconst": "nm0001230",
           "birthYear": 1884,
-          "deathYear": 1957
+          "deathYear": 1957,
+          "professions": [
+            "actor"
+          ],
+          "knownFor": [
+            "tt0008351",
+            "tt0005257",
+            "tt0010837",
+            "tt0017201"
+          ]
         }
       }
     ],
@@ -4883,7 +6259,17 @@
           "name": "Betty Grable",
           "nconst": "nm0002107",
           "birthYear": 1916,
-          "deathYear": 1973
+          "deathYear": 1973,
+          "professions": [
+            "actress",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0037651",
+            "tt0033740",
+            "tt0045891",
+            "tt0032410"
+          ]
         }
       },
       {
@@ -4897,7 +6283,17 @@
           "name": "Betty Grable",
           "nconst": "nm0002107",
           "birthYear": 1916,
-          "deathYear": 1973
+          "deathYear": 1973,
+          "professions": [
+            "actress",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0037651",
+            "tt0033740",
+            "tt0045891",
+            "tt0032410"
+          ]
         }
       },
       {
@@ -4911,7 +6307,17 @@
           "name": "Betty Grable",
           "nconst": "nm0002107",
           "birthYear": 1916,
-          "deathYear": 1973
+          "deathYear": 1973,
+          "professions": [
+            "actress",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0037651",
+            "tt0033740",
+            "tt0045891",
+            "tt0032410"
+          ]
         }
       },
       {
@@ -4925,7 +6331,18 @@
           "name": "Jackie Coogan",
           "nconst": "nm0001067",
           "birthYear": 1914,
-          "deathYear": 1984
+          "deathYear": 1984,
+          "professions": [
+            "actor",
+            "miscellaneous",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0058855",
+            "tt0012349",
+            "tt0013450",
+            "tt0057729"
+          ]
         }
       },
       {
@@ -4939,7 +6356,17 @@
           "name": "Betty Grable",
           "nconst": "nm0002107",
           "birthYear": 1916,
-          "deathYear": 1973
+          "deathYear": 1973,
+          "professions": [
+            "actress",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0037651",
+            "tt0033740",
+            "tt0045891",
+            "tt0032410"
+          ]
         }
       },
       {
@@ -4953,7 +6380,18 @@
           "name": "Rob Lowe",
           "nconst": "nm0000507",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0086066",
+            "tt0105793",
+            "tt0118884",
+            "tt0090060"
+          ]
         }
       }
     ],
@@ -5021,7 +6459,18 @@
           "name": "Sean Penn",
           "nconst": "nm0000576",
           "birthYear": 1960,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0112818",
+            "tt0315733",
+            "tt0327056",
+            "tt1013753"
+          ]
         }
       },
       {
@@ -5035,7 +6484,18 @@
           "name": "Sean Penn",
           "nconst": "nm0000576",
           "birthYear": 1960,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0112818",
+            "tt0315733",
+            "tt0327056",
+            "tt1013753"
+          ]
         }
       },
       {
@@ -5049,7 +6509,18 @@
           "name": "Sean Penn",
           "nconst": "nm0000576",
           "birthYear": 1960,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0112818",
+            "tt0315733",
+            "tt0327056",
+            "tt1013753"
+          ]
         }
       }
     ],
@@ -5093,7 +6564,17 @@
           "name": "Nick Nolte",
           "nconst": "nm0000560",
           "birthYear": 1941,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0118564",
+            "tt0102713",
+            "tt1291584",
+            "tt0083511"
+          ]
         }
       },
       {
@@ -5107,7 +6588,18 @@
           "name": "Eddie Murphy",
           "nconst": "nm0000552",
           "birthYear": 1961,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "writer",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0443489",
+            "tt0094898",
+            "tt0117218",
+            "tt0097481"
+          ]
         }
       },
       {
@@ -5121,7 +6613,17 @@
           "name": "Nick Nolte",
           "nconst": "nm0000560",
           "birthYear": 1941,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0118564",
+            "tt0102713",
+            "tt1291584",
+            "tt0083511"
+          ]
         }
       }
     ],
@@ -5165,7 +6667,18 @@
           "name": "Errol Morris",
           "nconst": "nm0001554",
           "birthYear": 1948,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "director",
+            "producer",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0096257",
+            "tt0119107",
+            "tt0317910",
+            "tt0896866"
+          ]
         }
       }
     ],
@@ -5205,7 +6718,16 @@
           "name": "Harrison Ford",
           "nconst": "nm0001230",
           "birthYear": 1884,
-          "deathYear": 1957
+          "deathYear": 1957,
+          "professions": [
+            "actor"
+          ],
+          "knownFor": [
+            "tt0008351",
+            "tt0005257",
+            "tt0010837",
+            "tt0017201"
+          ]
         }
       }
     ],
@@ -5224,7 +6746,18 @@
           "name": "Jamie Lee Curtis",
           "nconst": "nm0000130",
           "birthYear": 1958,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0095159",
+            "tt1502407",
+            "tt0322330",
+            "tt0111503"
+          ]
         }
       }
     ],
@@ -5286,7 +6819,18 @@
           "name": "Christian Bale",
           "nconst": "nm0000288",
           "birthYear": 1974,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "editorial_department",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0468569",
+            "tt6266538",
+            "tt1800241",
+            "tt0372784"
+          ]
         }
       },
       {
@@ -5300,7 +6844,18 @@
           "name": "Christian Bale",
           "nconst": "nm0000288",
           "birthYear": 1974,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "editorial_department",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0468569",
+            "tt6266538",
+            "tt1800241",
+            "tt0372784"
+          ]
         }
       },
       {
@@ -5314,7 +6869,18 @@
           "name": "Christian Bale",
           "nconst": "nm0000288",
           "birthYear": 1974,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "editorial_department",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0468569",
+            "tt6266538",
+            "tt1800241",
+            "tt0372784"
+          ]
         }
       },
       {
@@ -5328,7 +6894,18 @@
           "name": "David Bowie",
           "nconst": "nm0000309",
           "birthYear": 1947,
-          "deathYear": 2016
+          "deathYear": 2016,
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0482571",
+            "tt0196229",
+            "tt0074851",
+            "tt0091369"
+          ]
         }
       }
     ],
@@ -5461,7 +7038,18 @@
           "name": "John Lennon",
           "nconst": "nm0006168",
           "birthYear": 1940,
-          "deathYear": 1980
+          "deathYear": 1980,
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0058182",
+            "tt0063823",
+            "tt0078239",
+            "tt0445922"
+          ]
         }
       },
       {
@@ -5475,7 +7063,18 @@
           "name": "Doris Day",
           "nconst": "nm0000013",
           "birthYear": 1922,
-          "deathYear": 2019
+          "deathYear": 2019,
+          "professions": [
+            "soundtrack",
+            "actress",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0055100",
+            "tt0053172",
+            "tt0048317",
+            "tt0060463"
+          ]
         }
       }
     ],
@@ -5513,7 +7112,18 @@
           "name": "Sarah McLachlan",
           "nconst": "nm0005214",
           "birthYear": 1968,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0120632",
+            "tt0120363",
+            "tt0413895",
+            "tt0476964"
+          ]
         }
       },
       {
@@ -5527,7 +7137,18 @@
           "name": "Halle Berry",
           "nconst": "nm0000932",
           "birthYear": 1966,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "executive"
+          ],
+          "knownFor": [
+            "tt0246460",
+            "tt0285742",
+            "tt0327554",
+            "tt0348836"
+          ]
         }
       },
       {
@@ -5541,7 +7162,18 @@
           "name": "Jim Belushi",
           "nconst": "nm0000902",
           "birthYear": 1954,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "music_department",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0117468",
+            "tt0095963",
+            "tt0091419",
+            "tt0072562"
+          ]
         }
       },
       {
@@ -5555,7 +7187,18 @@
           "name": "Adam Sandler",
           "nconst": "nm0001191",
           "birthYear": 1966,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0142342",
+            "tt0120888",
+            "tt0185431",
+            "tt0120484"
+          ]
         }
       }
     ],
@@ -5593,7 +7236,18 @@
           "name": "Tom Hanks",
           "nconst": "nm0000158",
           "birthYear": 1956,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "actor",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0094737",
+            "tt0120815",
+            "tt0162222",
+            "tt0109830"
+          ]
         }
       },
       {
@@ -5607,7 +7261,18 @@
           "name": "Michael Jackson",
           "nconst": "nm0001391",
           "birthYear": 1958,
-          "deathYear": 2009
+          "deathYear": 2009,
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt1477715",
+            "tt0095655",
+            "tt0088263",
+            "tt0078504"
+          ]
         }
       },
       {
@@ -5621,7 +7286,18 @@
           "name": "Burt Reynolds",
           "nconst": "nm0000608",
           "birthYear": 1936,
-          "deathYear": 2018
+          "deathYear": 2018,
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0117765",
+            "tt0118749",
+            "tt0068473",
+            "tt0076729"
+          ]
         }
       },
       {
@@ -5635,7 +7311,18 @@
           "name": "Burt Reynolds",
           "nconst": "nm0000608",
           "birthYear": 1936,
-          "deathYear": 2018
+          "deathYear": 2018,
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0117765",
+            "tt0118749",
+            "tt0068473",
+            "tt0076729"
+          ]
         }
       },
       {
@@ -5649,7 +7336,18 @@
           "name": "Quincy Jones",
           "nconst": "nm0005065",
           "birthYear": 1933,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "music_department",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0088939",
+            "tt0068638",
+            "tt1877832",
+            "tt0061811"
+          ]
         }
       },
       {
@@ -5663,7 +7361,18 @@
           "name": "Burt Reynolds",
           "nconst": "nm0000608",
           "birthYear": 1936,
-          "deathYear": 2018
+          "deathYear": 2018,
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0117765",
+            "tt0118749",
+            "tt0068473",
+            "tt0076729"
+          ]
         }
       },
       {
@@ -5677,7 +7386,18 @@
           "name": "Michael Chiklis",
           "nconst": "nm0004821",
           "birthYear": 1963,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0120667",
+            "tt0101069",
+            "tt1844624",
+            "tt0286486"
+          ]
         }
       },
       {
@@ -5691,7 +7411,18 @@
           "name": "Walter Matthau",
           "nconst": "nm0000527",
           "birthYear": 1920,
-          "deathYear": 2000
+          "deathYear": 2000,
+          "professions": [
+            "actor",
+            "soundtrack",
+            "director"
+          ],
+          "knownFor": [
+            "tt0063374",
+            "tt0069865",
+            "tt0060424",
+            "tt0056923"
+          ]
         }
       },
       {
@@ -5705,7 +7436,18 @@
           "name": "Burt Reynolds",
           "nconst": "nm0000608",
           "birthYear": 1936,
-          "deathYear": 2018
+          "deathYear": 2018,
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0117765",
+            "tt0118749",
+            "tt0068473",
+            "tt0076729"
+          ]
         }
       },
       {
@@ -5719,7 +7461,18 @@
           "name": "Burt Reynolds",
           "nconst": "nm0000608",
           "birthYear": 1936,
-          "deathYear": 2018
+          "deathYear": 2018,
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0117765",
+            "tt0118749",
+            "tt0068473",
+            "tt0076729"
+          ]
         }
       },
       {
@@ -5733,7 +7486,18 @@
           "name": "Geena Davis",
           "nconst": "nm0000133",
           "birthYear": 1956,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0103074",
+            "tt0091064",
+            "tt0116908",
+            "tt0104694"
+          ]
         }
       },
       {
@@ -5747,7 +7511,18 @@
           "name": "Lorenzo Lamas",
           "nconst": "nm0001444",
           "birthYear": 1958,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0092325",
+            "tt0086985",
+            "tt0081858",
+            "tt0077631"
+          ]
         }
       },
       {
@@ -5761,7 +7536,18 @@
           "name": "Lorenzo Lamas",
           "nconst": "nm0001444",
           "birthYear": 1958,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0092325",
+            "tt0086985",
+            "tt0081858",
+            "tt0077631"
+          ]
         }
       },
       {
@@ -5775,7 +7561,18 @@
           "name": "Jamie Lee Curtis",
           "nconst": "nm0000130",
           "birthYear": 1958,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0095159",
+            "tt1502407",
+            "tt0322330",
+            "tt0111503"
+          ]
         }
       },
       {
@@ -5789,7 +7586,18 @@
           "name": "Lorenzo Lamas",
           "nconst": "nm0001444",
           "birthYear": 1958,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0092325",
+            "tt0086985",
+            "tt0081858",
+            "tt0077631"
+          ]
         }
       },
       {
@@ -5803,7 +7611,18 @@
           "name": "Moby",
           "nconst": "nm0005240",
           "birthYear": 1965,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "composer",
+            "music_department"
+          ],
+          "knownFor": [
+            "tt1194173",
+            "tt0120053",
+            "tt0405336",
+            "tt1458175"
+          ]
         }
       },
       {
@@ -5817,7 +7636,18 @@
           "name": "Morgan Freeman",
           "nconst": "nm0000151",
           "birthYear": 1937,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0114369",
+            "tt0097239",
+            "tt0405159",
+            "tt1057500"
+          ]
         }
       },
       {
@@ -5831,7 +7661,18 @@
           "name": "Morgan Freeman",
           "nconst": "nm0000151",
           "birthYear": 1937,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0114369",
+            "tt0097239",
+            "tt0405159",
+            "tt1057500"
+          ]
         }
       },
       {
@@ -5845,7 +7686,18 @@
           "name": "Oprah Winfrey",
           "nconst": "nm0001856",
           "birthYear": 1954,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "actress",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt1327773",
+            "tt0088939",
+            "tt0090493",
+            "tt1620680"
+          ]
         }
       },
       {
@@ -5859,7 +7711,18 @@
           "name": "Burt Reynolds",
           "nconst": "nm0000608",
           "birthYear": 1936,
-          "deathYear": 2018
+          "deathYear": 2018,
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0117765",
+            "tt0118749",
+            "tt0068473",
+            "tt0076729"
+          ]
         }
       }
     ],
@@ -6036,7 +7899,16 @@
           "name": "Jane Austen",
           "nconst": "nm0000807",
           "birthYear": 1775,
-          "deathYear": 1817
+          "deathYear": 1817,
+          "professions": [
+            "writer"
+          ],
+          "knownFor": [
+            "tt0114388",
+            "tt0416508",
+            "tt1374989",
+            "tt0116191"
+          ]
         }
       }
     ],
@@ -6055,7 +7927,18 @@
           "name": "Tom Hanks",
           "nconst": "nm0000158",
           "birthYear": 1956,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "actor",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0094737",
+            "tt0120815",
+            "tt0162222",
+            "tt0109830"
+          ]
         }
       },
       {
@@ -6069,7 +7952,18 @@
           "name": "Tom Hanks",
           "nconst": "nm0000158",
           "birthYear": 1956,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "actor",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0094737",
+            "tt0120815",
+            "tt0162222",
+            "tt0109830"
+          ]
         }
       }
     ],
@@ -6167,7 +8061,18 @@
           "name": "Sandra Bullock",
           "nconst": "nm0000113",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "actress",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0212346",
+            "tt1041829",
+            "tt1454468",
+            "tt0111257"
+          ]
         }
       }
     ],
@@ -6267,7 +8172,18 @@
           "name": "Carson Daly",
           "nconst": "nm0004856",
           "birthYear": 1973,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "actor",
+            "music_department"
+          ],
+          "knownFor": [
+            "tt0261983",
+            "tt1839337",
+            "tt0236348",
+            "tt0167735"
+          ]
         }
       }
     ],
@@ -6446,7 +8362,18 @@
           "name": "Ted Danson",
           "nconst": "nm0001101",
           "birthYear": 1947,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0174378",
+            "tt0082089",
+            "tt0083399",
+            "tt0094137"
+          ]
         }
       }
     ],
@@ -6484,7 +8411,18 @@
           "name": "Robin Williams",
           "nconst": "nm0000245",
           "birthYear": 1951,
-          "deathYear": 2014
+          "deathYear": 2014,
+          "professions": [
+            "actor",
+            "soundtrack",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0093105",
+            "tt0107614",
+            "tt0265459",
+            "tt0119217"
+          ]
         }
       },
       {
@@ -6498,7 +8436,18 @@
           "name": "George Wendt",
           "nconst": "nm0001841",
           "birthYear": 1948,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "soundtrack",
+            "director"
+          ],
+          "knownFor": [
+            "tt0104291",
+            "tt0089155",
+            "tt0083399",
+            "tt0120185"
+          ]
         }
       }
     ],
@@ -6537,7 +8486,18 @@
           "name": "LeVar Burton",
           "nconst": "nm0000996",
           "birthYear": 1957,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0120844",
+            "tt0075572",
+            "tt0111280",
+            "tt0117731"
+          ]
         }
       },
       {
@@ -6551,7 +8511,18 @@
           "name": "LeVar Burton",
           "nconst": "nm0000996",
           "birthYear": 1957,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0120844",
+            "tt0075572",
+            "tt0111280",
+            "tt0117731"
+          ]
         }
       }
     ],
@@ -6570,7 +8541,18 @@
           "name": "Moby",
           "nconst": "nm0005240",
           "birthYear": 1965,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "composer",
+            "music_department"
+          ],
+          "knownFor": [
+            "tt1194173",
+            "tt0120053",
+            "tt0405336",
+            "tt1458175"
+          ]
         }
       }
     ],
@@ -6626,7 +8608,18 @@
           "name": "Jim Belushi",
           "nconst": "nm0000902",
           "birthYear": 1954,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "music_department",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0117468",
+            "tt0095963",
+            "tt0091419",
+            "tt0072562"
+          ]
         }
       },
       {
@@ -6640,7 +8633,18 @@
           "name": "Blair Underwood",
           "nconst": "nm0005516",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0160797",
+            "tt0119177",
+            "tt0113501",
+            "tt0120647"
+          ]
         }
       }
     ],
@@ -6734,7 +8738,18 @@
           "name": "Jessica Biel",
           "nconst": "nm0004754",
           "birthYear": 1982,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt1386703",
+            "tt0435705",
+            "tt0324216",
+            "tt0443543"
+          ]
         }
       }
     ],
@@ -6753,7 +8768,18 @@
           "name": "LeVar Burton",
           "nconst": "nm0000996",
           "birthYear": 1957,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0120844",
+            "tt0075572",
+            "tt0111280",
+            "tt0117731"
+          ]
         }
       }
     ],
@@ -6795,7 +8821,18 @@
           "name": "Darren Aronofsky",
           "nconst": "nm0004716",
           "birthYear": 1969,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "director",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0138704",
+            "tt0180093",
+            "tt1959490",
+            "tt5109784"
+          ]
         }
       }
     ],
@@ -6933,7 +8970,18 @@
           "name": "John Wayne",
           "nconst": "nm0000078",
           "birthYear": 1907,
-          "deathYear": 1979
+          "deathYear": 1979,
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0057298",
+            "tt0056217",
+            "tt0053580",
+            "tt0065126"
+          ]
         }
       },
       {
@@ -6947,7 +8995,18 @@
           "name": "Morgan Freeman",
           "nconst": "nm0000151",
           "birthYear": 1937,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0114369",
+            "tt0097239",
+            "tt0405159",
+            "tt1057500"
+          ]
         }
       },
       {
@@ -6961,7 +9020,18 @@
           "name": "Tara Reid",
           "nconst": "nm0005346",
           "birthYear": 1975,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0163651",
+            "tt0369226",
+            "tt0146336",
+            "tt0283111"
+          ]
         }
       }
     ],
@@ -7105,7 +9175,18 @@
           "name": "Sophie B. Hawkins",
           "nconst": "nm0005001",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0117102",
+            "tt0117104",
+            "tt0201479",
+            "tt0368479"
+          ]
         }
       },
       {
@@ -7119,7 +9200,18 @@
           "name": "Sophie B. Hawkins",
           "nconst": "nm0005001",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0117102",
+            "tt0117104",
+            "tt0201479",
+            "tt0368479"
+          ]
         }
       },
       {
@@ -7133,7 +9225,18 @@
           "name": "Sophie B. Hawkins",
           "nconst": "nm0005001",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0117102",
+            "tt0117104",
+            "tt0201479",
+            "tt0368479"
+          ]
         }
       },
       {
@@ -7147,7 +9250,18 @@
           "name": "Sophie B. Hawkins",
           "nconst": "nm0005001",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0117102",
+            "tt0117104",
+            "tt0201479",
+            "tt0368479"
+          ]
         }
       },
       {
@@ -7161,7 +9275,18 @@
           "name": "Sophie B. Hawkins",
           "nconst": "nm0005001",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0117102",
+            "tt0117104",
+            "tt0201479",
+            "tt0368479"
+          ]
         }
       },
       {
@@ -7175,7 +9300,18 @@
           "name": "Sophie B. Hawkins",
           "nconst": "nm0005001",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0117102",
+            "tt0117104",
+            "tt0201479",
+            "tt0368479"
+          ]
         }
       },
       {
@@ -7189,7 +9325,18 @@
           "name": "Sophie B. Hawkins",
           "nconst": "nm0005001",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0117102",
+            "tt0117104",
+            "tt0201479",
+            "tt0368479"
+          ]
         }
       },
       {
@@ -7203,7 +9350,18 @@
           "name": "Sophie B. Hawkins",
           "nconst": "nm0005001",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0117102",
+            "tt0117104",
+            "tt0201479",
+            "tt0368479"
+          ]
         }
       },
       {
@@ -7217,7 +9375,18 @@
           "name": "Sarah McLachlan",
           "nconst": "nm0005214",
           "birthYear": 1968,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0120632",
+            "tt0120363",
+            "tt0413895",
+            "tt0476964"
+          ]
         }
       },
       {
@@ -7231,7 +9400,18 @@
           "name": "Sophie B. Hawkins",
           "nconst": "nm0005001",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0117102",
+            "tt0117104",
+            "tt0201479",
+            "tt0368479"
+          ]
         }
       },
       {
@@ -7245,7 +9425,18 @@
           "name": "Sophie B. Hawkins",
           "nconst": "nm0005001",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0117102",
+            "tt0117104",
+            "tt0201479",
+            "tt0368479"
+          ]
         }
       },
       {
@@ -7259,7 +9450,18 @@
           "name": "Sophie B. Hawkins",
           "nconst": "nm0005001",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0117102",
+            "tt0117104",
+            "tt0201479",
+            "tt0368479"
+          ]
         }
       },
       {
@@ -7273,7 +9475,18 @@
           "name": "Sophie B. Hawkins",
           "nconst": "nm0005001",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0117102",
+            "tt0117104",
+            "tt0201479",
+            "tt0368479"
+          ]
         }
       },
       {
@@ -7287,7 +9500,18 @@
           "name": "Sophie B. Hawkins",
           "nconst": "nm0005001",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0117102",
+            "tt0117104",
+            "tt0201479",
+            "tt0368479"
+          ]
         }
       },
       {
@@ -7301,7 +9525,18 @@
           "name": "Sophie B. Hawkins",
           "nconst": "nm0005001",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0117102",
+            "tt0117104",
+            "tt0201479",
+            "tt0368479"
+          ]
         }
       },
       {
@@ -7315,7 +9550,18 @@
           "name": "Sophie B. Hawkins",
           "nconst": "nm0005001",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0117102",
+            "tt0117104",
+            "tt0201479",
+            "tt0368479"
+          ]
         }
       },
       {
@@ -7329,7 +9575,18 @@
           "name": "Sophie B. Hawkins",
           "nconst": "nm0005001",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0117102",
+            "tt0117104",
+            "tt0201479",
+            "tt0368479"
+          ]
         }
       },
       {
@@ -7343,7 +9600,18 @@
           "name": "Sophie B. Hawkins",
           "nconst": "nm0005001",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0117102",
+            "tt0117104",
+            "tt0201479",
+            "tt0368479"
+          ]
         }
       }
     ],
@@ -7517,7 +9785,18 @@
           "name": "Tom Waits",
           "nconst": "nm0001823",
           "birthYear": 1949,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0108122",
+            "tt0090967",
+            "tt1931533",
+            "tt0477139"
+          ]
         }
       },
       {
@@ -7531,7 +9810,18 @@
           "name": "Tom Waits",
           "nconst": "nm0001823",
           "birthYear": 1949,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0108122",
+            "tt0090967",
+            "tt1931533",
+            "tt0477139"
+          ]
         }
       },
       {
@@ -7545,7 +9835,18 @@
           "name": "Tom Waits",
           "nconst": "nm0001823",
           "birthYear": 1949,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0108122",
+            "tt0090967",
+            "tt1931533",
+            "tt0477139"
+          ]
         }
       },
       {
@@ -7559,7 +9860,18 @@
           "name": "Tom Waits",
           "nconst": "nm0001823",
           "birthYear": 1949,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0108122",
+            "tt0090967",
+            "tt1931533",
+            "tt0477139"
+          ]
         }
       }
     ],
@@ -7679,7 +9991,18 @@
           "name": "Roger Ebert",
           "nconst": "nm0001170",
           "birthYear": 1942,
-          "deathYear": 2013
+          "deathYear": 2013,
+          "professions": [
+            "writer",
+            "actor",
+            "producer"
+          ],
+          "knownFor": [
+            "tt2382298",
+            "tt0090523",
+            "tt0075376",
+            "tt0075583"
+          ]
         }
       },
       {
@@ -7693,7 +10016,18 @@
           "name": "Steve Winwood",
           "nconst": "nm0005566",
           "birthYear": 1948,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt2250912",
+            "tt0377062",
+            "tt0118747",
+            "tt0093507"
+          ]
         }
       },
       {
@@ -7707,7 +10041,18 @@
           "name": "George Lucas",
           "nconst": "nm0000184",
           "birthYear": 1944,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "writer",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0076759",
+            "tt0082971",
+            "tt0066434",
+            "tt0069704"
+          ]
         }
       }
     ],
@@ -7893,7 +10238,18 @@
           "name": "Nicolas Cage",
           "nconst": "nm0000115",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0119094",
+            "tt0399295",
+            "tt0113627",
+            "tt0117500"
+          ]
         }
       },
       {
@@ -7907,7 +10263,18 @@
           "name": "Nicolas Cage",
           "nconst": "nm0000115",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0119094",
+            "tt0399295",
+            "tt0113627",
+            "tt0117500"
+          ]
         }
       },
       {
@@ -7921,7 +10288,18 @@
           "name": "Nicolas Cage",
           "nconst": "nm0000115",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0119094",
+            "tt0399295",
+            "tt0113627",
+            "tt0117500"
+          ]
         }
       },
       {
@@ -7935,7 +10313,18 @@
           "name": "Nicolas Cage",
           "nconst": "nm0000115",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0119094",
+            "tt0399295",
+            "tt0113627",
+            "tt0117500"
+          ]
         }
       },
       {
@@ -7949,7 +10338,18 @@
           "name": "Lionel Richie",
           "nconst": "nm0005360",
           "birthYear": 1949,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "composer",
+            "actor"
+          ],
+          "knownFor": [
+            "tt0088939",
+            "tt0082329",
+            "tt0119116",
+            "tt0090319"
+          ]
         }
       },
       {
@@ -7963,7 +10363,18 @@
           "name": "Nicolas Cage",
           "nconst": "nm0000115",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0119094",
+            "tt0399295",
+            "tt0113627",
+            "tt0117500"
+          ]
         }
       },
       {
@@ -7977,7 +10388,18 @@
           "name": "Robert Downey Jr.",
           "nconst": "nm0000375",
           "birthYear": 1965,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0848228",
+            "tt1300854",
+            "tt0371746",
+            "tt0988045"
+          ]
         }
       },
       {
@@ -7991,7 +10413,18 @@
           "name": "Jim Belushi",
           "nconst": "nm0000902",
           "birthYear": 1954,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "music_department",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0117468",
+            "tt0095963",
+            "tt0091419",
+            "tt0072562"
+          ]
         }
       },
       {
@@ -8005,7 +10438,18 @@
           "name": "Johnny Depp",
           "nconst": "nm0000136",
           "birthYear": 1963,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0325980",
+            "tt0383574",
+            "tt0408236",
+            "tt0449088"
+          ]
         }
       },
       {
@@ -8019,7 +10463,18 @@
           "name": "Nicolas Cage",
           "nconst": "nm0000115",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0119094",
+            "tt0399295",
+            "tt0113627",
+            "tt0117500"
+          ]
         }
       },
       {
@@ -8033,7 +10488,18 @@
           "name": "Nicolas Cage",
           "nconst": "nm0000115",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0119094",
+            "tt0399295",
+            "tt0113627",
+            "tt0117500"
+          ]
         }
       },
       {
@@ -8047,7 +10513,18 @@
           "name": "Nicolas Cage",
           "nconst": "nm0000115",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0119094",
+            "tt0399295",
+            "tt0113627",
+            "tt0117500"
+          ]
         }
       },
       {
@@ -8061,7 +10538,18 @@
           "name": "Nicolas Cage",
           "nconst": "nm0000115",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0119094",
+            "tt0399295",
+            "tt0113627",
+            "tt0117500"
+          ]
         }
       },
       {
@@ -8075,7 +10563,18 @@
           "name": "Nicolas Cage",
           "nconst": "nm0000115",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0119094",
+            "tt0399295",
+            "tt0113627",
+            "tt0117500"
+          ]
         }
       },
       {
@@ -8089,7 +10588,18 @@
           "name": "Holly Hunter",
           "nconst": "nm0000456",
           "birthYear": 1958,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0092699",
+            "tt5462602",
+            "tt0107822",
+            "tt0328538"
+          ]
         }
       },
       {
@@ -8103,7 +10613,18 @@
           "name": "Don Cheadle",
           "nconst": "nm0000332",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0395169",
+            "tt0375679",
+            "tt1540133",
+            "tt0988047"
+          ]
         }
       },
       {
@@ -8117,7 +10638,18 @@
           "name": "Nicolas Cage",
           "nconst": "nm0000115",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0119094",
+            "tt0399295",
+            "tt0113627",
+            "tt0117500"
+          ]
         }
       },
       {
@@ -8131,7 +10663,18 @@
           "name": "Nicolas Cage",
           "nconst": "nm0000115",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0119094",
+            "tt0399295",
+            "tt0113627",
+            "tt0117500"
+          ]
         }
       },
       {
@@ -8145,7 +10688,18 @@
           "name": "Nicolas Cage",
           "nconst": "nm0000115",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0119094",
+            "tt0399295",
+            "tt0113627",
+            "tt0117500"
+          ]
         }
       },
       {
@@ -8159,7 +10713,18 @@
           "name": "Nicolas Cage",
           "nconst": "nm0000115",
           "birthYear": 1964,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0119094",
+            "tt0399295",
+            "tt0113627",
+            "tt0117500"
+          ]
         }
       }
     ],
@@ -8280,7 +10845,18 @@
           "name": "Liam Neeson",
           "nconst": "nm0000553",
           "birthYear": 1952,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "soundtrack",
+            "producer"
+          ],
+          "knownFor": [
+            "tt1601913",
+            "tt0108052",
+            "tt0120915",
+            "tt0362269"
+          ]
         }
       },
       {
@@ -8294,7 +10870,18 @@
           "name": "Liam Neeson",
           "nconst": "nm0000553",
           "birthYear": 1952,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "soundtrack",
+            "producer"
+          ],
+          "knownFor": [
+            "tt1601913",
+            "tt0108052",
+            "tt0120915",
+            "tt0362269"
+          ]
         }
       },
       {
@@ -8308,7 +10895,18 @@
           "name": "John Denver",
           "nconst": "nm0000135",
           "birthYear": 1943,
-          "deathYear": 1997
+          "deathYear": 1997,
+          "professions": [
+            "soundtrack",
+            "music_department",
+            "actor"
+          ],
+          "knownFor": [
+            "tt0120591",
+            "tt4649466",
+            "tt0076489",
+            "tt3967856"
+          ]
         }
       }
     ],
@@ -8439,7 +11037,16 @@
           "name": "Fidel Castro",
           "nconst": "nm0004242",
           "birthYear": 1926,
-          "deathYear": 2016
+          "deathYear": 2016,
+          "professions": [
+            "actor"
+          ],
+          "knownFor": [
+            "tt2088683",
+            "tt0827190",
+            "tt1098200",
+            "tt0430278"
+          ]
         }
       }
     ],
@@ -8653,7 +11260,18 @@
           "name": "Donald Sutherland",
           "nconst": "nm0000661",
           "birthYear": 1935,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "soundtrack",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0066026",
+            "tt0414387",
+            "tt1951265",
+            "tt1951264"
+          ]
         }
       },
       {
@@ -8667,7 +11285,18 @@
           "name": "Donald Sutherland",
           "nconst": "nm0000661",
           "birthYear": 1935,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "soundtrack",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0066026",
+            "tt0414387",
+            "tt1951265",
+            "tt1951264"
+          ]
         }
       },
       {
@@ -8681,7 +11310,18 @@
           "name": "Dennis Hopper",
           "nconst": "nm0000454",
           "birthYear": 1936,
-          "deathYear": 2010
+          "deathYear": 2010,
+          "professions": [
+            "actor",
+            "director",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0114898",
+            "tt0090756",
+            "tt0064276",
+            "tt0111257"
+          ]
         }
       },
       {
@@ -8695,7 +11335,18 @@
           "name": "Woody Allen",
           "nconst": "nm0000095",
           "birthYear": 1935,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "writer",
+            "director",
+            "actor"
+          ],
+          "knownFor": [
+            "tt0097123",
+            "tt0118954",
+            "tt0075686",
+            "tt0079522"
+          ]
         }
       }
     ],
@@ -8757,7 +11408,18 @@
           "name": "Michael Douglas",
           "nconst": "nm0000140",
           "birthYear": 1944,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt1291580",
+            "tt0103772",
+            "tt0093010",
+            "tt0094291"
+          ]
         }
       },
       {
@@ -8771,7 +11433,17 @@
           "name": "Brigitte Nielsen",
           "nconst": "nm0000557",
           "birthYear": 1963,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "soundtrack",
+            "producer"
+          ],
+          "knownFor": [
+            "tt5073058",
+            "tt0092644",
+            "tt0089893"
+          ]
         }
       },
       {
@@ -8785,7 +11457,18 @@
           "name": "Prince",
           "nconst": "nm0002239",
           "birthYear": 1958,
-          "deathYear": 2016
+          "deathYear": 2016,
+          "professions": [
+            "soundtrack",
+            "composer",
+            "actor"
+          ],
+          "knownFor": [
+            "tt0096895",
+            "tt0099691",
+            "tt0092133",
+            "tt0087957"
+          ]
         }
       }
     ],
@@ -8824,7 +11507,17 @@
           "name": "James Earl Jones",
           "nconst": "nm0000469",
           "birthYear": 1931,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt3748528",
+            "tt0086190",
+            "tt0094898",
+            "tt0099810"
+          ]
         }
       },
       {
@@ -8838,7 +11531,18 @@
           "name": "James Spader",
           "nconst": "nm0000652",
           "birthYear": 1960,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0402711",
+            "tt2741602",
+            "tt2395427",
+            "tt0098724"
+          ]
         }
       }
     ],
@@ -8878,7 +11582,18 @@
           "name": "Sidney Poitier",
           "nconst": "nm0001627",
           "birthYear": 1927,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "director",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0061735",
+            "tt0057251",
+            "tt0061811",
+            "tt0051525"
+          ]
         }
       },
       {
@@ -8892,7 +11607,18 @@
           "name": "Meg Ryan",
           "nconst": "nm0000212",
           "birthYear": 1961,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0098635",
+            "tt0128853",
+            "tt0108160",
+            "tt0120632"
+          ]
         }
       },
       {
@@ -8906,7 +11632,18 @@
           "name": "Ralph Macchio",
           "nconst": "nm0001494",
           "birthYear": 1961,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0086066",
+            "tt0104952",
+            "tt0097647",
+            "tt0087538"
+          ]
         }
       }
     ],
@@ -9119,7 +11856,18 @@
           "name": "Vin Diesel",
           "nconst": "nm0004874",
           "birthYear": 1967,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "actor",
+            "director"
+          ],
+          "knownFor": [
+            "tt2820852",
+            "tt0232500",
+            "tt0295701",
+            "tt2015381"
+          ]
         }
       },
       {
@@ -9133,7 +11881,18 @@
           "name": "Vin Diesel",
           "nconst": "nm0004874",
           "birthYear": 1967,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "actor",
+            "director"
+          ],
+          "knownFor": [
+            "tt2820852",
+            "tt0232500",
+            "tt0295701",
+            "tt2015381"
+          ]
         }
       },
       {
@@ -9147,7 +11906,18 @@
           "name": "Robert Rodriguez",
           "nconst": "nm0001675",
           "birthYear": 1968,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "writer",
+            "director"
+          ],
+          "knownFor": [
+            "tt1077258",
+            "tt0104815",
+            "tt0287717",
+            "tt0458481"
+          ]
         }
       },
       {
@@ -9161,7 +11931,18 @@
           "name": "Steven Spielberg",
           "nconst": "nm0000229",
           "birthYear": 1946,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "writer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0082971",
+            "tt0083866",
+            "tt0120815",
+            "tt0108052"
+          ]
         }
       }
     ],
@@ -9200,7 +11981,18 @@
           "name": "John Cusack",
           "nconst": "nm0000131",
           "birthYear": 1966,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0098258",
+            "tt0119229",
+            "tt0450385",
+            "tt0146882"
+          ]
         }
       },
       {
@@ -9214,7 +12006,18 @@
           "name": "Anjelica Huston",
           "nconst": "nm0001378",
           "birthYear": 1951,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0106220",
+            "tt0100944",
+            "tt0120631",
+            "tt0101272"
+          ]
         }
       },
       {
@@ -9228,7 +12031,18 @@
           "name": "Jim Belushi",
           "nconst": "nm0000902",
           "birthYear": 1954,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "music_department",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0117468",
+            "tt0095963",
+            "tt0091419",
+            "tt0072562"
+          ]
         }
       }
     ],
@@ -9413,7 +12227,18 @@
           "name": "Arnold Schwarzenegger",
           "nconst": "nm0000216",
           "birthYear": 1947,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0111503",
+            "tt0093773",
+            "tt0216216",
+            "tt0103064"
+          ]
         }
       }
     ],
@@ -9453,7 +12278,18 @@
           "name": "Robert Downey Jr.",
           "nconst": "nm0000375",
           "birthYear": 1965,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0848228",
+            "tt1300854",
+            "tt0371746",
+            "tt0988045"
+          ]
         }
       },
       {
@@ -9467,7 +12303,18 @@
           "name": "Andy Kaufman",
           "nconst": "nm0001412",
           "birthYear": 1949,
-          "deathYear": 1984
+          "deathYear": 1984,
+          "professions": [
+            "actor",
+            "soundtrack",
+            "writer"
+          ],
+          "knownFor": [
+            "tt0125664",
+            "tt0080917",
+            "tt0082507",
+            "tt0077089"
+          ]
         }
       }
     ],
@@ -9507,7 +12354,18 @@
           "name": "Jack Nicholson",
           "nconst": "nm0000197",
           "birthYear": 1937,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "soundtrack",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0119822",
+            "tt0071315",
+            "tt0073486",
+            "tt0407887"
+          ]
         }
       },
       {
@@ -9521,7 +12379,18 @@
           "name": "Christian Slater",
           "nconst": "nm0000225",
           "birthYear": 1969,
-          "deathYear": "\\N"
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0102798",
+            "tt0108399",
+            "tt0124198",
+            "tt0097493"
+          ]
         }
       }
     ],
