@@ -3032,6 +3032,30 @@
     "people": [
       {
         "reference": {
+          "entity": "Kate Winslet",
+          "sentence": "Sounds like a porno with Kate Winslet.",
+          "startIndex": 155,
+          "endIndex": 167
+        },
+        "referent": {
+          "name": "Kate Winslet",
+          "nconst": "nm0000701",
+          "birthYear": 1975,
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0338013",
+            "tt0959337",
+            "tt0114388",
+            "tt0120338"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Billy Joel",
           "sentence": "If that stands for \"What would Billy Joel do?",
           "startIndex": 814,
@@ -3404,26 +3428,7 @@
         }
       }
     ],
-    "titles": [
-      {
-        "reference": {
-          "entity": "Kate",
-          "sentence": "Sounds like a porno with Kate Winslet.",
-          "startIndex": 155,
-          "endIndex": 159
-        },
-        "referent": {
-          "title": "Kate",
-          "tconst": "tt0120975",
-          "titleType": "tvSeries",
-          "startYear": 1970,
-          "endYear": 1972,
-          "genres": [
-            "Drama"
-          ]
-        }
-      }
-    ]
+    "titles": []
   },
   "s01e15": {
     "people": [
@@ -4065,13 +4070,14 @@
         },
         "referent": {
           "title": "Law & Order",
-          "tconst": "tt0405564",
-          "titleType": "tvMiniSeries",
-          "startYear": 1978,
-          "endYear": "\\N",
+          "tconst": "tt0098844",
+          "titleType": "tvSeries",
+          "startYear": 1990,
+          "endYear": 2010,
           "genres": [
             "Crime",
-            "Drama"
+            "Drama",
+            "Mystery"
           ]
         }
       },
@@ -5333,8 +5339,7 @@
     "titles": []
   },
   "s02e15": {
-    "people": [],
-    "titles": [
+    "people": [
       {
         "reference": {
           "entity": "Ellen",
@@ -5343,17 +5348,25 @@
           "endIndex": 1052
         },
         "referent": {
-          "title": "Ellen",
-          "tconst": "tt0108761",
-          "titleType": "tvSeries",
-          "startYear": 1994,
-          "endYear": 1998,
-          "genres": [
-            "Comedy",
-            "Romance"
+          "name": "Ellen Degeneres",
+          "nconst": "nm0001122",
+          "birthYear": 1958,
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "writer",
+            "actress"
+          ],
+          "knownFor": [
+            "tt0266543",
+            "tt0379623",
+            "tt0108761",
+            "tt2796782"
           ]
         }
-      },
+      }
+    ],
+    "titles": [
       {
         "reference": {
           "entity": "Saw",
@@ -5376,24 +5389,6 @@
       },
       {
         "reference": {
-          "entity": "Mariah",
-          "sentence": "Thank you, Mariah.",
-          "startIndex": 8202,
-          "endIndex": 8208
-        },
-        "referent": {
-          "title": "Mariah",
-          "tconst": "tt0092398",
-          "titleType": "tvSeries",
-          "startYear": 1987,
-          "endYear": "\\N",
-          "genres": [
-            "Drama"
-          ]
-        }
-      },
-      {
-        "reference": {
           "entity": "Saw",
           "sentence": "Well, I mean, he did talk about the Saw movies for two hours.",
           "startIndex": 8937,
@@ -5409,24 +5404,6 @@
             "Horror",
             "Mystery",
             "Thriller"
-          ]
-        }
-      },
-      {
-        "reference": {
-          "entity": "Nicholas Nickleby",
-          "sentence": "Who the hell is Nicholas Nickleby?",
-          "startIndex": 9291,
-          "endIndex": 9308
-        },
-        "referent": {
-          "title": "Nicholas Nickleby",
-          "tconst": "tt0498745",
-          "titleType": "tvMiniSeries",
-          "startYear": 1968,
-          "endYear": "\\N",
-          "genres": [
-            "Drama"
           ]
         }
       }
@@ -7833,25 +7810,6 @@
             "Thriller"
           ]
         }
-      },
-      {
-        "reference": {
-          "entity": "Kitty",
-          "sentence": "If I write stuff down in a Hello Kitty book, will you like me again?",
-          "startIndex": 11285,
-          "endIndex": 11290
-        },
-        "referent": {
-          "title": "Kitty",
-          "tconst": "tt0037849",
-          "titleType": "movie",
-          "startYear": 1945,
-          "endYear": "\\N",
-          "genres": [
-            "Drama",
-            "History"
-          ]
-        }
       }
     ]
   },
@@ -8113,28 +8071,7 @@
     ]
   },
   "s03e17": {
-    "people": [],
-    "titles": [
-      {
-        "reference": {
-          "entity": "Mama",
-          "sentence": "Now if you'll excuse me, I was watching Mama's Family.",
-          "startIndex": 1337,
-          "endIndex": 1341
-        },
-        "referent": {
-          "title": "Mama",
-          "tconst": "tt0163084",
-          "titleType": "movie",
-          "startYear": 1999,
-          "endYear": "\\N",
-          "genres": [
-            "Comedy",
-            "Drama",
-            "Music"
-          ]
-        }
-      },
+    "people": [
       {
         "reference": {
           "entity": "Oscar Wilde",
@@ -8143,14 +8080,38 @@
           "endIndex": 3337
         },
         "referent": {
-          "title": "Oscar Wilde",
-          "tconst": "tt0180892",
-          "titleType": "tvMovie",
-          "startYear": 1972,
-          "endYear": "\\N",
+          "name": "Oscar Wilde",
+          "nconst": "nm0928492",
+          "birthYear": 1854,
+          "deathYear": 1900,
+          "professions": [
+            "writer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0037988",
+            "tt1235124",
+            "tt0084565"
+          ]
+        }
+      }
+    ],
+    "titles": [
+      {
+        "reference": {
+          "entity": "Mama",
+          "sentence": "Now if you'll excuse me, I was watching Mama's Family.",
+          "startIndex": 1337,
+          "endIndex": 1350
+        },
+        "referent": {
+          "title": "Mama's Family",
+          "tconst": "tt0085050",
+          "titleType": "tvSeries",
+          "startYear": 1983,
+          "endYear": 1990,
           "genres": [
-            "Biography",
-            "Drama"
+            "Comedy"
           ]
         }
       }
@@ -8384,19 +8345,21 @@
       },
       {
         "reference": {
-          "entity": "Ocean",
-          "sentence": "Ocean's eleven, baby.",
+          "entity": "Ocean's Eleven",
+          "sentence": "Ocean's Eleven, baby.",
           "startIndex": 9329,
-          "endIndex": 9334
+          "endIndex": 9343
         },
         "referent": {
-          "title": "Ocean",
-          "tconst": "tt0098012",
-          "titleType": "tvMiniSeries",
-          "startYear": 1989,
+          "title": "Ocean's Eleven",
+          "tconst": "tt0054135",
+          "titleType": "movie",
+          "startYear": 1960,
           "endYear": "\\N",
           "genres": [
-            "Drama"
+            "Comedy",
+            "Crime",
+            "Music"
           ]
         }
       }
@@ -8458,55 +8421,38 @@
     "titles": [
       {
         "reference": {
-          "entity": "Scout",
-          "sentence": "Scout's honor, Sinead O'Connor.",
-          "startIndex": 5477,
-          "endIndex": 5482
-        },
-        "referent": {
-          "title": "Scout",
-          "tconst": "tt0338415",
-          "titleType": "tvMovie",
-          "startYear": 1987,
-          "endYear": "\\N",
-          "genres": [
-            "Drama"
-          ]
-        }
-      },
-      {
-        "reference": {
-          "entity": "Amy",
+          "entity": "Judging Amy",
           "sentence": "Judging Amy or Judge Judy?",
-          "startIndex": 5631,
+          "startIndex": 5623,
           "endIndex": 5634
         },
         "referent": {
-          "title": "Amy",
-          "tconst": "tt0133367",
-          "titleType": "tvMovie",
-          "startYear": 1984,
-          "endYear": "\\N",
+          "title": "Judging Amy",
+          "tconst": "tt0209069",
+          "titleType": "tvSeries",
+          "startYear": 1999,
+          "endYear": 2005,
           "genres": [
-            "Biography"
+            "Drama"
           ]
         }
       },
       {
         "reference": {
-          "entity": "Judy",
+          "entity": "Judge Judy",
           "sentence": "Judging Amy or Judge Judy?",
-          "startIndex": 5644,
+          "startIndex": 5638,
           "endIndex": 5648
         },
         "referent": {
-          "title": "Judy",
-          "tconst": "tt0453503",
-          "titleType": "movie",
-          "startYear": 2005,
+          "title": "Judge Judy",
+          "tconst": "tt0115227",
+          "titleType": "tvSeries",
+          "startYear": 1996,
           "endYear": "\\N",
           "genres": [
-            "Drama"
+            "Crime",
+            "Reality-TV"
           ]
         }
       },
@@ -9455,13 +9401,14 @@
         },
         "referent": {
           "title": "Law & Order",
-          "tconst": "tt0405564",
-          "titleType": "tvMiniSeries",
-          "startYear": 1978,
-          "endYear": "\\N",
+          "tconst": "tt0098844",
+          "titleType": "tvSeries",
+          "startYear": 1990,
+          "endYear": 2010,
           "genres": [
             "Crime",
-            "Drama"
+            "Drama",
+            "Mystery"
           ]
         }
       },
@@ -9523,37 +9470,39 @@
       },
       {
         "reference": {
-          "entity": "Judy",
+          "entity": "Judge Judy",
           "sentence": "Well, there you all go, giving me that look, treating me like Judas, judging me like Judy.",
-          "startIndex": 11028,
+          "startIndex": 11022,
           "endIndex": 11032
         },
         "referent": {
-          "title": "Judy",
-          "tconst": "tt0453503",
-          "titleType": "movie",
-          "startYear": 2005,
+          "title": "Judge Judy",
+          "tconst": "tt0115227",
+          "titleType": "tvSeries",
+          "startYear": 1996,
           "endYear": "\\N",
           "genres": [
-            "Drama"
+            "Crime",
+            "Reality-TV"
           ]
         }
       },
       {
         "reference": {
-          "entity": "Judy",
+          "entity": "Judge Judy",
           "sentence": "You know, Judge Judy.",
-          "startIndex": 11050,
+          "startIndex": 11044,
           "endIndex": 11054
         },
         "referent": {
-          "title": "Judy",
-          "tconst": "tt0453503",
-          "titleType": "movie",
-          "startYear": 2005,
+          "title": "Judge Judy",
+          "tconst": "tt0115227",
+          "titleType": "tvSeries",
+          "startYear": 1996,
           "endYear": "\\N",
           "genres": [
-            "Drama"
+            "Crime",
+            "Reality-TV"
           ]
         }
       }
@@ -11770,6 +11719,29 @@
             "tt0072562"
           ]
         }
+      },
+      {
+        "reference": {
+          "entity": "Oscar Wilde",
+          "sentence": "I'm reminded of something Oscar Wilde once said when he compared sheep to wolves.",
+          "startIndex": 12935,
+          "endIndex": 12946
+        },
+        "referent": {
+          "name": "Oscar Wilde",
+          "nconst": "nm0928492",
+          "birthYear": 1854,
+          "deathYear": 1900,
+          "professions": [
+            "writer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0037988",
+            "tt1235124",
+            "tt0084565"
+          ]
+        }
       }
     ],
     "titles": [
@@ -11916,25 +11888,6 @@
           "endYear": "\\N",
           "genres": [
             "Comedy"
-          ]
-        }
-      },
-      {
-        "reference": {
-          "entity": "Oscar Wilde",
-          "sentence": "I'm reminded of something Oscar Wilde once said when he compared sheep to wolves.",
-          "startIndex": 12935,
-          "endIndex": 12946
-        },
-        "referent": {
-          "title": "Oscar Wilde",
-          "tconst": "tt0180892",
-          "titleType": "tvMovie",
-          "startYear": 1972,
-          "endYear": "\\N",
-          "genres": [
-            "Biography",
-            "Drama"
           ]
         }
       }
