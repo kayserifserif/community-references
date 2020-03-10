@@ -21,7 +21,7 @@ def makeAnnotations(epCode):
     for instance in epRefs[refType]:
       reference = instance["reference"]
       indices.append([
-        reference["startIndex"], reference["endIndex"], reference["entity"]
+        reference["startIndex"], reference["endIndex"], reference["entity"], refType
       ])
   indices = sorted(indices)
   # if there are any references
@@ -30,7 +30,7 @@ def makeAnnotations(epCode):
     lines += transcript[:indices[0][0]]
     # wrap the reference and add it
     for i, indexSet in enumerate(indices):
-      lines += "<span class=\"reference\">" + indexSet[2] + "</span>"
+      lines += "<span class=\"reference " + indexSet[3] + "\">" + indexSet[2] + "</span>"
       # continue adding the transcript up until the next reference
       end = indexSet[1]
       if (i is not (len(indices) - 1)):
@@ -54,7 +54,9 @@ def makeAnnotations(epCode):
        + ".nav a:first-of-type {{ margin-right: 1em }}\n" \
        + "#title {{ text-align: center }}\n" \
        + "#transcript {{ width: 60%; margin: 100px auto; }}\n" \
-       + ".reference {{ display: inline-block; padding: 0.2em 0.5em; background-color: #c0eeee }}\n" \
+       + ".reference {{ display: inline-block; padding: 0.2em 0.5em; }}\n" \
+       + ".people {{ background-color: #c0eeee }}\n" \
+       + ".titles {{ background-color: #eedcc0 }}\n" \
        + "</style>\n" \
        + "</head>\n"
   html += head

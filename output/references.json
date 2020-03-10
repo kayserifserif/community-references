@@ -17,6 +17,20 @@
       },
       {
         "reference": {
+          "entity": "Seacrest",
+          "sentence": "That means you do my homework, right, Seacrest?",
+          "startIndex": 7844,
+          "endIndex": 7852
+        },
+        "referent": {
+          "name": "Ryan Seacrest",
+          "nconst": "nm0780435",
+          "birthYear": 1974,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
           "entity": "Elisabeth Shue",
           "sentence": "You look like Elisabeth Shue.",
           "startIndex": 13132,
@@ -135,6 +149,25 @@
       },
       {
         "reference": {
+          "entity": "Breakfast Club",
+          "sentence": "Hey, this is kind of like Breakfast Club, huh?",
+          "startIndex": 5623,
+          "endIndex": 5637
+        },
+        "referent": {
+          "title": "The Breakfast Club",
+          "tconst": "tt0088847",
+          "titleType": "movie",
+          "startYear": 1985, 
+          "endYear": "\\N", 
+          "genres": [
+            "Comedy", 
+            "Drama"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Slumdog Millionaire",
           "sentence": "Gonna leave my homework with Slumdog Millionaire.",
           "startIndex": 8180,
@@ -149,6 +182,25 @@
           "genres": [
             "Drama",
             "Romance"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Breakfast Club",
+          "sentence": "Way more like Breakfast Club now.",
+          "startIndex": 9432,
+          "endIndex": 9446
+        },
+        "referent": {
+          "title": "The Breakfast Club",
+          "tconst": "tt0088847",
+          "titleType": "movie",
+          "startYear": 1985, 
+          "endYear": "\\N", 
+          "genres": [
+            "Comedy", 
+            "Drama"
           ]
         }
       },
@@ -192,6 +244,25 @@
       },
       {
         "reference": {
+          "entity": "Breakfast Club",
+          "sentence": "This isn't like Breakfast Club anymore.",
+          "startIndex": 15789,
+          "endIndex": 15803
+        },
+        "referent": {
+          "title": "The Breakfast Club",
+          "tconst": "tt0088847",
+          "titleType": "movie",
+          "startYear": 1985,
+          "endYear": "\\N",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Stripes",
           "sentence": "It's Stripes or Meatballs.",
           "startIndex": 15818,
@@ -206,6 +277,24 @@
           "genres": [
             "Comedy",
             "War"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Meatballs",
+          "sentence": "It's Stripes or Meatballs.",
+          "startIndex": 15829,
+          "endIndex": 15838
+        },
+        "referent": {
+          "title": "Meatballs",
+          "tconst": "tt0079540",
+          "titleType": "movie",
+          "startYear": 1979,
+          "endYear": "\\N",
+          "genres": [
+            "Comedy"
           ]
         }
       }
@@ -248,6 +337,20 @@
     "people": [
       {
         "reference": {
+          "entity": "Dane Cook",
+          "sentence": "Do you like Dane Cook?",
+          "startIndex": 163,
+          "endIndex": 172
+        },
+        "referent": {
+          "name": "Dane Cook",
+          "nconst": "nm0176981",
+          "birthYear": 1972,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
           "entity": "Robin Williams",
           "sentence": "I'll do it, I love Robin Williams.",
           "startIndex": 1503,
@@ -259,9 +362,42 @@
           "birthYear": 1951,
           "deathYear": 2014
         }
+      },
+      {
+        "reference": {
+          "entity": "Weezer",
+          "sentence": "Hey, wait a minute, where's Weezer?",
+          "startIndex": 11716,
+          "endIndex": 11722
+        },
+        "referent": {
+          "name": "Weezer",
+          "nconst": "nm1143053",
+          "birthYear": "\\N",
+          "deathYear": "\\N"
+        }
       }
     ],
     "titles": [
+      {
+        "reference": {
+          "entity": "Dead Poets Society",
+          "sentence": "Professor Whitman, he thinks he's in Dead Poets Society.",
+          "startIndex": 1254,
+          "endIndex": 1272
+        },
+        "referent": {
+          "title": "Dead Poets Society",
+          "tcost": "tt0097165",
+          "titleType": "movie",
+          "startYear": 1989,
+          "endYear": "\\N",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ]
+        }
+      },
       {
         "reference": {
           "entity": "Aladdin",
@@ -327,8 +463,8 @@
         "reference": {
           "entity": "Benny Hill",
           "sentence": "I can make them go quicker, it's like Benny Hill.",
-          "startIndex": 5715,
-          "endIndex": 5725
+          "startIndex": 5714,
+          "endIndex": 5724
         },
         "referent": {
           "name": "Benny Hill",
@@ -341,8 +477,8 @@
         "reference": {
           "entity": "John Lennon",
           "sentence": "Go kill John Lennon again, you loser.",
-          "startIndex": 7917,
-          "endIndex": 7928
+          "startIndex": 7916,
+          "endIndex": 7927
         },
         "referent": {
           "name": "John Lennon",
@@ -350,15 +486,86 @@
           "birthYear": 1940,
           "deathYear": 1980
         }
+      },
+      {
+        "reference": {
+          "entity": "Seacrest",
+          "sentence": "I'm Dr. Doogie Seacrest.",
+          "startIndex": 15129,
+          "endIndex": 15137
+        },
+        "referent": {
+          "name": "Ryan Seacrest",
+          "nconst": "nm0780435",
+          "birthYear": 1974,
+          "deathYear": "\\N"
+        }
       }
     ],
     "titles": [
       {
         "reference": {
+          "entity": "Indiana Jones",
+          "sentence": "Tomorrow, they're showing all four \"Indiana Jones\"es at The Vista.",
+          "startIndex": 2574,
+          "endIndex": 2587
+        },
+        "referent": {
+          "title": "Raiders of the Lost Ark",
+          "tconst": "tt0082971",
+          "titleType": "movie",
+          "startYear": 1981,
+          "endYear": "\\N",
+          "genres": [
+            "Action",
+            "Adventure"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Chandler and Phoebe",
+          "sentence": "I figured we were really more like Chandler and Phoebe.",
+          "startIndex": 2851,
+          "endIndex": 3870
+        },
+        "referent": {
+          "title": "Friends",
+          "tconst": "tt0108778",
+          "titleType": "tvSeries",
+          "startYear": 1994,
+          "endYear": "2004",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Chandler",
+          "sentence": "Sure, I'll do it, Chandler.",
+          "startIndex": 2930,
+          "endIndex": 2938
+        },
+        "referent": {
+          "title": "Friends",
+          "tconst": "tt0108778",
+          "titleType": "tvSeries",
+          "startYear": 1994,
+          "endYear": "2004",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Inspector Gadget",
           "sentence": "He's like Inspector Gadget.",
-          "startIndex": 5132,
-          "endIndex": 5148
+          "startIndex": 5131,
+          "endIndex": 5147
         },
         "referent": {
           "title": "Inspector Gadget",
@@ -375,10 +582,65 @@
       },
       {
         "reference": {
+          "entity": "Soul Train Awards",
+          "sentence": "The Soul Train Awards were tonight.",
+          "startIndex": 5906,
+          "endIndex": 5923
+        },
+        "referent": {
+          "title": "Soul Train Awards",
+          "tconst": "tt1556542",
+          "titleType": "tvSpecial",
+          "startYear": 2009,
+          "endYear": "\\N",
+          "genres": [
+            "Music"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Rain Man",
+          "sentence": "Not Rain Man.",
+          "startIndex": 8132,
+          "endIndex": 8140
+        },
+        "referent": {
+          "title": "Rain Man",
+          "tconst": "tt0095953",
+          "titleType": "movie",
+          "startYear": 1988,
+          "endYear": "\\N",
+          "genres": [
+            "Drama"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Indiana Jones",
+          "sentence": "Indiana Jones, cool.",
+          "startIndex": 13564,
+          "endIndex": 13577
+        },
+        "referent": {
+          "title": "Raiders of the Lost Ark",
+          "tconst": "tt0082971",
+          "titleType": "movie",
+          "startYear": 1981,
+          "endYear": "\\N",
+          "genres": [
+            "Action",
+            "Adventure"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Inspector Gadget",
           "sentence": "He must've heard us call him Inspector Gadget.",
-          "startIndex": 14890,
-          "endIndex": 14906
+          "startIndex": 14889,
+          "endIndex": 14905
         },
         "referent": {
           "title": "Inspector Gadget",
@@ -392,11 +654,79 @@
             "Comedy"
           ]
         }
+      },
+      {
+        "reference": {
+          "entity": "Desperate Housewives",
+          "sentence": "Hey, man, coming through, I love the Desperate Housewives.",
+          "startIndex": 15092,
+          "endIndex": 15112
+        },
+        "referent": {
+          "title": "Desperate Housewives",
+          "tconst": "tt0410975",
+          "titleType": "tvSeries",
+          "startYear": 2004,
+          "endYear": 2012,
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Mystery"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Dr. Doogie",
+          "sentence": "I'm Dr. Doogie Seacrest.",
+          "startIndex": 15118,
+          "endIndex": 15128
+        },
+        "referent": {
+          "title": "Doogie Howser, M.D.",
+          "tconst": "tt0096569",
+          "titleType": "tvSeries",
+          "startYear": 1989,
+          "endYear": 1993,
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Family"
+          ]
+        }
       }
     ]
   },
   "s01e05": {
     "people": [
+      {
+        "reference": {
+          "entity": "Luis Guzmán",
+          "sentence": "This is your dean reminding you that among your school's prestigious alumni is Mr. Luis Guzmán.",
+          "startIndex": 126,
+          "endIndex": 137
+        },
+        "referent": {
+          "name": "Luis Guzmán",
+          "nconst": "nm0350079",
+          "birthYear": 1956,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Guzmán",
+          "sentence": "This Friday, we will be dedicating a statue of Guzmán, and unveiling our brand-new school song.",
+          "startIndex": 236,
+          "endIndex": 242
+        },
+        "referent": {
+          "name": "Luis Guzmán",
+          "nconst": "nm0350079",
+          "birthYear": 1956,
+          "deathYear": "\\N"
+        }
+      },
       {
         "reference": {
           "entity": "Cate Blanchett",
@@ -408,6 +738,34 @@
           "name": "Cate Blanchett",
           "nconst": "nm0000949",
           "birthYear": 1969,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Luis Guzmán",
+          "sentence": "You think Luis Guzmán will come to visit his statue? If so, I'd like to ask him about his movie choices.",
+          "startIndex": 1180,
+          "endIndex": 1191
+        },
+        "referent": {
+          "name": "Luis Guzmán",
+          "nconst": "nm0350079",
+          "birthYear": 1956,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Luis Guzmán",
+          "sentence": "Luis Guzmán is on a private jet from Hollywood because he can't wait to have that conversation with you.",
+          "startIndex": 1347,
+          "endIndex": 1358
+        },
+        "referent": {
+          "name": "Luis Guzmán",
+          "nconst": "nm0350079",
+          "birthYear": 1956,
           "deathYear": "\\N"
         }
       },
@@ -438,6 +796,48 @@
           "birthYear": 1949,
           "deathYear": "\\N"
         }
+      },
+      {
+        "reference": {
+          "entity": "Luis Guzmán",
+          "sentence": "One, two, Luis Guzmán.",
+          "startIndex": 15816,
+          "endIndex": 15827
+        },
+        "referent": {
+          "name": "Luis Guzmán",
+          "nconst": "nm0350079",
+          "birthYear": 1956,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Luis",
+          "sentence": "All right, Luis.",
+          "startIndex": 15852,
+          "endIndex": 15856
+        },
+        "referent": {
+          "name": "Luis Guzmán",
+          "nconst": "nm0350079",
+          "birthYear": 1956,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Bruce Hornsby",
+          "sentence": "Is this Bruce Hornsby's?",
+          "startIndex": 16339,
+          "endIndex": 16352
+        },
+        "referent": {
+          "name": "Bruce Hornsby",
+          "nconst": "nm0395193",
+          "birthYear": 1954,
+          "deathYear": "\\N"
+        }
       }
     ],
     "titles": [
@@ -460,11 +860,123 @@
             "Crime"
           ]
         }
+      },
+      {
+        "reference": {
+          "entity": "M*A*S*H",
+          "sentence": "M*A*S*H.",
+          "startIndex": 1118,
+          "endIndex": 1125
+        },
+        "referent": {
+          "title": "M*A*S*H",
+          "tconst": "tt0068098",
+          "titleType": "tvSeries",
+          "startYear": 1972,
+          "endYear": 1983,
+          "genres": [
+            "Comedy",
+            "Drama",
+            "War"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Fawlty Towers",
+          "sentence": "Fawlty Towers, game over.",
+          "startIndex": 1127,
+          "endIndex": 1140
+        },
+        "referent": {
+          "title": "Fawlty Towers",
+          "tconst": "tt0072500",
+          "titleType": "tvSeries",
+          "startYear": 1975,
+          "endYear": 1979,
+          "genres": [
+            "Comedy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Carlito's Way",
+          "sentence": "Particularly Carlito's Way, The Cowboy Way, The Hard Way and Q&A.",
+          "startIndex": 1288,
+          "endIndex": 1301
+        },
+        "referent": {
+          "title": "Carlito's Way",
+          "tconst": "tt0106519",
+          "titleType": "movie",
+          "startYear": 1993,
+          "endYear": "\\N",
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "The Cowboy Way",
+          "sentence": "Particularly Carlito's Way, The Cowboy Way, The Hard Way and Q&A.",
+          "startIndex": 1303,
+          "endIndex": 1317
+        },
+        "referent": {
+          "title": "The Cowboy Way",
+          "tconst": "tt0109493",
+          "titleType": "movie",
+          "startYear": 1994,
+          "endYear": "\\N",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Crime"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "The Hard Way",
+          "sentence": "Particularly Carlito's Way, The Cowboy Way, The Hard Way and Q&A.",
+          "startIndex": 1319,
+          "endIndex": 1331
+        },
+        "referent": {
+          "title": "The Hard Way",
+          "tconst": "tt0102004",
+          "titleType": "movie",
+          "startYear": 1991,
+          "endYear": "\\N",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Crime"
+          ]
+        }
       }
     ]
   },
   "s01e06": {
     "people": [
+      {
+        "reference": {
+          "entity": "Yoko Ono",
+          "sentence": "Yoko Ono much?",
+          "startIndex": 2092,
+          "endIndex": 2100
+        },
+        "referent": {
+          "name": "Yoko Ono",
+          "nconst": "nm0648780",
+          "birthYear": 1933,
+          "deathYear": "\\N"
+        }
+      },
       {
         "reference": {
           "entity": "Moby",
@@ -481,10 +993,80 @@
       },
       {
         "reference": {
+          "entity": "Phylicia Rashad",
+          "sentence": "I think if we add in a little bit of Phylicia Rashad, we'll be in better shape.",
+          "startIndex": 12238,
+          "endIndex": 12253
+        },
+        "referent": {
+          "name": "Phylicia Rashad",
+          "nconst": "nm0711118",
+          "birthYear": 1948,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Seal",
+          "sentence": "Is that Seal?",
+          "startIndex": 12579,
+          "endIndex": 12583
+        },
+        "referent": {
+          "name": "Seal",
+          "nconst": "nm0780499",
+          "birthYear": 1963,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Seal",
+          "sentence": "It goes from Seal to Seal's teeth.",
+          "startIndex": 12633,
+          "endIndex": 12637
+        },
+        "referent": {
+          "name": "Seal",
+          "nconst": "nm0780499",
+          "birthYear": 1963,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Seal",
+          "sentence": "It goes from Seal to Seal's teeth.",
+          "startIndex": 12641,
+          "endIndex": 12645
+        },
+        "referent": {
+          "name": "Seal",
+          "nconst": "nm0780499",
+          "birthYear": 1963,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Desmond Tutu",
+          "sentence": "Yeah, uh, a Desmond Tutu with just enough cream to make it a Lou Diamond Phillips.",
+          "startIndex": 13345,
+          "endIndex": 13357
+        },
+        "referent": {
+          "name": "Desmond Tutu",
+          "nconst": "nm0878379",
+          "birthYear": 1931,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
           "entity": "Lou Diamond Phillips",
           "sentence": "Yeah, uh, a Desmond Tutu with just enough cream to make it a Lou Diamond Phillips.",
-          "startIndex": 13393,
-          "endIndex": 13413
+          "startIndex": 13394,
+          "endIndex": 13414
         },
         "referent": {
           "name": "Lou Diamond Phillips",
@@ -497,10 +1079,50 @@
     "titles": [
       {
         "reference": {
+          "entity": "Benjamin Button",
+          "sentence": "Annie said that Benjamin Button was compelling.",
+          "startIndex": 9458,
+          "endIndex": 9473
+        },
+        "referent": {
+          "title": "The Curious Case of Benjamin Button",
+          "tconst": "tt0421715",
+          "titleType": "movie",
+          "startYear": 2008,
+          "endYear": "\\N",
+          "genres": [
+            "Drama",
+            "Fantasy",
+            "Romance"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Poindexter",
+          "sentence": "You dropped your books, Poindexter.",
+          "startIndex": 11126,
+          "endIndex": 11136
+        },
+        "referent": {
+          "title": "Felix the Cat",
+          "tconst": "tt0278192",
+          "titleType": "tvSeries",
+          "startYear": 1958,
+          "endYear": "\\N",
+          "genres": [
+            "Animation",
+            "Comedy",
+            "Family"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "La Bamba",
           "sentence": "La Bamba.",
-          "startIndex": 13415,
-          "endIndex": 13423
+          "startIndex": 13416,
+          "endIndex": 13424
         },
         "referent": {
           "title": "La Bamba",
@@ -519,8 +1141,8 @@
         "reference": {
           "entity": "Jonny Quest",
           "sentence": "Announcement number three, I am not Hadji from Jonny Quest, Jeff Winger.",
-          "startIndex": 17921,
-          "endIndex": 17932
+          "startIndex": 17922,
+          "endIndex": 17933
         },
         "referent": {
           "title": "Jonny Quest",
@@ -552,9 +1174,56 @@
           "birthYear": 1978,
           "deathYear": "\\N"
         }
+      },
+      {
+        "reference": {
+          "entity": "Gerard Butler",
+          "sentence": "You ever see that Katherine Heigl movie poster, where Gerard Butler had that heart over his wiener?",
+          "startIndex": 2827,
+          "endIndex": 2840
+        },
+        "referent": {
+          "name": "Gerard Butler",
+          "nconst": "nm0124930",
+          "birthYear": 1969,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Pink Floyd",
+          "sentence": "What in the Pink Floyd?",
+          "startIndex": 12809,
+          "endIndex": 12819
+        },
+        "referent": {
+          "name": "Pink Floyd",
+          "nconst": "nm0969139",
+          "birthYear": "\\N",
+          "deathYear": "\\N"
+        }
       }
     ],
     "titles": [
+      {
+        "reference": {
+          "entity": "Van Wilder 2: The Rise of Taj",
+          "sentence": "I got some tequila, and I just rented Van Wilder 2: The Rise of Taj, and look.",
+          "startIndex": 797,
+          "endIndex": 826
+        },
+        "referent": {
+          "title": "Van Wilder 2: The Rise of Taj",
+          "tconst": "tt0480271",
+          "titleType": "movie",
+          "startYear": 2006,
+          "endYear": "\\N",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ]
+        }
+      },
       {
         "reference": {
           "entity": "Ghostbusters",
@@ -616,21 +1285,101 @@
       },
       {
         "reference": {
-          "entity": "Robin Hood",
-          "sentence": "You lost your virginity to Robin Hood?",
-          "startIndex": 8124,
-          "endIndex": 8134
+          "entity": "Beastmaster",
+          "sentence": "From the movie, Beastmaster.",
+          "startIndex": 5979,
+          "endIndex": 5990
         },
         "referent": {
-          "title": "Robin Hood",
-          "tconst": "tt0955308",
+          "title": "The Beastmaster",
+          "tconst": "tt0083630",
           "titleType": "movie",
-          "startYear": 2010,
+          "startYear": 1982,
           "endYear": "\\N",
           "genres": [
             "Action",
-            "Drama",
-            "History"
+            "Adventure",
+            "Fantasy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Urkel",
+          "sentence": "Thanks, Urkel.",
+          "startIndex": 6249,
+          "endIndex": 6254
+        },
+        "referent": {
+          "title": "Family Matters",
+          "tconst": "tt0096579",
+          "titleType": "tvSeries",
+          "startYear": 1989,
+          "endYear": 1998,
+          "genres": [
+            "Adventure",
+            "Comedy",
+            "Drama"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Harry Potter",
+          "sentence": "I'm Harry Potter.",
+          "startIndex": 6260,
+          "endIndex": 6272
+        },
+        "referent": {
+          "title": "Harry Potter and the Sorcerer's Stone",
+          "tconst": "tt0241527",
+          "titleType": "movie",
+          "startYear": 2001,
+          "endYear": "\\N",
+          "genres": [
+            "Adventure",
+            "Family",
+            "Fantasy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Urkel",
+          "sentence": "What up, Urkel?",
+          "startIndex": 6291,
+          "endIndex": 6296
+        },
+        "referent": {
+          "title": "Family Matters",
+          "tconst": "tt0096579",
+          "titleType": "tvSeries",
+          "startYear": 1989,
+          "endYear": 1998,
+          "genres": [
+            "Adventure",
+            "Comedy",
+            "Drama"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Beastmaster",
+          "sentence": "I thought I was dealing with the Beastmaster.",
+          "startIndex": 6556,
+          "endIndex": 6567
+        },
+        "referent": {
+          "title": "The Beastmaster",
+          "tconst": "tt0083630",
+          "titleType": "movie",
+          "startYear": 1982,
+          "endYear": "\\N",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
           ]
         }
       },
@@ -650,6 +1399,26 @@
           "genres": [
             "Comedy",
             "Documentary"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Urkel",
+          "sentence": "Why is Urkel ripping the antenna off Professor Slater's car?",
+          "startIndex": 9406,
+          "endIndex": 9411
+        },
+        "referent": {
+          "title": "Family Matters",
+          "tconst": "tt0096579",
+          "titleType": "tvSeries",
+          "startYear": 1989,
+          "endYear": 1998,
+          "genres": [
+            "Adventure",
+            "Comedy",
+            "Drama"
           ]
         }
       },
@@ -688,6 +1457,46 @@
           "genres": [
             "Action",
             "Adventure"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Beastmaster",
+          "sentence": "Is that a death befitting a Beastmaster?",
+          "startIndex": 12910,
+          "endIndex": 12921
+        },
+        "referent": {
+          "title": "The Beastmaster",
+          "tconst": "tt0083630",
+          "titleType": "movie",
+          "startYear": 1982,
+          "endYear": "\\N",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Beastmaster",
+          "sentence": "I never saw Beastmaster, I just wanted to be cool.",
+          "startIndex": 12935,
+          "endIndex": 12946
+        },
+        "referent": {
+          "title": "The Beastmaster",
+          "tconst": "tt0083630",
+          "titleType": "movie",
+          "startYear": 1982,
+          "endYear": "\\N",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
           ]
         }
       },
@@ -764,6 +1573,26 @@
           "genres": [
             "Action",
             "Adventure"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Cookie Monster",
+          "sentence": "You sound like Cookie Monster.",
+          "startIndex": 14191,
+          "endIndex": 14205
+        },
+        "referent": {
+          "title": "Sesame Street",
+          "tconst": "tt0063951",
+          "titleType": "tvSeries",
+          "startYear": 1969,
+          "endYear": "\\N",
+          "genres": [
+            "Animation",
+            "Adventure",
+            "Comedy"
           ]
         }
       },
@@ -878,6 +1707,62 @@
           "birthYear": 1951,
           "deathYear": "\\N"
         }
+      },
+      {
+        "reference": {
+          "entity": "Michael Richards",
+          "sentence": "Kind of hoping for a Michael Richards situation.",
+          "startIndex": 6637,
+          "endIndex": 6653
+        },
+        "referent": {
+          "name": "Michael Richards",
+          "nconst": "nm0724245",
+          "birthYear": 1949,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Garfunkel",
+          "sentence": "Are you trying to Garfunkel me?",
+          "startIndex": 8649,
+          "endIndex": 8658
+        },
+        "referent": {
+          "name": "Art Garfunkel",
+          "nconst": "nm0307316",
+          "birthYear": 1941,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Garfunkel",
+          "sentence": "Maybe, assuming to Garfunkel someone is to put up with them even though they're a fat, lazy cat who hogs the spotlight and eats all the lasagna.",
+          "startIndex": 8682,
+          "endIndex": 8691
+        },
+        "referent": {
+          "name": "Art Garfunkel",
+          "nconst": "nm0307316",
+          "birthYear": 1941,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Phil Spector",
+          "sentence": "He's got a real Phil Spector vibe going.",
+          "startIndex": 10827,
+          "endIndex": 10839
+        },
+        "referent": {
+          "name": "Phil Spector",
+          "nconst": "nm0817489",
+          "birthYear": 1939,
+          "deathYear": "\\N"
+        }
       }
     ],
     "titles": [
@@ -902,6 +1787,44 @@
       },
       {
         "reference": {
+          "entity": "Cop Rock",
+          "sentence": "Unless you count Cop Rock.",
+          "startIndex": 7467,
+          "endIndex": 7475
+        },
+        "referent": {
+          "title": "Cop Rock",
+          "tconst": "tt0098772",
+          "titleType": "tvSeries",
+          "startYear": 1990,
+          "endYear": 1990,
+          "genres": [
+            "Drama",
+            "Musical"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Cop Rock",
+          "sentence": "Cop Rock.",
+          "startIndex": 7477,
+          "endIndex": 7485
+        },
+        "referent": {
+          "title": "Cop Rock",
+          "tconst": "tt0098772",
+          "titleType": "tvSeries",
+          "startYear": 1990,
+          "endYear": 1990,
+          "genres": [
+            "Drama",
+            "Musical"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Knight Rider",
           "sentence": "Knight Rider marathon.",
           "startIndex": 10591,
@@ -919,11 +1842,114 @@
             "Drama"
           ]
         }
+      },
+      {
+        "reference": {
+          "entity": "E.T.",
+          "sentence": "He's like E.T.",
+          "startIndex": 10862,
+          "endIndex": 10866
+        },
+        "referent": {
+          "title": "E.T. the Extra-Terrestrial",
+          "tconst": "tt0083866",
+          "titleType": "movie",
+          "startYear": 1982,
+          "endYear": "\\N",
+          "genres": [
+            "Family",
+            "Sci-Fi"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "E.T.",
+          "sentence": "Then say goodbye to E.T.",
+          "startIndex": 11349,
+          "endIndex": 11353
+        },
+        "referent": {
+          "title": "E.T. the Extra-Terrestrial",
+          "tconst": "tt0083866",
+          "titleType": "movie",
+          "startYear": 1982,
+          "endYear": "\\N",
+          "genres": [
+            "Family",
+            "Sci-Fi"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "The Jeffersons",
+          "sentence": "That was The Jeffersons, honky.",
+          "startIndex": 11501,
+          "endIndex": 11515
+        },
+        "referent": {
+          "title": "The Jeffersons",
+          "tconst": "tt0072519",
+          "titleType": "tvSeries",
+          "startYear": 1975,
+          "endYear": 1985,
+          "genres": [
+            "Comedy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Good Times",
+          "sentence": "How much happier were the Jeffersons than that family on Good Times?",
+          "startIndex": 11636,
+          "endIndex": 11646
+        },
+        "referent": {
+          "title": "Good Times",
+          "tconst": "tt0070991",
+          "titleType": "tvSeries",
+          "startYear": 1974,
+          "endYear": 1979,
+          "genres": [
+            "Comedy"
+          ]
+        }
       }
     ]
   },
   "s01e09": {
-    "people": [],
+    "people": [
+      {
+        "reference": {
+          "entity": "Styx",
+          "sentence": "Will I listen to \"Come Sail Away\" by Styx again?",
+          "startIndex": 4915,
+          "endIndex": 4919
+        },
+        "referent": {
+          "name": "Styx",
+          "nconst": "nm1381746",
+          "birthYear": "\\N",
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Sade",
+          "sentence": "I'm in the mood for Sade.",
+          "startIndex": 11199,
+          "endIndex": 11203
+        },
+        "referent": {
+          "name": "Sade",
+          "nconst": "nm0755442",
+          "birthYear": 1959,
+          "deathYear": "\\N"
+        }
+      }
+    ],
     "titles": [
       {
         "reference": {
@@ -965,6 +1991,26 @@
       },
       {
         "reference": {
+          "entity": "iCarly",
+          "sentence": "Who am I, iCarly?",
+          "startIndex": 7527,
+          "endIndex": 7533
+        },
+        "referent": {
+          "title": "iCarly",
+          "tconst": "tt0972534",
+          "titleType": "tvSeries",
+          "startYear": 2007,
+          "endYear": 2012,
+          "genres": [
+            "Comedy",
+            "Family",
+            "Romance"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "The Simpsons",
           "sentence": "Apu from The Simpsons.",
           "startIndex": 11749,
@@ -985,8 +2031,264 @@
     ]
   },
   "s01e10": {
-    "people": [],
-    "titles": []
+    "people": [
+      {
+        "reference": {
+          "entity": "Green Day",
+          "sentence": "Well, there's also going to be a free rock 'n' roll concert by a certain band called Green Day.",
+          "startIndex": 445,
+          "endIndex": 454
+        },
+        "referent": {
+          "name": "Green Day",
+          "nconst": "nm1554564",
+          "birthYear": "\\N",
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Green Day",
+          "sentence": "Green Day is here.",
+          "startIndex": 2711,
+          "endIndex": 2720
+        },
+        "referent": {
+          "name": "Green Day",
+          "nconst": "nm1554564",
+          "birthYear": "\\N",
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Nicholson",
+          "sentence": "Best closer to a presentation, a Nicholson quote.",
+          "startIndex": 9093,
+          "endIndex": 9102
+        },
+        "referent": {
+          "name": "Jack Nicholson",
+          "nconst": "nm0000197",
+          "birthYear": 1937,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Green Day",
+          "sentence": "They're not the real Green Day.",
+          "startIndex": 10210,
+          "endIndex": 10219
+        },
+        "referent": {
+          "name": "Green Day",
+          "nconst": "nm1554564",
+          "birthYear": "\\N",
+          "deathYear": "\\N"
+        }
+      }
+    ],
+    "titles": [
+      {
+        "reference": {
+          "entity": "Fievel",
+          "sentence": "Good boy, Fievel.",
+          "startIndex": 3795,
+          "endIndex": 3801
+        },
+        "referent": {
+          "title": "An American Tail",
+          "tconst": "tt0090633",
+          "titleType": "movie",
+          "startYear": 1986,
+          "endYear": "\\N",
+          "genres": [
+            "Adventure",
+            "Animation",
+            "Comedy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Fievel",
+          "sentence": "Fievel.",
+          "startIndex": 3896,
+          "endIndex": 3902
+        },
+        "referent": {
+          "title": "An American Tail",
+          "tconst": "tt0090633",
+          "titleType": "movie",
+          "startYear": 1986,
+          "endYear": "\\N",
+          "genres": [
+            "Adventure",
+            "Animation",
+            "Comedy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Fievel",
+          "sentence": "Troy knocked over Fievel's cage and he escaped.",
+          "startIndex": 5366,
+          "endIndex": 5372
+        },
+        "referent": {
+          "title": "An American Tail",
+          "tconst": "tt0090633",
+          "titleType": "movie",
+          "startYear": 1986,
+          "endYear": "\\N",
+          "genres": [
+            "Adventure",
+            "Animation",
+            "Comedy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Fievel",
+          "sentence": "Because Fievel's going to die.",
+          "startIndex": 9435,
+          "endIndex": 9441
+        },
+        "referent": {
+          "title": "An American Tail",
+          "tconst": "tt0090633",
+          "titleType": "movie",
+          "startYear": 1986,
+          "endYear": "\\N",
+          "genres": [
+            "Adventure",
+            "Animation",
+            "Comedy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "The View",
+          "sentence": "If he gets any nuttier, they're gonna put him on The View.",
+          "startIndex": 9971,
+          "endIndex": 9979
+        },
+        "referent": {
+          "title": "The View",
+          "tconst": "tt0791059",
+          "titleType": "tvSeries",
+          "startYear": 2001,
+          "endYear": "\\N",
+          "genres": [
+            "Talk-Show"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Fievel",
+          "sentence": "Fievel?",
+          "startIndex": 10044,
+          "endIndex": 10050
+        },
+        "referent": {
+          "title": "An American Tail",
+          "tconst": "tt0090633",
+          "titleType": "movie",
+          "startYear": 1986,
+          "endYear": "\\N",
+          "genres": [
+            "Adventure",
+            "Animation",
+            "Comedy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Fievel",
+          "sentence": "Fievel.",
+          "startIndex": 10052,
+          "endIndex": 10058
+        },
+        "referent": {
+          "title": "An American Tail",
+          "tconst": "tt0090633",
+          "titleType": "movie",
+          "startYear": 1986,
+          "endYear": "\\N",
+          "genres": [
+            "Adventure",
+            "Animation",
+            "Comedy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Fievel",
+          "sentence": "Fievel?",
+          "startIndex": 10060,
+          "endIndex": 10066
+        },
+        "referent": {
+          "title": "An American Tail",
+          "tconst": "tt0090633",
+          "titleType": "movie",
+          "startYear": 1986,
+          "endYear": "\\N",
+          "genres": [
+            "Adventure",
+            "Animation",
+            "Comedy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Fievel",
+          "sentence": "Fievel.",
+          "startIndex": 10068,
+          "endIndex": 10074
+        },
+        "referent": {
+          "title": "An American Tail",
+          "tconst": "tt0090633",
+          "titleType": "movie",
+          "startYear": 1986,
+          "endYear": "\\N",
+          "genres": [
+            "Adventure",
+            "Animation",
+            "Comedy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Fievel",
+          "sentence": "Fievel.",
+          "startIndex": 10076,
+          "endIndex": 10082
+        },
+        "referent": {
+          "title": "An American Tail",
+          "tconst": "tt0090633",
+          "titleType": "movie",
+          "startYear": 1986,
+          "endYear": "\\N",
+          "genres": [
+            "Adventure",
+            "Animation",
+            "Comedy"
+          ]
+        }
+      }
+    ]
   },
   "s01e11": {
     "people": [
@@ -1003,9 +2305,110 @@
           "birthYear": 1958,
           "deathYear": "\\N"
         }
+      },
+      {
+        "reference": {
+          "entity": "Harvey Keitel",
+          "sentence": "Like, you know, on the Internet, in a picture, or Harvey Keitel's?",
+          "startIndex": 5282,
+          "endIndex": 5295
+        },
+        "referent": {
+          "name": "Harvey Keitel",
+          "nconst": "nm0000172",
+          "birthYear": 1939,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Jay-Z",
+          "sentence": "Just this morning, when I was shaving and listening to the new Jay-Z, I was thinking how I wanna squeeze in a gallop this weekend.",
+          "startIndex": 6613,
+          "endIndex": 6618
+        },
+        "referent": {
+          "name": "Jay-Z",
+          "nconst": "nm0419650",
+          "birthYear": 1969,
+          "deathYear": "\\N"
+        }
+      },
+      {
+        "reference": {
+          "entity": "Stallone",
+          "sentence": "Like Stallone in Over the Top.",
+          "startIndex": 7647,
+          "endIndex": 7655
+        },
+        "referent": {
+          "name": "Sylvester Stallone",
+          "nconst": "nm0000230",
+          "birthYear": 1946,
+          "deathYear": "\\N"
+        }
       }
     ],
-    "titles": []
+    "titles": [
+      {
+        "reference": {
+          "entity": "Over the Top",
+          "sentence": "Like Stallone in Over the Top.",
+          "startIndex": 7659,
+          "endIndex": 7671
+        },
+        "referent": {
+          "title": "Over the Top",
+          "tconst": "tt0093692",
+          "titleType": "movie",
+          "startYear": 1987,
+          "endYear": "\\N",
+          "genres": [
+            "Action",
+            "Drama",
+            "Sport"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Monty Python",
+          "sentence": "Come on, Sabrina's cute, but she thinks that Monty Python is the evil snake from Harry Potter.",
+          "startIndex": 9037,
+          "endIndex": 9049
+        },
+        "referent": {
+          "title": "Monty Python's Flying Circus",
+          "tconst": "tt0063929",
+          "titleType": "tvSeries",
+          "startYear": 1969,
+          "endYear": 1974,
+          "genres": [
+            "Comedy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Harry Potter",
+          "sentence": "Come on, Sabrina's cute, but she thinks that Monty Python is the evil snake from Harry Potter.",
+          "startIndex": 9073,
+          "endIndex": 9085
+        },
+        "referent": {
+          "title": "Harry Potter and the Sorcerer's Stone",
+          "tconst": "tt0241527",
+          "titleType": "movie",
+          "startYear": 2001,
+          "endYear": "\\N",
+          "genres": [
+            "Adventure",
+            "Family",
+            "Fantasy"
+          ]
+        }
+      }
+    ]
   },
   "s01e12": {
     "people": [

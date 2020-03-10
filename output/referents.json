@@ -355,6 +355,47 @@
         }
       ]
     },
+    "Luis Guzm\u00e1n": {
+      "count": 5,
+      "details": {
+        "name": "Luis Guzm\u00e1n",
+        "nconst": "nm0350079",
+        "birthYear": 1956,
+        "deathYear": "\\N"
+      },
+      "references": [
+        {
+          "entity": "Luis Guzm\u00e1n",
+          "sentence": "This is your dean reminding you that among your school's prestigious alumni is Mr. Luis Guzm\u00e1n.",
+          "startIndex": 126,
+          "endIndex": 137
+        },
+        {
+          "entity": "Luis Guzm\u00e1n",
+          "sentence": "You think Luis Guzm\u00e1n will come to visit his statue? If so, I'd like to ask him about his movie choices.",
+          "startIndex": 1180,
+          "endIndex": 1191
+        },
+        {
+          "entity": "Luis Guzm\u00e1n",
+          "sentence": "Luis Guzm\u00e1n is on a private jet from Hollywood because he can't wait to have that conversation with you.",
+          "startIndex": 1347,
+          "endIndex": 1358
+        },
+        {
+          "entity": "Luis Guzm\u00e1n",
+          "sentence": "One, two, Luis Guzm\u00e1n.",
+          "startIndex": 15816,
+          "endIndex": 15827
+        },
+        {
+          "entity": "Luis",
+          "sentence": "All right, Luis.",
+          "startIndex": 15852,
+          "endIndex": 15856
+        }
+      ]
+    },
     "Christian Bale": {
       "count": 4,
       "details": {
@@ -802,6 +843,29 @@
         }
       ]
     },
+    "Ryan Seacrest": {
+      "count": 2,
+      "details": {
+        "name": "Ryan Seacrest",
+        "nconst": "nm0780435",
+        "birthYear": 1974,
+        "deathYear": "\\N"
+      },
+      "references": [
+        {
+          "entity": "Seacrest",
+          "sentence": "That means you do my homework, right, Seacrest?",
+          "startIndex": 7844,
+          "endIndex": 7852
+        },
+        {
+          "entity": "Seacrest",
+          "sentence": "I'm Dr. Doogie Seacrest.",
+          "startIndex": 15129,
+          "endIndex": 15137
+        }
+      ]
+    },
     "Ben Affleck": {
       "count": 2,
       "details": {
@@ -883,8 +947,8 @@
         {
           "entity": "Benny Hill",
           "sentence": "I can make them go quicker, it's like Benny Hill.",
-          "startIndex": 5715,
-          "endIndex": 5725
+          "startIndex": 5714,
+          "endIndex": 5724
         },
         {
           "entity": "Benny Hill",
@@ -906,8 +970,8 @@
         {
           "entity": "John Lennon",
           "sentence": "Go kill John Lennon again, you loser.",
-          "startIndex": 7917,
-          "endIndex": 7928
+          "startIndex": 7916,
+          "endIndex": 7927
         },
         {
           "entity": "John Lennon",
@@ -1322,6 +1386,23 @@
           "sentence": "You're like Jodie Foster or Susan Sarandon.",
           "startIndex": 4306,
           "endIndex": 4320
+        }
+      ]
+    },
+    "Dane Cook": {
+      "count": 1,
+      "details": {
+        "name": "Dane Cook",
+        "nconst": "nm0176981",
+        "birthYear": 1972,
+        "deathYear": "\\N"
+      },
+      "references": [
+        {
+          "entity": "Dane Cook",
+          "sentence": "Do you like Dane Cook?",
+          "startIndex": 163,
+          "endIndex": 172
         }
       ]
     },
@@ -3274,6 +3355,52 @@
         }
       ]
     },
+    "The Breakfast Club": {
+      "count": 5,
+      "details": {
+        "title": "The Breakfast Club",
+        "tconst": "tt0088847",
+        "titleType": "movie",
+        "startYear": 1985,
+        "endYear": "\\N",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Breakfast Club",
+          "sentence": "Hey, this is kind of like Breakfast Club, huh?",
+          "startIndex": 5623,
+          "endIndex": 5637
+        },
+        {
+          "entity": "Breakfast Club",
+          "sentence": "Way more like Breakfast Club now.",
+          "startIndex": 9432,
+          "endIndex": 9446
+        },
+        {
+          "entity": "The Breakfast Club",
+          "sentence": "Well, that actually was from The Breakfast Club.",
+          "startIndex": 11587,
+          "endIndex": 11605
+        },
+        {
+          "entity": "Breakfast Club",
+          "sentence": "This isn't like Breakfast Club anymore.",
+          "startIndex": 15789,
+          "endIndex": 15803
+        },
+        {
+          "entity": "The Breakfast Club",
+          "sentence": "And I don't remember the name of the girl in The Breakfast Club.",
+          "startIndex": 9712,
+          "endIndex": 9730
+        }
+      ]
+    },
     "Avatar": {
       "count": 4,
       "details": {
@@ -3635,34 +3762,6 @@
         }
       ]
     },
-    "The Breakfast Club": {
-      "count": 2,
-      "details": {
-        "title": "The Breakfast Club",
-        "tconst": "tt0088847",
-        "titleType": "movie",
-        "startYear": 1985,
-        "endYear": "\\N",
-        "genres": [
-          "Comedy",
-          "Drama"
-        ]
-      },
-      "references": [
-        {
-          "entity": "The Breakfast Club",
-          "sentence": "Well, that actually was from The Breakfast Club.",
-          "startIndex": 11587,
-          "endIndex": 11605
-        },
-        {
-          "entity": "The Breakfast Club",
-          "sentence": "And I don't remember the name of the girl in The Breakfast Club.",
-          "startIndex": 9712,
-          "endIndex": 9730
-        }
-      ]
-    },
     "American Idol": {
       "count": 2,
       "details": {
@@ -3692,6 +3791,62 @@
         }
       ]
     },
+    "Raiders of the Lost Ark": {
+      "count": 2,
+      "details": {
+        "title": "Raiders of the Lost Ark",
+        "tconst": "tt0082971",
+        "titleType": "movie",
+        "startYear": 1981,
+        "endYear": "\\N",
+        "genres": [
+          "Action",
+          "Adventure"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Indiana Jones",
+          "sentence": "Tomorrow, they're showing all four \"Indiana Jones\"es at The Vista.",
+          "startIndex": 2574,
+          "endIndex": 2587
+        },
+        {
+          "entity": "Indiana Jones",
+          "sentence": "Indiana Jones, cool.",
+          "startIndex": 13564,
+          "endIndex": 13577
+        }
+      ]
+    },
+    "Friends": {
+      "count": 2,
+      "details": {
+        "title": "Friends",
+        "tconst": "tt0108778",
+        "titleType": "tvSeries",
+        "startYear": 1994,
+        "endYear": "2004",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Chandler and Phoebe",
+          "sentence": "I figured we were really more like Chandler and Phoebe.",
+          "startIndex": 2851,
+          "endIndex": 3870
+        },
+        {
+          "entity": "Chandler",
+          "sentence": "Sure, I'll do it, Chandler.",
+          "startIndex": 2930,
+          "endIndex": 2938
+        }
+      ]
+    },
     "Inspector Gadget": {
       "count": 2,
       "details": {
@@ -3710,14 +3865,41 @@
         {
           "entity": "Inspector Gadget",
           "sentence": "He's like Inspector Gadget.",
-          "startIndex": 5132,
-          "endIndex": 5148
+          "startIndex": 5131,
+          "endIndex": 5147
         },
         {
           "entity": "Inspector Gadget",
           "sentence": "He must've heard us call him Inspector Gadget.",
-          "startIndex": 14890,
-          "endIndex": 14906
+          "startIndex": 14889,
+          "endIndex": 14905
+        }
+      ]
+    },
+    "Rain Man": {
+      "count": 2,
+      "details": {
+        "title": "Rain Man",
+        "tconst": "tt0095953",
+        "titleType": "movie",
+        "startYear": 1988,
+        "endYear": "\\N",
+        "genres": [
+          "Drama"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Rain Man",
+          "sentence": "Not Rain Man.",
+          "startIndex": 8132,
+          "endIndex": 8140
+        },
+        {
+          "entity": "Rain Man",
+          "sentence": "You, me, and Jeff and Rain Man, and big boobs and medium boobs and black boobs, we're a family.",
+          "startIndex": 8495,
+          "endIndex": 8503
         }
       ]
     },
@@ -4290,6 +4472,49 @@
         }
       ]
     },
+    "Meatballs": {
+      "count": 1,
+      "details": {
+        "title": "Meatballs",
+        "tconst": "tt0079540",
+        "titleType": "movie",
+        "startYear": 1979,
+        "endYear": "\\N",
+        "genres": [
+          "Comedy"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Meatballs",
+          "sentence": "It's Stripes or Meatballs.",
+          "startIndex": 15829,
+          "endIndex": 15838
+        }
+      ]
+    },
+    "Dead Poets Society": {
+      "count": 1,
+      "details": {
+        "title": "Dead Poets Society",
+        "tcost": "tt0097165",
+        "titleType": "movie",
+        "startYear": 1989,
+        "endYear": "\\N",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Dead Poets Society",
+          "sentence": "Professor Whitman, he thinks he's in Dead Poets Society.",
+          "startIndex": 1254,
+          "endIndex": 1272
+        }
+      ]
+    },
     "Aladdin": {
       "count": 1,
       "details": {
@@ -4330,6 +4555,73 @@
           "sentence": "It's not exactly Citizen Kane.",
           "startIndex": 13025,
           "endIndex": 13037
+        }
+      ]
+    },
+    "Soul Train Awards": {
+      "count": 1,
+      "details": {
+        "title": "Soul Train Awards",
+        "tconst": "tt1556542",
+        "titleType": "tvSpecial",
+        "startYear": 2009,
+        "endYear": "\\N",
+        "genres": [
+          "Music"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Soul Train Awards",
+          "sentence": "The Soul Train Awards were tonight.",
+          "startIndex": 5906,
+          "endIndex": 5923
+        }
+      ]
+    },
+    "Desperate Housewives": {
+      "count": 1,
+      "details": {
+        "title": "Desperate Housewives",
+        "tconst": "tt0410975",
+        "titleType": "tvSeries",
+        "startYear": 2004,
+        "endYear": 2012,
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Mystery"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Desperate Housewives",
+          "sentence": "Hey, man, coming through, I love the Desperate Housewives.",
+          "startIndex": 15092,
+          "endIndex": 15112
+        }
+      ]
+    },
+    "Doogie Howser, M.D.": {
+      "count": 1,
+      "details": {
+        "title": "Doogie Howser, M.D.",
+        "tconst": "tt0096569",
+        "titleType": "tvSeries",
+        "startYear": 1989,
+        "endYear": 1993,
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Family"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Dr. Doogie",
+          "sentence": "I'm Dr. Doogie Seacrest.",
+          "startIndex": 15118,
+          "endIndex": 15128
         }
       ]
     },
@@ -4800,27 +5092,6 @@
           "sentence": "Like in The Bucket List.",
           "startIndex": 2400,
           "endIndex": 2415
-        }
-      ]
-    },
-    "Rain Man": {
-      "count": 1,
-      "details": {
-        "title": "Rain Man",
-        "tconst": "tt0095953",
-        "titleType": "movie",
-        "startYear": 1988,
-        "endYear": "\\N",
-        "genres": [
-          "Drama"
-        ]
-      },
-      "references": [
-        {
-          "entity": "Rain Man",
-          "sentence": "You, me, and Jeff and Rain Man, and big boobs and medium boobs and black boobs, we're a family.",
-          "startIndex": 8495,
-          "endIndex": 8503
         }
       ]
     },

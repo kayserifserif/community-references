@@ -144,10 +144,10 @@ def find(code, search, type):
     with open("./transcripts/community-" + code + ".txt", "r") as f_open:
       data = f_open.read()
       data = re.sub("\n", " ", data)
-    start = data.index(search)
-    end = start + len(search) - 1
-    print(start, end)
-    print(data[start-20:end+20])
+    results = re.finditer(search, data)
+    for result in results:
+      print(result.start(), result.end())
+      print(data[result.start() - 20 : result.end() + 20])
     if type == "p":
       if search in all_people:
         person_info = all_people[search].copy()
@@ -166,67 +166,70 @@ def find(code, search, type):
 # # # # # # # # # # #
 # RESPOND TO INPUT #
 # # # # # # # # # #
+def main():
+  # get option from command line input
+  if len(sys.argv) is 2 and re.match(r"s\d\de\d\d", sys.argv[1]):
 
-# get option from command line input
-if len(sys.argv) is 2 and re.match(r"s\d\de\d\d", sys.argv[1]):
+    results = get_episode_data(sys.argv[1])
+    ep_data = results[0]
+    text = results[1]
+    print("people:", ep_data["people"])
+    print("titles:", ep_data["titles"])
+    displacy.serve(text, style="ent")
 
-  results = get_episode_data(sys.argv[1])
-  ep_data = results[0]
-  text = results[1]
-  print("people:", ep_data["people"])
-  print("titles:", ep_data["titles"])
-  displacy.serve(text, style="ent")
+  elif len(sys.argv) is 2 and sys.argv[1] == "all":
 
-elif len(sys.argv) is 2 and sys.argv[1] == "all":
+    # get list of all episode codes
+    episode_list = []
+    season = 1
+    episode = 1
+    s_valid = True
+    while s_valid:
+      try:
+        code = "s" + "{:02}".format(season) + "e" + "{:02}".format(episode)
+        # add episode code if file exists
+        with open("./transcripts/community-" + code + ".txt", "r") as f_open:
+          episode_list.append(code)
+          episode += 1
+      except IOError:
+        if episode > 1:
+          # go to next season
+          season += 1
+          episode = 1
+        else:
+          # assume no more episodes
+          s_valid = False
+    # episode_list = ["s01e01"]
 
-  # get list of all episode codes
-  episode_list = []
-  season = 1
-  episode = 1
-  s_valid = True
-  while s_valid:
+    # get data for all episodes in list
+    episode_data = {}
+    for ep in episode_list:
+      # episode_data[ep] = get_episode_data(ep)
+      episode_data[ep] = get_episode_data(ep)[0]
+
+    # write data to json file
     try:
-      code = "s" + "{:02}".format(season) + "e" + "{:02}".format(episode)
-      # add episode code if file exists
-      with open("./transcripts/community-" + code + ".txt", "r") as f_open:
-        episode_list.append(code)
-        episode += 1
+      j = json.dumps(episode_data, indent=2)
+      # print(j)
+      with open("./output/all.json", "w") as f:
+        print(j, file=f)
+        print("Successfully saved to file ./output/all.json!")
     except IOError:
-      if episode > 1:
-        # go to next season
-        season += 1
-        episode = 1
-      else:
-        # assume no more episodes
-        s_valid = False
-  # episode_list = ["s01e01"]
+      print("Could not write to file.")
 
-  # get data for all episodes in list
-  episode_data = {}
-  for ep in episode_list:
-    # episode_data[ep] = get_episode_data(ep)
-    episode_data[ep] = get_episode_data(ep)[0]
+  elif len(sys.argv) is 4:
+    find(sys.argv[1], sys.argv[2], sys.argv[3])
 
-  # write data to json file
-  try:
-    j = json.dumps(episode_data, indent=2)
-    # print(j)
-    with open("./output/all.json", "w") as f:
-      print(j, file=f)
-      print("Successfully saved to file ./output/all.json!")
-  except IOError:
-    print("Could not write to file.")
+  else:
+    print("usage:\n\
+      commands:\n\
+      \t extract-references.py [episodeCode]\n\
+      \t extract-references.py [episodeCode] [searchString] [entityType]\n\
+      \t extract-references.py all\n\
+      arguments:\n\
+      \t [episodeCode]: code of episode to analyse, in the form of s01e01\n\
+      \t [searchString]: string to search for, in quotes\n\
+      \t [entityType]: expected entity type, as t for title or p for person")
 
-elif len(sys.argv) is 4:
-  find(sys.argv[1], sys.argv[2], sys.argv[3])
-
-else:
-  print("usage:\n\
-    commands:\n\
-    \t extract-references.py [episodeCode]\n\
-    \t extract-references.py [episodeCode] [searchString] [entityType]\n\
-    \t extract-references.py all\n\
-    arguments:\n\
-    \t [episodeCode]: code of episode to analyse, in the form of s01e01\n\
-    \t [searchString]: string to search for, in quotes\n\
-    \t [entityType]: expected entity type, as t for title or p for person")
+if __name__ == "__main__":
+  main()
