@@ -615,31 +615,6 @@
     "people": [
       {
         "reference": {
-          "entity": "Benny Hill",
-          "sentence": "I can make them go quicker, it's like Benny Hill.",
-          "startIndex": 5714,
-          "endIndex": 5724
-        },
-        "referent": {
-          "name": "Benny Hill",
-          "nconst": "nm0001350",
-          "birthYear": 1924,
-          "deathYear": 1992,
-          "professions": [
-            "soundtrack",
-            "writer",
-            "actor"
-          ],
-          "knownFor": [
-            "tt0059797",
-            "tt0064505",
-            "tt0063869",
-            "tt0062803"
-          ]
-        }
-      },
-      {
-        "reference": {
           "entity": "John Lennon",
           "sentence": "Go kill John Lennon again, you loser.",
           "startIndex": 7916,
@@ -714,7 +689,7 @@
           "entity": "Chandler and Phoebe",
           "sentence": "I figured we were really more like Chandler and Phoebe.",
           "startIndex": 2851,
-          "endIndex": 3870
+          "endIndex": 2870
         },
         "referent": {
           "title": "Friends",
@@ -763,6 +738,24 @@
           "genres": [
             "Action",
             "Adventure",
+            "Comedy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Benny Hill",
+          "sentence": "I can make them go quicker, it's like Benny Hill.",
+          "startIndex": 5714,
+          "endIndex": 5724
+        },
+        "referent": {
+          "title": "The Benny Hill Show",
+          "tconst": "tt0063869",
+          "titleType": "tvSeries",
+          "startYear": 1969,
+          "endYear": 1989,
+          "genres": [
             "Comedy"
           ]
         }
@@ -1140,26 +1133,6 @@
     "titles": [
       {
         "reference": {
-          "entity": "The Cowboy Way",
-          "sentence": "Particularly Carlito's Way, The Cowboy Way, The Hard Way and Q&A.",
-          "startIndex": 1303,
-          "endIndex": 1317
-        },
-        "referent": {
-          "title": "The Cowboy Way",
-          "tconst": "tt0109493",
-          "titleType": "movie",
-          "startYear": 1994,
-          "endYear": "\\N",
-          "genres": [
-            "Action",
-            "Comedy",
-            "Crime"
-          ]
-        }
-      },
-      {
-        "reference": {
           "entity": "M*A*S*H",
           "sentence": "M*A*S*H.",
           "startIndex": 1118,
@@ -1253,6 +1226,26 @@
             "Action",
             "Comedy",
             "Crime"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Q&A",
+          "sentence": "Particularly Carlito's Way, The Cowboy Way, The Hard Way and Q&A.",
+          "startIndex": 1336,
+          "endIndex": 1339
+        },
+        "referent": {
+          "title": "Q & A",
+          "tconst": "tt0100442",
+          "titleType": "movie",
+          "startYear": 1990,
+          "endYear": "\\N",
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
           ]
         }
       }
@@ -4924,31 +4917,6 @@
     "people": [
       {
         "reference": {
-          "entity": "Benny Hill",
-          "sentence": "Hey, meatball, did you take Annie's pen to make life more like Benny Hill or whatever you do?",
-          "startIndex": 2641,
-          "endIndex": 2651
-        },
-        "referent": {
-          "name": "Benny Hill",
-          "nconst": "nm0001350",
-          "birthYear": 1924,
-          "deathYear": 1992,
-          "professions": [
-            "soundtrack",
-            "writer",
-            "actor"
-          ],
-          "knownFor": [
-            "tt0059797",
-            "tt0064505",
-            "tt0063869",
-            "tt0062803"
-          ]
-        }
-      },
-      {
-        "reference": {
           "entity": "Harvey Keitel",
           "sentence": "Well, well, well, Harvey Keitel.",
           "startIndex": 9556,
@@ -5048,7 +5016,26 @@
         }
       }
     ],
-    "titles": []
+    "titles": [
+      {
+        "reference": {
+          "entity": "Benny Hill",
+          "sentence": "Hey, meatball, did you take Annie's pen to make life more like Benny Hill or whatever you do?",
+          "startIndex": 2641,
+          "endIndex": 2651
+        },
+        "referent": {
+          "title": "The Benny Hill Show",
+          "tconst": "tt0063869",
+          "titleType": "tvSeries",
+          "startYear": 1969,
+          "endYear": 1989,
+          "genres": [
+            "Comedy"
+          ]
+        }
+      }
+    ]
   },
   "s02e09": {
     "people": [],
