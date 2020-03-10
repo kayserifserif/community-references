@@ -2676,7 +2676,7 @@
       {
         "reference": {
           "entity": "Liar",
-          "sentence": "It was, strangely, Jeff the Liar, son of William the Barely Known, who first became concerned. -",
+          "sentence": "It was, strangely, Jeff the Liar, son of William the Barely Known, who first became concerned.",
           "startIndex": 731,
           "endIndex": 735
         },
@@ -3004,7 +3004,7 @@
       {
         "reference": {
           "entity": "Aliens",
-          "sentence": "Demons, Aliens, Critters 3, something called Bruce Willis' Surrogates. - Abed, what are you guys doing?",
+          "sentence": "Demons, Aliens, Critters 3, something called Bruce Willis' Surrogates.",
           "startIndex": 359,
           "endIndex": 365
         },
@@ -4210,7 +4210,7 @@
       {
         "reference": {
           "entity": "Burt Reynolds",
-          "sentence": "And you - Fat Brando. - Burt Reynolds.",
+          "sentence": "And you - Fat Brando.",
           "startIndex": 5231,
           "endIndex": 5244
         },
@@ -4224,7 +4224,7 @@
       {
         "reference": {
           "entity": "Burt Reynolds",
-          "sentence": "- Fat Brando. - Burt Reynolds.",
+          "sentence": "Fat Brando.",
           "startIndex": 5278,
           "endIndex": 5291
         },
@@ -4252,7 +4252,7 @@
       {
         "reference": {
           "entity": "Burt Reynolds",
-          "sentence": "- Burt Reynolds.",
+          "sentence": "Burt Reynolds.",
           "startIndex": 6774,
           "endIndex": 6787
         },
@@ -4392,7 +4392,7 @@
       {
         "reference": {
           "entity": "Moby",
-          "sentence": "You're friends with Moby?  - Jeff!",
+          "sentence": "You're friends with Moby?",
           "startIndex": 10063,
           "endIndex": 10067
         },
@@ -4464,7 +4464,7 @@
       {
         "reference": {
           "entity": "Push",
-          "sentence": "Abed. - Shirley, who got you a DVD of Precious, based on the novel Push, by Sapphire, and a copy of the novel Push autographed by Sapphire?",
+          "sentence": "Shirley, who got you a DVD of Precious, based on the novel Push, by Sapphire, and a copy of the novel Push autographed by Sapphire?",
           "startIndex": 6325,
           "endIndex": 6329
         },
@@ -4484,7 +4484,7 @@
       {
         "reference": {
           "entity": "Sapphire",
-          "sentence": "Abed. - Shirley, who got you a DVD of Precious, based on the novel Push, by Sapphire, and a copy of the novel Push autographed by Sapphire?",
+          "sentence": "Shirley, who got you a DVD of Precious, based on the novel Push, by Sapphire, and a copy of the novel Push autographed by Sapphire?",
           "startIndex": 6334,
           "endIndex": 6342
         },
@@ -4504,7 +4504,7 @@
       {
         "reference": {
           "entity": "Push",
-          "sentence": "Abed. - Shirley, who got you a DVD of Precious, based on the novel Push, by Sapphire, and a copy of the novel Push autographed by Sapphire?",
+          "sentence": "Shirley, who got you a DVD of Precious, based on the novel Push, by Sapphire, and a copy of the novel Push autographed by Sapphire?",
           "startIndex": 6368,
           "endIndex": 6372
         },
@@ -4524,7 +4524,7 @@
       {
         "reference": {
           "entity": "Sapphire",
-          "sentence": "Abed. - Shirley, who got you a DVD of Precious, based on the novel Push, by Sapphire, and a copy of the novel Push autographed by Sapphire?",
+          "sentence": "Shirley, who got you a DVD of Precious, based on the novel Push, by Sapphire, and a copy of the novel Push autographed by Sapphire?",
           "startIndex": 6388,
           "endIndex": 6396
         },
@@ -4856,7 +4856,7 @@
       {
         "reference": {
           "entity": "Carson Daly",
-          "sentence": "No, we got snowboarding in the Olympics and we over-validated Carson Daly. -",
+          "sentence": "No, we got snowboarding in the Olympics and we over-validated Carson Daly.",
           "startIndex": 13235,
           "endIndex": 13246
         },
@@ -4872,7 +4872,7 @@
       {
         "reference": {
           "entity": "Die Hard",
-          "sentence": "He said Die Hard was bad. -",
+          "sentence": "He said Die Hard was bad.",
           "startIndex": 1580,
           "endIndex": 1588
         },
@@ -6720,7 +6720,7 @@
       {
         "reference": {
           "entity": "Nicolas Cage",
-          "sentence": "- So Nicolas Cage is Jesus? -",
+          "sentence": "So Nicolas Cage is Jesus? -",
           "startIndex": 12294,
           "endIndex": 12306
         },
@@ -6869,7 +6869,7 @@
       {
         "reference": {
           "entity": "Liam Neeson",
-          "sentence": "- I like Liam Neeson!",
+          "sentence": "I like Liam Neeson!",
           "startIndex": 5889,
           "endIndex": 5900
         },
@@ -6883,7 +6883,7 @@
       {
         "reference": {
           "entity": "Liam Neeson",
-          "sentence": "- Liam Neeson?",
+          "sentence": "Liam Neeson?",
           "startIndex": 7148,
           "endIndex": 7159
         },
@@ -7071,7 +7071,7 @@
       {
         "reference": {
           "entity": "Dungeons & Dragons",
-          "sentence": "- We play Dungeons & Dragons.",
+          "sentence": "We play Dungeons & Dragons.",
           "startIndex": 770,
           "endIndex": 788
         },
@@ -7789,7 +7789,7 @@
       {
         "reference": {
           "entity": "John Cusack",
-          "sentence": "- I've wanted to learn grifting since I saw The Grifters featuring John Cusack, Anjelica Huston and",
+          "sentence": "I've wanted to learn grifting since I saw The Grifters featuring John Cusack, Anjelica Huston and",
           "startIndex": 826,
           "endIndex": 837
         },
@@ -7803,7 +7803,7 @@
       {
         "reference": {
           "entity": "Anjelica Huston",
-          "sentence": "- I've wanted to learn grifting since I saw The Grifters featuring John Cusack, Anjelica Huston and",
+          "sentence": "I've wanted to learn grifting since I saw The Grifters featuring John Cusack, Anjelica Huston and",
           "startIndex": 839,
           "endIndex": 854
         },
@@ -7833,7 +7833,7 @@
       {
         "reference": {
           "entity": "The Sting",
-          "sentence": "- They had a plan in The Sting.",
+          "sentence": "They had a plan in The Sting.",
           "startIndex": 10594,
           "endIndex": 10603
         },
@@ -7905,7 +7905,7 @@
       {
         "reference": {
           "entity": "Matchstick Men",
-          "sentence": "- More activity in Matchstick Men. -",
+          "sentence": "More activity in Matchstick Men.",
           "startIndex": 12015,
           "endIndex": 12029
         },
