@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#container {
+  height: 100%;
+}
+
+#timeline {
+  stroke: black;
+  stroke-width: 1;
+}
+
+.active .bg {
+  fill: rgba(255, 255, 255, .9);
+}
+
+.bg {
+  fill: none;
+}
+
+.label {
+  font-size: 0.8em;
+}
+
+.movie {
+  fill: #465fc1;
+}
+
+.tvSeries {
+  fill: #f7317b;
+}
+
+.tvMovie {
+  fill: #36952e;
+}
+
+.tvMiniSeries {
+  fill: #2eaab0;
+}
