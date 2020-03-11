@@ -32,6 +32,8 @@ d3.json("/output/referents.json").then(function(data) {
         y -= d.count * 30;
         return "translate(" + x1 + "," + y + ")";
       })
+      // .filter(function(d) { return d.details.titleType == "movie" })
+      // .filter(function(d) { return d. })
       .on("mouseover", function(d) {
         d3.select(this).raise();
         d3.select(this).style("opacity", 1);
@@ -45,9 +47,20 @@ d3.json("/output/referents.json").then(function(data) {
       })
       ;
   dataPts.each(function(d) {
+    // add title type
     this.classList.add(d.details.titleType);
+    // add seasons
+    var seasons = [];
+    for (instance of d.references) {
+      var epCode = instance.epCode;
+      var season = epCode.slice(0, 3);
+      seasons.push(season);
+    }
+    for (season of seasons) {
+      this.classList.add(season);
+    }
   });
-  dataPts.attr("data-legend", function(d) { return d.classList; });
+  // dataPts.attr("data-legend", function(d) { return d.classList; });
 
   var bgs = dataPts
     .append("rect")
@@ -101,3 +114,20 @@ d3.json("/output/referents.json").then(function(data) {
     .attr("transform", "translate(-10, -4)")
     ;
 });
+
+var seasonButtons = document.getElementsByName("seasonButton");
+var dataPts = document.getElementsByClassName("dataPts");
+for (button of seasonButtons) {
+  button.addEventListener("click", (event) => {
+    var value = event.target.value;
+    for (pt of dataPts) {
+      if (pt.classList.contains(value)) {
+        var count = pt.__data__.count;
+        pt.style.opacity = Math.min(count / 23 + 0.5, 1);
+      } else {
+        // pt.style.display = "none";
+        pt.style.opacity = 0;
+      }
+    }
+  });
+}
