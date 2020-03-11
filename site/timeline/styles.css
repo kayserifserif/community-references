@@ -6,6 +6,18 @@ body {
   height: 100%;
 }
 
+#filter {
+  position: fixed;
+  top: 0;
+  margin: 1em;
+}
+
+#seasonStats {
+  position: fixed;
+  top: 1em;
+  margin: 1em;
+}
+
 #container {
   height: 100%;
 }
@@ -17,6 +29,10 @@ body {
 
 .dataPts {
   transition: 0.2s opacity ease-in-out;
+}
+
+.bigBar {
+  opacity: 0.2;
 }
 
 .active .bg {
