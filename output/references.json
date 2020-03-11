@@ -3032,30 +3032,6 @@
     "people": [
       {
         "reference": {
-          "entity": "Kate Winslet",
-          "sentence": "Sounds like a porno with Kate Winslet.",
-          "startIndex": 155,
-          "endIndex": 167
-        },
-        "referent": {
-          "name": "Kate Winslet",
-          "nconst": "nm0000701",
-          "birthYear": 1975,
-          "deathYear": "\\N",
-          "professions": [
-            "actress",
-            "soundtrack"
-          ],
-          "knownFor": [
-            "tt0338013",
-            "tt0959337",
-            "tt0114388",
-            "tt0120338"
-          ]
-        }
-      },
-      {
-        "reference": {
           "entity": "Billy Joel",
           "sentence": "If that stands for \"What would Billy Joel do?",
           "startIndex": 814,
@@ -3131,6 +3107,31 @@
       },
       {
         "reference": {
+          "entity": "Tyson",
+          "sentence": "Tyson, Lou Ferrigno, Rosie O'Donnell.",
+          "startIndex": 5912,
+          "endIndex": 5917
+        },
+        "referent": {
+          "name": "Mike Tyson",
+          "nconst": "nm0005512",
+          "birthYear": 1966,
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt1119646",
+            "tt1411697",
+            "tt1661382",
+            "tt2888046"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Lou Ferrigno",
           "sentence": "Tyson, Lou Ferrigno, Rosie O'Donnell.",
           "startIndex": 5919,
@@ -3177,6 +3178,56 @@
             "tt0120855"
           ]
         }
+      },
+      {
+        "reference": {
+          "entity": "Forest Whitaker",
+          "sentence": "Then you give them the Forest Whitaker eye.",
+          "startIndex": 7822,
+          "endIndex": 7837
+        },
+        "referent": {
+          "name": "Forest Whitaker",
+          "nconst": "nm0001845",
+          "birthYear": 1961,
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0185183",
+            "tt0455590",
+            "tt1825683",
+            "tt1327773"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Paul Rudd",
+          "sentence": "To me, religion is like Paul Rudd.",
+          "startIndex": 9519,
+          "endIndex": 9528
+        },
+        "referent": {
+          "name": "Paul Rudd",
+          "nconst": "nm0748620",
+          "birthYear": 1969,
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "writer",
+            "producer"
+          ],
+          "knownFor": [
+            "tt1155056",
+            "tt1659337",
+            "tt5095030",
+            "tt0478970"
+          ]
+        }
       }
     ],
     "titles": [
@@ -3202,21 +3253,58 @@
       },
       {
         "reference": {
-          "entity": "Tyson",
-          "sentence": "Tyson, Lou Ferrigno, Rosie O'Donnell.",
-          "startIndex": 5912,
-          "endIndex": 5917
+          "entity": "Meatballs",
+          "sentence": "It was like My Bodyguard, but I was the kid from Meatballs, Jeff was from Full Metal Jacket, and the mustache guy was the brother of the guy in Entourage.",
+          "startIndex": 2055,
+          "endIndex": 2064
         },
         "referent": {
-          "title": "Tyson",
-          "tconst": "tt0114759",
-          "titleType": "tvMovie",
-          "startYear": 1995,
+          "title": "Meatballs",
+          "tconst": "tt0079540",
+          "titleType": "movie",
+          "startYear": 1979,
           "endYear": "\\N",
           "genres": [
-            "Biography",
+            "Comedy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Full Metal Jacket",
+          "sentence": "It was like My Bodyguard, but I was the kid from Meatballs, Jeff was from Full Metal Jacket, and the mustache guy was the brother of the guy in Entourage.",
+          "startIndex": 2080,
+          "endIndex": 2097
+        },
+        "referent": {
+          "title": "Full Metal Jacket",
+          "tconst": "tt0093058",
+          "titleType": "movie",
+          "startYear": 1987,
+          "endYear": "\\N",
+          "genres": [
             "Drama",
-            "Sport"
+            "war"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Breakin'",
+          "sentence": "And as much as I hate you and the cast of Breakin', I have to ask myself, what would Shirley do?",
+          "startIndex": 13111,
+          "endIndex": 13119
+        },
+        "referent": {
+          "title": "Breakin'",
+          "tconst": "tt0086998",
+          "titleType": "movie",
+          "startYear": 1984,
+          "endYear": "\\N",
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Music"
           ]
         }
       }
@@ -3224,6 +3312,56 @@
   },
   "s01e13": {
     "people": [
+      {
+        "reference": {
+          "entity": "Zeppelin",
+          "sentence": "This is the first desk I've seen in six months that doesn't have \"Zeppelin Rules\" carved into it.",
+          "startIndex": 3362,
+          "endIndex": 3370
+        },
+        "referent": {
+          "name": "Led Zeppelin",
+          "nconst": "nm0496389",
+          "birthYear": "\\N",
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "music_department",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0075244",
+            "tt0400016",
+            "tt1483013",
+            "tt3501632"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Toni Braxton",
+          "sentence": "In October, there was a free Toni Braxton concert on the quad",
+          "startIndex": 6299,
+          "endIndex": 6311
+        },
+        "referent": {
+          "name": "Toni Braxton",
+          "nconst": "nm0004772",
+          "birthYear": 1966,
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0246002",
+            "tt6626022",
+            "tt1520498",
+            "tt0278488"
+          ]
+        }
+      },
       {
         "reference": {
           "entity": "Tom Wolfe",
@@ -3275,10 +3413,235 @@
         }
       }
     ],
-    "titles": []
+    "titles": [
+      {
+        "reference": {
+          "entity": "M*A*S*H",
+          "sentence": "You're like Hawkeye on M*A*S*H.",
+          "startIndex": 1209,
+          "endIndex": 1216
+        },
+        "referent": {
+          "title": "M*A*S*H",
+          "tconst": "tt0068098",
+          "titleType": "tvSeries",
+          "startYear": 1972,
+          "endYear": 1983,
+          "genres": [
+            "Comedy",
+            "Drama",
+            "War"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Hawkeye",
+          "sentence": "That was all classic Hawkeye.",
+          "startIndex": 4508,
+          "endIndex": 4515
+        },
+        "referent": {
+          "title": "M*A*S*H",
+          "tconst": "tt0068098",
+          "titleType": "tvSeries",
+          "startYear": 1972,
+          "endYear": 1983,
+          "genres": [
+            "Comedy",
+            "Drama",
+            "War"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Hawkeye",
+          "sentence": "I should build you a still for making Hawkeye martinis.",
+          "startIndex": 4664,
+          "endIndex": 4671
+        },
+        "referent": {
+          "title": "M*A*S*H",
+          "tconst": "tt0068098",
+          "titleType": "tvSeries",
+          "startYear": 1972,
+          "endYear": 1983,
+          "genres": [
+            "Comedy",
+            "Drama",
+            "War"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Radar",
+          "sentence": "Call me Radar?",
+          "startIndex": 4761,
+          "endIndex": 4766
+        },
+        "referent": {
+          "title": "M*A*S*H",
+          "tconst": "tt0068098",
+          "titleType": "tvSeries",
+          "startYear": 1972,
+          "endYear": 1983,
+          "genres": [
+            "Comedy",
+            "Drama",
+            "War"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Paul Blart: Mall Cop",
+          "sentence": "Did anyone see Paul Blart: Mall Cop?",
+          "startIndex": 7859,
+          "endIndex": 7879
+        },
+        "referent": {
+          "title": "Paul Blart: Mall Cop",
+          "tconst": "tt1114740",
+          "titleType": "movie",
+          "startYear": 2009,
+          "endYear": "\\N",
+          "genres": [
+            "Action",
+            "Comedy",
+            "Crime"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Hawkeye",
+          "sentence": "You're Hawkeye.",
+          "startIndex": 9931,
+          "endIndex": 9938
+        },
+        "referent": {
+          "title": "M*A*S*H",
+          "tconst": "tt0068098",
+          "titleType": "tvSeries",
+          "startYear": 1972,
+          "endYear": 1983,
+          "genres": [
+            "Comedy",
+            "Drama",
+            "War"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Hawkeye",
+          "sentence": "Martinis are for Hawkeyes.",
+          "startIndex": 12958,
+          "endIndex": 12965
+        },
+        "referent": {
+          "title": "M*A*S*H",
+          "tconst": "tt0068098",
+          "titleType": "tvSeries",
+          "startYear": 1972,
+          "endYear": 1983,
+          "genres": [
+            "Comedy",
+            "Drama",
+            "War"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "M*A*S*H",
+          "sentence": "Jeff, what's your favorite episode of M*A*S*H?",
+          "startIndex": 13053,
+          "endIndex": 13060
+        },
+        "referent": {
+          "title": "M*A*S*H",
+          "tconst": "tt0068098",
+          "titleType": "tvSeries",
+          "startYear": 1972,
+          "endYear": 1983,
+          "genres": [
+            "Comedy",
+            "Drama",
+            "War"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Hawkeye",
+          "sentence": "If you had actually seen the show you'd know that Hawkeye didn't just bed nurses and drink martinis.",
+          "startIndex": 13163,
+          "endIndex": 13170
+        },
+        "referent": {
+          "title": "M*A*S*H",
+          "tconst": "tt0068098",
+          "titleType": "tvSeries",
+          "startYear": 1972,
+          "endYear": 1983,
+          "genres": [
+            "Comedy",
+            "Drama",
+            "War"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Radar",
+          "sentence": "Thank you, Radar.",
+          "startIndex": 13693,
+          "endIndex": 13698
+        },
+        "referent": {
+          "title": "M*A*S*H",
+          "tconst": "tt0068098",
+          "titleType": "tvSeries",
+          "startYear": 1972,
+          "endYear": 1983,
+          "genres": [
+            "Comedy",
+            "Drama",
+            "War"
+          ]
+        }
+      }
+    ]
   },
   "s01e14": {
     "people": [
+      {
+        "reference": {
+          "entity": "Kate Winslet",
+          "sentence": "Sounds like a porno with Kate Winslet.",
+          "startIndex": 155,
+          "endIndex": 167
+        },
+        "referent": {
+          "name": "Kate Winslet",
+          "nconst": "nm0000701",
+          "birthYear": 1975,
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0338013",
+            "tt0959337",
+            "tt0114388",
+            "tt0120338"
+          ]
+        }
+      },
       {
         "reference": {
           "entity": "Mickey Rooney",
@@ -3331,10 +3694,58 @@
       },
       {
         "reference": {
+          "entity": "Baryshnikov",
+          "sentence": "What about Baryshnikov?",
+          "startIndex": 6886,
+          "endIndex": 6897
+        },
+        "referent": {
+          "name": "Mikhail Baryshnikov",
+          "nconst": "nm0000864",
+          "birthYear": 1948,
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "miscellaneous"
+          ],
+          "knownFor": [
+            "tt0101606",
+            "tt0136439",
+            "tt0076843",
+            "tt0090319"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Jerry Rice",
           "sentence": "But even when Jerry Rice went on Dancing With the Stars Jerry Rice?",
           "startIndex": 6962,
           "endIndex": 6972
+        },
+        "referent": {
+          "name": "Jerry Rice",
+          "nconst": "nm0005357",
+          "birthYear": 1962,
+          "deathYear": "\\N",
+          "professions": [
+            "actor"
+          ],
+          "knownFor": [
+            "tt0790772",
+            "tt0772137",
+            "tt1276107",
+            "tt0484082"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Jerry Rice",
+          "sentence": "But even when Jerry Rice went on Dancing With the Stars Jerry Rice?",
+          "startIndex": 7004,
+          "endIndex": 7014
         },
         "referent": {
           "name": "Jerry Rice",
@@ -3428,7 +3839,48 @@
         }
       }
     ],
-    "titles": []
+    "titles": [
+      {
+        "reference": {
+          "entity": "Dancing with the Stars",
+          "sentence": "But even when Jerry Rice went on Dancing with the Stars",
+          "startIndex": 6981,
+          "endIndex": 7003
+        },
+        "referent": {
+          "title": "Dancing with the Stars",
+          "tconst": "tt0434676",
+          "titleType": "tvSeries",
+          "startYear": 2004,
+          "endYear": 2015,
+          "genres": [
+            "Family",
+            "Game-Show",
+            "Music"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "The Big Lebowski",
+          "sentence": "I love The Big Lebowski.",
+          "startIndex": 14795,
+          "endIndex": 14811
+        },
+        "referent": {
+          "title": "The Big Lebowski",
+          "tconst": "tt0118715",
+          "titleType": "movie",
+          "startYear": 1998,
+          "endYear": "\\N",
+          "genres": [
+            "Comedy",
+            "Crime",
+            "Sport"
+          ]
+        }
+      }
+    ]
   },
   "s01e15": {
     "people": [
@@ -6596,8 +7048,8 @@
         "reference": {
           "entity": "Christian Bale",
           "sentence": "Our limited-edition, $299 Dark Knight DVD with bonus footage, special commentary, and a Christian Bale autograph, including a personalized message of up to four words! \"",
-          "startIndex": 755,
-          "endIndex": 769
+          "startIndex": 751,
+          "endIndex": 765
         },
         "referent": {
           "name": "Christian Bale",
@@ -6621,8 +7073,8 @@
         "reference": {
           "entity": "Christian Bale",
           "sentence": "Abed is Batman now, Christian Bale.\"  ",
-          "startIndex": 856,
-          "endIndex": 870
+          "startIndex": 852,
+          "endIndex": 866
         },
         "referent": {
           "name": "Christian Bale",
@@ -6646,8 +7098,8 @@
         "reference": {
           "entity": "Christian Bale",
           "sentence": "And--and then we just have to record fake exclusive commentary by Christian Bale.",
-          "startIndex": 2469,
-          "endIndex": 2483
+          "startIndex": 2447,
+          "endIndex": 2461
         },
         "referent": {
           "name": "Christian Bale",
@@ -6671,8 +7123,8 @@
         "reference": {
           "entity": "David Bowie",
           "sentence": "Let's dance, David Bowie.",
-          "startIndex": 14473,
-          "endIndex": 14484
+          "startIndex": 14391,
+          "endIndex": 14402
         },
         "referent": {
           "name": "David Bowie",
@@ -6698,8 +7150,8 @@
         "reference": {
           "entity": "Batman",
           "sentence": "Abed is Batman now, Christian Bale.\"  ",
-          "startIndex": 844,
-          "endIndex": 850
+          "startIndex": 840,
+          "endIndex": 846
         },
         "referent": {
           "title": "Batman",
@@ -6717,8 +7169,8 @@
         "reference": {
           "entity": "Joker",
           "sentence": "And he was dressed as the Joker for Halloween--motive.",
-          "startIndex": 7771,
-          "endIndex": 7776
+          "startIndex": 7721,
+          "endIndex": 7726
         },
         "referent": {
           "title": "Joker",
@@ -6735,8 +7187,8 @@
         "reference": {
           "entity": "Batman",
           "sentence": "Just don't hurt me, Batman.",
-          "startIndex": 11723,
-          "endIndex": 11729
+          "startIndex": 11653,
+          "endIndex": 11659
         },
         "referent": {
           "title": "Batman",
@@ -6754,8 +7206,8 @@
         "reference": {
           "entity": "Batman",
           "sentence": "Batman.",
-          "startIndex": 14000,
-          "endIndex": 14006
+          "startIndex": 13920,
+          "endIndex": 13926
         },
         "referent": {
           "title": "Batman",
@@ -6773,8 +7225,8 @@
         "reference": {
           "entity": "Batman",
           "sentence": "Well, Batman, on behalf of all of us that aren't perfect, can I just say I'm sorry",
-          "startIndex": 14024,
-          "endIndex": 14030
+          "startIndex": 13944,
+          "endIndex": 13950
         },
         "referent": {
           "title": "Batman",
@@ -6792,8 +7244,8 @@
         "reference": {
           "entity": "Batman",
           "sentence": "And that's coming from Batman.",
-          "startIndex": 14223,
-          "endIndex": 14229
+          "startIndex": 14143,
+          "endIndex": 14149
         },
         "referent": {
           "title": "Batman",

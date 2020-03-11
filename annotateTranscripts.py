@@ -147,6 +147,7 @@ def makeAnnotations(epCode):
   # output html file
   with open("./site/community-" + epCode + ".html", "w") as f:
     f.write(html.format(htmlText=html))
+    print("Successfully saved to file ./site/community-" + epCode + ".html!")
 
 def main():
   global epCodes
