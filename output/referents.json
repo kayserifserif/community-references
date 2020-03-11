@@ -6597,6 +6597,14 @@
   "titles": {
     "Batman": {
       "count": 23,
+      "countBySeason": {
+        "s01": 9,
+        "s02": 3,
+        "s03": 5,
+        "s04": 6,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Batman",
         "tconst": "tt0096895",
@@ -6774,6 +6782,14 @@
     },
     "M*A*S*H": {
       "count": 10,
+      "countBySeason": {
+        "s01": 10,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "M*A*S*H",
         "tconst": "tt0068098",
@@ -6861,6 +6877,14 @@
     },
     "Die Hard": {
       "count": 10,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 5,
+        "s04": 5,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Die Hard",
         "tconst": "tt0095016",
@@ -6947,6 +6971,14 @@
     },
     "An American Tail": {
       "count": 9,
+      "countBySeason": {
+        "s01": 9,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "An American Tail",
         "tconst": "tt0090633",
@@ -7027,6 +7059,14 @@
     },
     "Pulp Fiction": {
       "count": 7,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 7,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Pulp Fiction",
         "tconst": "tt0110912",
@@ -7092,6 +7132,14 @@
     },
     "The Sting": {
       "count": 7,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 7
+      },
       "details": {
         "title": "The Sting",
         "tconst": "tt0105854",
@@ -7156,6 +7204,14 @@
     },
     "The Breakfast Club": {
       "count": 5,
+      "countBySeason": {
+        "s01": 5,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "The Breakfast Club",
         "tconst": "tt0088847",
@@ -7207,6 +7263,14 @@
     },
     "The Beastmaster": {
       "count": 5,
+      "countBySeason": {
+        "s01": 5,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "The Beastmaster",
         "tconst": "tt0083630",
@@ -7259,6 +7323,14 @@
     },
     "Avatar": {
       "count": 4,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 3
+      },
       "details": {
         "title": "Avatar",
         "tconst": "tt0499549",
@@ -7304,6 +7376,14 @@
     },
     "Who's the Boss": {
       "count": 4,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 4,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Who's the Boss",
         "tconst": "tt0086827",
@@ -7349,6 +7429,14 @@
     },
     "Blade": {
       "count": 4,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 4,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Blade",
         "tconst": "tt0120611",
@@ -7394,6 +7482,14 @@
     },
     "Family Matters": {
       "count": 3,
+      "countBySeason": {
+        "s01": 3,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Family Matters",
         "tconst": "tt0096579",
@@ -7432,6 +7528,14 @@
     },
     "Knight Rider": {
       "count": 3,
+      "countBySeason": {
+        "s01": 3,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Knight Rider",
         "tconst": "tt0083437",
@@ -7470,6 +7574,14 @@
     },
     "Can't Buy Me Love": {
       "count": 3,
+      "countBySeason": {
+        "s01": 3,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Can't Buy Me Love",
         "tconst": "tt0435944",
@@ -7506,6 +7618,14 @@
     },
     "Ferris Bueller": {
       "count": 3,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 2,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Ferris Bueller",
         "tconst": "tt0098795",
@@ -7542,6 +7662,14 @@
     },
     "Judge Judy": {
       "count": 3,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 2,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Judge Judy",
         "tconst": "tt0115227",
@@ -7579,6 +7707,14 @@
     },
     "Heroes": {
       "count": 3,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 3,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Heroes",
         "tconst": "tt0813715",
@@ -7617,6 +7753,14 @@
     },
     "Hellraiser": {
       "count": 3,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 3,
+        "s06": 0
+      },
       "details": {
         "title": "Hellraiser",
         "tconst": "tt0093177",
@@ -7654,6 +7798,14 @@
     },
     "G.I. Joe": {
       "count": 3,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 3,
+        "s06": 0
+      },
       "details": {
         "title": "G.I. Joe",
         "tconst": "tt0086719",
@@ -7692,6 +7844,14 @@
     },
     "Meatballs": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Meatballs",
         "tconst": "tt0079540",
@@ -7721,6 +7881,14 @@
     },
     "American Idol": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "American Idol",
         "tconst": "tt0319931",
@@ -7752,6 +7920,14 @@
     },
     "Raiders of the Lost Ark": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Raiders of the Lost Ark",
         "tconst": "tt0082971",
@@ -7782,6 +7958,14 @@
     },
     "Friends": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Friends",
         "tconst": "tt0108778",
@@ -7812,6 +7996,14 @@
     },
     "Inspector Gadget": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Inspector Gadget",
         "tconst": "tt0141369",
@@ -7843,6 +8035,14 @@
     },
     "The Benny Hill Show": {
       "count": 2,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "The Benny Hill Show",
         "tconst": "tt0063869",
@@ -7872,6 +8072,14 @@
     },
     "Rain Man": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Rain Man",
         "tconst": "tt0095953",
@@ -7901,6 +8109,14 @@
     },
     "Harry Potter and the Sorcerer's Stone": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Harry Potter and the Sorcerer's Stone",
         "tconst": "tt0241527",
@@ -7932,6 +8148,14 @@
     },
     "Cop Rock": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Cop Rock",
         "tconst": "tt0098772",
@@ -7962,6 +8186,14 @@
     },
     "E.T. the Extra-Terrestrial": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "E.T. the Extra-Terrestrial",
         "tconst": "tt0083866",
@@ -7992,6 +8224,14 @@
     },
     "Juno": {
       "count": 2,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Juno",
         "tconst": "tt0467406",
@@ -8022,6 +8262,14 @@
     },
     "Scrubs": {
       "count": 2,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Scrubs",
         "tconst": "tt0285403",
@@ -8052,6 +8300,14 @@
     },
     "Ghost": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Ghost",
         "tconst": "tt0099653",
@@ -8083,6 +8339,14 @@
     },
     "Law & Order": {
       "count": 2,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Law & Order",
         "tconst": "tt0098844",
@@ -8114,6 +8378,14 @@
     },
     "Shaft": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 2,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Shaft",
         "tconst": "tt0162650",
@@ -8145,6 +8417,14 @@
     },
     "Barbie": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Barbie",
         "tconst": "tt0781631",
@@ -8174,6 +8454,14 @@
     },
     "Saw": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 2,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Saw",
         "tconst": "tt0387564",
@@ -8205,6 +8493,14 @@
     },
     "Three's Company": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Three's Company",
         "tconst": "tt0272890",
@@ -8235,6 +8531,14 @@
     },
     "The Real World": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 2,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "The Real World",
         "tconst": "tt0867014",
@@ -8264,6 +8568,14 @@
     },
     "Breaking Bad": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 2,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Breaking Bad",
         "tconst": "tt0903747",
@@ -8295,6 +8607,14 @@
     },
     "Boogie Nights": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 2,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Boogie Nights",
         "tconst": "tt0118749",
@@ -8324,6 +8644,14 @@
     },
     "Push": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 2,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Push",
         "tconst": "tt0465580",
@@ -8355,6 +8683,14 @@
     },
     "Sapphire": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 2,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Sapphire",
         "tconst": "tt0053242",
@@ -8386,6 +8722,14 @@
     },
     "Bono": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 2,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Bono",
         "tconst": "tt0424861",
@@ -8417,6 +8761,14 @@
     },
     "Spider-Man": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 2,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Spider-Man",
         "tconst": "tt0290983",
@@ -8448,6 +8800,14 @@
     },
     "Star Trek": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "title": "Star Trek",
         "tconst": "tt0796366",
@@ -8479,6 +8839,14 @@
     },
     "Seinfeld": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Seinfeld",
         "tconst": "tt0098904",
@@ -8501,6 +8869,14 @@
     },
     "Slumdog Millionaire": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Slumdog Millionaire",
         "tconst": "tt1010048",
@@ -8524,6 +8900,14 @@
     },
     "Dirty Dancing": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Dirty Dancing",
         "tconst": "tt0094450",
@@ -8547,6 +8931,14 @@
     },
     "Stripes": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Stripes",
         "tconst": "tt0083131",
@@ -8570,6 +8962,14 @@
     },
     "Dead Poets Society": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Dead Poets Society",
         "tconst": "tt0097165",
@@ -8593,6 +8993,14 @@
     },
     "Aladdin": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Aladdin",
         "tconst": "tt0433326",
@@ -8615,6 +9023,14 @@
     },
     "Citizen Kane": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Citizen Kane",
         "tconst": "tt0033467",
@@ -8638,6 +9054,14 @@
     },
     "Soul Train Awards": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Soul Train Awards",
         "tconst": "tt1556542",
@@ -8660,6 +9084,14 @@
     },
     "Desperate Housewives": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Desperate Housewives",
         "tconst": "tt0410975",
@@ -8684,6 +9116,14 @@
     },
     "Doogie Howser, M.D.": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Doogie Howser, M.D.",
         "tconst": "tt0096569",
@@ -8708,6 +9148,14 @@
     },
     "Fawlty Towers": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Fawlty Towers",
         "tconst": "tt0072500",
@@ -8730,6 +9178,14 @@
     },
     "Carlito's Way": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Carlito's Way",
         "tconst": "tt0106519",
@@ -8754,6 +9210,14 @@
     },
     "The Cowboy Way": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "The Cowboy Way",
         "tconst": "tt0109493",
@@ -8778,6 +9242,14 @@
     },
     "The Hard Way": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "The Hard Way",
         "tconst": "tt0102004",
@@ -8802,6 +9274,14 @@
     },
     "Q & A": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Q & A",
         "tconst": "tt0100442",
@@ -8826,6 +9306,14 @@
     },
     "The Curious Case of Benjamin Button": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "The Curious Case of Benjamin Button",
         "tconst": "tt0421715",
@@ -8850,6 +9338,14 @@
     },
     "Felix the Cat": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Felix the Cat",
         "tconst": "tt0278192",
@@ -8874,6 +9370,14 @@
     },
     "La Bamba": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "La Bamba",
         "tconst": "tt0093378",
@@ -8898,6 +9402,14 @@
     },
     "Jonny Quest": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Jonny Quest",
         "tconst": "tt0206500",
@@ -8922,6 +9434,14 @@
     },
     "Van Wilder 2: The Rise of Taj": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Van Wilder 2: The Rise of Taj",
         "tconst": "tt0480271",
@@ -8945,6 +9465,14 @@
     },
     "Ghostbusters": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Ghostbusters",
         "tconst": "tt0087332",
@@ -8969,6 +9497,14 @@
     },
     "Grumpy Old Men": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Grumpy Old Men",
         "tconst": "tt0397794",
@@ -8992,6 +9528,14 @@
     },
     "Sesame Street": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Sesame Street",
         "tconst": "tt0063951",
@@ -9016,6 +9560,14 @@
     },
     "Overboard": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Overboard",
         "tconst": "tt0093693",
@@ -9039,6 +9591,14 @@
     },
     "The Jeffersons": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "The Jeffersons",
         "tconst": "tt0072519",
@@ -9061,6 +9621,14 @@
     },
     "Good Times": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Good Times",
         "tconst": "tt0070991",
@@ -9083,6 +9651,14 @@
     },
     "L.A. Law": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "L.A. Law",
         "tconst": "tt0090466",
@@ -9105,6 +9681,14 @@
     },
     "iCarly": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "iCarly",
         "tconst": "tt0972534",
@@ -9129,6 +9713,14 @@
     },
     "The Simpsons": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "The Simpsons",
         "tconst": "tt0096697",
@@ -9152,6 +9744,14 @@
     },
     "The View": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "The View",
         "tconst": "tt0791059",
@@ -9174,6 +9774,14 @@
     },
     "Over the Top": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Over the Top",
         "tconst": "tt0093692",
@@ -9198,6 +9806,14 @@
     },
     "Monty Python's Flying Circus": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Monty Python's Flying Circus",
         "tconst": "tt0063929",
@@ -9220,6 +9836,14 @@
     },
     "My Bodyguard": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "My Bodyguard",
         "tconst": "tt0081207",
@@ -9244,6 +9868,14 @@
     },
     "Full Metal Jacket": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Full Metal Jacket",
         "tconst": "tt0093058",
@@ -9267,6 +9899,14 @@
     },
     "Breakin'": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Breakin'",
         "tconst": "tt0086998",
@@ -9291,6 +9931,14 @@
     },
     "Paul Blart: Mall Cop": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Paul Blart: Mall Cop",
         "tconst": "tt1114740",
@@ -9315,6 +9963,14 @@
     },
     "Dancing with the Stars": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Dancing with the Stars",
         "tconst": "tt0434676",
@@ -9339,6 +9995,14 @@
     },
     "The Big Lebowski": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "The Big Lebowski",
         "tconst": "tt0118715",
@@ -9363,6 +10027,14 @@
     },
     "Red Shoe Diaries": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Red Shoe Diaries",
         "tconst": "tt0105227",
@@ -9387,6 +10059,14 @@
     },
     "Runaway": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Runaway",
         "tconst": "tt0805665",
@@ -9409,6 +10089,14 @@
     },
     "Mad Men": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Mad Men",
         "tconst": "tt0804503",
@@ -9431,6 +10119,14 @@
     },
     "Boys": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Boys",
         "tconst": "tt0373733",
@@ -9455,6 +10151,14 @@
     },
     "The Little Mermaid": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "The Little Mermaid",
         "tconst": "tt0160801",
@@ -9479,6 +10183,14 @@
     },
     "Hannah Montana": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Hannah Montana",
         "tconst": "tt0493093",
@@ -9503,6 +10215,14 @@
     },
     "Sixteen Candles": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Sixteen Candles",
         "tconst": "tt0088128",
@@ -9526,6 +10246,14 @@
     },
     "The Bucket List": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "The Bucket List",
         "tconst": "tt0825232",
@@ -9549,6 +10277,14 @@
     },
     "Bad Influence": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Bad Influence",
         "tconst": "tt0099091",
@@ -9572,6 +10308,14 @@
     },
     "Billionaire Boys Club": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Billionaire Boys Club",
         "tconst": "tt0092659",
@@ -9595,6 +10339,14 @@
     },
     "Scary Movie": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Scary Movie",
         "tconst": "tt0175142",
@@ -9617,6 +10369,14 @@
     },
     "Edward Scissorhands": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Edward Scissorhands",
         "tconst": "tt0099487",
@@ -9641,6 +10401,14 @@
     },
     "RoboCop": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "RoboCop",
         "tconst": "tt0194622",
@@ -9665,6 +10433,14 @@
     },
     "Macbeth": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Macbeth",
         "tconst": "tt0841127",
@@ -9687,6 +10463,14 @@
     },
     "Aliens": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Aliens",
         "tconst": "tt0090605",
@@ -9711,6 +10495,14 @@
     },
     "Rainbow": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Rainbow",
         "tconst": "tt0463390",
@@ -9733,6 +10525,14 @@
     },
     "Frasier": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Frasier",
         "tconst": "tt0106004",
@@ -9755,6 +10555,14 @@
     },
     "Veronica Mars": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Veronica Mars",
         "tconst": "tt0412253",
@@ -9779,6 +10587,14 @@
     },
     "Children of the Corn": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Children of the Corn",
         "tconst": "tt0087050",
@@ -9802,6 +10618,14 @@
     },
     "Jango": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Jango",
         "tconst": "tt0296689",
@@ -9826,6 +10650,14 @@
     },
     "Apocalypse Now": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Apocalypse Now",
         "tconst": "tt0078788",
@@ -9850,6 +10682,14 @@
     },
     "Joker": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Joker",
         "tconst": "tt0330495",
@@ -9872,6 +10712,14 @@
     },
     "Kings": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Kings",
         "tconst": "tt0889136",
@@ -9894,6 +10742,14 @@
     },
     "Steppenwolf": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Steppenwolf",
         "tconst": "tt0072206",
@@ -9916,6 +10772,14 @@
     },
     "Hulk": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Hulk",
         "tconst": "tt0286716",
@@ -9939,6 +10803,14 @@
     },
     "Forensic Files": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Forensic Files",
         "tconst": "tt0247882",
@@ -9962,6 +10834,14 @@
     },
     "Inglourious Basterds": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Inglourious Basterds",
         "tconst": "tt0361748",
@@ -9986,6 +10866,14 @@
     },
     "Rambo III": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Rambo III",
         "tconst": "tt0095956",
@@ -10010,6 +10898,14 @@
     },
     "Zardoz": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Zardoz",
         "tconst": "tt0070948",
@@ -10034,6 +10930,14 @@
     },
     "Mama's Family": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Mama's Family",
         "tconst": "tt0085050",
@@ -10056,6 +10960,14 @@
     },
     "Patty Hearst": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Patty Hearst",
         "tconst": "tt0095836",
@@ -10079,6 +10991,14 @@
     },
     "Nightshade": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Nightshade",
         "tconst": "tt0067473",
@@ -10101,6 +11021,14 @@
     },
     "Ocean's Eleven": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Ocean's Eleven",
         "tconst": "tt0054135",
@@ -10125,6 +11053,14 @@
     },
     "Judging Amy": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Judging Amy",
         "tconst": "tt0209069",
@@ -10147,6 +11083,14 @@
     },
     "Blind Justice": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Blind Justice",
         "tconst": "tt0424609",
@@ -10171,6 +11115,14 @@
     },
     "Peter Pan": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Peter Pan",
         "tconst": "tt0399484",
@@ -10193,6 +11145,14 @@
     },
     "Game of Thrones": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Game of Thrones",
         "tconst": "tt0944947",
@@ -10217,6 +11177,14 @@
     },
     "Showtime": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Showtime",
         "tconst": "tt0485357",
@@ -10240,6 +11208,14 @@
     },
     "Hoop Dreams": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Hoop Dreams",
         "tconst": "tt0110057",
@@ -10264,6 +11240,14 @@
     },
     "The Tree of Life": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "The Tree of Life",
         "tconst": "tt0478304",
@@ -10287,6 +11271,14 @@
     },
     "Gossip Girl": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Gossip Girl",
         "tconst": "tt0397442",
@@ -10310,6 +11302,14 @@
     },
     "Rouge": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Rouge",
         "tconst": "tt0286211",
@@ -10333,6 +11333,14 @@
     },
     "Unbreakable": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "title": "Unbreakable",
         "tconst": "tt0217869",
@@ -10357,6 +11365,14 @@
     },
     "Face/Off": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "title": "Face/Off",
         "tconst": "tt0119094",
@@ -10381,6 +11397,14 @@
     },
     "The Wicker Man": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "title": "The Wicker Man",
         "tconst": "tt0450345",
@@ -10405,6 +11429,14 @@
     },
     "The Grey": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "title": "The Grey",
         "tconst": "tt0362693",
@@ -10427,6 +11459,14 @@
     },
     "Cheech and Chong's Next Movie": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "title": "Cheech and Chong's Next Movie",
         "tconst": "tt0080520",
@@ -10451,6 +11491,14 @@
     },
     "The Usual Suspects": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "title": "The Usual Suspects",
         "tconst": "tt0114814",
@@ -10475,6 +11523,14 @@
     },
     "The Jewel of the Nile": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "title": "The Jewel of the Nile",
         "tconst": "tt0089370",
@@ -10499,6 +11555,14 @@
     },
     "Dick Tracy": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "title": "Dick Tracy",
         "tconst": "tt0145742",
@@ -10521,6 +11585,14 @@
     },
     "Matrix": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "title": "Matrix",
         "tconst": "tt0133093",
@@ -10544,6 +11616,14 @@
     },
     "The Matrix Reloaded": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "title": "The Matrix Reloaded",
         "tconst": "tt0234215",
@@ -10567,6 +11647,14 @@
     },
     "The Bionic Woman": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "title": "The Bionic Woman",
         "tconst": "tt0073965",
@@ -10591,6 +11679,14 @@
     },
     "The Office": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "title": "The Office",
         "tconst": "tt0386676",
@@ -10613,6 +11709,14 @@
     },
     "The Matrix": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "title": "The Matrix",
         "tconst": "tt0133093",
@@ -10636,6 +11740,14 @@
     },
     "Godzilla": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "title": "Godzilla",
         "tconst": "tt0831387",
@@ -10660,6 +11772,14 @@
     },
     "The Karate Kid": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "title": "The Karate Kid",
         "tconst": "tt0087538",
@@ -10684,6 +11804,14 @@
     },
     "Can't Hardly Wait": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "title": "Can't Hardly Wait",
         "tconst": "tt0127723",
@@ -10707,6 +11835,14 @@
     },
     "Risky Business": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "title": "Risky Business",
         "tconst": "tt0086200",
@@ -10731,6 +11867,14 @@
     },
     "Mask": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "title": "Mask",
         "tconst": "tt0089560",
@@ -10754,6 +11898,14 @@
     },
     "Donnie Darko": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "title": "Donnie Darko",
         "tconst": "tt0246578",
@@ -10778,6 +11930,14 @@
     },
     "Chariots of Fire": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "title": "Chariots of Fire",
         "tconst": "tt0082158",
@@ -10802,6 +11962,14 @@
     },
     "Midnight Cowboy": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "title": "Midnight Cowboy",
         "tconst": "tt0064665",
@@ -10825,6 +11993,14 @@
     },
     "Matchstick Men": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "title": "Matchstick Men",
         "tconst": "tt0325805",
@@ -10849,6 +12025,14 @@
     },
     "Wheel of Fortune": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "title": "Wheel of Fortune",
         "tconst": "tt0072584",
@@ -10873,6 +12057,14 @@
     },
     "Iron Man": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "title": "Iron Man",
         "tconst": "tt0371746",

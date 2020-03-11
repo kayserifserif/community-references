@@ -42,11 +42,21 @@ for epCode in data:
     if title not in titles:
       titles[title] = {
         "count": 1,
+        "countBySeason": {
+          "s01": 0,
+          "s02": 0,
+          "s03": 0,
+          "s04": 0,
+          "s05": 0,
+          "s06": 0,
+        },
         "details": details,
         "references": [reference]
       }
+      titles[title]["countBySeason"][season] = 1
     else:
       titles[title]["count"] += 1
+      titles[title]["countBySeason"][season] += 1
       titles[title]["references"].append(reference)
 
 people = OrderedDict(sorted(people.items(), key=lambda x: x[1]["count"], reverse=True))
