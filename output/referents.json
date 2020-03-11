@@ -2,6 +2,14 @@
   "people": {
     "Sophie B. Hawkins": {
       "count": 17,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 17,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Sophie B. Hawkins",
         "nconst": "nm0005001",
@@ -143,6 +151,14 @@
     },
     "Nicolas Cage": {
       "count": 14,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 14,
+        "s06": 0
+      },
       "details": {
         "name": "Nicolas Cage",
         "nconst": "nm0000115",
@@ -263,6 +279,14 @@
     },
     "LeVar Burton": {
       "count": 7,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 4,
+        "s03": 2,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "LeVar Burton",
         "nconst": "nm0000996",
@@ -334,6 +358,14 @@
     },
     "Luis Guzm\u00e1n": {
       "count": 6,
+      "countBySeason": {
+        "s01": 6,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Luis Guzm\u00e1n",
         "nconst": "nm0350079",
@@ -398,6 +430,14 @@
     },
     "Jim Belushi": {
       "count": 6,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 2,
+        "s04": 0,
+        "s05": 1,
+        "s06": 1
+      },
       "details": {
         "name": "Jim Belushi",
         "nconst": "nm0000902",
@@ -462,6 +502,14 @@
     },
     "Burt Reynolds": {
       "count": 6,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 6,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Burt Reynolds",
         "nconst": "nm0000608",
@@ -526,6 +574,14 @@
     },
     "Christian Bale": {
       "count": 4,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 3,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Christian Bale",
         "nconst": "nm0000288",
@@ -554,28 +610,36 @@
         {
           "entity": "Christian Bale",
           "sentence": "Our limited-edition, $299 Dark Knight DVD with bonus footage, special commentary, and a Christian Bale autograph, including a personalized message of up to four words! \"",
-          "startIndex": 755,
-          "endIndex": 769,
+          "startIndex": 751,
+          "endIndex": 765,
           "epCode": "s03e09"
         },
         {
           "entity": "Christian Bale",
           "sentence": "Abed is Batman now, Christian Bale.\"  ",
-          "startIndex": 856,
-          "endIndex": 870,
+          "startIndex": 852,
+          "endIndex": 866,
           "epCode": "s03e09"
         },
         {
           "entity": "Christian Bale",
           "sentence": "And--and then we just have to record fake exclusive commentary by Christian Bale.",
-          "startIndex": 2469,
-          "endIndex": 2483,
+          "startIndex": 2447,
+          "endIndex": 2461,
           "epCode": "s03e09"
         }
       ]
     },
     "Betty Grable": {
       "count": 4,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 4,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Betty Grable",
         "nconst": "nm0002107",
@@ -625,6 +689,14 @@
     },
     "Tom Waits": {
       "count": 4,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 4,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Tom Waits",
         "nconst": "nm0001823",
@@ -675,6 +747,14 @@
     },
     "Michael Douglas": {
       "count": 3,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "name": "Michael Douglas",
         "nconst": "nm0000140",
@@ -718,6 +798,14 @@
     },
     "Robin Williams": {
       "count": 3,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Robin Williams",
         "nconst": "nm0000245",
@@ -761,6 +849,14 @@
     },
     "Billy Joel": {
       "count": 3,
+      "countBySeason": {
+        "s01": 3,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Billy Joel",
         "nconst": "nm0005055",
@@ -804,6 +900,14 @@
     },
     "Moby": {
       "count": 3,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 2,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Moby",
         "nconst": "nm0005240",
@@ -847,6 +951,14 @@
     },
     "Seal": {
       "count": 3,
+      "countBySeason": {
+        "s01": 3,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Seal",
         "nconst": "nm0780499",
@@ -890,6 +1002,14 @@
     },
     "Green Day": {
       "count": 3,
+      "countBySeason": {
+        "s01": 3,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Green Day",
         "nconst": "nm1554564",
@@ -933,6 +1053,14 @@
     },
     "Tom Selleck": {
       "count": 3,
+      "countBySeason": {
+        "s01": 3,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Tom Selleck",
         "nconst": "nm0000633",
@@ -976,6 +1104,14 @@
     },
     "George Takei": {
       "count": 3,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 3,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "George Takei",
         "nconst": "nm0001786",
@@ -1019,6 +1155,14 @@
     },
     "Jamie Lee Curtis": {
       "count": 3,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 2,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Jamie Lee Curtis",
         "nconst": "nm0000130",
@@ -1062,6 +1206,14 @@
     },
     "Sean Penn": {
       "count": 3,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 3,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Sean Penn",
         "nconst": "nm0000576",
@@ -1105,6 +1257,14 @@
     },
     "Tom Hanks": {
       "count": 3,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 3,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Tom Hanks",
         "nconst": "nm0000158",
@@ -1148,6 +1308,14 @@
     },
     "Lorenzo Lamas": {
       "count": 3,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 3,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Lorenzo Lamas",
         "nconst": "nm0001444",
@@ -1191,6 +1359,14 @@
     },
     "Morgan Freeman": {
       "count": 3,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 2,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Morgan Freeman",
         "nconst": "nm0000151",
@@ -1234,6 +1410,14 @@
     },
     "Elisabeth Shue": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Elisabeth Shue",
         "nconst": "nm0000223",
@@ -1270,6 +1454,14 @@
     },
     "Ryan Seacrest": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Ryan Seacrest",
         "nconst": "nm0780435",
@@ -1306,6 +1498,14 @@
     },
     "Ben Affleck": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Ben Affleck",
         "nconst": "nm0000255",
@@ -1342,6 +1542,14 @@
     },
     "Bill Murray": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Bill Murray",
         "nconst": "nm0000195",
@@ -1378,6 +1586,14 @@
     },
     "Jodie Foster": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Jodie Foster",
         "nconst": "nm0000149",
@@ -1414,6 +1630,14 @@
     },
     "John Lennon": {
       "count": 2,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "John Lennon",
         "nconst": "nm0006168",
@@ -1450,6 +1674,14 @@
     },
     "Goldie Hawn": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Goldie Hawn",
         "nconst": "nm0000443",
@@ -1486,6 +1718,14 @@
     },
     "Kurt Russell": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Kurt Russell",
         "nconst": "nm0000621",
@@ -1522,6 +1762,14 @@
     },
     "Art Garfunkel": {
       "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Art Garfunkel",
         "nconst": "nm0307316",
@@ -1558,6 +1806,14 @@
     },
     "Jack Nicholson": {
       "count": 2,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "name": "Jack Nicholson",
         "nconst": "nm0000197",
@@ -1594,6 +1850,14 @@
     },
     "Harvey Keitel": {
       "count": 2,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Harvey Keitel",
         "nconst": "nm0000172",
@@ -1628,8 +1892,146 @@
         }
       ]
     },
+    "Mike Tyson": {
+      "count": 2,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Mike Tyson",
+        "nconst": "nm0005512",
+        "birthYear": 1966,
+        "deathYear": "\\N",
+        "professions": [
+          "actor",
+          "producer",
+          "soundtrack"
+        ],
+        "knownFor": [
+          "tt1119646",
+          "tt1411697",
+          "tt1661382",
+          "tt2888046"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Tyson",
+          "sentence": "Tyson, Lou Ferrigno, Rosie O'Donnell.",
+          "startIndex": 5912,
+          "endIndex": 5917,
+          "epCode": "s01e12"
+        },
+        {
+          "entity": "Mike Tyson",
+          "sentence": "My, oh, my, Mike Tyson.",
+          "startIndex": 9628,
+          "endIndex": 9638,
+          "epCode": "s02e08"
+        }
+      ]
+    },
+    "Toni Braxton": {
+      "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Toni Braxton",
+        "nconst": "nm0004772",
+        "birthYear": 1966,
+        "deathYear": "\\N",
+        "professions": [
+          "soundtrack",
+          "actress",
+          "producer"
+        ],
+        "knownFor": [
+          "tt0246002",
+          "tt6626022",
+          "tt1520498",
+          "tt0278488"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Toni Braxton",
+          "sentence": "In October, there was a free Toni Braxton concert on the quad",
+          "startIndex": 6299,
+          "endIndex": 6311,
+          "epCode": "s01e13"
+        },
+        {
+          "entity": "Toni Braxton",
+          "sentence": "I had 20 minutes to let people know Toni Braxton was starting early and 273 text messages left before my rate tripled.",
+          "startIndex": 10053,
+          "endIndex": 10065,
+          "epCode": "s01e13"
+        }
+      ]
+    },
+    "Jerry Rice": {
+      "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Jerry Rice",
+        "nconst": "nm0005357",
+        "birthYear": 1962,
+        "deathYear": "\\N",
+        "professions": [
+          "actor"
+        ],
+        "knownFor": [
+          "tt0790772",
+          "tt0772137",
+          "tt1276107",
+          "tt0484082"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Jerry Rice",
+          "sentence": "But even when Jerry Rice went on Dancing With the Stars Jerry Rice?",
+          "startIndex": 6962,
+          "endIndex": 6972,
+          "epCode": "s01e14"
+        },
+        {
+          "entity": "Jerry Rice",
+          "sentence": "But even when Jerry Rice went on Dancing With the Stars Jerry Rice?",
+          "startIndex": 7004,
+          "endIndex": 7014,
+          "epCode": "s01e14"
+        }
+      ]
+    },
     "Halle Berry": {
       "count": 2,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Halle Berry",
         "nconst": "nm0000932",
@@ -1666,6 +2068,14 @@
     },
     "Eddie Murphy": {
       "count": 2,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Eddie Murphy",
         "nconst": "nm0000552",
@@ -1702,6 +2112,14 @@
     },
     "Woody Allen": {
       "count": 2,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "name": "Woody Allen",
         "nconst": "nm0000095",
@@ -1738,6 +2156,14 @@
     },
     "Rob Lowe": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 2,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Rob Lowe",
         "nconst": "nm0000507",
@@ -1774,6 +2200,14 @@
     },
     "James Spader": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "name": "James Spader",
         "nconst": "nm0000652",
@@ -1810,6 +2244,14 @@
     },
     "Stephen Fry": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 2,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Stephen Fry",
         "nconst": "nm0000410",
@@ -1846,6 +2288,14 @@
     },
     "Johnny Depp": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "name": "Johnny Depp",
         "nconst": "nm0000136",
@@ -1882,6 +2332,14 @@
     },
     "Michael Chiklis": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Michael Chiklis",
         "nconst": "nm0004821",
@@ -1918,6 +2376,14 @@
     },
     "Harrison Ford": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Harrison Ford",
         "nconst": "nm0001230",
@@ -1952,6 +2418,14 @@
     },
     "Nick Nolte": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 2,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Nick Nolte",
         "nconst": "nm0000560",
@@ -1987,6 +2461,14 @@
     },
     "Sarah McLachlan": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Sarah McLachlan",
         "nconst": "nm0005214",
@@ -2023,6 +2505,14 @@
     },
     "Oscar Wilde": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "name": "Oscar Wilde",
         "nconst": "nm0928492",
@@ -2057,6 +2547,14 @@
     },
     "Robert Downey Jr.": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 1
+      },
       "details": {
         "name": "Robert Downey Jr.",
         "nconst": "nm0000375",
@@ -2093,6 +2591,14 @@
     },
     "Liam Neeson": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 2,
+        "s06": 0
+      },
       "details": {
         "name": "Liam Neeson",
         "nconst": "nm0000553",
@@ -2129,6 +2635,14 @@
     },
     "Donald Sutherland": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 2,
+        "s06": 0
+      },
       "details": {
         "name": "Donald Sutherland",
         "nconst": "nm0000661",
@@ -2165,6 +2679,14 @@
     },
     "Vin Diesel": {
       "count": 2,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 2
+      },
       "details": {
         "name": "Vin Diesel",
         "nconst": "nm0004874",
@@ -2201,6 +2723,14 @@
     },
     "Susan Sarandon": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Susan Sarandon",
         "nconst": "nm0000215",
@@ -2230,6 +2760,14 @@
     },
     "Dane Cook": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Dane Cook",
         "nconst": "nm0176981",
@@ -2259,6 +2797,14 @@
     },
     "Weezer": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Weezer",
         "nconst": "nm1143053",
@@ -2288,6 +2834,14 @@
     },
     "Cate Blanchett": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Cate Blanchett",
         "nconst": "nm0000949",
@@ -2317,6 +2871,14 @@
     },
     "Danny Glover": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Danny Glover",
         "nconst": "nm0000418",
@@ -2346,6 +2908,14 @@
     },
     "Bruce Hornsby": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Bruce Hornsby",
         "nconst": "nm0395193",
@@ -2375,6 +2945,14 @@
     },
     "Yoko Ono": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Yoko Ono",
         "nconst": "nm0648780",
@@ -2404,6 +2982,14 @@
     },
     "Phylicia Rashad": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Phylicia Rashad",
         "nconst": "nm0711118",
@@ -2433,6 +3019,14 @@
     },
     "Desmond Tutu": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Desmond Tutu",
         "nconst": "nm0878379",
@@ -2460,6 +3054,14 @@
     },
     "Lou Diamond Phillips": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Lou Diamond Phillips",
         "nconst": "nm0001617",
@@ -2489,6 +3091,14 @@
     },
     "Katherine Heigl": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Katherine Heigl",
         "nconst": "nm0001337",
@@ -2518,6 +3128,14 @@
     },
     "Gerard Butler": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Gerard Butler",
         "nconst": "nm0124930",
@@ -2547,6 +3165,14 @@
     },
     "Pink Floyd": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Pink Floyd",
         "nconst": "nm0969139",
@@ -2576,6 +3202,14 @@
     },
     "Gwen Stefani": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Gwen Stefani",
         "nconst": "nm0005461",
@@ -2605,6 +3239,14 @@
     },
     "Michael Richards": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Michael Richards",
         "nconst": "nm0724245",
@@ -2634,6 +3276,14 @@
     },
     "Phil Spector": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Phil Spector",
         "nconst": "nm0817489",
@@ -2663,6 +3313,14 @@
     },
     "Styx": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Styx",
         "nconst": "nm1381746",
@@ -2692,6 +3350,14 @@
     },
     "Sade": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Sade",
         "nconst": "nm0755442",
@@ -2721,6 +3387,14 @@
     },
     "Madonna": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Madonna",
         "nconst": "nm0000187",
@@ -2750,6 +3424,14 @@
     },
     "Jay-Z": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Jay-Z",
         "nconst": "nm0419650",
@@ -2779,6 +3461,14 @@
     },
     "Sylvester Stallone": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Sylvester Stallone",
         "nconst": "nm0000230",
@@ -2806,36 +3496,16 @@
         }
       ]
     },
-    "Kate Winslet": {
-      "count": 1,
-      "details": {
-        "name": "Kate Winslet",
-        "nconst": "nm0000701",
-        "birthYear": 1975,
-        "deathYear": "\\N",
-        "professions": [
-          "actress",
-          "soundtrack"
-        ],
-        "knownFor": [
-          "tt0338013",
-          "tt0959337",
-          "tt0114388",
-          "tt0120338"
-        ]
-      },
-      "references": [
-        {
-          "entity": "Kate Winslet",
-          "sentence": "Sounds like a porno with Kate Winslet.",
-          "startIndex": 155,
-          "endIndex": 167,
-          "epCode": "s01e12"
-        }
-      ]
-    },
     "Chuck Norris": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Chuck Norris",
         "nconst": "nm0001569",
@@ -2865,6 +3535,14 @@
     },
     "Lou Ferrigno": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Lou Ferrigno",
         "nconst": "nm0002073",
@@ -2893,6 +3571,14 @@
     },
     "Rosie O'Donnell": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Rosie O'Donnell",
         "nconst": "nm0005280",
@@ -2920,8 +3606,127 @@
         }
       ]
     },
+    "Forest Whitaker": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Forest Whitaker",
+        "nconst": "nm0001845",
+        "birthYear": 1961,
+        "deathYear": "\\N",
+        "professions": [
+          "actor",
+          "producer",
+          "director"
+        ],
+        "knownFor": [
+          "tt0185183",
+          "tt0455590",
+          "tt1825683",
+          "tt1327773"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Forest Whitaker",
+          "sentence": "Then you give them the Forest Whitaker eye.",
+          "startIndex": 7822,
+          "endIndex": 7837,
+          "epCode": "s01e12"
+        }
+      ]
+    },
+    "Paul Rudd": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Paul Rudd",
+        "nconst": "nm0748620",
+        "birthYear": 1969,
+        "deathYear": "\\N",
+        "professions": [
+          "actor",
+          "writer",
+          "producer"
+        ],
+        "knownFor": [
+          "tt1155056",
+          "tt1659337",
+          "tt5095030",
+          "tt0478970"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Paul Rudd",
+          "sentence": "To me, religion is like Paul Rudd.",
+          "startIndex": 9519,
+          "endIndex": 9528,
+          "epCode": "s01e12"
+        }
+      ]
+    },
+    "Led Zeppelin": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Led Zeppelin",
+        "nconst": "nm0496389",
+        "birthYear": "\\N",
+        "deathYear": "\\N",
+        "professions": [
+          "soundtrack",
+          "music_department",
+          "composer"
+        ],
+        "knownFor": [
+          "tt0075244",
+          "tt0400016",
+          "tt1483013",
+          "tt3501632"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Zeppelin",
+          "sentence": "This is the first desk I've seen in six months that doesn't have \"Zeppelin Rules\" carved into it.",
+          "startIndex": 3362,
+          "endIndex": 3370,
+          "epCode": "s01e13"
+        }
+      ]
+    },
     "Tom Wolfe": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Tom Wolfe",
         "nconst": "nm0004366",
@@ -2949,37 +3754,52 @@
         }
       ]
     },
-    "Toni Braxton": {
+    "Kate Winslet": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
-        "name": "Toni Braxton",
-        "nconst": "nm0004772",
-        "birthYear": 1966,
+        "name": "Kate Winslet",
+        "nconst": "nm0000701",
+        "birthYear": 1975,
         "deathYear": "\\N",
         "professions": [
-          "soundtrack",
           "actress",
-          "producer"
+          "soundtrack"
         ],
         "knownFor": [
-          "tt0246002",
-          "tt6626022",
-          "tt1520498",
-          "tt0278488"
+          "tt0338013",
+          "tt0959337",
+          "tt0114388",
+          "tt0120338"
         ]
       },
       "references": [
         {
-          "entity": "Toni Braxton",
-          "sentence": "I had 20 minutes to let people know Toni Braxton was starting early and 273 text messages left before my rate tripled.",
-          "startIndex": 10053,
-          "endIndex": 10065,
-          "epCode": "s01e13"
+          "entity": "Kate Winslet",
+          "sentence": "Sounds like a porno with Kate Winslet.",
+          "startIndex": 155,
+          "endIndex": 167,
+          "epCode": "s01e14"
         }
       ]
     },
     "Mickey Rooney": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Mickey Rooney",
         "nconst": "nm0001682",
@@ -3009,6 +3829,14 @@
     },
     "Fred Astaire": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Fred Astaire",
         "nconst": "nm0000001",
@@ -3036,35 +3864,53 @@
         }
       ]
     },
-    "Jerry Rice": {
+    "Mikhail Baryshnikov": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
-        "name": "Jerry Rice",
-        "nconst": "nm0005357",
-        "birthYear": 1962,
+        "name": "Mikhail Baryshnikov",
+        "nconst": "nm0000864",
+        "birthYear": 1948,
         "deathYear": "\\N",
         "professions": [
-          "actor"
+          "actor",
+          "producer",
+          "miscellaneous"
         ],
         "knownFor": [
-          "tt0790772",
-          "tt0772137",
-          "tt1276107",
-          "tt0484082"
+          "tt0101606",
+          "tt0136439",
+          "tt0076843",
+          "tt0090319"
         ]
       },
       "references": [
         {
-          "entity": "Jerry Rice",
-          "sentence": "But even when Jerry Rice went on Dancing With the Stars Jerry Rice?",
-          "startIndex": 6962,
-          "endIndex": 6972,
+          "entity": "Baryshnikov",
+          "sentence": "What about Baryshnikov?",
+          "startIndex": 6886,
+          "endIndex": 6897,
           "epCode": "s01e14"
         }
       ]
     },
     "Beau Bridges": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Beau Bridges",
         "nconst": "nm0000977",
@@ -3094,6 +3940,14 @@
     },
     "Meryl Streep": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Meryl Streep",
         "nconst": "nm0000658",
@@ -3123,6 +3977,14 @@
     },
     "Courtney Love": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Courtney Love",
         "nconst": "nm0001482",
@@ -3152,6 +4014,14 @@
     },
     "Dick Van Dyke": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Dick Van Dyke",
         "nconst": "nm0001813",
@@ -3181,6 +4051,14 @@
     },
     "Hilary Swank": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Hilary Swank",
         "nconst": "nm0005476",
@@ -3210,6 +4088,14 @@
     },
     "Hal Holbrook": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Hal Holbrook",
         "nconst": "nm0001358",
@@ -3239,6 +4125,14 @@
     },
     "Winona Ryder": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Winona Ryder",
         "nconst": "nm0000213",
@@ -3268,6 +4162,14 @@
     },
     "Sting": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Sting",
         "nconst": "nm0001776",
@@ -3297,6 +4199,14 @@
     },
     "Sam Elliott": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Sam Elliott",
         "nconst": "nm0000385",
@@ -3326,6 +4236,14 @@
     },
     "Dudley Moore": {
       "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Dudley Moore",
         "nconst": "nm0001545",
@@ -3355,6 +4273,14 @@
     },
     "George Clooney": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "George Clooney",
         "nconst": "nm0000123",
@@ -3384,6 +4310,14 @@
     },
     "Tom Berenger": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Tom Berenger",
         "nconst": "nm0000297",
@@ -3413,6 +4347,14 @@
     },
     "Dolly Parton": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Dolly Parton",
         "nconst": "nm0000573",
@@ -3442,6 +4384,14 @@
     },
     "Ricardo Montalban": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Ricardo Montalban",
         "nconst": "nm0001544",
@@ -3471,6 +4421,14 @@
     },
     "Greg Kinnear": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Greg Kinnear",
         "nconst": "nm0001427",
@@ -3500,6 +4458,14 @@
     },
     "Michelle Kwan": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Michelle Kwan",
         "nconst": "nm0005111",
@@ -3527,6 +4493,14 @@
     },
     "Michael Penn": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Michael Penn",
         "nconst": "nm0005304",
@@ -3556,6 +4530,14 @@
     },
     "Tom Cruise": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Tom Cruise",
         "nconst": "nm0000129",
@@ -3583,37 +4565,16 @@
         }
       ]
     },
-    "Mike Tyson": {
-      "count": 1,
-      "details": {
-        "name": "Mike Tyson",
-        "nconst": "nm0005512",
-        "birthYear": 1966,
-        "deathYear": "\\N",
-        "professions": [
-          "actor",
-          "producer",
-          "soundtrack"
-        ],
-        "knownFor": [
-          "tt1119646",
-          "tt1411697",
-          "tt1661382",
-          "tt2888046"
-        ]
-      },
-      "references": [
-        {
-          "entity": "Mike Tyson",
-          "sentence": "My, oh, my, Mike Tyson.",
-          "startIndex": 9628,
-          "endIndex": 9638,
-          "epCode": "s02e08"
-        }
-      ]
-    },
     "Tyra Banks": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Tyra Banks",
         "nconst": "nm0004723",
@@ -3643,6 +4604,14 @@
     },
     "Marisa Tomei": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Marisa Tomei",
         "nconst": "nm0000673",
@@ -3671,6 +4640,14 @@
     },
     "Claude Renoir": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Claude Renoir",
         "nconst": "nm0005841",
@@ -3700,6 +4677,14 @@
     },
     "Anne Hathaway": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Anne Hathaway",
         "nconst": "nm0004266",
@@ -3729,6 +4714,14 @@
     },
     "Tim Burton": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Tim Burton",
         "nconst": "nm0000318",
@@ -3758,6 +4751,14 @@
     },
     "Vince Vaughn": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Vince Vaughn",
         "nconst": "nm0000681",
@@ -3787,6 +4788,14 @@
     },
     "Yahoo Serious": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Yahoo Serious",
         "nconst": "nm0000635",
@@ -3816,6 +4825,14 @@
     },
     "Ellen Degeneres": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Ellen Degeneres",
         "nconst": "nm0001122",
@@ -3845,6 +4862,14 @@
     },
     "Gregory Hines": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Gregory Hines",
         "nconst": "nm0002138",
@@ -3874,6 +4899,14 @@
     },
     "John Grisham": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "John Grisham",
         "nconst": "nm0001300",
@@ -3903,6 +4936,14 @@
     },
     "Quentin Tarantino": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Quentin Tarantino",
         "nconst": "nm0000233",
@@ -3932,6 +4973,14 @@
     },
     "Tony Danza": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Tony Danza",
         "nconst": "nm0001103",
@@ -3961,6 +5010,14 @@
     },
     "Alyssa Milano": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Alyssa Milano",
         "nconst": "nm0000192",
@@ -3990,6 +5047,14 @@
     },
     "Jackie Coogan": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Jackie Coogan",
         "nconst": "nm0001067",
@@ -4019,6 +5084,14 @@
     },
     "Errol Morris": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Errol Morris",
         "nconst": "nm0001554",
@@ -4048,6 +5121,14 @@
     },
     "David Bowie": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "David Bowie",
         "nconst": "nm0000309",
@@ -4069,14 +5150,22 @@
         {
           "entity": "David Bowie",
           "sentence": "Let's dance, David Bowie.",
-          "startIndex": 14473,
-          "endIndex": 14484,
+          "startIndex": 14391,
+          "endIndex": 14402,
           "epCode": "s03e09"
         }
       ]
     },
     "Doris Day": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Doris Day",
         "nconst": "nm0000013",
@@ -4106,6 +5195,14 @@
     },
     "Adam Sandler": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Adam Sandler",
         "nconst": "nm0001191",
@@ -4135,6 +5232,14 @@
     },
     "Michael Jackson": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Michael Jackson",
         "nconst": "nm0001391",
@@ -4164,6 +5269,14 @@
     },
     "Quincy Jones": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Quincy Jones",
         "nconst": "nm0005065",
@@ -4193,6 +5306,14 @@
     },
     "Walter Matthau": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Walter Matthau",
         "nconst": "nm0000527",
@@ -4222,6 +5343,14 @@
     },
     "Geena Davis": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Geena Davis",
         "nconst": "nm0000133",
@@ -4251,6 +5380,14 @@
     },
     "Oprah Winfrey": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Oprah Winfrey",
         "nconst": "nm0001856",
@@ -4280,6 +5417,14 @@
     },
     "Jane Austen": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Jane Austen",
         "nconst": "nm0000807",
@@ -4307,6 +5452,14 @@
     },
     "Sandra Bullock": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Sandra Bullock",
         "nconst": "nm0000113",
@@ -4336,6 +5489,14 @@
     },
     "Carson Daly": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Carson Daly",
         "nconst": "nm0004856",
@@ -4365,6 +5526,14 @@
     },
     "Ted Danson": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Ted Danson",
         "nconst": "nm0001101",
@@ -4394,6 +5563,14 @@
     },
     "George Wendt": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "George Wendt",
         "nconst": "nm0001841",
@@ -4423,6 +5600,14 @@
     },
     "Blair Underwood": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Blair Underwood",
         "nconst": "nm0005516",
@@ -4452,6 +5637,14 @@
     },
     "Jessica Biel": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Jessica Biel",
         "nconst": "nm0004754",
@@ -4481,6 +5674,14 @@
     },
     "Darren Aronofsky": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Darren Aronofsky",
         "nconst": "nm0004716",
@@ -4510,6 +5711,14 @@
     },
     "John Wayne": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "John Wayne",
         "nconst": "nm0000078",
@@ -4539,6 +5748,14 @@
     },
     "Tara Reid": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Tara Reid",
         "nconst": "nm0005346",
@@ -4568,6 +5785,14 @@
     },
     "Roger Ebert": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Roger Ebert",
         "nconst": "nm0001170",
@@ -4597,6 +5822,14 @@
     },
     "Steve Winwood": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "Steve Winwood",
         "nconst": "nm0005566",
@@ -4626,6 +5859,14 @@
     },
     "George Lucas": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
       "details": {
         "name": "George Lucas",
         "nconst": "nm0000184",
@@ -4655,6 +5896,14 @@
     },
     "Lionel Richie": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "name": "Lionel Richie",
         "nconst": "nm0005360",
@@ -4684,6 +5933,14 @@
     },
     "Holly Hunter": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "name": "Holly Hunter",
         "nconst": "nm0000456",
@@ -4713,6 +5970,14 @@
     },
     "Don Cheadle": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "name": "Don Cheadle",
         "nconst": "nm0000332",
@@ -4742,6 +6007,14 @@
     },
     "John Denver": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "name": "John Denver",
         "nconst": "nm0000135",
@@ -4771,6 +6044,14 @@
     },
     "Fidel Castro": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "name": "Fidel Castro",
         "nconst": "nm0004242",
@@ -4798,6 +6079,14 @@
     },
     "Dennis Hopper": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
       "details": {
         "name": "Dennis Hopper",
         "nconst": "nm0000454",
@@ -4827,6 +6116,14 @@
     },
     "Brigitte Nielsen": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "name": "Brigitte Nielsen",
         "nconst": "nm0000557",
@@ -4855,6 +6152,14 @@
     },
     "Prince": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "name": "Prince",
         "nconst": "nm0002239",
@@ -4884,6 +6189,14 @@
     },
     "James Earl Jones": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "name": "James Earl Jones",
         "nconst": "nm0000469",
@@ -4912,6 +6225,14 @@
     },
     "Sidney Poitier": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "name": "Sidney Poitier",
         "nconst": "nm0001627",
@@ -4941,6 +6262,14 @@
     },
     "Meg Ryan": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "name": "Meg Ryan",
         "nconst": "nm0000212",
@@ -4970,6 +6299,14 @@
     },
     "Ralph Macchio": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "name": "Ralph Macchio",
         "nconst": "nm0001494",
@@ -4999,6 +6336,14 @@
     },
     "Robert Rodriguez": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "name": "Robert Rodriguez",
         "nconst": "nm0001675",
@@ -5028,6 +6373,14 @@
     },
     "Steven Spielberg": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "name": "Steven Spielberg",
         "nconst": "nm0000229",
@@ -5057,6 +6410,14 @@
     },
     "John Cusack": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "name": "John Cusack",
         "nconst": "nm0000131",
@@ -5086,6 +6447,14 @@
     },
     "Anjelica Huston": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "name": "Anjelica Huston",
         "nconst": "nm0001378",
@@ -5115,6 +6484,14 @@
     },
     "Arnold Schwarzenegger": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "name": "Arnold Schwarzenegger",
         "nconst": "nm0000216",
@@ -5144,6 +6521,14 @@
     },
     "Andy Kaufman": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "name": "Andy Kaufman",
         "nconst": "nm0001412",
@@ -5173,6 +6558,14 @@
     },
     "Christian Slater": {
       "count": 1,
+      "countBySeason": {
+        "s01": 0,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 1
+      },
       "details": {
         "name": "Christian Slater",
         "nconst": "nm0000225",
@@ -5303,36 +6696,36 @@
         {
           "entity": "Batman",
           "sentence": "Abed is Batman now, Christian Bale.\"  ",
-          "startIndex": 844,
-          "endIndex": 850,
+          "startIndex": 840,
+          "endIndex": 846,
           "epCode": "s03e09"
         },
         {
           "entity": "Batman",
           "sentence": "Just don't hurt me, Batman.",
-          "startIndex": 11723,
-          "endIndex": 11729,
+          "startIndex": 11653,
+          "endIndex": 11659,
           "epCode": "s03e09"
         },
         {
           "entity": "Batman",
           "sentence": "Batman.",
-          "startIndex": 14000,
-          "endIndex": 14006,
+          "startIndex": 13920,
+          "endIndex": 13926,
           "epCode": "s03e09"
         },
         {
           "entity": "Batman",
           "sentence": "Well, Batman, on behalf of all of us that aren't perfect, can I just say I'm sorry",
-          "startIndex": 14024,
-          "endIndex": 14030,
+          "startIndex": 13944,
+          "endIndex": 13950,
           "epCode": "s03e09"
         },
         {
           "entity": "Batman",
           "sentence": "And that's coming from Batman.",
-          "startIndex": 14223,
-          "endIndex": 14229,
+          "startIndex": 14143,
+          "endIndex": 14149,
           "epCode": "s03e09"
         },
         {
@@ -5376,6 +6769,93 @@
           "startIndex": 10357,
           "endIndex": 10363,
           "epCode": "s04e12"
+        }
+      ]
+    },
+    "M*A*S*H": {
+      "count": 10,
+      "details": {
+        "title": "M*A*S*H",
+        "tconst": "tt0068098",
+        "titleType": "tvSeries",
+        "startYear": 1972,
+        "endYear": 1983,
+        "genres": [
+          "Comedy",
+          "Drama",
+          "War"
+        ]
+      },
+      "references": [
+        {
+          "entity": "M*A*S*H",
+          "sentence": "M*A*S*H.",
+          "startIndex": 1118,
+          "endIndex": 1125,
+          "epCode": "s01e05"
+        },
+        {
+          "entity": "M*A*S*H",
+          "sentence": "You're like Hawkeye on M*A*S*H.",
+          "startIndex": 1209,
+          "endIndex": 1216,
+          "epCode": "s01e13"
+        },
+        {
+          "entity": "Hawkeye",
+          "sentence": "That was all classic Hawkeye.",
+          "startIndex": 4508,
+          "endIndex": 4515,
+          "epCode": "s01e13"
+        },
+        {
+          "entity": "Hawkeye",
+          "sentence": "I should build you a still for making Hawkeye martinis.",
+          "startIndex": 4664,
+          "endIndex": 4671,
+          "epCode": "s01e13"
+        },
+        {
+          "entity": "Radar",
+          "sentence": "Call me Radar?",
+          "startIndex": 4761,
+          "endIndex": 4766,
+          "epCode": "s01e13"
+        },
+        {
+          "entity": "Hawkeye",
+          "sentence": "You're Hawkeye.",
+          "startIndex": 9931,
+          "endIndex": 9938,
+          "epCode": "s01e13"
+        },
+        {
+          "entity": "Hawkeye",
+          "sentence": "Martinis are for Hawkeyes.",
+          "startIndex": 12958,
+          "endIndex": 12965,
+          "epCode": "s01e13"
+        },
+        {
+          "entity": "M*A*S*H",
+          "sentence": "Jeff, what's your favorite episode of M*A*S*H?",
+          "startIndex": 13053,
+          "endIndex": 13060,
+          "epCode": "s01e13"
+        },
+        {
+          "entity": "Hawkeye",
+          "sentence": "If you had actually seen the show you'd know that Hawkeye didn't just bed nurses and drink martinis.",
+          "startIndex": 13163,
+          "endIndex": 13170,
+          "epCode": "s01e13"
+        },
+        {
+          "entity": "Radar",
+          "sentence": "Thank you, Radar.",
+          "startIndex": 13693,
+          "endIndex": 13698,
+          "epCode": "s01e13"
         }
       ]
     },
@@ -6207,6 +7687,35 @@
           "startIndex": 14846,
           "endIndex": 14854,
           "epCode": "s05e11"
+        }
+      ]
+    },
+    "Meatballs": {
+      "count": 2,
+      "details": {
+        "title": "Meatballs",
+        "tconst": "tt0079540",
+        "titleType": "movie",
+        "startYear": 1979,
+        "endYear": "\\N",
+        "genres": [
+          "Comedy"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Meatballs",
+          "sentence": "It's Stripes or Meatballs.",
+          "startIndex": 15829,
+          "endIndex": 15838,
+          "epCode": "s01e01"
+        },
+        {
+          "entity": "Meatballs",
+          "sentence": "It was like My Bodyguard, but I was the kid from Meatballs, Jeff was from Full Metal Jacket, and the mustache guy was the brother of the guy in Entourage.",
+          "startIndex": 2055,
+          "endIndex": 2064,
+          "epCode": "s01e12"
         }
       ]
     },
@@ -7059,28 +8568,6 @@
         }
       ]
     },
-    "Meatballs": {
-      "count": 1,
-      "details": {
-        "title": "Meatballs",
-        "tconst": "tt0079540",
-        "titleType": "movie",
-        "startYear": 1979,
-        "endYear": "\\N",
-        "genres": [
-          "Comedy"
-        ]
-      },
-      "references": [
-        {
-          "entity": "Meatballs",
-          "sentence": "It's Stripes or Meatballs.",
-          "startIndex": 15829,
-          "endIndex": 15838,
-          "epCode": "s01e01"
-        }
-      ]
-    },
     "Dead Poets Society": {
       "count": 1,
       "details": {
@@ -7216,30 +8703,6 @@
           "startIndex": 15118,
           "endIndex": 15128,
           "epCode": "s01e04"
-        }
-      ]
-    },
-    "M*A*S*H": {
-      "count": 1,
-      "details": {
-        "title": "M*A*S*H",
-        "tconst": "tt0068098",
-        "titleType": "tvSeries",
-        "startYear": 1972,
-        "endYear": 1983,
-        "genres": [
-          "Comedy",
-          "Drama",
-          "War"
-        ]
-      },
-      "references": [
-        {
-          "entity": "M*A*S*H",
-          "sentence": "M*A*S*H.",
-          "startIndex": 1118,
-          "endIndex": 1125,
-          "epCode": "s01e05"
         }
       ]
     },
@@ -7779,27 +9242,122 @@
         }
       ]
     },
-    "Tyson": {
+    "Full Metal Jacket": {
       "count": 1,
       "details": {
-        "title": "Tyson",
-        "tconst": "tt0114759",
-        "titleType": "tvMovie",
-        "startYear": 1995,
+        "title": "Full Metal Jacket",
+        "tconst": "tt0093058",
+        "titleType": "movie",
+        "startYear": 1987,
         "endYear": "\\N",
         "genres": [
-          "Biography",
           "Drama",
+          "war"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Full Metal Jacket",
+          "sentence": "It was like My Bodyguard, but I was the kid from Meatballs, Jeff was from Full Metal Jacket, and the mustache guy was the brother of the guy in Entourage.",
+          "startIndex": 2080,
+          "endIndex": 2097,
+          "epCode": "s01e12"
+        }
+      ]
+    },
+    "Breakin'": {
+      "count": 1,
+      "details": {
+        "title": "Breakin'",
+        "tconst": "tt0086998",
+        "titleType": "movie",
+        "startYear": 1984,
+        "endYear": "\\N",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Music"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Breakin'",
+          "sentence": "And as much as I hate you and the cast of Breakin', I have to ask myself, what would Shirley do?",
+          "startIndex": 13111,
+          "endIndex": 13119,
+          "epCode": "s01e12"
+        }
+      ]
+    },
+    "Paul Blart: Mall Cop": {
+      "count": 1,
+      "details": {
+        "title": "Paul Blart: Mall Cop",
+        "tconst": "tt1114740",
+        "titleType": "movie",
+        "startYear": 2009,
+        "endYear": "\\N",
+        "genres": [
+          "Action",
+          "Comedy",
+          "Crime"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Paul Blart: Mall Cop",
+          "sentence": "Did anyone see Paul Blart: Mall Cop?",
+          "startIndex": 7859,
+          "endIndex": 7879,
+          "epCode": "s01e13"
+        }
+      ]
+    },
+    "Dancing with the Stars": {
+      "count": 1,
+      "details": {
+        "title": "Dancing with the Stars",
+        "tconst": "tt0434676",
+        "titleType": "tvSeries",
+        "startYear": 2004,
+        "endYear": 2015,
+        "genres": [
+          "Family",
+          "Game-Show",
+          "Music"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Dancing with the Stars",
+          "sentence": "But even when Jerry Rice went on Dancing with the Stars",
+          "startIndex": 6981,
+          "endIndex": 7003,
+          "epCode": "s01e14"
+        }
+      ]
+    },
+    "The Big Lebowski": {
+      "count": 1,
+      "details": {
+        "title": "The Big Lebowski",
+        "tconst": "tt0118715",
+        "titleType": "movie",
+        "startYear": 1998,
+        "endYear": "\\N",
+        "genres": [
+          "Comedy",
+          "Crime",
           "Sport"
         ]
       },
       "references": [
         {
-          "entity": "Tyson",
-          "sentence": "Tyson, Lou Ferrigno, Rosie O'Donnell.",
-          "startIndex": 5912,
-          "endIndex": 5917,
-          "epCode": "s01e12"
+          "entity": "The Big Lebowski",
+          "sentence": "I love The Big Lebowski.",
+          "startIndex": 14795,
+          "endIndex": 14811,
+          "epCode": "s01e14"
         }
       ]
     },
@@ -8306,8 +9864,8 @@
         {
           "entity": "Joker",
           "sentence": "And he was dressed as the Joker for Halloween--motive.",
-          "startIndex": 7771,
-          "endIndex": 7776,
+          "startIndex": 7721,
+          "endIndex": 7726,
           "epCode": "s03e09"
         }
       ]

@@ -12,16 +12,27 @@ for epCode in data:
   for instance in episode["people"]:
     reference = instance["reference"]
     reference["epCode"] = epCode
+    season = epCode[:3]
     details = instance["referent"]
     name = details["name"]
     if name not in people:
       people[name] = {
         "count": 1,
+        "countBySeason": {
+          "s01": 0,
+          "s02": 0,
+          "s03": 0,
+          "s04": 0,
+          "s05": 0,
+          "s06": 0,
+        },
         "details": details,
         "references": [reference]
       }
+      people[name]["countBySeason"][season] = 1
     else:
       people[name]["count"] += 1
+      people[name]["countBySeason"][season] += 1
       people[name]["references"].append(reference)
   for instance in episode["titles"]:
     reference = instance["reference"]
