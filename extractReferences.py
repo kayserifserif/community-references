@@ -32,7 +32,9 @@ with open("./data/name.basics.min.tsv", newline='') as f_open:
       deathYear = int(deathYear)
     except ValueError:
       deathYear = deathYear
-    all_people[row[1]] = [nconst, birthYear, deathYear]
+    professions = row[4].split(",")
+    knownFor = row[5].split(",")
+    all_people[row[1]] = [nconst, birthYear, deathYear, professions, knownFor]
 
 # all_titles = []
 all_titles = {}
@@ -216,6 +218,9 @@ def main():
         print("Successfully saved to file ./output/all.json!")
     except IOError:
       print("Could not write to file.")
+
+  elif len(sys.argv) is 3:
+    find(sys.argv[1], sys.argv[2], None)
 
   elif len(sys.argv) is 4:
     find(sys.argv[1], sys.argv[2], sys.argv[3])
