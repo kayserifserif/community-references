@@ -3886,6 +3886,31 @@
     "people": [
       {
         "reference": {
+          "entity": "Sherri Shepherd",
+          "sentence": "Then gave him a copy of my poem so he could laugh at me with that Sherri Shepherd lady?",
+          "startIndex": 9242,
+          "endIndex": 9257
+        },
+        "referent": {
+          "name": "Sherri Shepherd",
+          "nconst": "nm0791868",
+          "birthYear": 1967,
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0496424",
+            "tt0479952",
+            "tt1598828",
+            "tt0929632"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Tom Selleck",
           "sentence": "Tom Selleck fights mechanical spiders.",
           "startIndex": 10631,
@@ -4042,6 +4067,44 @@
             "Drama"
           ]
         }
+      },
+      {
+        "reference": {
+          "entity": "Brady Bunch",
+          "sentence": "When you guys first came in, we were as wholesome and healthy as the family in Brady Bunch.",
+          "startIndex": 14079,
+          "endIndex": 14090
+        },
+        "referent": {
+          "title": "The Brady Bunch",
+          "tconst": "tt0063878",
+          "titleType": "tvSeries",
+          "startYear": 1969,
+          "endYear": 1974,
+          "genres": [
+            "Comedy",
+            "Family"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "The Brady Bunch",
+          "sentence": "And now we're as dysfunctional and incestuous as the cast of The Brady Bunch.",
+          "startIndex": 14153,
+          "endIndex": 14168
+        },
+        "referent": {
+          "title": "The Brady Bunch",
+          "tconst": "tt0063878",
+          "titleType": "tvSeries",
+          "startYear": 1969,
+          "endYear": 1974,
+          "genres": [
+            "Comedy",
+            "Family"
+          ]
+        }
       }
     ]
   },
@@ -4069,6 +4132,31 @@
             "tt0084707",
             "tt0458352",
             "tt0918927"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Cobain",
+          "sentence": "An alibi for Cobain's suicide?",
+          "startIndex": 2059,
+          "endIndex": 2065
+        },
+        "referent": {
+          "name": "Kurt Cobain",
+          "nconst": "nm0001052",
+          "birthYear": 1967,
+          "deathYear": 1994,
+          "professions": [
+            "soundtrack",
+            "actor",
+            "composer"
+          ],
+          "knownFor": [
+            "tt0203009",
+            "tt0116695",
+            "tt0832266",
+            "tt0465602"
           ]
         }
       },
@@ -4124,6 +4212,81 @@
       },
       {
         "reference": {
+          "entity": "Scorsese",
+          "sentence": "Scorsese drank with De Niro.",
+          "startIndex": 8379,
+          "endIndex": 8387
+        },
+        "referent": {
+          "name": "Martin Scorsese",
+          "nconst": "nm0000217",
+          "birthYear": 1942,
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "director",
+            "actor"
+          ],
+          "knownFor": [
+            "tt0106226", 
+            "tt0099685", 
+            "tt0075314", 
+            "tt0070379"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "De Niro",
+          "sentence": "Scorsese drank with De Niro.",
+          "startIndex": 8399,
+          "endIndex": 8406
+        },
+        "referent": {
+          "name": "Robert De Niro",
+          "nconst": "nm0000134",
+          "birthYear": 1943,
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0101540", 
+            "tt0081398", 
+            "tt0070379", 
+            "tt0075314"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Seacrest",
+          "sentence": "Looks like the law firm of Seacrest and Slumdog is taking the day off.",
+          "startIndex": 8512,
+          "endIndex": 8520
+        },
+        "referent": {
+          "name": "Ryan Seacrest",
+          "nconst": "nm0780435",
+          "birthYear": 1974,
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "writer",
+            "actor"
+          ],
+          "knownFor": [
+            "tt4118584", 
+            "tt0319931", 
+            "tt0425061", 
+            "tt0892791"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Courtney Love",
           "sentence": "You look about ready to marry Courtney Love.",
           "startIndex": 10375,
@@ -4151,6 +4314,123 @@
     "titles": [
       {
         "reference": {
+          "entity": "Beetlejuice",
+          "sentence": "Bitter, Butter, Beetlejuice?",
+          "startIndex": 364,
+          "endIndex": 375
+        },
+        "referent": {
+          "title": "Beetlejuice",
+          "tconst": "tt0096543",
+          "titleType": "tvSeries",
+          "startYear": 1989,
+          "endYear": 1991,
+          "genres": [
+            "Adventure",
+            "Animation",
+            "Comedy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Who's the Boss?",
+          "sentence": "Tony even saw Angela naked on the opening credits of Who's the Boss?",
+          "startIndex": 5622,
+          "endIndex": 5637
+        },
+        "referent": {
+          "title": "Who's the Boss",
+          "tconst": "tt0086827",
+          "titleType": "tvSeries",
+          "startYear": 1984,
+          "endYear": 1992,
+          "genres": [
+            "Comedy",
+            "Family",
+            "Romance"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Friends",
+          "sentence": "But when Chandler saw Rachel naked on Friends, to even the score Rachel needed to see Chandler's penis.",
+          "startIndex": 5773,
+          "endIndex": 5780
+        },
+        "referent": {
+          "title": "Friends",
+          "tconst": "tt0108778",
+          "titleType": "tvSeries",
+          "startYear": 1994,
+          "endYear": 2004,
+          "genres": [
+            "Comedy",
+            "Romance"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Lost",
+          "sentence": "He's a young \"the Asian guy from Lost.\" ",
+          "startIndex": 6792,
+          "endIndex": 6796
+        },
+        "referent": {
+          "title": "Lost",
+          "tconst": "tt0411008",
+          "titleType": "tvSeries",
+          "startYear": 2004,
+          "endYear": 2010,
+          "genres": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Slumdog",
+          "sentence": "Looks like the law firm of Seacrest and Slumdog is taking the day off.",
+          "startIndex": 8525,
+          "endIndex": 8532
+        },
+        "referent": {
+          "title": "Slumdog Millionaire",
+          "tconst": "tt1010048",
+          "titleType": "movie",
+          "startYear": 2008,
+          "endYear": "\\N",
+          "genres": [
+            "Drama",
+            "Romance"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Breakfast Club",
+          "sentence": "Breakfast Club?",
+          "startIndex": 9449,
+          "endIndex": 9463
+        },
+        "referent": {
+          "title": "The Breakfast Club",
+          "tconst": "tt0088847",
+          "titleType": "movie",
+          "startYear": 1985,
+          "endYear": "\\N",
+          "genres": [
+            "Comedy",
+            "Drama"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "The Breakfast Club",
           "sentence": "And I don't remember the name of the girl in The Breakfast Club.",
           "startIndex": 9712,
@@ -4167,6 +4447,26 @@
             "Drama"
           ]
         }
+      },
+      {
+        "reference": {
+          "entity": "Law and Order",
+          "sentence": "What doesn't make sense is that you did all this work to put a smile on her face but can't pick up ice cream for Law and Order night because it feels too marriage-y.",
+          "startIndex": 11585,
+          "endIndex": 11598
+        },
+        "referent": {
+          "title": "Law & Order",
+          "tconst": "tt0098844",
+          "titleType": "tvSeries",
+          "startYear": 1990,
+          "endYear": 2010,
+          "genres": [
+            "Crime",
+            "Drama",
+            "Mystery"
+          ]
+        }
       }
     ]
   },
@@ -4175,7 +4475,7 @@
       {
         "reference": {
           "entity": "Dick Van Dyke",
-          "sentence": "Ten percent Dick Van Dyke,",
+          "sentence": "Ten percent Dick Van Dyke, 20 percent Sam Malone, 40 percent Zach Braff in Scrubs, and 30 percent Hilary Swank in Boys Don't Cry.",
           "startIndex": 8445,
           "endIndex": 8458
         },
@@ -4199,8 +4499,33 @@
       },
       {
         "reference": {
+          "entity": "Zach Braff",
+          "sentence": "Ten percent Dick Van Dyke, 20 percent Sam Malone, 40 percent Zach Braff in Scrubs, and 30 percent Hilary Swank in Boys Don't Cry.",
+          "startIndex": 8494,
+          "endIndex": 8504
+        },
+        "referent": {
+          "name": "Zach Braff",
+          "nconst": "nm0103785",
+          "birthYear": 1975,
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0333766", 
+            "tt2870708", 
+            "tt0285403", 
+            "tt1623205"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Hilary Swank",
-          "sentence": "20 percent Sam Malone, 40 percent Zach Braff in Scrubs, and 30 percent Hilary Swank in Boys",
+          "sentence": "Ten percent Dick Van Dyke, 20 percent Sam Malone, 40 percent Zach Braff in Scrubs, and 30 percent Hilary Swank in Boys Don't Cry.",
           "startIndex": 8531,
           "endIndex": 8543
         },
@@ -4226,6 +4551,25 @@
     "titles": [
       {
         "reference": {
+          "entity": "The Notebook",
+          "sentence": "It's just like The Notebook, except instead of Alzheimer's, Abed has --",
+          "startIndex": 985,
+          "endIndex": 997
+        },
+        "referent": {
+          "title": "The Notebook",
+          "tconst": "tt0332280",
+          "titleType": "movie",
+          "startYear": 2004,
+          "endYear": "\\N",
+          "genres": [
+            "Drama",
+            "Romance"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Can't Buy Me Love",
           "sentence": "So you guys are gonna Can't Buy Me Love me, right?",
           "startIndex": 2675,
@@ -4233,12 +4577,14 @@
         },
         "referent": {
           "title": "Can't Buy Me Love",
-          "tconst": "tt0435944",
-          "titleType": "tvMovie",
-          "startYear": 2004,
+          "tconst": "tt0092718",
+          "titleType": "movie",
+          "startYear": 1987,
           "endYear": "\\N",
           "genres": [
-            "Drama"
+            "Comedy",
+            "Drama",
+            "Romance"
           ]
         }
       },
@@ -4251,30 +4597,74 @@
         },
         "referent": {
           "title": "Can't Buy Me Love",
-          "tconst": "tt0435944",
-          "titleType": "tvMovie",
-          "startYear": 2004,
+          "tconst": "tt0092718",
+          "titleType": "movie",
+          "startYear": 1987,
           "endYear": "\\N",
           "genres": [
-            "Drama"
+            "Comedy",
+            "Drama",
+            "Romance"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Love Don't Cost a Thing",
+          "sentence": "Oh, he wants us to Love Don't Cost a Thing him.",
+          "startIndex": 2836,
+          "endIndex": 2859
+        },
+        "referent": {
+          "title": "Love Don't Cost a Thing",
+          "tconst": "tt0337592",
+          "titleType": "movie",
+          "startYear": 2003,
+          "endYear": "\\N",
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
           ]
         }
       },
       {
         "reference": {
           "entity": "Can't Buy Me Love",
-          "sentence": "All right, nobody here is Can't Buy Me Love-ing or Love",
+          "sentence": "All right, nobody here is Can't Buy Me Love-ing or Love Don't Cost a Thing-ing anyone.",
           "startIndex": 3032,
           "endIndex": 3049
         },
         "referent": {
           "title": "Can't Buy Me Love",
-          "tconst": "tt0435944",
-          "titleType": "tvMovie",
-          "startYear": 2004,
+          "tconst": "tt0092718",
+          "titleType": "movie",
+          "startYear": 1987,
           "endYear": "\\N",
           "genres": [
-            "Drama"
+            "Comedy",
+            "Drama",
+            "Romance"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Love Don't Cost a Thing",
+          "sentence": "All right, nobody here is Can't Buy Me Love-ing or Love Don't Cost a Thing-ing anyone.",
+          "startIndex": 3057,
+          "endIndex": 3080
+        },
+        "referent": {
+          "title": "Love Don't Cost a Thing",
+          "tconst": "tt0337592",
+          "titleType": "movie",
+          "startYear": 2003,
+          "endYear": "\\N",
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
           ]
         }
       },
@@ -4298,8 +4688,102 @@
       },
       {
         "reference": {
+          "entity": "Mike Brady",
+          "sentence": "Be somebody nice like Mike Brady.",
+          "startIndex": 7718,
+          "endIndex": 7728
+        },
+        "referent": {
+          "title": "The Brady Bunch",
+          "tconst": "tt0063878",
+          "titleType": "tvSeries",
+          "startYear": 1969,
+          "endYear": 1974,
+          "genres": [
+            "Comedy",
+            "Family"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Mike Brady",
+          "sentence": "Don't be Mike Brady.",
+          "startIndex": 7824,
+          "endIndex": 7834
+        },
+        "referent": {
+          "title": "The Brady Bunch",
+          "tconst": "tt0063878",
+          "titleType": "tvSeries",
+          "startYear": 1969,
+          "endYear": 1974,
+          "genres": [
+            "Comedy",
+            "Family"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Mike Brady",
+          "sentence": "Mike Brady's not sexy.",
+          "startIndex": 7836,
+          "endIndex": 7846
+        },
+        "referent": {
+          "title": "The Brady Bunch",
+          "tconst": "tt0063878",
+          "titleType": "tvSeries",
+          "startYear": 1969,
+          "endYear": 1974,
+          "genres": [
+            "Comedy",
+            "Family"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Facts of Life",
+          "sentence": "You should be like Jo from Facts of Life.",
+          "startIndex": 7886,
+          "endIndex": 7899
+        },
+        "referent": {
+          "title": "The Facts of Life",
+          "tconst": "tt0078610",
+          "titleType": "tvSeries",
+          "startYear": 1979,
+          "endYear": 1988,
+          "genres": [
+            "Comedy",
+            "Family"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Don Draper",
+          "sentence": "Don Draper was clearly the sexiest",
+          "startIndex": 8113,
+          "endIndex": 8123
+        },
+        "referent": {
+          "title": "Mad Men",
+          "tconst": "tt0804503",
+          "titleType": "tvSeries",
+          "startYear": 2007,
+          "endYear": 2015,
+          "genres": [
+            "Drama"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Scrubs",
-          "sentence": "20 percent Sam Malone, 40 percent Zach Braff in Scrubs, and 30 percent Hilary Swank in Boys",
+          "sentence": "Ten percent Dick Van Dyke, 20 percent Sam Malone, 40 percent Zach Braff in Scrubs, and 30 percent Hilary Swank in Boys Don't Cry.",
           "startIndex": 8508,
           "endIndex": 8514
         },
@@ -4317,21 +4801,58 @@
       },
       {
         "reference": {
-          "entity": "Boys",
-          "sentence": "20 percent Sam Malone, 40 percent Zach Braff in Scrubs, and 30 percent Hilary Swank in Boys",
-          "startIndex": 8547,
-          "endIndex": 8551
+          "entity": "Sam Malone",
+          "sentence": "Ten percent Dick Van Dyke, 20 percent Sam Malone, 40 percent Zach Braff in Scrubs, and 30 percent Hilary Swank in Boys Don't Cry.",
+          "startIndex": 8471,
+          "endIndex": 8481
         },
         "referent": {
-          "title": "Boys",
-          "tconst": "tt0373733",
+          "title": "Cheers",
+          "tconst": "tt0083399",
+          "titleType": "tvSeries",
+          "startYear": 1982,
+          "endYear": 1993,
+          "genres": [
+            "Comedy",
+            "Drama"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Boys Don't Cry",
+          "sentence": "20 percent Sam Malone, 40 percent Zach Braff in Scrubs, and 30 percent Hilary Swank in Boys",
+          "startIndex": 8547,
+          "endIndex": 8561
+        },
+        "referent": {
+          "title": "Boys Don't Cry",
+          "tconst": "tt0238119",
           "titleType": "movie",
-          "startYear": 2003,
+          "startYear": 2000,
           "endYear": "\\N",
           "genres": [
             "Comedy",
+            "Crime"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Slumdog",
+          "sentence": "Let's go, Slumdog.",
+          "startIndex": 9508,
+          "endIndex": 9515
+        },
+        "referent": {
+          "title": "Slumdog Millionaire",
+          "tconst": "tt1010048",
+          "titleType": "movie",
+          "startYear": 2008,
+          "endYear": "\\N",
+          "genres": [
             "Drama",
-            "Music"
+            "Romance"
           ]
         }
       }
@@ -4368,6 +4889,26 @@
     "titles": [
       {
         "reference": {
+          "entity": "Phantom Menace",
+          "sentence": "Hey, Phantom Menace.",
+          "startIndex": 4221,
+          "endIndex": 4235
+        },
+        "referent": {
+          "title": "Star Wars: Episode I - The Phantom Menace",
+          "tconst": "tt0120915",
+          "titleType": "movie",
+          "startYear": 1999,
+          "endYear": "\\N",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "The Little Mermaid",
           "sentence": "Disappointing you is like choking The Little Mermaid with a bike chain.",
           "startIndex": 5494,
@@ -4383,6 +4924,46 @@
             "Family",
             "Fantasy",
             "Musical"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Glee",
+          "sentence": "I hate Glee.",
+          "startIndex": 15070,
+          "endIndex": 15074
+        },
+        "referent": {
+          "title": "Glee",
+          "tconst": "tt1327801",
+          "titleType": "tvSeries",
+          "startYear": 2009,
+          "endYear": 2015,
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Music"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Glee",
+          "sentence": "I'm not crazy about Glee, either.",
+          "startIndex": 15096,
+          "endIndex": 15100
+        },
+        "referent": {
+          "title": "Glee",
+          "tconst": "tt1327801",
+          "titleType": "tvSeries",
+          "startYear": 2009,
+          "endYear": 2015,
+          "genres": [
+            "Comedy",
+            "Drama",
+            "Music"
           ]
         }
       }
@@ -4414,15 +4995,249 @@
             "tt0097481"
           ]
         }
+      },
+      {
+        "reference": {
+          "entity": "Tennille",
+          "sentence": "Singing with Tennille?",
+          "startIndex": 990,
+          "endIndex": 998
+        },
+        "referent": {
+          "name": "Toni Tennille",
+          "nconst": "nm0855120",
+          "birthYear": 1940,
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "actress",
+            "music_department"
+          ],
+          "knownFor": [
+            "tt0120867",
+            "tt0460681",
+            "tt0084503",
+            "tt0137338"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Laura Ingalls",
+          "sentence": "Hey, Laura Ingalls.",
+          "startIndex": 1676,
+          "endIndex": 1689
+        },
+        "referent": {
+          "name": "Laura Ingalls Wilder",
+          "nconst": "nm0928598",
+          "birthYear": 1867,
+          "deathYear": 1957,
+          "professions": [
+            "writer"
+          ],
+          "knownFor": [
+            "tt0071007",
+            "tt0406032",
+            "tt2431250",
+            "tt0320977"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Patrick Swayze",
+          "sentence": "I will tolerate no reenacting, whether it's ironic or sincere, of the Patrick Swayze-Demi Moore pottery scene in Ghost.",
+          "startIndex": 2082,
+          "endIndex": 2096
+        },
+        "referent": {
+          "name": "Patrick Swayze",
+          "nconst": "nm0000664",
+          "birthYear": 1952,
+          "deathYear": 2009,
+          "professions": [
+            "actor",
+            "soundtrack",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0099653",
+            "tt0098206",
+            "tt0092890",
+            "tt0102685"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Demi Moore",
+          "sentence": "I will tolerate no reenacting, whether it's ironic or sincere, of the Patrick Swayze-Demi Moore pottery scene in Ghost.",
+          "startIndex": 2097,
+          "endIndex": 2107
+        },
+        "referent": {
+          "name": "Demi Moore",
+          "nconst": "nm0000193",
+          "birthYear": 1962,
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0107211", 
+            "tt0305357", 
+            "tt0119173", 
+            "tt0117765"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Righteous Brothers",
+          "sentence": "If you so much as hum three notes from that Righteous Brothers song with God as my witness, I will come at you with everything I've got, okay?",
+          "startIndex": 2422,
+          "endIndex": 2440
+        },
+        "referent": {
+          "name": "The Righteous Brothers",
+          "nconst": "nm1335503",
+          "birthYear": "\\N",
+          "deathYear": "\\N",
+          "professions": [
+            "soundtrack",
+            "music_department"
+          ],
+          "knownFor": [
+            "tt0149523",
+            "tt0092099",
+            "tt0118972",
+            "tt0099653"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Goldblum",
+          "sentence": "Oh, Jeff, you're Goldblum-ing.",
+          "startIndex": 8279,
+          "endIndex": 8287
+        },
+        "referent": {
+          "name": "Jeff Goldblum",
+          "nconst": "nm0000156",
+          "birthYear": 1952,
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "soundtrack",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0091064",
+            "tt0107290",
+            "tt2278388",
+            "tt0116629"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Goldblum",
+          "sentence": "Goldblum-ing?",
+          "startIndex": 8293,
+          "endIndex": 8301
+        },
+        "referent": {
+          "name": "Jeff Goldblum",
+          "nconst": "nm0000156",
+          "birthYear": 1952,
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "soundtrack",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0091064",
+            "tt0107290",
+            "tt2278388",
+            "tt0116629"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Ross Perot",
+          "sentence": "Do you still have the number of that private investigator you used when you thought Ross Perot was sleeping with your mom?",
+          "startIndex": 11120,
+          "endIndex": 11130
+        },
+        "referent": {
+          "name": "Ross Perot",
+          "nconst": "nm0674437",
+          "birthYear": 1930,
+          "deathYear": 2019,
+          "professions": [
+            "actor"
+          ],
+          "knownFor": [
+            "tt2005956",
+            "tt8498136",
+            "tt0198138",
+            "tt0108515"
+          ]
+        }
       }
     ],
     "titles": [
+      {
+        "reference": {
+          "entity": "Die Hard",
+          "sentence": "This class is like a redhead that drinks Scotch and loves Die Hard.",
+          "startIndex": 892,
+          "endIndex": 900
+        },
+        "referent": {
+          "title": "Die Hard",
+          "tconst": "tt0095016",
+          "titleType": "movie",
+          "startYear": 1988,
+          "endYear": "\\N",
+          "genres": [
+            "Action",
+            "Thriller"
+          ]
+        }
+      },
       {
         "reference": {
           "entity": "Ghost",
           "sentence": "I will tolerate no reenacting, whether it's ironic or sincere, of the Patrick Swayze-Demi Moore pottery scene in Ghost.",
           "startIndex": 2125,
           "endIndex": 2130
+        },
+        "referent": {
+          "title": "Ghost",
+          "tconst": "tt0099653",
+          "titleType": "movie",
+          "startYear": 1990,
+          "endYear": "\\N",
+          "genres": [
+            "Drama",
+            "Fantasy",
+            "Romance"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Ghost",
+          "sentence": "So since it never stopped, I had to adopt a zero Ghost tolerance policy.",
+          "startIndex": 2354,
+          "endIndex": 2359
         },
         "referent": {
           "title": "Ghost",
@@ -4488,6 +5303,31 @@
     "people": [
       {
         "reference": {
+          "entity": "Donald",
+          "sentence": "Trump Tower, this is Donald.",
+          "startIndex": 4628,
+          "endIndex": 4634
+        },
+        "referent": {
+          "name": "Donald Trump",
+          "nconst": "nm0874339",
+          "birthYear": 1946,
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "actor",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0313737",
+            "tt0104431",
+            "tt0364782",
+            "tt0099656"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Hal Holbrook",
           "sentence": "Hal Holb, not Hal Holbrook.",
           "startIndex": 10508,
@@ -4510,9 +5350,73 @@
             "tt0443272"
           ]
         }
+      },
+      {
+        "reference": {
+          "entity": "Tyler Perry",
+          "sentence": "And Tyler Perry has a series of movies about why that's wrong.",
+          "startIndex": 13164,
+          "endIndex": 13175
+        },
+        "referent": {
+          "name": "Tyler Perry",
+          "nconst": "nm1347153",
+          "birthYear": 1969,
+          "deathYear": "\\N",
+          "professions": [
+            "writer",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0422093",
+            "tt0455612",
+            "tt2267998",
+            "tt1142800"
+          ]
+        }
       }
     ],
     "titles": [
+      {
+        "reference": {
+          "entity": "Johnny Five",
+          "sentence": "He's gone from lovable Johnny Five to evil HAL.",
+          "startIndex": 10469,
+          "endIndex": 10480
+        },
+        "referent": {
+          "title": "Short Circuit",
+          "tconst": "tt0091949",
+          "titleType": "movie",
+          "startYear": 1986,
+          "endYear": "\\N",
+          "genres": [
+            "Comedy",
+            "Family",
+            "Sci-Fi"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "HAL",
+          "sentence": "He's gone from lovable Johnny Five to evil HAL.",
+          "startIndex": 10489,
+          "endIndex": 10492
+        },
+        "referent": {
+          "title": "2001: A Space Odyssey",
+          "tconst": "tt0062622",
+          "titleType": "movie",
+          "startYear": 1968,
+          "endYear": "\\N",
+          "genres": [
+            "Adventure",
+            "Sci-Fi"
+          ]
+        }
+      },
       {
         "reference": {
           "entity": "Law & Order",
@@ -4591,6 +5495,25 @@
             "Romance"
           ]
         }
+      },
+      {
+        "reference": {
+          "entity": "Sixteen Candles",
+          "sentence": "Sixteen Candles.",
+          "startIndex": 15746,
+          "endIndex": 15761
+        },
+        "referent": {
+          "title": "Sixteen Candles",
+          "tconst": "tt0088128",
+          "titleType": "movie",
+          "startYear": 1984,
+          "endYear": "\\N",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ]
+        }
       }
     ]
   },
@@ -4645,9 +5568,52 @@
             "tt0159365"
           ]
         }
+      },
+      {
+        "reference": {
+          "entity": "Morgan Freeman",
+          "sentence": "I'll be like your Morgan Freeman.",
+          "startIndex": 2376,
+          "endIndex": 2390
+        },
+        "referent": {
+          "name": "Morgan Freeman",
+          "nconst": "nm0000151",
+          "birthYear": 1937,
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0114369", 
+            "tt0097239", 
+            "tt0405159", 
+            "tt1057500"
+          ]
+        }
       }
     ],
     "titles": [
+      {
+        "reference": {
+          "entity": "Animal House",
+          "sentence": "Animal House.",
+          "startIndex": 1840,
+          "endIndex": 1852
+        },
+        "referent": {
+          "title": "National Lampoon's Animal House",
+          "tconst": "tt0077975",
+          "titleType": "movie",
+          "startYear": 1978,
+          "endYear": "\\N",
+          "genres": [
+            "Comedy"
+          ]
+        }
+      },
       {
         "reference": {
           "entity": "The Bucket List",
@@ -4666,16 +5632,269 @@
             "Drama"
           ]
         }
+      },
+      {
+        "reference": {
+          "entity": "The Real Housewives",
+          "sentence": "After she's done shooting The Real Housewives of Greendale County?",
+          "startIndex": 5268,
+          "endIndex": 5287
+        },
+        "referent": {
+          "title": "The Real Housewives of Orange County",
+          "tconst": "tt0497079",
+          "titleType": "tvSeries",
+          "startYear": 2006,
+          "endYear": 2019,
+          "genres": [
+            "Reality-TV"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "The Real Housewives",
+          "sentence": "\"After she's done shooting The Real Housewives of Greendale County.\"",
+          "startIndex": 5336,
+          "endIndex": 5355
+        },
+        "referent": {
+          "title": "The Real Housewives of Orange County",
+          "tconst": "tt0497079",
+          "titleType": "tvSeries",
+          "startYear": 2006,
+          "endYear": 2019,
+          "genres": [
+            "Reality-TV"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Cliff Clavin",
+          "sentence": "We've lost our Cliff Clavin, our George Costanza, our Turtle or Johnny Drama or E.",
+          "startIndex": 6465,
+          "endIndex": 6477
+        },
+        "referent": {
+          "title": "Cheers",
+          "tconst": "tt0083399",
+          "titleType": "tvSeries",
+          "startYear": 1982,
+          "endYear": 1993,
+          "genres": [
+            "Comedy",
+            "Drama"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "George Costanza",
+          "sentence": "We've lost our Cliff Clavin, our George Costanza, our Turtle or Johnny Drama or E.",
+          "startIndex": 6483,
+          "endIndex": 6498
+        },
+        "referent": {
+          "title": "Seinfeld",
+          "tconst": "tt0098904",
+          "titleType": "tvSeries",
+          "startYear": 1989,
+          "endYear": 1998,
+          "genres": [
+            "Comedy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Turtle",
+          "sentence": "We've lost our Cliff Clavin, our George Costanza, our Turtle or Johnny Drama or E.",
+          "startIndex": 6504,
+          "endIndex": 6510
+        },
+        "referent": {
+          "title": "Entourage",
+          "tconst": "tt0387199",
+          "titleType": "tvSeries",
+          "startYear": 2004,
+          "endYear": 2011,
+          "genres": [
+            "Comedy",
+            "Drama"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Johnny Drama",
+          "sentence": "We've lost our Cliff Clavin, our George Costanza, our Turtle or Johnny Drama or E.",
+          "startIndex": 6514,
+          "endIndex": 6526
+        },
+        "referent": {
+          "title": "Entourage",
+          "tconst": "tt0387199",
+          "titleType": "tvSeries",
+          "startYear": 2004,
+          "endYear": 2011,
+          "genres": [
+            "Comedy",
+            "Drama"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "E",
+          "sentence": "We've lost our Cliff Clavin, our George Costanza, our Turtle or Johnny Drama or E.",
+          "startIndex": 6530,
+          "endIndex": 6531
+        },
+        "referent": {
+          "title": "Entourage",
+          "tconst": "tt0387199",
+          "titleType": "tvSeries",
+          "startYear": 2004,
+          "endYear": 2011,
+          "genres": [
+            "Comedy",
+            "Drama"
+          ]
+        }
       }
     ]
   },
   "s01e23": {
     "people": [],
-    "titles": []
+    "titles": [
+      {
+        "reference": {
+          "entity": "Ross and Rachel",
+          "sentence": "Jeff and Britta is no Ross and Rachel.",
+          "startIndex": 702,
+          "endIndex": 717
+        },
+        "referent": {
+          "title": "Friends",
+          "tconst": "tt0108778",
+          "titleType": "tvSeries",
+          "startYear": 1994,
+          "endYear": "2004",
+          "genres": [
+            "Comedy",
+            "Romance"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Sam and Diane",
+          "sentence": "Oh, just like Sam and Diane.",
+          "startIndex": 929,
+          "endIndex": 942
+        },
+        "referent": {
+          "title": "Cheers",
+          "tconst": "tt0083399",
+          "titleType": "tvSeries",
+          "startYear": 1982,
+          "endYear": 1993,
+          "genres": [
+            "Comedy",
+            "Drama"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Sam and Diane",
+          "sentence": "I hated Sam and Diane.",
+          "startIndex": 952,
+          "endIndex": 965
+        },
+        "referent": {
+          "title": "Cheers",
+          "tconst": "tt0083399",
+          "titleType": "tvSeries",
+          "startYear": 1982,
+          "endYear": 1993,
+          "genres": [
+            "Comedy",
+            "Drama"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Sam and Diane",
+          "sentence": "Who are Sam and Diane?",
+          "startIndex": 975,
+          "endIndex": 988
+        },
+        "referent": {
+          "title": "Cheers",
+          "tconst": "tt0083399",
+          "titleType": "tvSeries",
+          "startYear": 1982,
+          "endYear": 1993,
+          "genres": [
+            "Comedy",
+            "Drama"
+          ]
+        }
+      }
+    ]
   },
   "s01e24": {
-    "people": [],
+    "people": [
+      {
+        "reference": {
+          "entity": "Paul Giamatti",
+          "sentence": "Picture her as Paul Giamatti.",
+          "startIndex": 9174,
+          "endIndex": 9187
+        },
+        "referent": {
+          "name": "Paul Giamatti",
+          "nconst": "nm0316079",
+          "birthYear": 1967,
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "producer",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt0305206",
+            "tt0352248",
+            "tt0375063",
+            "tt2024544"
+          ]
+        }
+      }
+    ],
     "titles": [
+      {
+        "reference": {
+          "entity": "Avatar",
+          "sentence": "Will anyone back me up if I say this is ridiculous, or is it gonna be another Avatar situation?",
+          "startIndex": 340,
+          "endIndex": 346
+        },
+        "referent": {
+          "title": "Avatar",
+          "tconst": "tt0499549",
+          "titleType": "movie",
+          "startYear": 2009,
+          "endYear": "\\N",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+          ]
+        }
+      },
       {
         "reference": {
           "entity": "Avatar",
@@ -4693,6 +5912,44 @@
             "Action",
             "Adventure",
             "Fantasy"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Sesame Street",
+          "sentence": "I faked my way into a job as a Spanish teacher at a community college, relying on phrases from Sesame Street.",
+          "startIndex": 3599,
+          "endIndex": 3612
+        },
+        "referent": {
+          "title": "Sesame Street",
+          "tconst": "tt0343298",
+          "titleType": "tvSeries",
+          "startYear": 1983,
+          "endYear": "\\N",
+          "genres": [
+            "Family"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "The Wire",
+          "sentence": "Like the first season of The Wire.",
+          "startIndex": 13337,
+          "endIndex": 13345
+        },
+        "referent": {
+          "title": "The Wire",
+          "tconst": "tt0306414",
+          "titleType": "tvSeries",
+          "startYear": 2002,
+          "endYear": 2008,
+          "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
           ]
         }
       }
@@ -4722,6 +5979,31 @@
             "tt1517451",
             "tt0277434",
             "tt0098206"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "LeVar Banana Burton",
+          "sentence": "LeVar Banana Burton.",
+          "startIndex": 1142,
+          "endIndex": 1161
+        },
+        "referent": {
+          "name": "LeVar Burton",
+          "nconst": "nm0000996",
+          "birthYear": 1957,
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0120844",
+            "tt0075572",
+            "tt0111280",
+            "tt0117731"
           ]
         }
       },
@@ -4774,6 +6056,31 @@
             "tt0076161"
           ]
         }
+      },
+      {
+        "reference": {
+          "entity": "Oprah",
+          "sentence": "Jeff needs a girl who doesn't just not wear underwear because Oprah told her it would spice things up, he needs a girl who doesn't wear underwear because she hasn't done laundry in three weeks.",
+          "startIndex": 11437,
+          "endIndex": 11442
+        },
+        "referent": {
+          "name": "Oprah Winfrey",
+          "nconst": "nm0001856",
+          "birthYear": 1954,
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "actress",
+            "soundtrack"
+          ],
+          "knownFor": [
+            "tt1327773",
+            "tt0088939",
+            "tt0090493",
+            "tt1620680"
+          ]
+        }
       }
     ],
     "titles": [
@@ -4792,6 +6099,45 @@
           "endYear": "\\N",
           "genres": [
             "Drama"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Happy Days",
+          "sentence": "Oh, and for the record, there was an episode of Happy Days, where a guy literally jumped over a shark, and it was the best one.",
+          "startIndex": 9362,
+          "endIndex": 9372
+        },
+        "referent": {
+          "title": "Happy Days",
+          "tconst": "tt0070992",
+          "titleType": "tvSeries",
+          "startYear": 1974,
+          "endYear": 1984,
+          "genres": [
+            "Comedy",
+            "Family",
+            "Music"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Fatal Attraction",
+          "sentence": "Very Fatal Attraction.",
+          "startIndex": 12378,
+          "endIndex": 12394
+        },
+        "referent": {
+          "title": "Fatal Attraction",
+          "tconst": "tt0093010",
+          "titleType": "movie",
+          "startYear": 1987,
+          "endYear": "\\N",
+          "genres": [
+            "Drama",
+            "Thriller"
           ]
         }
       }

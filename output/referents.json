@@ -278,9 +278,9 @@
       ]
     },
     "LeVar Burton": {
-      "count": 7,
+      "count": 8,
       "countBySeason": {
-        "s01": 0,
+        "s01": 1,
         "s02": 4,
         "s03": 2,
         "s04": 1,
@@ -305,6 +305,13 @@
         ]
       },
       "references": [
+        {
+          "entity": "LeVar Banana Burton",
+          "sentence": "LeVar Banana Burton.",
+          "startIndex": 1142,
+          "endIndex": 1161,
+          "epCode": "s01e25"
+        },
         {
           "entity": "LeVar Burton",
           "sentence": "I don't want Pierce to die, but if I'm gonna get bequeathed upon, I'd liked to be bequeathed a drum kit or a signed photo of actor LeVar Burton.",
@@ -630,6 +637,64 @@
         }
       ]
     },
+    "Morgan Freeman": {
+      "count": 4,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 2,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Morgan Freeman",
+        "nconst": "nm0000151",
+        "birthYear": 1937,
+        "deathYear": "\\N",
+        "professions": [
+          "actor",
+          "producer",
+          "soundtrack"
+        ],
+        "knownFor": [
+          "tt0114369",
+          "tt0097239",
+          "tt0405159",
+          "tt1057500"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Morgan Freeman",
+          "sentence": "I'll be like your Morgan Freeman.",
+          "startIndex": 2376,
+          "endIndex": 2390,
+          "epCode": "s01e22"
+        },
+        {
+          "entity": "Morgan Freeman",
+          "sentence": "Here to present the first award are fake Morgan Freeman and fake Bono.",
+          "startIndex": 10932,
+          "endIndex": 10946,
+          "epCode": "s03e12"
+        },
+        {
+          "entity": "Morgan Freeman",
+          "sentence": "It sure can, fake Morgan Freeman.",
+          "startIndex": 11023,
+          "endIndex": 11037,
+          "epCode": "s03e12"
+        },
+        {
+          "entity": "Morgan Freeman",
+          "sentence": "And someone with the gravitas of Morgan Freeman had to narrate it.",
+          "startIndex": 5238,
+          "endIndex": 5252,
+          "epCode": "s04e05"
+        }
+      ]
+    },
     "Betty Grable": {
       "count": 4,
       "countBySeason": {
@@ -742,6 +807,57 @@
           "startIndex": 13013,
           "endIndex": 13022,
           "epCode": "s04e10"
+        }
+      ]
+    },
+    "Ryan Seacrest": {
+      "count": 3,
+      "countBySeason": {
+        "s01": 3,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Ryan Seacrest",
+        "nconst": "nm0780435",
+        "birthYear": 1974,
+        "deathYear": "\\N",
+        "professions": [
+          "producer",
+          "writer",
+          "actor"
+        ],
+        "knownFor": [
+          "tt4118584",
+          "tt0319931",
+          "tt0425061",
+          "tt0892791"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Seacrest",
+          "sentence": "That means you do my homework, right, Seacrest?",
+          "startIndex": 7844,
+          "endIndex": 7852,
+          "epCode": "s01e01"
+        },
+        {
+          "entity": "Seacrest",
+          "sentence": "I'm Dr. Doogie Seacrest.",
+          "startIndex": 15129,
+          "endIndex": 15137,
+          "epCode": "s01e04"
+        },
+        {
+          "entity": "Seacrest",
+          "sentence": "Looks like the law firm of Seacrest and Slumdog is taking the day off.",
+          "startIndex": 8512,
+          "endIndex": 8520,
+          "epCode": "s01e16"
         }
       ]
     },
@@ -1357,57 +1473,6 @@
         }
       ]
     },
-    "Morgan Freeman": {
-      "count": 3,
-      "countBySeason": {
-        "s01": 0,
-        "s02": 0,
-        "s03": 2,
-        "s04": 1,
-        "s05": 0,
-        "s06": 0
-      },
-      "details": {
-        "name": "Morgan Freeman",
-        "nconst": "nm0000151",
-        "birthYear": 1937,
-        "deathYear": "\\N",
-        "professions": [
-          "actor",
-          "producer",
-          "soundtrack"
-        ],
-        "knownFor": [
-          "tt0114369",
-          "tt0097239",
-          "tt0405159",
-          "tt1057500"
-        ]
-      },
-      "references": [
-        {
-          "entity": "Morgan Freeman",
-          "sentence": "Here to present the first award are fake Morgan Freeman and fake Bono.",
-          "startIndex": 10932,
-          "endIndex": 10946,
-          "epCode": "s03e12"
-        },
-        {
-          "entity": "Morgan Freeman",
-          "sentence": "It sure can, fake Morgan Freeman.",
-          "startIndex": 11023,
-          "endIndex": 11037,
-          "epCode": "s03e12"
-        },
-        {
-          "entity": "Morgan Freeman",
-          "sentence": "And someone with the gravitas of Morgan Freeman had to narrate it.",
-          "startIndex": 5238,
-          "endIndex": 5252,
-          "epCode": "s04e05"
-        }
-      ]
-    },
     "Elisabeth Shue": {
       "count": 2,
       "countBySeason": {
@@ -1449,50 +1514,6 @@
           "startIndex": 13132,
           "endIndex": 13146,
           "epCode": "s01e01"
-        }
-      ]
-    },
-    "Ryan Seacrest": {
-      "count": 2,
-      "countBySeason": {
-        "s01": 2,
-        "s02": 0,
-        "s03": 0,
-        "s04": 0,
-        "s05": 0,
-        "s06": 0
-      },
-      "details": {
-        "name": "Ryan Seacrest",
-        "nconst": "nm0780435",
-        "birthYear": 1974,
-        "deathYear": "\\N",
-        "professions": [
-          "producer",
-          "writer",
-          "actor"
-        ],
-        "knownFor": [
-          "tt4118584",
-          "tt0319931",
-          "tt0425061",
-          "tt0892791"
-        ]
-      },
-      "references": [
-        {
-          "entity": "Seacrest",
-          "sentence": "That means you do my homework, right, Seacrest?",
-          "startIndex": 7844,
-          "endIndex": 7852,
-          "epCode": "s01e01"
-        },
-        {
-          "entity": "Seacrest",
-          "sentence": "I'm Dr. Doogie Seacrest.",
-          "startIndex": 15129,
-          "endIndex": 15137,
-          "epCode": "s01e04"
         }
       ]
     },
@@ -2110,6 +2131,50 @@
         }
       ]
     },
+    "Jeff Goldblum": {
+      "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Jeff Goldblum",
+        "nconst": "nm0000156",
+        "birthYear": 1952,
+        "deathYear": "\\N",
+        "professions": [
+          "actor",
+          "soundtrack",
+          "producer"
+        ],
+        "knownFor": [
+          "tt0091064",
+          "tt0107290",
+          "tt2278388",
+          "tt0116629"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Goldblum",
+          "sentence": "Oh, Jeff, you're Goldblum-ing.",
+          "startIndex": 8279,
+          "endIndex": 8287,
+          "epCode": "s01e19"
+        },
+        {
+          "entity": "Goldblum",
+          "sentence": "Goldblum-ing?",
+          "startIndex": 8293,
+          "endIndex": 8301,
+          "epCode": "s01e19"
+        }
+      ]
+    },
     "Woody Allen": {
       "count": 2,
       "countBySeason": {
@@ -2151,6 +2216,50 @@
           "startIndex": 7179,
           "endIndex": 7190,
           "epCode": "s05e13"
+        }
+      ]
+    },
+    "Oprah Winfrey": {
+      "count": 2,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 1,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Oprah Winfrey",
+        "nconst": "nm0001856",
+        "birthYear": 1954,
+        "deathYear": "\\N",
+        "professions": [
+          "producer",
+          "actress",
+          "soundtrack"
+        ],
+        "knownFor": [
+          "tt1327773",
+          "tt0088939",
+          "tt0090493",
+          "tt1620680"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Oprah",
+          "sentence": "Jeff needs a girl who doesn't just not wear underwear because Oprah told her it would spice things up, he needs a girl who doesn't wear underwear because she hasn't done laundry in three weeks.",
+          "startIndex": 11437,
+          "endIndex": 11442,
+          "epCode": "s01e25"
+        },
+        {
+          "entity": "Oprah Winfrey",
+          "sentence": "It is my honor and privilege as fake Oprah Winfrey to present the night's final award most handsome young man.",
+          "startIndex": 11568,
+          "endIndex": 11581,
+          "epCode": "s03e12"
         }
       ]
     },
@@ -3938,6 +4047,43 @@
         }
       ]
     },
+    "Sherri Shepherd": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Sherri Shepherd",
+        "nconst": "nm0791868",
+        "birthYear": 1967,
+        "deathYear": "\\N",
+        "professions": [
+          "actress",
+          "producer",
+          "soundtrack"
+        ],
+        "knownFor": [
+          "tt0496424",
+          "tt0479952",
+          "tt1598828",
+          "tt0929632"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Sherri Shepherd",
+          "sentence": "Then gave him a copy of my poem so he could laugh at me with that Sherri Shepherd lady?",
+          "startIndex": 9242,
+          "endIndex": 9257,
+          "epCode": "s01e15"
+        }
+      ]
+    },
     "Meryl Streep": {
       "count": 1,
       "countBySeason": {
@@ -3971,6 +4117,117 @@
           "sentence": "Meryl Streep has two Oscars because of her baking.",
           "startIndex": 1422,
           "endIndex": 1434,
+          "epCode": "s01e16"
+        }
+      ]
+    },
+    "Kurt Cobain": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Kurt Cobain",
+        "nconst": "nm0001052",
+        "birthYear": 1967,
+        "deathYear": 1994,
+        "professions": [
+          "soundtrack",
+          "actor",
+          "composer"
+        ],
+        "knownFor": [
+          "tt0203009",
+          "tt0116695",
+          "tt0832266",
+          "tt0465602"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Cobain",
+          "sentence": "An alibi for Cobain's suicide?",
+          "startIndex": 2059,
+          "endIndex": 2065,
+          "epCode": "s01e16"
+        }
+      ]
+    },
+    "Martin Scorsese": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Martin Scorsese",
+        "nconst": "nm0000217",
+        "birthYear": 1942,
+        "deathYear": "\\N",
+        "professions": [
+          "producer",
+          "director",
+          "actor"
+        ],
+        "knownFor": [
+          "tt0106226",
+          "tt0099685",
+          "tt0075314",
+          "tt0070379"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Scorsese",
+          "sentence": "Scorsese drank with De Niro.",
+          "startIndex": 8379,
+          "endIndex": 8387,
+          "epCode": "s01e16"
+        }
+      ]
+    },
+    "Robert De Niro": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Robert De Niro",
+        "nconst": "nm0000134",
+        "birthYear": 1943,
+        "deathYear": "\\N",
+        "professions": [
+          "actor",
+          "producer",
+          "soundtrack"
+        ],
+        "knownFor": [
+          "tt0101540",
+          "tt0081398",
+          "tt0070379",
+          "tt0075314"
+        ]
+      },
+      "references": [
+        {
+          "entity": "De Niro",
+          "sentence": "Scorsese drank with De Niro.",
+          "startIndex": 8399,
+          "endIndex": 8406,
           "epCode": "s01e16"
         }
       ]
@@ -4042,9 +4299,46 @@
       "references": [
         {
           "entity": "Dick Van Dyke",
-          "sentence": "Ten percent Dick Van Dyke,",
+          "sentence": "Ten percent Dick Van Dyke, 20 percent Sam Malone, 40 percent Zach Braff in Scrubs, and 30 percent Hilary Swank in Boys Don't Cry.",
           "startIndex": 8445,
           "endIndex": 8458,
+          "epCode": "s01e17"
+        }
+      ]
+    },
+    "Zach Braff": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Zach Braff",
+        "nconst": "nm0103785",
+        "birthYear": 1975,
+        "deathYear": "\\N",
+        "professions": [
+          "actor",
+          "producer",
+          "director"
+        ],
+        "knownFor": [
+          "tt0333766",
+          "tt2870708",
+          "tt0285403",
+          "tt1623205"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Zach Braff",
+          "sentence": "Ten percent Dick Van Dyke, 20 percent Sam Malone, 40 percent Zach Braff in Scrubs, and 30 percent Hilary Swank in Boys Don't Cry.",
+          "startIndex": 8494,
+          "endIndex": 8504,
           "epCode": "s01e17"
         }
       ]
@@ -4079,10 +4373,264 @@
       "references": [
         {
           "entity": "Hilary Swank",
-          "sentence": "20 percent Sam Malone, 40 percent Zach Braff in Scrubs, and 30 percent Hilary Swank in Boys",
+          "sentence": "Ten percent Dick Van Dyke, 20 percent Sam Malone, 40 percent Zach Braff in Scrubs, and 30 percent Hilary Swank in Boys Don't Cry.",
           "startIndex": 8531,
           "endIndex": 8543,
           "epCode": "s01e17"
+        }
+      ]
+    },
+    "Toni Tennille": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Toni Tennille",
+        "nconst": "nm0855120",
+        "birthYear": 1940,
+        "deathYear": "\\N",
+        "professions": [
+          "soundtrack",
+          "actress",
+          "music_department"
+        ],
+        "knownFor": [
+          "tt0120867",
+          "tt0460681",
+          "tt0084503",
+          "tt0137338"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Tennille",
+          "sentence": "Singing with Tennille?",
+          "startIndex": 990,
+          "endIndex": 998,
+          "epCode": "s01e19"
+        }
+      ]
+    },
+    "Laura Ingalls Wilder": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Laura Ingalls Wilder",
+        "nconst": "nm0928598",
+        "birthYear": 1867,
+        "deathYear": 1957,
+        "professions": [
+          "writer"
+        ],
+        "knownFor": [
+          "tt0071007",
+          "tt0406032",
+          "tt2431250",
+          "tt0320977"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Laura Ingalls",
+          "sentence": "Hey, Laura Ingalls.",
+          "startIndex": 1676,
+          "endIndex": 1689,
+          "epCode": "s01e19"
+        }
+      ]
+    },
+    "Patrick Swayze": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Patrick Swayze",
+        "nconst": "nm0000664",
+        "birthYear": 1952,
+        "deathYear": 2009,
+        "professions": [
+          "actor",
+          "soundtrack",
+          "producer"
+        ],
+        "knownFor": [
+          "tt0099653",
+          "tt0098206",
+          "tt0092890",
+          "tt0102685"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Patrick Swayze",
+          "sentence": "I will tolerate no reenacting, whether it's ironic or sincere, of the Patrick Swayze-Demi Moore pottery scene in Ghost.",
+          "startIndex": 2082,
+          "endIndex": 2096,
+          "epCode": "s01e19"
+        }
+      ]
+    },
+    "Demi Moore": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Demi Moore",
+        "nconst": "nm0000193",
+        "birthYear": 1962,
+        "deathYear": "\\N",
+        "professions": [
+          "actress",
+          "producer",
+          "director"
+        ],
+        "knownFor": [
+          "tt0107211",
+          "tt0305357",
+          "tt0119173",
+          "tt0117765"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Demi Moore",
+          "sentence": "I will tolerate no reenacting, whether it's ironic or sincere, of the Patrick Swayze-Demi Moore pottery scene in Ghost.",
+          "startIndex": 2097,
+          "endIndex": 2107,
+          "epCode": "s01e19"
+        }
+      ]
+    },
+    "The Righteous Brothers": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "The Righteous Brothers",
+        "nconst": "nm1335503",
+        "birthYear": "\\N",
+        "deathYear": "\\N",
+        "professions": [
+          "soundtrack",
+          "music_department"
+        ],
+        "knownFor": [
+          "tt0149523",
+          "tt0092099",
+          "tt0118972",
+          "tt0099653"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Righteous Brothers",
+          "sentence": "If you so much as hum three notes from that Righteous Brothers song with God as my witness, I will come at you with everything I've got, okay?",
+          "startIndex": 2422,
+          "endIndex": 2440,
+          "epCode": "s01e19"
+        }
+      ]
+    },
+    "Ross Perot": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Ross Perot",
+        "nconst": "nm0674437",
+        "birthYear": 1930,
+        "deathYear": 2019,
+        "professions": [
+          "actor"
+        ],
+        "knownFor": [
+          "tt2005956",
+          "tt8498136",
+          "tt0198138",
+          "tt0108515"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Ross Perot",
+          "sentence": "Do you still have the number of that private investigator you used when you thought Ross Perot was sleeping with your mom?",
+          "startIndex": 11120,
+          "endIndex": 11130,
+          "epCode": "s01e19"
+        }
+      ]
+    },
+    "Donald Trump": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Donald Trump",
+        "nconst": "nm0874339",
+        "birthYear": 1946,
+        "deathYear": "\\N",
+        "professions": [
+          "producer",
+          "actor",
+          "soundtrack"
+        ],
+        "knownFor": [
+          "tt0313737",
+          "tt0104431",
+          "tt0364782",
+          "tt0099656"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Donald",
+          "sentence": "Trump Tower, this is Donald.",
+          "startIndex": 4628,
+          "endIndex": 4634,
+          "epCode": "s01e21"
         }
       ]
     },
@@ -4119,6 +4667,43 @@
           "sentence": "Hal Holb, not Hal Holbrook.",
           "startIndex": 10508,
           "endIndex": 10520,
+          "epCode": "s01e21"
+        }
+      ]
+    },
+    "Tyler Perry": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Tyler Perry",
+        "nconst": "nm1347153",
+        "birthYear": 1969,
+        "deathYear": "\\N",
+        "professions": [
+          "writer",
+          "director",
+          "producer"
+        ],
+        "knownFor": [
+          "tt0422093",
+          "tt0455612",
+          "tt2267998",
+          "tt1142800"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Tyler Perry",
+          "sentence": "And Tyler Perry has a series of movies about why that's wrong.",
+          "startIndex": 13164,
+          "endIndex": 13175,
           "epCode": "s01e21"
         }
       ]
@@ -4194,6 +4779,43 @@
           "startIndex": 1276,
           "endIndex": 1281,
           "epCode": "s01e22"
+        }
+      ]
+    },
+    "Paul Giamatti": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "name": "Paul Giamatti",
+        "nconst": "nm0316079",
+        "birthYear": 1967,
+        "deathYear": "\\N",
+        "professions": [
+          "actor",
+          "producer",
+          "soundtrack"
+        ],
+        "knownFor": [
+          "tt0305206",
+          "tt0352248",
+          "tt0375063",
+          "tt2024544"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Paul Giamatti",
+          "sentence": "Picture her as Paul Giamatti.",
+          "startIndex": 9174,
+          "endIndex": 9187,
+          "epCode": "s01e24"
         }
       ]
     },
@@ -5374,43 +5996,6 @@
           "sentence": "I can't right now, I'm talking to Geena Davis.",
           "startIndex": 8566,
           "endIndex": 8577,
-          "epCode": "s03e12"
-        }
-      ]
-    },
-    "Oprah Winfrey": {
-      "count": 1,
-      "countBySeason": {
-        "s01": 0,
-        "s02": 0,
-        "s03": 1,
-        "s04": 0,
-        "s05": 0,
-        "s06": 0
-      },
-      "details": {
-        "name": "Oprah Winfrey",
-        "nconst": "nm0001856",
-        "birthYear": 1954,
-        "deathYear": "\\N",
-        "professions": [
-          "producer",
-          "actress",
-          "soundtrack"
-        ],
-        "knownFor": [
-          "tt1327773",
-          "tt0088939",
-          "tt0090493",
-          "tt1620680"
-        ]
-      },
-      "references": [
-        {
-          "entity": "Oprah Winfrey",
-          "sentence": "It is my honor and privilege as fake Oprah Winfrey to present the night's final award most handsome young man.",
-          "startIndex": 11568,
-          "endIndex": 11581,
           "epCode": "s03e12"
         }
       ]
@@ -6780,6 +7365,107 @@
         }
       ]
     },
+    "Die Hard": {
+      "count": 11,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 5,
+        "s04": 5,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "Die Hard",
+        "tconst": "tt0095016",
+        "titleType": "movie",
+        "startYear": 1988,
+        "endYear": "\\N",
+        "genres": [
+          "Action",
+          "Thriller"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Die Hard",
+          "sentence": "This class is like a redhead that drinks Scotch and loves Die Hard.",
+          "startIndex": 892,
+          "endIndex": 900,
+          "epCode": "s01e19"
+        },
+        {
+          "entity": "Die Hard",
+          "sentence": "He said Die Hard was bad.",
+          "startIndex": 1580,
+          "endIndex": 1588,
+          "epCode": "s03e16"
+        },
+        {
+          "entity": "Die Hard",
+          "sentence": "He said Die Hard was bad.",
+          "startIndex": 1608,
+          "endIndex": 1616,
+          "epCode": "s03e16"
+        },
+        {
+          "entity": "Die Hard",
+          "sentence": "I'm too busy misunderstanding the whole point of Die Hard.",
+          "startIndex": 4416,
+          "endIndex": 4424,
+          "epCode": "s03e16"
+        },
+        {
+          "entity": "Die Hard",
+          "sentence": "And another thing I hate about Die Hard, two FBI agents named Johnson.",
+          "startIndex": 5825,
+          "endIndex": 5833,
+          "epCode": "s03e16"
+        },
+        {
+          "entity": "Die Hard",
+          "sentence": "I spoke to the manager about Die Hard, and I told him he should be ashamed of himself.",
+          "startIndex": 15803,
+          "endIndex": 15811,
+          "epCode": "s03e16"
+        },
+        {
+          "entity": "Die Hard",
+          "sentence": "I know you were bummed about not doing Die Hard in a restaurant.",
+          "startIndex": 3663,
+          "endIndex": 3671,
+          "epCode": "s04e10"
+        },
+        {
+          "entity": "Die Hard",
+          "sentence": "This is way better than Die Hard in a restaurant.",
+          "startIndex": 7872,
+          "endIndex": 7880,
+          "epCode": "s04e10"
+        },
+        {
+          "entity": "Die Hard",
+          "sentence": "Last time I saw you, you got your panties all in a wad because I said Die Hard was a suckfest of a movie.",
+          "startIndex": 7309,
+          "endIndex": 7317,
+          "epCode": "s04e11"
+        },
+        {
+          "entity": "Die Hard",
+          "sentence": "You hate Die Hard?",
+          "startIndex": 7366,
+          "endIndex": 7374,
+          "epCode": "s04e11"
+        },
+        {
+          "entity": "Die Hard",
+          "sentence": "I would rather watch a napkin sit and do nothing all day than to even endure the trailer for Die Hard.",
+          "startIndex": 7769,
+          "endIndex": 7777,
+          "epCode": "s04e11"
+        }
+      ]
+    },
     "M*A*S*H": {
       "count": 10,
       "countBySeason": {
@@ -6872,100 +7558,6 @@
           "startIndex": 13693,
           "endIndex": 13698,
           "epCode": "s01e13"
-        }
-      ]
-    },
-    "Die Hard": {
-      "count": 10,
-      "countBySeason": {
-        "s01": 0,
-        "s02": 0,
-        "s03": 5,
-        "s04": 5,
-        "s05": 0,
-        "s06": 0
-      },
-      "details": {
-        "title": "Die Hard",
-        "tconst": "tt0095016",
-        "titleType": "movie",
-        "startYear": 1988,
-        "endYear": "\\N",
-        "genres": [
-          "Action",
-          "Thriller"
-        ]
-      },
-      "references": [
-        {
-          "entity": "Die Hard",
-          "sentence": "He said Die Hard was bad.",
-          "startIndex": 1580,
-          "endIndex": 1588,
-          "epCode": "s03e16"
-        },
-        {
-          "entity": "Die Hard",
-          "sentence": "He said Die Hard was bad.",
-          "startIndex": 1608,
-          "endIndex": 1616,
-          "epCode": "s03e16"
-        },
-        {
-          "entity": "Die Hard",
-          "sentence": "I'm too busy misunderstanding the whole point of Die Hard.",
-          "startIndex": 4416,
-          "endIndex": 4424,
-          "epCode": "s03e16"
-        },
-        {
-          "entity": "Die Hard",
-          "sentence": "And another thing I hate about Die Hard, two FBI agents named Johnson.",
-          "startIndex": 5825,
-          "endIndex": 5833,
-          "epCode": "s03e16"
-        },
-        {
-          "entity": "Die Hard",
-          "sentence": "I spoke to the manager about Die Hard, and I told him he should be ashamed of himself.",
-          "startIndex": 15803,
-          "endIndex": 15811,
-          "epCode": "s03e16"
-        },
-        {
-          "entity": "Die Hard",
-          "sentence": "I know you were bummed about not doing Die Hard in a restaurant.",
-          "startIndex": 3663,
-          "endIndex": 3671,
-          "epCode": "s04e10"
-        },
-        {
-          "entity": "Die Hard",
-          "sentence": "This is way better than Die Hard in a restaurant.",
-          "startIndex": 7872,
-          "endIndex": 7880,
-          "epCode": "s04e10"
-        },
-        {
-          "entity": "Die Hard",
-          "sentence": "Last time I saw you, you got your panties all in a wad because I said Die Hard was a suckfest of a movie.",
-          "startIndex": 7309,
-          "endIndex": 7317,
-          "epCode": "s04e11"
-        },
-        {
-          "entity": "Die Hard",
-          "sentence": "You hate Die Hard?",
-          "startIndex": 7366,
-          "endIndex": 7374,
-          "epCode": "s04e11"
-        },
-        {
-          "entity": "Die Hard",
-          "sentence": "I would rather watch a napkin sit and do nothing all day than to even endure the trailer for Die Hard.",
-          "startIndex": 7769,
-          "endIndex": 7777,
-          "epCode": "s04e11"
         }
       ]
     },
@@ -7203,9 +7795,9 @@
       ]
     },
     "The Breakfast Club": {
-      "count": 5,
+      "count": 6,
       "countBySeason": {
-        "s01": 5,
+        "s01": 6,
         "s02": 0,
         "s03": 0,
         "s04": 0,
@@ -7251,6 +7843,13 @@
           "startIndex": 15789,
           "endIndex": 15803,
           "epCode": "s01e01"
+        },
+        {
+          "entity": "Breakfast Club",
+          "sentence": "Breakfast Club?",
+          "startIndex": 9449,
+          "endIndex": 9463,
+          "epCode": "s01e16"
         },
         {
           "entity": "The Breakfast Club",
@@ -7321,10 +7920,188 @@
         }
       ]
     },
-    "Avatar": {
-      "count": 4,
+    "The Brady Bunch": {
+      "count": 5,
+      "countBySeason": {
+        "s01": 5,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "The Brady Bunch",
+        "tconst": "tt0063878",
+        "titleType": "tvSeries",
+        "startYear": 1969,
+        "endYear": 1974,
+        "genres": [
+          "Comedy",
+          "Family"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Brady Bunch",
+          "sentence": "When you guys first came in, we were as wholesome and healthy as the family in Brady Bunch.",
+          "startIndex": 14079,
+          "endIndex": 14090,
+          "epCode": "s01e15"
+        },
+        {
+          "entity": "The Brady Bunch",
+          "sentence": "And now we're as dysfunctional and incestuous as the cast of The Brady Bunch.",
+          "startIndex": 14153,
+          "endIndex": 14168,
+          "epCode": "s01e15"
+        },
+        {
+          "entity": "Mike Brady",
+          "sentence": "Be somebody nice like Mike Brady.",
+          "startIndex": 7718,
+          "endIndex": 7728,
+          "epCode": "s01e17"
+        },
+        {
+          "entity": "Mike Brady",
+          "sentence": "Don't be Mike Brady.",
+          "startIndex": 7824,
+          "endIndex": 7834,
+          "epCode": "s01e17"
+        },
+        {
+          "entity": "Mike Brady",
+          "sentence": "Mike Brady's not sexy.",
+          "startIndex": 7836,
+          "endIndex": 7846,
+          "epCode": "s01e17"
+        }
+      ]
+    },
+    "Who's the Boss": {
+      "count": 5,
       "countBySeason": {
         "s01": 1,
+        "s02": 4,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "Who's the Boss",
+        "tconst": "tt0086827",
+        "titleType": "tvSeries",
+        "startYear": 1984,
+        "endYear": 1992,
+        "genres": [
+          "Comedy",
+          "Family",
+          "Romance"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Who's the Boss?",
+          "sentence": "Tony even saw Angela naked on the opening credits of Who's the Boss?",
+          "startIndex": 5622,
+          "endIndex": 5637,
+          "epCode": "s01e16"
+        },
+        {
+          "entity": "Who's the Boss",
+          "sentence": "Who's the Boss?",
+          "startIndex": 885,
+          "endIndex": 899,
+          "epCode": "s02e20"
+        },
+        {
+          "entity": "Who's the Boss",
+          "sentence": "Who's the Boss?",
+          "startIndex": 3898,
+          "endIndex": 3912,
+          "epCode": "s02e20"
+        },
+        {
+          "entity": "Who's the Boss",
+          "sentence": "I've been watching Who's the Boss?",
+          "startIndex": 7926,
+          "endIndex": 7940,
+          "epCode": "s02e20"
+        },
+        {
+          "entity": "Who's the Boss",
+          "sentence": "Who's the Boss caterer Gordon \"Giddy-up\" Galligan.",
+          "startIndex": 8115,
+          "endIndex": 8129,
+          "epCode": "s02e20"
+        }
+      ]
+    },
+    "Cheers": {
+      "count": 5,
+      "countBySeason": {
+        "s01": 5,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "Cheers",
+        "tconst": "tt0083399",
+        "titleType": "tvSeries",
+        "startYear": 1982,
+        "endYear": 1993,
+        "genres": [
+          "Comedy",
+          "Drama"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Sam Malone",
+          "sentence": "Ten percent Dick Van Dyke, 20 percent Sam Malone, 40 percent Zach Braff in Scrubs, and 30 percent Hilary Swank in Boys Don't Cry.",
+          "startIndex": 8471,
+          "endIndex": 8481,
+          "epCode": "s01e17"
+        },
+        {
+          "entity": "Cliff Clavin",
+          "sentence": "We've lost our Cliff Clavin, our George Costanza, our Turtle or Johnny Drama or E.",
+          "startIndex": 6465,
+          "endIndex": 6477,
+          "epCode": "s01e22"
+        },
+        {
+          "entity": "Sam and Diane",
+          "sentence": "Oh, just like Sam and Diane.",
+          "startIndex": 929,
+          "endIndex": 942,
+          "epCode": "s01e23"
+        },
+        {
+          "entity": "Sam and Diane",
+          "sentence": "I hated Sam and Diane.",
+          "startIndex": 952,
+          "endIndex": 965,
+          "epCode": "s01e23"
+        },
+        {
+          "entity": "Sam and Diane",
+          "sentence": "Who are Sam and Diane?",
+          "startIndex": 975,
+          "endIndex": 988,
+          "epCode": "s01e23"
+        }
+      ]
+    },
+    "Avatar": {
+      "count": 5,
+      "countBySeason": {
+        "s01": 2,
         "s02": 0,
         "s03": 0,
         "s04": 0,
@@ -7344,6 +8121,13 @@
         ]
       },
       "references": [
+        {
+          "entity": "Avatar",
+          "sentence": "Will anyone back me up if I say this is ridiculous, or is it gonna be another Avatar situation?",
+          "startIndex": 340,
+          "endIndex": 346,
+          "epCode": "s01e24"
+        },
         {
           "entity": "Avatar",
           "sentence": "I love Avatar.",
@@ -7374,56 +8158,55 @@
         }
       ]
     },
-    "Who's the Boss": {
+    "Friends": {
       "count": 4,
       "countBySeason": {
-        "s01": 0,
-        "s02": 4,
+        "s01": 4,
+        "s02": 0,
         "s03": 0,
         "s04": 0,
         "s05": 0,
         "s06": 0
       },
       "details": {
-        "title": "Who's the Boss",
-        "tconst": "tt0086827",
+        "title": "Friends",
+        "tconst": "tt0108778",
         "titleType": "tvSeries",
-        "startYear": 1984,
-        "endYear": 1992,
+        "startYear": 1994,
+        "endYear": "2004",
         "genres": [
           "Comedy",
-          "Family",
           "Romance"
         ]
       },
       "references": [
         {
-          "entity": "Who's the Boss",
-          "sentence": "Who's the Boss?",
-          "startIndex": 885,
-          "endIndex": 899,
-          "epCode": "s02e20"
+          "entity": "Chandler and Phoebe",
+          "sentence": "I figured we were really more like Chandler and Phoebe.",
+          "startIndex": 2851,
+          "endIndex": 2870,
+          "epCode": "s01e04"
         },
         {
-          "entity": "Who's the Boss",
-          "sentence": "Who's the Boss?",
-          "startIndex": 3898,
-          "endIndex": 3912,
-          "epCode": "s02e20"
+          "entity": "Chandler",
+          "sentence": "Sure, I'll do it, Chandler.",
+          "startIndex": 2930,
+          "endIndex": 2938,
+          "epCode": "s01e04"
         },
         {
-          "entity": "Who's the Boss",
-          "sentence": "I've been watching Who's the Boss?",
-          "startIndex": 7926,
-          "endIndex": 7940,
-          "epCode": "s02e20"
+          "entity": "Friends",
+          "sentence": "But when Chandler saw Rachel naked on Friends, to even the score Rachel needed to see Chandler's penis.",
+          "startIndex": 5773,
+          "endIndex": 5780,
+          "epCode": "s01e16"
         },
         {
-          "entity": "Who's the Boss",
-          "sentence": "Who's the Boss caterer Gordon \"Giddy-up\" Galligan.",
-          "startIndex": 8115,
-          "endIndex": 8129,
-          "epCode": "s02e20"
+          "entity": "Ross and Rachel",
+          "sentence": "Jeff and Britta is no Ross and Rachel.",
+          "startIndex": 702,
+          "endIndex": 717,
+          "epCode": "s01e23"
         }
       ]
     },
@@ -7477,6 +8260,51 @@
           "startIndex": 9654,
           "endIndex": 9659,
           "epCode": "s03e15"
+        }
+      ]
+    },
+    "Slumdog Millionaire": {
+      "count": 3,
+      "countBySeason": {
+        "s01": 3,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "Slumdog Millionaire",
+        "tconst": "tt1010048",
+        "titleType": "movie",
+        "startYear": 2008,
+        "endYear": "\\N",
+        "genres": [
+          "Drama",
+          "Romance"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Slumdog Millionaire",
+          "sentence": "Gonna leave my homework with Slumdog Millionaire.",
+          "startIndex": 8180,
+          "endIndex": 8199,
+          "epCode": "s01e01"
+        },
+        {
+          "entity": "Slumdog",
+          "sentence": "Looks like the law firm of Seacrest and Slumdog is taking the day off.",
+          "startIndex": 8525,
+          "endIndex": 8532,
+          "epCode": "s01e16"
+        },
+        {
+          "entity": "Slumdog",
+          "sentence": "Let's go, Slumdog.",
+          "startIndex": 9508,
+          "endIndex": 9515,
+          "epCode": "s01e17"
         }
       ]
     },
@@ -7572,6 +8400,52 @@
         }
       ]
     },
+    "Law & Order": {
+      "count": 3,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 1,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "Law & Order",
+        "tconst": "tt0098844",
+        "titleType": "tvSeries",
+        "startYear": 1990,
+        "endYear": 2010,
+        "genres": [
+          "Crime",
+          "Drama",
+          "Mystery"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Law and Order",
+          "sentence": "What doesn't make sense is that you did all this work to put a smile on her face but can't pick up ice cream for Law and Order night because it feels too marriage-y.",
+          "startIndex": 11585,
+          "endIndex": 11598,
+          "epCode": "s01e16"
+        },
+        {
+          "entity": "Law & Order",
+          "sentence": "By the way, they started using that on Law & Order.",
+          "startIndex": 14800,
+          "endIndex": 14811,
+          "epCode": "s01e21"
+        },
+        {
+          "entity": "Law & Order",
+          "sentence": "The psychology world has recently embraced it after seeing it on Law & Order.",
+          "startIndex": 466,
+          "endIndex": 477,
+          "epCode": "s04e09"
+        }
+      ]
+    },
     "Can't Buy Me Love": {
       "count": 3,
       "countBySeason": {
@@ -7584,12 +8458,14 @@
       },
       "details": {
         "title": "Can't Buy Me Love",
-        "tconst": "tt0435944",
-        "titleType": "tvMovie",
-        "startYear": 2004,
+        "tconst": "tt0092718",
+        "titleType": "movie",
+        "startYear": 1987,
         "endYear": "\\N",
         "genres": [
-          "Drama"
+          "Comedy",
+          "Drama",
+          "Romance"
         ]
       },
       "references": [
@@ -7609,10 +8485,101 @@
         },
         {
           "entity": "Can't Buy Me Love",
-          "sentence": "All right, nobody here is Can't Buy Me Love-ing or Love",
+          "sentence": "All right, nobody here is Can't Buy Me Love-ing or Love Don't Cost a Thing-ing anyone.",
           "startIndex": 3032,
           "endIndex": 3049,
           "epCode": "s01e17"
+        }
+      ]
+    },
+    "Ghost": {
+      "count": 3,
+      "countBySeason": {
+        "s01": 3,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "Ghost",
+        "tconst": "tt0099653",
+        "titleType": "movie",
+        "startYear": 1990,
+        "endYear": "\\N",
+        "genres": [
+          "Drama",
+          "Fantasy",
+          "Romance"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Ghost",
+          "sentence": "I will tolerate no reenacting, whether it's ironic or sincere, of the Patrick Swayze-Demi Moore pottery scene in Ghost.",
+          "startIndex": 2125,
+          "endIndex": 2130,
+          "epCode": "s01e19"
+        },
+        {
+          "entity": "Ghost",
+          "sentence": "So since it never stopped, I had to adopt a zero Ghost tolerance policy.",
+          "startIndex": 2354,
+          "endIndex": 2359,
+          "epCode": "s01e19"
+        },
+        {
+          "entity": "Ghost",
+          "sentence": "And the teacher said I could stay if I don't have any more Ghost bursts.",
+          "startIndex": 14222,
+          "endIndex": 14227,
+          "epCode": "s01e19"
+        }
+      ]
+    },
+    "Entourage": {
+      "count": 3,
+      "countBySeason": {
+        "s01": 3,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "Entourage",
+        "tconst": "tt0387199",
+        "titleType": "tvSeries",
+        "startYear": 2004,
+        "endYear": 2011,
+        "genres": [
+          "Comedy",
+          "Drama"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Turtle",
+          "sentence": "We've lost our Cliff Clavin, our George Costanza, our Turtle or Johnny Drama or E.",
+          "startIndex": 6504,
+          "endIndex": 6510,
+          "epCode": "s01e22"
+        },
+        {
+          "entity": "Johnny Drama",
+          "sentence": "We've lost our Cliff Clavin, our George Costanza, our Turtle or Johnny Drama or E.",
+          "startIndex": 6514,
+          "endIndex": 6526,
+          "epCode": "s01e22"
+        },
+        {
+          "entity": "E",
+          "sentence": "We've lost our Cliff Clavin, our George Costanza, our Turtle or Johnny Drama or E.",
+          "startIndex": 6530,
+          "endIndex": 6531,
+          "epCode": "s01e22"
         }
       ]
     },
@@ -7842,6 +8809,43 @@
         }
       ]
     },
+    "Seinfeld": {
+      "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "Seinfeld",
+        "tconst": "tt0098904",
+        "titleType": "tvSeries",
+        "startYear": 1989,
+        "endYear": 1998,
+        "genres": [
+          "Comedy"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Seinfeld",
+          "sentence": "It's \"Seinfeld.\"",
+          "startIndex": 4184,
+          "endIndex": 4192,
+          "epCode": "s01e01"
+        },
+        {
+          "entity": "George Costanza",
+          "sentence": "We've lost our Cliff Clavin, our George Costanza, our Turtle or Johnny Drama or E.",
+          "startIndex": 6483,
+          "endIndex": 6498,
+          "epCode": "s01e22"
+        }
+      ]
+    },
     "Meatballs": {
       "count": 2,
       "countBySeason": {
@@ -7952,44 +8956,6 @@
           "sentence": "Indiana Jones, cool.",
           "startIndex": 13564,
           "endIndex": 13577,
-          "epCode": "s01e04"
-        }
-      ]
-    },
-    "Friends": {
-      "count": 2,
-      "countBySeason": {
-        "s01": 2,
-        "s02": 0,
-        "s03": 0,
-        "s04": 0,
-        "s05": 0,
-        "s06": 0
-      },
-      "details": {
-        "title": "Friends",
-        "tconst": "tt0108778",
-        "titleType": "tvSeries",
-        "startYear": 1994,
-        "endYear": "2004",
-        "genres": [
-          "Comedy",
-          "Romance"
-        ]
-      },
-      "references": [
-        {
-          "entity": "Chandler and Phoebe",
-          "sentence": "I figured we were really more like Chandler and Phoebe.",
-          "startIndex": 2851,
-          "endIndex": 2870,
-          "epCode": "s01e04"
-        },
-        {
-          "entity": "Chandler",
-          "sentence": "Sure, I'll do it, Chandler.",
-          "startIndex": 2930,
-          "endIndex": 2938,
           "epCode": "s01e04"
         }
       ]
@@ -8146,6 +9112,45 @@
         }
       ]
     },
+    "Sesame Street": {
+      "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "Sesame Street",
+        "tconst": "tt0063951",
+        "titleType": "tvSeries",
+        "startYear": 1969,
+        "endYear": "\\N",
+        "genres": [
+          "Animation",
+          "Adventure",
+          "Comedy"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Cookie Monster",
+          "sentence": "You sound like Cookie Monster.",
+          "startIndex": 14191,
+          "endIndex": 14205,
+          "epCode": "s01e07"
+        },
+        {
+          "entity": "Sesame Street",
+          "sentence": "I faked my way into a job as a Spanish teacher at a community college, relying on phrases from Sesame Street.",
+          "startIndex": 3599,
+          "endIndex": 3612,
+          "epCode": "s01e24"
+        }
+      ]
+    },
     "Cop Rock": {
       "count": 2,
       "countBySeason": {
@@ -8260,6 +9265,82 @@
         }
       ]
     },
+    "Love Don't Cost a Thing": {
+      "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "Love Don't Cost a Thing",
+        "tconst": "tt0337592",
+        "titleType": "movie",
+        "startYear": 2003,
+        "endYear": "\\N",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Love Don't Cost a Thing",
+          "sentence": "Oh, he wants us to Love Don't Cost a Thing him.",
+          "startIndex": 2836,
+          "endIndex": 2859,
+          "epCode": "s01e17"
+        },
+        {
+          "entity": "Love Don't Cost a Thing",
+          "sentence": "All right, nobody here is Can't Buy Me Love-ing or Love Don't Cost a Thing-ing anyone.",
+          "startIndex": 3057,
+          "endIndex": 3080,
+          "epCode": "s01e17"
+        }
+      ]
+    },
+    "Mad Men": {
+      "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "Mad Men",
+        "tconst": "tt0804503",
+        "titleType": "tvSeries",
+        "startYear": 2007,
+        "endYear": 2015,
+        "genres": [
+          "Drama"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Mad Men",
+          "sentence": "Don Draper from Mad Men.",
+          "startIndex": 7583,
+          "endIndex": 7590,
+          "epCode": "s01e17"
+        },
+        {
+          "entity": "Don Draper",
+          "sentence": "Don Draper was clearly the sexiest",
+          "startIndex": 8113,
+          "endIndex": 8123,
+          "epCode": "s01e17"
+        }
+      ]
+    },
     "Scrubs": {
       "count": 2,
       "countBySeason": {
@@ -8284,7 +9365,7 @@
       "references": [
         {
           "entity": "Scrubs",
-          "sentence": "20 percent Sam Malone, 40 percent Zach Braff in Scrubs, and 30 percent Hilary Swank in Boys",
+          "sentence": "Ten percent Dick Van Dyke, 20 percent Sam Malone, 40 percent Zach Braff in Scrubs, and 30 percent Hilary Swank in Boys Don't Cry.",
           "startIndex": 8508,
           "endIndex": 8514,
           "epCode": "s01e17"
@@ -8298,7 +9379,7 @@
         }
       ]
     },
-    "Ghost": {
+    "Glee": {
       "count": 2,
       "countBySeason": {
         "s01": 2,
@@ -8309,70 +9390,106 @@
         "s06": 0
       },
       "details": {
-        "title": "Ghost",
-        "tconst": "tt0099653",
+        "title": "Glee",
+        "tconst": "tt1327801",
+        "titleType": "tvSeries",
+        "startYear": 2009,
+        "endYear": 2015,
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Music"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Glee",
+          "sentence": "I hate Glee.",
+          "startIndex": 15070,
+          "endIndex": 15074,
+          "epCode": "s01e18"
+        },
+        {
+          "entity": "Glee",
+          "sentence": "I'm not crazy about Glee, either.",
+          "startIndex": 15096,
+          "endIndex": 15100,
+          "epCode": "s01e18"
+        }
+      ]
+    },
+    "Sixteen Candles": {
+      "count": 2,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "Sixteen Candles",
+        "tconst": "tt0088128",
         "titleType": "movie",
-        "startYear": 1990,
+        "startYear": 1984,
         "endYear": "\\N",
         "genres": [
-          "Drama",
-          "Fantasy",
+          "Comedy",
           "Romance"
         ]
       },
       "references": [
         {
-          "entity": "Ghost",
-          "sentence": "I will tolerate no reenacting, whether it's ironic or sincere, of the Patrick Swayze-Demi Moore pottery scene in Ghost.",
-          "startIndex": 2125,
-          "endIndex": 2130,
-          "epCode": "s01e19"
+          "entity": "Sixteen Candles",
+          "sentence": "Can we eat them while sitting on a table like in Sixteen Candles?",
+          "startIndex": 15703,
+          "endIndex": 15718,
+          "epCode": "s01e21"
         },
         {
-          "entity": "Ghost",
-          "sentence": "And the teacher said I could stay if I don't have any more Ghost bursts.",
-          "startIndex": 14222,
-          "endIndex": 14227,
-          "epCode": "s01e19"
+          "entity": "Sixteen Candles",
+          "sentence": "Sixteen Candles.",
+          "startIndex": 15746,
+          "endIndex": 15761,
+          "epCode": "s01e21"
         }
       ]
     },
-    "Law & Order": {
+    "The Real Housewives of Orange County": {
       "count": 2,
       "countBySeason": {
-        "s01": 1,
+        "s01": 2,
         "s02": 0,
         "s03": 0,
-        "s04": 1,
+        "s04": 0,
         "s05": 0,
         "s06": 0
       },
       "details": {
-        "title": "Law & Order",
-        "tconst": "tt0098844",
+        "title": "The Real Housewives of Orange County",
+        "tconst": "tt0497079",
         "titleType": "tvSeries",
-        "startYear": 1990,
-        "endYear": 2010,
+        "startYear": 2006,
+        "endYear": 2019,
         "genres": [
-          "Crime",
-          "Drama",
-          "Mystery"
+          "Reality-TV"
         ]
       },
       "references": [
         {
-          "entity": "Law & Order",
-          "sentence": "By the way, they started using that on Law & Order.",
-          "startIndex": 14800,
-          "endIndex": 14811,
-          "epCode": "s01e21"
+          "entity": "The Real Housewives",
+          "sentence": "After she's done shooting The Real Housewives of Greendale County?",
+          "startIndex": 5268,
+          "endIndex": 5287,
+          "epCode": "s01e22"
         },
         {
-          "entity": "Law & Order",
-          "sentence": "The psychology world has recently embraced it after seeing it on Law & Order.",
-          "startIndex": 466,
-          "endIndex": 477,
-          "epCode": "s04e09"
+          "entity": "The Real Housewives",
+          "sentence": "\"After she's done shooting The Real Housewives of Greendale County.\"",
+          "startIndex": 5336,
+          "endIndex": 5355,
+          "epCode": "s01e22"
         }
       ]
     },
@@ -8834,67 +9951,6 @@
           "startIndex": 13928,
           "endIndex": 13937,
           "epCode": "s05e05"
-        }
-      ]
-    },
-    "Seinfeld": {
-      "count": 1,
-      "countBySeason": {
-        "s01": 1,
-        "s02": 0,
-        "s03": 0,
-        "s04": 0,
-        "s05": 0,
-        "s06": 0
-      },
-      "details": {
-        "title": "Seinfeld",
-        "tconst": "tt0098904",
-        "titleType": "tvSeries",
-        "startYear": 1989,
-        "endYear": 1998,
-        "genres": [
-          "Comedy"
-        ]
-      },
-      "references": [
-        {
-          "entity": "Seinfeld",
-          "sentence": "It's \"Seinfeld.\"",
-          "startIndex": 4184,
-          "endIndex": 4192,
-          "epCode": "s01e01"
-        }
-      ]
-    },
-    "Slumdog Millionaire": {
-      "count": 1,
-      "countBySeason": {
-        "s01": 1,
-        "s02": 0,
-        "s03": 0,
-        "s04": 0,
-        "s05": 0,
-        "s06": 0
-      },
-      "details": {
-        "title": "Slumdog Millionaire",
-        "tconst": "tt1010048",
-        "titleType": "movie",
-        "startYear": 2008,
-        "endYear": "\\N",
-        "genres": [
-          "Drama",
-          "Romance"
-        ]
-      },
-      "references": [
-        {
-          "entity": "Slumdog Millionaire",
-          "sentence": "Gonna leave my homework with Slumdog Millionaire.",
-          "startIndex": 8180,
-          "endIndex": 8199,
-          "epCode": "s01e01"
         }
       ]
     },
@@ -9526,38 +10582,6 @@
         }
       ]
     },
-    "Sesame Street": {
-      "count": 1,
-      "countBySeason": {
-        "s01": 1,
-        "s02": 0,
-        "s03": 0,
-        "s04": 0,
-        "s05": 0,
-        "s06": 0
-      },
-      "details": {
-        "title": "Sesame Street",
-        "tconst": "tt0063951",
-        "titleType": "tvSeries",
-        "startYear": 1969,
-        "endYear": "\\N",
-        "genres": [
-          "Animation",
-          "Adventure",
-          "Comedy"
-        ]
-      },
-      "references": [
-        {
-          "entity": "Cookie Monster",
-          "sentence": "You sound like Cookie Monster.",
-          "startIndex": 14191,
-          "endIndex": 14205,
-          "epCode": "s01e07"
-        }
-      ]
-    },
     "Overboard": {
       "count": 1,
       "countBySeason": {
@@ -10087,7 +11111,7 @@
         }
       ]
     },
-    "Mad Men": {
+    "Beetlejuice": {
       "count": 1,
       "countBySeason": {
         "s01": 1,
@@ -10098,26 +11122,91 @@
         "s06": 0
       },
       "details": {
-        "title": "Mad Men",
-        "tconst": "tt0804503",
+        "title": "Beetlejuice",
+        "tconst": "tt0096543",
         "titleType": "tvSeries",
-        "startYear": 2007,
-        "endYear": 2015,
+        "startYear": 1989,
+        "endYear": 1991,
         "genres": [
-          "Drama"
+          "Adventure",
+          "Animation",
+          "Comedy"
         ]
       },
       "references": [
         {
-          "entity": "Mad Men",
-          "sentence": "Don Draper from Mad Men.",
-          "startIndex": 7583,
-          "endIndex": 7590,
+          "entity": "Beetlejuice",
+          "sentence": "Bitter, Butter, Beetlejuice?",
+          "startIndex": 364,
+          "endIndex": 375,
+          "epCode": "s01e16"
+        }
+      ]
+    },
+    "Lost": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "Lost",
+        "tconst": "tt0411008",
+        "titleType": "tvSeries",
+        "startYear": 2004,
+        "endYear": 2010,
+        "genres": [
+          "Adventure",
+          "Drama",
+          "Fantasy"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Lost",
+          "sentence": "He's a young \"the Asian guy from Lost.\" ",
+          "startIndex": 6792,
+          "endIndex": 6796,
+          "epCode": "s01e16"
+        }
+      ]
+    },
+    "The Notebook": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "The Notebook",
+        "tconst": "tt0332280",
+        "titleType": "movie",
+        "startYear": 2004,
+        "endYear": "\\N",
+        "genres": [
+          "Drama",
+          "Romance"
+        ]
+      },
+      "references": [
+        {
+          "entity": "The Notebook",
+          "sentence": "It's just like The Notebook, except instead of Alzheimer's, Abed has --",
+          "startIndex": 985,
+          "endIndex": 997,
           "epCode": "s01e17"
         }
       ]
     },
-    "Boys": {
+    "The Facts of Life": {
       "count": 1,
       "countBySeason": {
         "s01": 1,
@@ -10128,24 +11217,86 @@
         "s06": 0
       },
       "details": {
-        "title": "Boys",
-        "tconst": "tt0373733",
-        "titleType": "movie",
-        "startYear": 2003,
-        "endYear": "\\N",
+        "title": "The Facts of Life",
+        "tconst": "tt0078610",
+        "titleType": "tvSeries",
+        "startYear": 1979,
+        "endYear": 1988,
         "genres": [
           "Comedy",
-          "Drama",
-          "Music"
+          "Family"
         ]
       },
       "references": [
         {
-          "entity": "Boys",
+          "entity": "Facts of Life",
+          "sentence": "You should be like Jo from Facts of Life.",
+          "startIndex": 7886,
+          "endIndex": 7899,
+          "epCode": "s01e17"
+        }
+      ]
+    },
+    "Boys Don't Cry": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "Boys Don't Cry",
+        "tconst": "tt0238119",
+        "titleType": "movie",
+        "startYear": 2000,
+        "endYear": "\\N",
+        "genres": [
+          "Comedy",
+          "Crime"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Boys Don't Cry",
           "sentence": "20 percent Sam Malone, 40 percent Zach Braff in Scrubs, and 30 percent Hilary Swank in Boys",
           "startIndex": 8547,
-          "endIndex": 8551,
+          "endIndex": 8561,
           "epCode": "s01e17"
+        }
+      ]
+    },
+    "Star Wars: Episode I - The Phantom Menace": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "Star Wars: Episode I - The Phantom Menace",
+        "tconst": "tt0120915",
+        "titleType": "movie",
+        "startYear": 1999,
+        "endYear": "\\N",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Phantom Menace",
+          "sentence": "Hey, Phantom Menace.",
+          "startIndex": 4221,
+          "endIndex": 4235,
+          "epCode": "s01e18"
         }
       ]
     },
@@ -10213,7 +11364,7 @@
         }
       ]
     },
-    "Sixteen Candles": {
+    "Short Circuit": {
       "count": 1,
       "countBySeason": {
         "s01": 1,
@@ -10224,23 +11375,85 @@
         "s06": 0
       },
       "details": {
-        "title": "Sixteen Candles",
-        "tconst": "tt0088128",
+        "title": "Short Circuit",
+        "tconst": "tt0091949",
         "titleType": "movie",
-        "startYear": 1984,
+        "startYear": 1986,
         "endYear": "\\N",
         "genres": [
           "Comedy",
-          "Romance"
+          "Family",
+          "Sci-Fi"
         ]
       },
       "references": [
         {
-          "entity": "Sixteen Candles",
-          "sentence": "Can we eat them while sitting on a table like in Sixteen Candles?",
-          "startIndex": 15703,
-          "endIndex": 15718,
+          "entity": "Johnny Five",
+          "sentence": "He's gone from lovable Johnny Five to evil HAL.",
+          "startIndex": 10469,
+          "endIndex": 10480,
           "epCode": "s01e21"
+        }
+      ]
+    },
+    "2001: A Space Odyssey": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "2001: A Space Odyssey",
+        "tconst": "tt0062622",
+        "titleType": "movie",
+        "startYear": 1968,
+        "endYear": "\\N",
+        "genres": [
+          "Adventure",
+          "Sci-Fi"
+        ]
+      },
+      "references": [
+        {
+          "entity": "HAL",
+          "sentence": "He's gone from lovable Johnny Five to evil HAL.",
+          "startIndex": 10489,
+          "endIndex": 10492,
+          "epCode": "s01e21"
+        }
+      ]
+    },
+    "National Lampoon's Animal House": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "National Lampoon's Animal House",
+        "tconst": "tt0077975",
+        "titleType": "movie",
+        "startYear": 1978,
+        "endYear": "\\N",
+        "genres": [
+          "Comedy"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Animal House",
+          "sentence": "Animal House.",
+          "startIndex": 1840,
+          "endIndex": 1852,
+          "epCode": "s01e22"
         }
       ]
     },
@@ -10272,6 +11485,101 @@
           "startIndex": 2400,
           "endIndex": 2415,
           "epCode": "s01e22"
+        }
+      ]
+    },
+    "The Wire": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "The Wire",
+        "tconst": "tt0306414",
+        "titleType": "tvSeries",
+        "startYear": 2002,
+        "endYear": 2008,
+        "genres": [
+          "Crime",
+          "Drama",
+          "Thriller"
+        ]
+      },
+      "references": [
+        {
+          "entity": "The Wire",
+          "sentence": "Like the first season of The Wire.",
+          "startIndex": 13337,
+          "endIndex": 13345,
+          "epCode": "s01e24"
+        }
+      ]
+    },
+    "Happy Days": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "Happy Days",
+        "tconst": "tt0070992",
+        "titleType": "tvSeries",
+        "startYear": 1974,
+        "endYear": 1984,
+        "genres": [
+          "Comedy",
+          "Family",
+          "Music"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Happy Days",
+          "sentence": "Oh, and for the record, there was an episode of Happy Days, where a guy literally jumped over a shark, and it was the best one.",
+          "startIndex": 9362,
+          "endIndex": 9372,
+          "epCode": "s01e25"
+        }
+      ]
+    },
+    "Fatal Attraction": {
+      "count": 1,
+      "countBySeason": {
+        "s01": 1,
+        "s02": 0,
+        "s03": 0,
+        "s04": 0,
+        "s05": 0,
+        "s06": 0
+      },
+      "details": {
+        "title": "Fatal Attraction",
+        "tconst": "tt0093010",
+        "titleType": "movie",
+        "startYear": 1987,
+        "endYear": "\\N",
+        "genres": [
+          "Drama",
+          "Thriller"
+        ]
+      },
+      "references": [
+        {
+          "entity": "Fatal Attraction",
+          "sentence": "Very Fatal Attraction.",
+          "startIndex": 12378,
+          "endIndex": 12394,
+          "epCode": "s01e25"
         }
       ]
     },
