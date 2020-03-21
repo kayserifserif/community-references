@@ -14,57 +14,57 @@ import json
 # desired_labels = ["PERSON", "WORK_OF_ART", "ORG", "FAC"]
 desired_labels = ["PERSON", "WORK_OF_ART", "ORG"]
 
-# all_people = []
 all_people = {}
-with open("./data/name.basics.min.tsv", newline='') as f_open:
-  f_open = csv.reader(f_open, delimiter='\t')
-  next(f_open) # skip header
-  for row in f_open:
-    # all_people.append(row[1]) # add name
-    nconst = row[0]
-    birthYear = row[2]
-    try:
-      birthYear = int(birthYear)
-    except ValueError:
-      birthYear = birthYear
-    deathYear = row[3]
-    try:
-      deathYear = int(deathYear)
-    except ValueError:
-      deathYear = deathYear
-    professions = row[4].split(",")
-    knownFor = row[5].split(",")
-    all_people[row[1]] = [nconst, birthYear, deathYear, professions, knownFor]
-
-# all_titles = []
 all_titles = {}
-with open("./data/title.basics.min.tsv", newline='') as f_open:
-  f_open = csv.reader(f_open, delimiter='\t')
-  next(f_open) # skip header
-  for row in f_open:
-    # all_titles.append(row[2]) # add name
-    tconst = row[0]
-    titleType = row[1]
-    startYear = row[5]
-    try:
-      startYear = int(startYear)
-    except ValueError:
-      startYear = startYear
-    endYear = row[6]
-    try:
-      endYear = int(endYear)
-    except ValueError:
-      endYear = endYear
-    genres = row[8].split(",")
-    all_titles[row[2]] = [tconst, titleType, startYear, endYear, genres]
 
-stop_ents = []
-with open("./data/community-entities.txt", "r") as f_open:
-  f_open = csv.reader(f_open, delimiter='\n')
-  for row in f_open:
-    stop_ents.append(row[0])
+def loadData():
+  with open("./data/name.basics.min.tsv", newline='') as f_open:
+    f_open = csv.reader(f_open, delimiter='\t')
+    next(f_open) # skip header
+    for row in f_open:
+      # all_people.append(row[1]) # add name
+      nconst = row[0]
+      birthYear = row[2]
+      try:
+        birthYear = int(birthYear)
+      except ValueError:
+        birthYear = birthYear
+      deathYear = row[3]
+      try:
+        deathYear = int(deathYear)
+      except ValueError:
+        deathYear = deathYear
+      professions = row[4].split(",")
+      knownFor = row[5].split(",")
+      all_people[row[1]] = [nconst, birthYear, deathYear, professions, knownFor]
 
-nlp = spacy.load("en_core_web_sm")
+  with open("./data/title.basics.min.tsv", newline='') as f_open:
+    f_open = csv.reader(f_open, delimiter='\t')
+    next(f_open) # skip header
+    for row in f_open:
+      # all_titles.append(row[2]) # add name
+      tconst = row[0]
+      titleType = row[1]
+      startYear = row[5]
+      try:
+        startYear = int(startYear)
+      except ValueError:
+        startYear = startYear
+      endYear = row[6]
+      try:
+        endYear = int(endYear)
+      except ValueError:
+        endYear = endYear
+      genres = row[8].split(",")
+      all_titles[row[2]] = [tconst, titleType, startYear, endYear, genres]
+
+  stop_ents = []
+  with open("./data/community-entities.txt", "r") as f_open:
+    f_open = csv.reader(f_open, delimiter='\n')
+    for row in f_open:
+      stop_ents.append(row[0])
+
+  nlp = spacy.load("en_core_web_sm")
 
 
 
@@ -73,6 +73,8 @@ nlp = spacy.load("en_core_web_sm")
 # # # # # # # # # #
 
 def get_episode_data(code):
+
+  loadData()
 
   ep_data = {}
 
@@ -142,6 +144,8 @@ def get_episode_data(code):
 # # # # # # # # # # #
 
 def find(code, search, type):
+  if type:
+    loadData()
   try:
     with open("./transcripts/community-" + code + ".txt", "r") as f_open:
       data = f_open.read()
