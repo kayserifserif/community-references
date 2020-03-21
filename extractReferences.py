@@ -231,14 +231,14 @@ def main():
 
   else:
     print("usage:\n\
-      commands:\n\
-      \t extract-references.py [episodeCode]\n\
-      \t extract-references.py [episodeCode] [searchString] [entityType]\n\
-      \t extract-references.py all\n\
-      arguments:\n\
-      \t [episodeCode]: code of episode to analyse, in the form of s01e01\n\
-      \t [searchString]: string to search for, in quotes\n\
-      \t [entityType]: expected entity type, as t for title or p for person")
+  commands:\n\
+    [episodeCode]\n\
+    [episodeCode] [searchString] [entityType]\n\
+    all\n\
+  arguments:\n\
+    [episodeCode]: code of episode to analyse, in the form of s01e01\n\
+    [searchString]: string to search for, in quotes\n\
+    [entityType]: expected entity type, as t for title or p for person")
 
 if __name__ == "__main__":
   main()

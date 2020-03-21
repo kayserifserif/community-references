@@ -161,7 +161,8 @@ def main():
       makeAnnotations(epCode)
   else:
     print("usage: \n\
-          \t [searchString]: string to search for, in quotes")
+  [epCode]: episode to annotate\n\
+  all: annotate all episodes")
 
 if __name__ == "__main__":
   main()
