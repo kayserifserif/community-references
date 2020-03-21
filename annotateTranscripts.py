@@ -127,9 +127,11 @@ def makeAnnotations(epCode):
   # print(epCodes.index(epCode))
   index = epCodes.index(epCode)
   if index > 0:
+    # previous
     prevCode = epCodes[index - 1]
     nav += "<a href=\"community-" + prevCode + ".html\">← " + prevCode.upper() + "</a>"
   if index < len(epCodes) - 1:
+    # next
     nextCode = epCodes[index + 1]
     nav += "<a href=\"community-" + nextCode + ".html\">" + nextCode.upper() + " →</a>"
   nav += "</nav>\n"
@@ -145,7 +147,7 @@ def makeAnnotations(epCode):
   html += body
   html += "</html>"
   # output html file
-  with open("./site/community-" + epCode + ".html", "w") as f:
+  with open("./site/annotated/community-" + epCode + ".html", "w") as f:
     f.write(html.format(htmlText=html))
     print("Successfully saved to file ./site/community-" + epCode + ".html!")
 
