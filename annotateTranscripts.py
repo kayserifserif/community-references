@@ -54,19 +54,19 @@ def makeAnnotations(epCode):
     lines += transcript[:indices[0][0]]
     # wrap the reference and add it
     for i, indexSet in enumerate(indices):
-      ref = "<span class=\"ref\">"
-      reference = "<span class=\"reference " + indexSet[3] + "\">" + indexSet[2] + "</span>"
+      ref = "<span class='ref'>"
+      reference = f"<span class='reference {indexSet[3]}'>{indexSet[2]}</span>";
       ref += reference
-      popup = "<span class=\"popup\">"
-      label = "<span class=\"label\">"
+      popup = "<span class='popup'>"
+      label = "<span class='label'>"
       if indexSet[3] == "people":
-        label += "<a href=\"https://www.imdb.com/name/" + indexSet[5] + "\">" + indexSet[4] + "</a></span>"
+        label += f"<a href='https://www.imdb.com/name/{indexSet[5]}'>{indexSet[4]}</a></span>"
       else:
-        label += "<a href=\"https://www.imdb.com/title/" + indexSet[5] + "\">" + indexSet[4] + "</a></span>"
+        label += f"<a href='https://www.imdb.com/title/{indexSet[5]}'>{indexSet[4]}</a></span>"
       popup += label
       if indexSet[3] == "titles":
-        popup += "<span class=\"titleType\">" + indexSet[6] + "</span>"
-      years = "<span class=\"years\">"
+        popup += f"<span class='titleType'>{indexSet[6]}</span>"
+      years = "<span class='years'>"
       if indexSet[3] == "people":
         if indexSet[6] != "\\N":
           years += str(indexSet[6])
@@ -82,20 +82,20 @@ def makeAnnotations(epCode):
       years += "</span>"
       popup += years
       if indexSet[3] == "people":
-        professions = "<span class=\"profs list\">"
+        professions = "<span class='profs list'>"
         for p in indexSet[8]:
-          professions += "<span class=\"tag prof\">" + p + "</span>"
+          professions += f"<span class='tag prof'>{p}</span>"
         professions += "</span>"
         popup += professions
-        knownFor = "<span class=\"knownFor list\">"
+        knownFor = "<span class='knownFor list'>"
         for k in indexSet[9]:
-          knownFor += "<span class=\"tag knownFor\"><a href=\"https://www.imdb.com/title/" + k + "\">" + k + "</a></span>"
+          knownFor += f"<span class='tag knownFor'><a href='https://www.imdb.com/title/{k}'>{k}</a></span>"
         knownFor += "</span>"
         popup += knownFor
       if indexSet[3] == "titles":
-        genres = "<span class=\"genres list\">"
+        genres = "<span class='genres list'>"
         for g in indexSet[9]:
-          genres += "<span class=\"tag genre\">" + g + "</span>"
+          genres += f"<span class='tag genre'>{g}</span>"
         genres += "</span>"
         popup += genres
       popup += "</span>"
@@ -116,33 +116,33 @@ def makeAnnotations(epCode):
   lines = re.sub(r'^', "<p>", lines, flags=re.MULTILINE)
   lines = re.sub(r'$', "</p>", lines, flags=re.MULTILINE)
   # set up html
-  html = "<!DOCTYPE html>\n<html lang=\"en\">\n"
+  html = "<!DOCTYPE html>\n<html lang='en'>\n"
   head = "<head>\n" \
-       + "<meta charset=\"UTF-8\">\n" \
-       + "<link rel=\"stylesheet\" href=\"assets/styles.css\">\n" \
+       + "<meta charset='UTF-8'>\n" \
+       + "<link rel='stylesheet' href='assets/styles.css'>\n" \
        + "</head>\n"
   html += head
   body = "<body>\n"
-  nav = "<nav class=\"nav\">"
+  nav = "<nav class='nav'>"
   # print(epCodes.index(epCode))
   index = epCodes.index(epCode)
   if index > 0:
     # previous
     prevCode = epCodes[index - 1]
-    nav += "<a href=\"community-" + prevCode + ".html\">← " + prevCode.upper() + "</a>"
+    nav += f"<a href='community-{prevCode}.html'>← {prevCode.upper()}</a>"
   if index < len(epCodes) - 1:
     # next
     nextCode = epCodes[index + 1]
-    nav += "<a href=\"community-" + nextCode + ".html\">" + nextCode.upper() + " →</a>"
+    nav += f"<a href='community-{nextCode}.html'>{nextCode.upper()} →</a>"
   nav += "</nav>\n"
   body += nav
-  title = "<h1 id=\"title\">" + epCode.upper() + "</h1>\n"
+  title = f"<h1 id='title'>{epCode.upper()}</h1>\n"
   body += title
-  body += "<div id=\"transcript\">\n"
+  body += "<div id='transcript'>\n"
   body += lines
   body += "\n</div>\n"
   body += nav
-  body += "<script src=\"assets/scripts.js\"></script>"
+  body += "<script src='assets/scripts.js'></script>"
   body += "</body>\n"
   html += body
   html += "</html>"
