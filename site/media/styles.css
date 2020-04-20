@@ -1,0 +1,28 @@
+body {
+  line-height: 1.5;
+}
+
+#container {
+  display: flex;
+}
+
+dt.entity {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+}
+
+#people dt.entity {
+  background-color: #c0eeee;
+}
+
+#people span.entity {
+  color: #147e7e;
+}
+
+#titles dt.entity {
+  background-color: #eedcc0;
+}
+
+#titles span.entity {
+  color: #8b662e;
+}
