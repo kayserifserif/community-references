@@ -1,7 +1,10 @@
 var svg = d3.select("#container")
             .append("svg")
             .attr("width", "100%")
-            .attr("height", "100%");
+            .attr("height", "100%")
+            // .attr("preserveAspectRatio", "xMinYMin meet")
+            // .attr("viewBox", "0 0 600 400")
+            ;
 
 var references;
 var referents;
