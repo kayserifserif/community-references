@@ -21,8 +21,8 @@ def makeAnnotations(epCode):
     reference = instance["reference"]
     referent = instance["referent"]
     indices.append([
-      reference["startIndex"],
-      reference["endIndex"],
+      reference["startInDoc"],
+      reference["endInDoc"],
       reference["entity"],
       "people",
       referent["name"],
@@ -36,8 +36,8 @@ def makeAnnotations(epCode):
     reference = instance["reference"]
     referent = instance["referent"]
     indices.append([
-      reference["startIndex"],
-      reference["endIndex"],
+      reference["startInDoc"],
+      reference["endInDoc"],
       reference["entity"],
       "titles",
       referent["title"],

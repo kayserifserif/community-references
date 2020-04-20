@@ -151,7 +151,9 @@ def find(code, search, type):
       data = f_open.read()
       data = re.sub("\n", " ", data)
     results = re.finditer(search, data)
+    counter = 0
     for result in results:
+      counter += 1
       print(result.start(), result.end())
       print(data[result.start() - 20 : result.end() + 20])
     if type == "p":
@@ -164,6 +166,8 @@ def find(code, search, type):
         title_info = all_titles[search].copy()
         title_info.insert(0, search)
         print(title_info)
+    if counter is 0:
+      print("No results found.")
   except IOError:
     print("Could not read file.")
 
