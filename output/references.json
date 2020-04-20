@@ -6743,8 +6743,8 @@
         "reference": {
           "entity": "George Clooney",
           "sentence": "Talk with your best man, George Clooney.",
-          "startInDoc": 8319,
-          "endInDoc": 8333,
+          "startInDoc": 8291,
+          "endInDoc": 8305,
           "startInSent": 25,
           "endInSent": 39
         },
@@ -6903,8 +6903,8 @@
         "reference": {
           "entity": "Rob Lowe",
           "sentence": "Alan is to Jeff what Rob Lowe is to James Spader in 1990's Bad Influence.",
-          "startInDoc": 2633,
-          "endInDoc": 2641,
+          "startInDoc": 2629,
+          "endInDoc": 2637,
           "startInSent": 21,
           "endInSent": 29
         },
@@ -6930,8 +6930,8 @@
         "reference": {
           "entity": "James Spader",
           "sentence": "Alan is to Jeff what Rob Lowe is to James Spader in 1990's Bad Influence.",
-          "startInDoc": 2648,
-          "endInDoc": 2660,
+          "startInDoc": 2644,
+          "endInDoc": 2656,
           "startInSent": 36,
           "endInSent": 48
         },
@@ -6984,8 +6984,8 @@
         "reference": {
           "entity": "Tom Berenger",
           "sentence": "He's the British guy pretending to be Tom Berenger.",
-          "startInDoc": 14967,
-          "endInDoc": 14979,
+          "startInDoc": 14955,
+          "endInDoc": 14967,
           "startInSent": 38,
           "endInSent": 50
         },
@@ -7090,8 +7090,8 @@
         "reference": {
           "entity": "Ricardo Montalban",
           "sentence": "How captivating was Ricardo Montalban in that?",
-          "startInDoc": 9374,
-          "endInDoc": 9391,
+          "startInDoc": 9350,
+          "endInDoc": 9367,
           "startInSent": 20,
           "endInSent": 37
         },
@@ -7242,8 +7242,8 @@
         "reference": {
           "entity": "Michelle Kwan",
           "sentence": "Michelle Kwan?",
-          "startInDoc": 2637,
-          "endInDoc": 2650,
+          "startInDoc": 2625,
+          "endInDoc": 2638,
           "startInSent": 0,
           "endInSent": 13
         },
@@ -7267,8 +7267,8 @@
         "reference": {
           "entity": "George Takei",
           "sentence": "I'm George Takei.",
-          "startInDoc": 11600,
-          "endInDoc": 11612,
+          "startInDoc": 11534,
+          "endInDoc": 11546,
           "startInSent": 4,
           "endInSent": 16
         },
@@ -7294,8 +7294,8 @@
         "reference": {
           "entity": "George Takei",
           "sentence": "He's on a spaceship with me, George Takei.",
-          "startInDoc": 11750,
-          "endInDoc": 11762,
+          "startInDoc": 11684,
+          "endInDoc": 11696,
           "startInSent": 29,
           "endInSent": 41
         },
@@ -7326,8 +7326,8 @@
         "reference": {
           "entity": "Michael Penn",
           "sentence": "Nice try, Michael Penn.",
-          "startInDoc": 10072,
-          "endInDoc": 10084,
+          "startInDoc": 10064,
+          "endInDoc": 10076,
           "startInSent": 10,
           "endInSent": 22
         },
@@ -7353,8 +7353,8 @@
         "reference": {
           "entity": "Tom Cruise",
           "sentence": "Even Tom Cruise knows he's short and nuts.",
-          "startInDoc": 12314,
-          "endInDoc": 12324,
+          "startInDoc": 12294,
+          "endInDoc": 12304,
           "startInSent": 5,
           "endInSent": 15
         },
@@ -7408,8 +7408,8 @@
         "reference": {
           "entity": "Harvey Keitel",
           "sentence": "Well, well, well, Harvey Keitel.",
-          "startInDoc": 9556,
-          "endInDoc": 9569,
+          "startInDoc": 9532,
+          "endInDoc": 9545,
           "startInSent": 18,
           "endInSent": 31
         },
@@ -7435,8 +7435,8 @@
         "reference": {
           "entity": "Mike Tyson",
           "sentence": "My, oh, my, Mike Tyson.",
-          "startInDoc": 9628,
-          "endInDoc": 9638,
+          "startInDoc": 9604,
+          "endInDoc": 9614,
           "startInSent": 12,
           "endInSent": 22
         },
@@ -7462,8 +7462,8 @@
         "reference": {
           "entity": "Stephen Fry",
           "sentence": "Nice try, Stephen Fry.",
-          "startInDoc": 11306,
-          "endInDoc": 11317,
+          "startInDoc": 11278,
+          "endInDoc": 11289,
           "startInSent": 10,
           "endInSent": 21
         },
@@ -7489,8 +7489,8 @@
         "reference": {
           "entity": "Stephen Fry",
           "sentence": "Stephen Fry.",
-          "startInDoc": 11319,
-          "endInDoc": 11330,
+          "startInDoc": 11291,
+          "endInDoc": 11302,
           "startInSent": 0,
           "endInSent": 11
         },
@@ -7567,8 +7567,8 @@
         "reference": {
           "entity": "Tyra Banks",
           "sentence": "Also born that day, Tyra Banks, Marisa Tomei and French cinematographer Claude Renoir.",
-          "startInDoc": 1421,
-          "endInDoc": 1431,
+          "startInDoc": 1417,
+          "endInDoc": 1427,
           "startInSent": 20,
           "endInSent": 30
         },
@@ -7594,8 +7594,8 @@
         "reference": {
           "entity": "Marisa Tomei",
           "sentence": "Also born that day, Tyra Banks, Marisa Tomei and French cinematographer Claude Renoir.",
-          "startInDoc": 1433,
-          "endInDoc": 1445,
+          "startInDoc": 1429,
+          "endInDoc": 1441,
           "startInSent": 32,
           "endInSent": 44
         },
@@ -7620,8 +7620,8 @@
         "reference": {
           "entity": "Claude Renoir",
           "sentence": "Also born that day, Tyra Banks, Marisa Tomei and French cinematographer Claude Renoir.",
-          "startInDoc": 1473,
-          "endInDoc": 1486,
+          "startInDoc": 1469,
+          "endInDoc": 1482,
           "startInSent": 72,
           "endInSent": 85
         },
@@ -7647,8 +7647,8 @@
         "reference": {
           "entity": "Anne Hathaway",
           "sentence": "So is Anne Hathaway.",
-          "startInDoc": 3748,
-          "endInDoc": 3761,
+          "startInDoc": 3732,
+          "endInDoc": 3745,
           "startInSent": 6,
           "endInSent": 19
         },
@@ -7711,8 +7711,8 @@
         "reference": {
           "entity": "Johnny Depp",
           "sentence": "Is it the Russian guy that looks like a short Johnny Depp?",
-          "startInDoc": 904,
-          "endInDoc": 915,
+          "startInDoc": 900,
+          "endInDoc": 911,
           "startInSent": 46,
           "endInSent": 57
         },
@@ -7738,8 +7738,8 @@
         "reference": {
           "entity": "Vince Vaughn",
           "sentence": "Is it the guy who looks like Vince Vaughn but smells like fish?",
-          "startInDoc": 946,
-          "endInDoc": 958,
+          "startInDoc": 942,
+          "endInDoc": 954,
           "startInSent": 29,
           "endInSent": 41
         },
@@ -7765,8 +7765,8 @@
         "reference": {
           "entity": "Michael Chiklis",
           "sentence": "Is it black Michael Chiklis?",
-          "startInDoc": 1245,
-          "endInDoc": 1260,
+          "startInDoc": 1241,
+          "endInDoc": 1256,
           "startInSent": 12,
           "endInSent": 27
         },
@@ -7792,8 +7792,8 @@
         "reference": {
           "entity": "Jamie Lee Curtis",
           "sentence": "I agree with brown Jamie Lee Curtis.",
-          "startInDoc": 2411,
-          "endInDoc": 2427,
+          "startInDoc": 2395,
+          "endInDoc": 2411,
           "startInSent": 19,
           "endInSent": 35
         },
@@ -7819,8 +7819,8 @@
         "reference": {
           "entity": "Yahoo Serious",
           "sentence": "I am Yahoo Serious.",
-          "startInDoc": 9988,
-          "endInDoc": 10001,
+          "startInDoc": 9960,
+          "endInDoc": 9973,
           "startInSent": 5,
           "endInSent": 18
         },
@@ -7859,8 +7859,8 @@
         "reference": {
           "entity": "Ellen",
           "sentence": "Is she a friend of Ellen?",
-          "startInDoc": 1047,
-          "endInDoc": 1052,
+          "startInDoc": 1043,
+          "endInDoc": 1048,
           "startInSent": 19,
           "endInSent": 24
         },
@@ -7963,8 +7963,8 @@
         "reference": {
           "entity": "Gregory Hines",
           "sentence": "It's Gregory Hines all over again.",
-          "startInDoc": 1302,
-          "endInDoc": 1315,
+          "startInDoc": 1298,
+          "endInDoc": 1311,
           "startInSent": 5,
           "endInSent": 18
         },
@@ -7990,8 +7990,8 @@
         "reference": {
           "entity": "LeVar Burton",
           "sentence": "I don't want Pierce to die, but if I'm gonna get bequeathed upon, I'd liked to be bequeathed a drum kit or a signed photo of actor LeVar Burton.",
-          "startInDoc": 2048,
-          "endInDoc": 2060,
+          "startInDoc": 2044,
+          "endInDoc": 2056,
           "startInSent": 131,
           "endInSent": 143
         },
@@ -8017,8 +8017,8 @@
         "reference": {
           "entity": "LeVar Burton",
           "sentence": "But I'd just use them all on a million signed photos of actor LeVar Burton.",
-          "startInDoc": 2199,
-          "endInDoc": 2211,
+          "startInDoc": 2195,
+          "endInDoc": 2207,
           "startInSent": 62,
           "endInSent": 74
         },
@@ -8044,8 +8044,8 @@
         "reference": {
           "entity": "John Grisham",
           "sentence": "I got you a John Grisham novel and a funny little coffee mug.",
-          "startInDoc": 2311,
-          "endInDoc": 2323,
+          "startInDoc": 2303,
+          "endInDoc": 2315,
           "startInSent": 12,
           "endInSent": 24
         },
@@ -8071,8 +8071,8 @@
         "reference": {
           "entity": "LeVar Burton",
           "sentence": "I'm LeVar Burton.",
-          "startInDoc": 7443,
-          "endInDoc": 7455,
+          "startInDoc": 7429,
+          "endInDoc": 7441,
           "startInSent": 4,
           "endInSent": 16
         },
@@ -8098,8 +8098,8 @@
         "reference": {
           "entity": "LeVar Burton",
           "sentence": "Pierce got LeVar Burton to come here for Troy?",
-          "startInDoc": 7468,
-          "endInDoc": 7480,
+          "startInDoc": 7454,
+          "endInDoc": 7466,
           "startInSent": 11,
           "endInSent": 23
         },
@@ -8215,8 +8215,8 @@
           "sentence": "Well, are you more familiar with me from Star Trek or Reading Rainbow?",
           "startInSent": 54,
           "endInSent": 69,
-          "startInDoc": 8741,
-          "endInDoc": 8756
+          "startInDoc": 8731,
+          "endInDoc": 8746
         },
         "referent": {
           "title": "Reading Rainbow",
@@ -8235,8 +8235,8 @@
           "sentence": "Reading Rainbow was the show I hosted and produced for 25 years on PBS.",
           "startInSent": 0,
           "endInSent": 15,
-          "startInDoc": 8788,
-          "endInDoc": 8795
+          "startInDoc": 8778,
+          "endInDoc": 8785
         },
         "referent": {
           "title": "Reading Rainbow",
@@ -8255,8 +8255,8 @@
           "sentence": "If you're lying to me, if my father isn't coming, if a car pulls up and anyone other than my father steps out, say, an actor, or you in a wig, if you pull any Ferris Bueller, Parent Trap, Three's Company, The Deadly Art of Illusion bull****, I will beat you.",
           "startInSent": 159,
           "endInSent": 173,
-          "startInDoc": 10761,
-          "endInDoc": 10794
+          "startInDoc": 10751,
+          "endInDoc": 10784
         },
         "referent": {
           "title": "Ferris Bueller",
@@ -8275,8 +8275,8 @@
           "sentence": "If you're lying to me, if my father isn't coming, if a car pulls up and anyone other than my father steps out, say, an actor, or you in a wig, if you pull any Ferris Bueller, Parent Trap, Three's Company, The Deadly Art of Illusion bull****, I will beat you.",
           "startInSent": 175,
           "endInSent": 186,
-          "startInDoc": 10761,
-          "endInDoc": 10794
+          "startInDoc": 10751,
+          "endInDoc": 10784
         },
         "referent": {
           "title": "The Parent Trap",
@@ -8297,8 +8297,8 @@
           "sentence": "If you're lying to me, if my father isn't coming, if a car pulls up and anyone other than my father steps out, say, an actor, or you in a wig, if you pull any Ferris Bueller, Parent Trap, Three's Company, The Deadly Art of Illusion bull****, I will beat you.",
           "startInSent": 205,
           "endInSent": 232,
-          "startInDoc": 10761,
-          "endInDoc": 10794
+          "startInDoc": 10751,
+          "endInDoc": 10784
         },
         "referent": {
           "title": "F/X2",
@@ -8318,8 +8318,8 @@
           "sentence": "If you're lying to me, if my father isn't coming, if a car pulls up and anyone other than my father steps out, say, an actor, or you in a wig, if you pull any Ferris Bueller, Parent Trap, Three's Company, The Deadly Art of Illusion bull****, I will beat you.",
           "startInSent": 188,
           "endInSent": 203,
-          "startInDoc": 10790,
-          "endInDoc": 10824
+          "startInDoc": 10780,
+          "endInDoc": 10814
         },
         "referent": {
           "title": "Three's Company",
@@ -8612,8 +8612,8 @@
         "reference": {
           "entity": "Tony Danza",
           "sentence": "Tony Danza, Judith Light, Alyssa Milano, Who's the Boss caterer Gordon \"Giddy-up\" Galligan.",
-          "startInDoc": 8074,
-          "endInDoc": 8084,
+          "startInDoc": 8062,
+          "endInDoc": 8072,
           "startInSent": 0,
           "endInSent": 10
         },
@@ -8645,7 +8645,7 @@
           "endInSent": 24
         },
         "referent": {
-          "name": "Judith LIght",
+          "name": "Judith Light",
           "nconst": "nm0509937",
           "birthYear": 1949,
           "deathYear": "\\N",
@@ -8666,8 +8666,8 @@
         "reference": {
           "entity": "Alyssa Milano",
           "sentence": "Tony Danza, Judith Light, Alyssa Milano, Who's the Boss caterer Gordon \"Giddy-up\" Galligan.",
-          "startInDoc": 8100,
-          "endInDoc": 8113,
+          "startInDoc": 8088,
+          "endInDoc": 8101,
           "startInSent": 26,
           "endInSent": 39
         },
@@ -8809,8 +8809,8 @@
         "reference": {
           "entity": "Harrison Ford",
           "sentence": "Harrison Ford is irradiating our testicles with microwave transmissions!",
-          "startInDoc": 9888,
-          "endInDoc": 9901,
+          "startInDoc": 9838,
+          "endInDoc": 9851,
           "startInSent": 0,
           "endInSent": 13
         },
@@ -8839,8 +8839,8 @@
         "reference": {
           "entity": "Betty Grable",
           "sentence": "Betty Grable.",
-          "startInDoc": 6741,
-          "endInDoc": 6753,
+          "startInDoc": 6705,
+          "endInDoc": 6717,
           "startInSent": 0,
           "endInSent": 12
         },
@@ -8865,8 +8865,8 @@
         "reference": {
           "entity": "Betty Grable",
           "sentence": "I said, \"Betty Grable.\"  ",
-          "startInDoc": 6764,
-          "endInDoc": 6776,
+          "startInDoc": 6728,
+          "endInDoc": 6740,
           "startInSent": 9,
           "endInSent": 21
         },
@@ -8891,8 +8891,8 @@
         "reference": {
           "entity": "Betty Grable",
           "sentence": "Who's Betty Grable?",
-          "startInDoc": 6830,
-          "endInDoc": 6842,
+          "startInDoc": 6794,
+          "endInDoc": 6806,
           "startInSent": 6,
           "endInSent": 18
         },
@@ -8917,8 +8917,8 @@
         "reference": {
           "entity": "Jackie Coogan",
           "sentence": "You two are dumber than Jackie Coogan.",
-          "startInDoc": 7465,
-          "endInDoc": 7478,
+          "startInDoc": 7425,
+          "endInDoc": 7438,
           "startInSent": 24,
           "endInSent": 37
         },
@@ -8944,8 +8944,8 @@
         "reference": {
           "entity": "Betty Grable",
           "sentence": "He divorced Betty Grable.",
-          "startInDoc": 7492,
-          "endInDoc": 7504,
+          "startInDoc": 7452,
+          "endInDoc": 7464,
           "startInSent": 12,
           "endInSent": 24
         },
@@ -8970,8 +8970,8 @@
         "reference": {
           "entity": "Rob Lowe",
           "sentence": "No problo, Rob Lowe.",
-          "startInDoc": 10027,
-          "endInDoc": 10035,
+          "startInDoc": 9979,
+          "endInDoc": 9987,
           "startInSent": 11,
           "endInSent": 19
         },
@@ -9032,8 +9032,8 @@
         "reference": {
           "entity": "Sean Penn",
           "sentence": "Hey, dude, Sean Penn called.",
-          "startInDoc": 4374,
-          "endInDoc": 4383,
+          "startInDoc": 4364,
+          "endInDoc": 4373,
           "startInSent": 11,
           "endInSent": 20
         },
@@ -9059,8 +9059,8 @@
         "reference": {
           "entity": "Sean Penn",
           "sentence": "Sean Penn is an actor who-- I know who Sean Penn is.",
-          "startInDoc": 4417,
-          "endInDoc": 4426,
+          "startInDoc": 4407,
+          "endInDoc": 4416,
           "startInSent": 0,
           "endInSent": 9
         },
@@ -9086,8 +9086,8 @@
         "reference": {
           "entity": "Sean Penn",
           "sentence": "Sean Penn is an actor who-- I know who Sean Penn is.",
-          "startInDoc": 4456,
-          "endInDoc": 4465,
+          "startInDoc": 4446,
+          "endInDoc": 4455,
           "startInSent": 39,
           "endInSent": 48
         },
@@ -9117,8 +9117,8 @@
           "sentence": "And you're a scientist, so couldn't we get, like, a Breaking Bad type of thing going?",
           "startInSent": 52,
           "endInSent": 64,
-          "startInDoc": 14050,
-          "endInDoc": 14062
+          "startInDoc": 14040,
+          "endInDoc": 14052
         },
         "referent": {
           "title": "Breaking Bad",
@@ -9254,7 +9254,7 @@
     "people": [
       {
         "reference": {
-          "entity": "Michele Morris",
+          "entity": "Michele Norris",
           "sentence": "I have Michele Norris interviewing Errol Morris.",
           "startInDoc": 628,
           "endInDoc": 642,
@@ -9336,8 +9336,8 @@
         "reference": {
           "entity": "Harrison Ford",
           "sentence": "I don't know but Harrison Ford might know.",
-          "startInDoc": 12374,
-          "endInDoc": 12387,
+          "startInDoc": 12342,
+          "endInDoc": 12355,
           "startInSent": 17,
           "endInSent": 30
         },
@@ -9366,8 +9366,8 @@
         "reference": {
           "entity": "Jamie Lee Curtis",
           "sentence": "Brought to you by the girl-yogurt Jamie Lee Curtis uses to poop.",
-          "startInDoc": 8936,
-          "endInDoc": 8952,
+          "startInDoc": 8912,
+          "endInDoc": 8928,
           "startInSent": 34,
           "endInSent": 50
         },
@@ -9446,7 +9446,7 @@
           "entity": "Christian Bale",
           "sentence": "Our limited-edition, $299 Dark Knight DVD with bonus footage, special commentary, and a Christian Bale autograph, including a personalized message of up to four words!",
           "startInDoc": 751,
-          "endInDoc": 762,
+          "endInDoc": 765,
           "startInSent": 88,
           "endInSent": 102
         },
@@ -9686,8 +9686,8 @@
           "sentence": "I'm saying you not listening to me is like metaphorically cutting the brake lines on your own-- look, Kings of Leon!",
           "startInSent": 102,
           "endInSent": 115,
-          "startInDoc": 15182,
-          "endInDoc": 15187
+          "startInDoc": 15138,
+          "endInDoc": 15151
         },
         "referent": {
           "name": "Kings of Leon",
@@ -9698,6 +9698,12 @@
             "soundtrack",
             "actor",
             "composer"
+          ],
+          "knownFor": [
+            "tt1464540",
+            "tt1060277",
+            "tt0415306",
+            "tt0486822"
           ]
         }
       },
@@ -9705,8 +9711,8 @@
         "reference": {
           "entity": "Elton",
           "sentence": "Elton Lil' John Lennon!",
-          "startInDoc": 1943,
-          "endInDoc": 1954,
+          "startInDoc": 1930,
+          "endInDoc": 1935,
           "startInSent": 0,
           "endInSent": 5
         },
@@ -9732,8 +9738,8 @@
         "reference": {
           "entity": "Lil'",
           "sentence": "Elton Lil' John Lennon!",
-          "startInDoc": 1943,
-          "endInDoc": 1954,
+          "startInDoc": 1936,
+          "endInDoc": 1940,
           "startInSent": 6,
           "endInSent": 10
         },
@@ -9759,8 +9765,8 @@
         "reference": {
           "entity": "John Lennon",
           "sentence": "Elton Lil' John Lennon!",
-          "startInDoc": 1943,
-          "endInDoc": 1954,
+          "startInDoc": 1941,
+          "endInDoc": 1952,
           "startInSent": 11,
           "endInSent": 22
         },
@@ -9786,8 +9792,8 @@
         "reference": {
           "entity": "Doris Day",
           "sentence": "And when the commies gave the polio to Doris Day",
-          "startInDoc": 9030,
-          "endInDoc": 9039,
+          "startInDoc": 9014,
+          "endInDoc": 9023,
           "startInSent": 39,
           "endInSent": 48
         },
@@ -9845,8 +9851,8 @@
         "reference": {
           "entity": "Halle Berry",
           "sentence": "I'd rather be with my man, planning my wedding, and you'd clearly rather be with Halle Berry in 1999.",
-          "startInDoc": 7622,
-          "endInDoc": 7633,
+          "startInDoc": 7576,
+          "endInDoc": 7587,
           "startInSent": 81,
           "endInSent": 92
         },
@@ -9872,8 +9878,8 @@
         "reference": {
           "entity": "Jim Belushi",
           "sentence": "That's the Jim Belushi of speech openings.",
-          "startInDoc": 11306,
-          "endInDoc": 11317,
+          "startInDoc": 11248,
+          "endInDoc": 11259,
           "startInSent": 11,
           "endInSent": 22
         },
@@ -9899,8 +9905,8 @@
         "reference": {
           "entity": "Adam Sandler",
           "sentence": "Remember that temper tantrum he threw when Adam Sandler \"stole\" his idea for Jack and Jill?",
-          "startInDoc": 17566,
-          "endInDoc": 17578,
+          "startInDoc": 17476,
+          "endInDoc": 17488,
           "startInSent": 43,
           "endInSent": 55
         },
@@ -9930,8 +9936,8 @@
           "sentence": "I'm one of the Steppenwolf wives.",
           "startInSent": 15,
           "endInSent": 26,
-          "startInDoc": 10622,
-          "endInDoc": 10633
+          "startInDoc": 10576,
+          "endInDoc": 10587
         },
         "referent": {
           "title": "Steppenwolf",
@@ -9952,8 +9958,8 @@
         "reference": {
           "entity": "Tom Hanks",
           "sentence": "He spent New Year's locked in our bathroom with a bad Tom Hanks from cast away.",
-          "startInDoc": 1574,
-          "endInDoc": 1583,
+          "startInDoc": 1570,
+          "endInDoc": 1579,
           "startInSent": 54,
           "endInSent": 63
         },
@@ -10033,8 +10039,8 @@
         "reference": {
           "entity": "Michael Jackson",
           "sentence": "Both versions of Michael Jackson.",
-          "startInDoc": 5190,
-          "endInDoc": 5205,
+          "startInDoc": 5172,
+          "endInDoc": 5187,
           "startInSent": 17,
           "endInSent": 32
         },
@@ -10060,8 +10066,8 @@
         "reference": {
           "entity": "Brando",
           "sentence": "And you - Fat Brando.",
-          "startInDoc": 5231,
-          "endInDoc": 5244,
+          "startInDoc": 5203,
+          "endInDoc": 5209,
           "startInSent": 14,
           "endInSent": 20
         },
@@ -10085,12 +10091,39 @@
       },
       {
         "reference": {
+          "entity": "Burt Reynolds",
+          "sentence": "Burt Reynolds.",
+          "startInDoc": 5211,
+          "endInDoc": 5224,
+          "startInSent": 0,
+          "endInSent": 13
+        },
+        "referent": {
+          "name": "Burt Reynolds",
+          "nconst": "nm0000608",
+          "birthYear": 1936,
+          "deathYear": 2018,
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0117765",
+            "tt0118749",
+            "tt0068473",
+            "tt0076729"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Brando",
-          "sentence": "Fat Brando.",
-          "startInDoc": 5278,
-          "endInDoc": 5291,
-          "startInSent": 4,
-          "endInSent": 10
+          "sentence": "What? - Fat Brando.",
+          "startInDoc": 5246,
+          "endInDoc": 5252,
+          "startInSent": 12,
+          "endInSent": 18
         },
         "referent": {
           "name": "Marlon Brando",
@@ -10112,10 +10145,37 @@
       },
       {
         "reference": {
+          "entity": "Burt Reynolds",
+          "sentence": "Burt Reynolds.",
+          "startInDoc": 5254,
+          "endInDoc": 5267,
+          "startInSent": 0,
+          "endInSent": 13
+        },
+        "referent": {
+          "name": "Burt Reynolds",
+          "nconst": "nm0000608",
+          "birthYear": 1936,
+          "deathYear": 2018,
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0117765",
+            "tt0118749",
+            "tt0068473",
+            "tt0076729"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Quincy Jones",
           "sentence": "The guy who makes the fish sticks looks just like Quincy Jones.",
-          "startInDoc": 5531,
-          "endInDoc": 5543,
+          "startInDoc": 5503,
+          "endInDoc": 5515,
           "startInSent": 50,
           "endInSent": 62
         },
@@ -10141,7 +10201,7 @@
         "reference": {
           "entity": "Ryan Seacrest",
           "sentence": "I'd love to help, but playing Ryan Seacrest at a big party may not be a safe situation for me.",
-          "startInDoc": 5803,
+          "startInDoc": 5798,
           "endInDoc": 5811,
           "startInSent": 30,
           "endInSent": 43
@@ -10170,8 +10230,8 @@
           "sentence": "Shirley, who got you a DVD of Precious, based on the novel Push, by Sapphire, and a copy of the novel Push autographed by Sapphire?",
           "startInSent": 68,
           "endInSent": 76,
-          "startInDoc": 6334,
-          "endInDoc": 6342
+          "startInDoc": 6300,
+          "endInDoc": 6308
         },
         "referent": {
           "name": "Sapphire",
@@ -10196,8 +10256,8 @@
           "sentence": "Shirley, who got you a DVD of Precious, based on the novel Push, by Sapphire, and a copy of the novel Push autographed by Sapphire?",
           "startInSent": 122,
           "endInSent": 130,
-          "startInDoc": 6388,
-          "endInDoc": 6396
+          "startInDoc": 6354,
+          "endInDoc": 6362
         },
         "referent": {
           "name": "Sapphire",
@@ -10218,28 +10278,28 @@
       },
       {
         "reference": {
-          "entity": "Seacrest",
-          "sentence": "Handsome Seacrest, I need you in this tux.",
-          "startInDoc": 7661,
-          "endInDoc": 7669,
-          "startInSent": 9,
-          "endInSent": 17
+          "entity": "Brando",
+          "sentence": "Fat Brando.",
+          "startInDoc": 6718,
+          "endInDoc": 6724,
+          "startInSent": 4,
+          "endInSent": 10
         },
         "referent": {
-          "name": "Ryan Seacrest",
-          "nconst": "nm0780435",
-          "birthYear": 1974,
-          "deathYear": "\\N",
+          "name": "Marlon Brando",
+          "nconst": "nm0000008",
+          "birthYear": 1924,
+          "deathYear": 2004,
           "professions": [
-            "producer",
-            "writer",
-            "actor"
+            "actor",
+            "soundtrack",
+            "director"
           ],
           "knownFor": [
-            "tt4118584",
-            "tt0319931",
-            "tt0425061",
-            "tt0892791"
+            "tt0044081",
+            "tt0068646",
+            "tt0070849",
+            "tt0078788"
           ]
         }
       },
@@ -10247,8 +10307,8 @@
         "reference": {
           "entity": "Burt Reynolds",
           "sentence": "Burt Reynolds.",
-          "startInDoc": 6774,
-          "endInDoc": 6787,
+          "startInDoc": 6726,
+          "endInDoc": 6739,
           "startInSent": 0,
           "endInSent": 13
         },
@@ -10301,8 +10361,8 @@
         "reference": {
           "entity": "Michael Chiklis",
           "sentence": "No, I send two guys that look a lot like Ving Rhames and Michael Chiklis.",
-          "startInDoc": 7022,
-          "endInDoc": 7037,
+          "startInDoc": 6972,
+          "endInDoc": 6987,
           "startInSent": 57,
           "endInSent": 72
         },
@@ -10328,8 +10388,8 @@
         "reference": {
           "entity": "Walter Matthau",
           "sentence": "The obvious exception being James, our resident Walter Matthau.",
-          "startInDoc": 7577,
-          "endInDoc": 7591,
+          "startInDoc": 7525,
+          "endInDoc": 7539,
           "startInSent": 48,
           "endInSent": 62
         },
@@ -10353,10 +10413,37 @@
       },
       {
         "reference": {
+          "entity": "Seacrest",
+          "sentence": "Handsome Seacrest, I need you in this tux.",
+          "startInDoc": 7661,
+          "endInDoc": 7669,
+          "startInSent": 9,
+          "endInSent": 17
+        },
+        "referent": {
+          "name": "Ryan Seacrest",
+          "nconst": "nm0780435",
+          "birthYear": 1974,
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "writer",
+            "actor"
+          ],
+          "knownFor": [
+            "tt4118584",
+            "tt0319931",
+            "tt0425061",
+            "tt0892791"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Burt Reynolds",
           "sentence": "Burt Reynolds.",
-          "startInDoc": 8285,
-          "endInDoc": 8298,
+          "startInDoc": 8223,
+          "endInDoc": 8236,
           "startInSent": 0,
           "endInSent": 13
         },
@@ -10382,8 +10469,8 @@
         "reference": {
           "entity": "Burt Reynolds",
           "sentence": "Uh, yeah, I don't believe anybody hired you to impersonate Burt Reynolds.",
-          "startInDoc": 8359,
-          "endInDoc": 8372,
+          "startInDoc": 8297,
+          "endInDoc": 8310,
           "startInSent": 59,
           "endInSent": 72
         },
@@ -10407,10 +10494,37 @@
       },
       {
         "reference": {
+          "entity": "Brando",
+          "sentence": "I'm Brando.",
+          "startInDoc": 8368,
+          "endInDoc": 8374,
+          "startInSent": 4,
+          "endInSent": 10
+        },
+        "referent": {
+          "name": "Marlon Brando",
+          "nconst": "nm0000008",
+          "birthYear": 1924,
+          "deathYear": 2004,
+          "professions": [
+            "actor",
+            "soundtrack",
+            "director"
+          ],
+          "knownFor": [
+            "tt0044081",
+            "tt0068646",
+            "tt0070849",
+            "tt0078788"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Geena Davis",
           "sentence": "I can't right now, I'm talking to Geena Davis.",
-          "startInDoc": 8566,
-          "endInDoc": 8577,
+          "startInDoc": 8502,
+          "endInDoc": 8513,
           "startInSent": 34,
           "endInSent": 45
         },
@@ -10436,8 +10550,8 @@
         "reference": {
           "entity": "Lorenzo Lamas",
           "sentence": "Ooh, fake Lorenzo Lamas.",
-          "startInDoc": 8720,
-          "endInDoc": 8733,
+          "startInDoc": 8656,
+          "endInDoc": 8669,
           "startInSent": 10,
           "endInSent": 23
         },
@@ -10463,8 +10577,8 @@
         "reference": {
           "entity": "Lorenzo Lamas",
           "sentence": "I'm Lorenzo Lamas.",
-          "startInDoc": 9104,
-          "endInDoc": 9117,
+          "startInDoc": 9040,
+          "endInDoc": 9053,
           "startInSent": 4,
           "endInSent": 17
         },
@@ -10490,8 +10604,8 @@
         "reference": {
           "entity": "Jamie Lee Curtis",
           "sentence": "What movie were Jamie Lee Curtis and Lorenzo Lamas in together?",
-          "startInDoc": 9172,
-          "endInDoc": 9188,
+          "startInDoc": 9104,
+          "endInDoc": 9120,
           "startInSent": 16,
           "endInSent": 32
         },
@@ -10517,8 +10631,8 @@
         "reference": {
           "entity": "Lorenzo Lamas",
           "sentence": "What movie were Jamie Lee Curtis and Lorenzo Lamas in together?",
-          "startInDoc": 9193,
-          "endInDoc": 9206,
+          "startInDoc": 9125,
+          "endInDoc": 9138,
           "startInSent": 37,
           "endInSent": 50
         },
@@ -10542,9 +10656,63 @@
       },
       {
         "reference": {
+          "entity": "Jamie Lee Curtis",
+          "sentence": "Lorenzo is an oil tycoon that gets his address book switched with Jamie Lee Curtis', and they give each other piggyback rides.",
+          "startInDoc": 9297,
+          "endInDoc": 9313,
+          "startInSent": 66,
+          "endInSent": 82
+        },
+        "referent": {
+          "name": "Jamie Lee Curtis",
+          "nconst": "nm0000130",
+          "birthYear": 1958,
+          "deathYear": "\\N",
+          "professions": [
+            "actress",
+            "producer",
+            "director"
+          ],
+          "knownFor": [
+            "tt0095159",
+            "tt1502407",
+            "tt0322330",
+            "tt0111503"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Robert Redford",
+          "sentence": "He's like a Robert Redford.",
+          "startInDoc": 9500,
+          "endInDoc": 9514,
+          "startInSent": 12,
+          "endInSent": 26
+        },
+        "referent": {
+          "name": "Robert Redford",
+          "nconst": "nm0000602",
+          "birthYear": 1936,
+          "deathYear": "\\N",
+          "professions": [
+            "producer",
+            "actor",
+            "director"
+          ],
+          "knownFor": [
+            "tt0087781",
+            "tt0081283",
+            "tt0064115",
+            "tt0074119"
+          ]
+        }
+      },
+      {
+        "reference": {
           "entity": "Ryan Seacrest",
           "sentence": "No, no, more like a taller, hotter Ryan Seacrest.",
-          "startInDoc": 9556,
+          "startInDoc": 9551,
           "endInDoc": 9564,
           "startInSent": 35,
           "endInSent": 48
@@ -10571,8 +10739,8 @@
         "reference": {
           "entity": "Moby",
           "sentence": "You're friends with Moby?",
-          "startInDoc": 10063,
-          "endInDoc": 10067,
+          "startInDoc": 9991,
+          "endInDoc": 9995,
           "startInSent": 20,
           "endInSent": 24
         },
@@ -10598,8 +10766,8 @@
         "reference": {
           "entity": "Morgan Freeman",
           "sentence": "Here to present the first award are fake Morgan Freeman and fake Bono.",
-          "startInDoc": 10932,
-          "endInDoc": 10946,
+          "startInDoc": 10860,
+          "endInDoc": 10874,
           "startInSent": 41,
           "endInSent": 55
         },
@@ -10625,8 +10793,8 @@
         "reference": {
           "entity": "Morgan Freeman",
           "sentence": "It sure can, fake Morgan Freeman.",
-          "startInDoc": 11023,
-          "endInDoc": 11037,
+          "startInDoc": 10951,
+          "endInDoc": 10965,
           "startInSent": 18,
           "endInSent": 32
         },
@@ -10652,8 +10820,8 @@
         "reference": {
           "entity": "Oprah Winfrey",
           "sentence": "It is my honor and privilege as fake Oprah Winfrey to present the night's final award most handsome young man.",
-          "startInDoc": 11568,
-          "endInDoc": 11581,
+          "startInDoc": 11496,
+          "endInDoc": 11509,
           "startInSent": 37,
           "endInSent": 50
         },
@@ -10679,8 +10847,8 @@
         "reference": {
           "entity": "Burt Reynolds",
           "sentence": "You're fat Burt Reynolds, right?",
-          "startInDoc": 12020,
-          "endInDoc": 12033,
+          "startInDoc": 11948,
+          "endInDoc": 11961,
           "startInSent": 11,
           "endInSent": 24
         },
@@ -10818,8 +10986,8 @@
           "sentence": "Shirley, who got you a DVD of Precious, based on the novel Push, by Sapphire, and a copy of the novel Push autographed by Sapphire?",
           "startInSent": 59,
           "endInSent": 63,
-          "startInDoc": 6325,
-          "endInDoc": 6329
+          "startInDoc": 6291,
+          "endInDoc": 6295
         },
         "referent": {
           "title": "Push",
@@ -10840,8 +11008,8 @@
           "sentence": "Shirley, who got you a DVD of Precious, based on the novel Push, by Sapphire, and a copy of the novel Push autographed by Sapphire?",
           "startInSent": 102,
           "endInSent": 106,
-          "startInDoc": 6368,
-          "endInDoc": 6372
+          "startInDoc": 6334,
+          "endInDoc": 6338
         },
         "referent": {
           "title": "Push",
@@ -10862,8 +11030,8 @@
           "sentence": "Here to present the first award are fake Morgan Freeman and fake Bono.",
           "startInSent": 65,
           "endInSent": 69,
-          "startInDoc": 10956,
-          "endInDoc": 10960
+          "startInDoc": 10884,
+          "endInDoc": 10888
         },
         "referent": {
           "title": "Bono",
@@ -10884,8 +11052,8 @@
           "sentence": "You know, fake Bono, algebra can be tough.",
           "startInSent": 15,
           "endInSent": 19,
-          "startInDoc": 10977,
-          "endInDoc": 10981
+          "startInDoc": 10905,
+          "endInDoc": 10909
         },
         "referent": {
           "title": "Bono",
@@ -10906,8 +11074,8 @@
           "sentence": "I knew you'd invite the Hulk!",
           "startInSent": 24,
           "endInSent": 28,
-          "startInDoc": 11921,
-          "endInDoc": 11925
+          "startInDoc": 11849,
+          "endInDoc": 11853
         },
         "referent": {
           "title": "Hulk",
@@ -10927,8 +11095,8 @@
           "sentence": "Boogie Nights.",
           "startInSent": 0,
           "endInSent": 13,
-          "startInDoc": 11994,
-          "endInDoc": 12007
+          "startInDoc": 11922,
+          "endInDoc": 11935
         },
         "referent": {
           "title": "Boogie Nights",
@@ -11033,8 +11201,8 @@
         "reference": {
           "entity": "Jane Austen",
           "sentence": "Put it in a letter, Jane Austen.",
-          "startInDoc": 13881,
-          "endInDoc": 13892,
+          "startInDoc": 13797,
+          "endInDoc": 13808,
           "startInSent": 20,
           "endInSent": 31
         },
@@ -11188,8 +11356,8 @@
         "reference": {
           "entity": "Sandra Bullock",
           "sentence": "And the idea we do is a mental illness we contracted from breath mint commercials and Sandra Bullock.",
-          "startInDoc": 15323,
-          "endInDoc": 15337,
+          "startInDoc": 15223,
+          "endInDoc": 15237,
           "startInSent": 86,
           "endInSent": 100
         },
@@ -11309,8 +11477,8 @@
         "reference": {
           "entity": "Carson Daly",
           "sentence": "No, we got snowboarding in the Olympics and we over-validated Carson Daly.",
-          "startInDoc": 13235,
-          "endInDoc": 13246,
+          "startInDoc": 13195,
+          "endInDoc": 13206,
           "startInSent": 62,
           "endInSent": 73
         },
@@ -11446,8 +11614,8 @@
           "sentence": "I spoke to the manager about Die Hard, and I told him he should be ashamed of himself.",
           "startInSent": 29,
           "endInSent": 37,
-          "startInDoc": 15803,
-          "endInDoc": 15811
+          "startInDoc": 15763,
+          "endInDoc": 15771
         },
         "referent": {
           "title": "Die Hard",
@@ -11469,8 +11637,8 @@
         "reference": {
           "entity": "Oscar Wilde",
           "sentence": "Cut yourself on an extra sharp Oscar Wilde play?",
-          "startInDoc": 3326,
-          "endInDoc": 3337,
+          "startInDoc": 3314,
+          "endInDoc": 3325,
           "startInSent": 31,
           "endInSent": 42
         },
@@ -11520,8 +11688,8 @@
         "reference": {
           "entity": "Ted Danson",
           "sentence": "But it doesn't change the fact that we're all Ted Danson at Whoopie Goldberg's roast.",
-          "startInDoc": 10213,
-          "endInDoc": 10223,
+          "startInDoc": 10157,
+          "endInDoc": 10167,
           "startInSent": 46,
           "endInSent": 56
         },
@@ -11627,8 +11795,8 @@
         "reference": {
           "entity": "George Wendt",
           "sentence": "Free tickets to to see \"Chicago\" at the Greendale Civic Center with George Wendt and Stefanie Powers.",
-          "startInDoc": 10168,
-          "endInDoc": 10180,
+          "startInDoc": 10140,
+          "endInDoc": 10152,
           "startInSent": 68,
           "endInSent": 80
         },
@@ -11785,8 +11953,8 @@
         "reference": {
           "entity": "LeVar Burton",
           "sentence": "LeVar Burton was a maybe.",
-          "startInDoc": 1125,
-          "endInDoc": 1137,
+          "startInDoc": 1119,
+          "endInDoc": 1131,
           "startInSent": 0,
           "endInSent": 12
         },
@@ -11817,8 +11985,8 @@
         "reference": {
           "entity": "Moby",
           "sentence": "It is hard out there for a fake Moby!",
-          "startInDoc": 11966,
-          "endInDoc": 11970,
+          "startInDoc": 11944,
+          "endInDoc": 11948,
           "startInSent": 32,
           "endInSent": 36
         },
@@ -11892,8 +12060,8 @@
         "reference": {
           "entity": "Jim Belushi",
           "sentence": "You're Jim Belushi.",
-          "startInDoc": 8218,
-          "endInDoc": 8229,
+          "startInDoc": 8198,
+          "endInDoc": 8209,
           "startInSent": 7,
           "endInSent": 18
         },
@@ -11919,8 +12087,8 @@
         "reference": {
           "entity": "Blair Underwood",
           "sentence": "You were like a white Blair Underwood.",
-          "startInDoc": 13483,
-          "endInDoc": 13498,
+          "startInDoc": 13455,
+          "endInDoc": 13470,
           "startInSent": 22,
           "endInSent": 37
         },
@@ -12047,8 +12215,8 @@
         "reference": {
           "entity": "LeVar Burton",
           "sentence": "LeVar Burton was a hard no.",
-          "startInDoc": 12857,
-          "endInDoc": 12869,
+          "startInDoc": 12849,
+          "endInDoc": 12861,
           "startInSent": 0,
           "endInSent": 12
         },
@@ -13738,8 +13906,8 @@
         "reference": {
           "entity": "Nicolas Cage",
           "sentence": "Nicolas Cage is one of pop culture's greatest mysteries.",
-          "startInDoc": 2016,
-          "endInDoc": 2028,
+          "startInDoc": 1992,
+          "endInDoc": 2004,
           "startInSent": 0,
           "endInSent": 12
         },
@@ -13765,8 +13933,8 @@
         "reference": {
           "entity": "Nicolas Cage",
           "sentence": "Oh, there's a course on Nicolas Cage, but if you mention Jesus to your science teacher, you get a written warning.",
-          "startInDoc": 2097,
-          "endInDoc": 2109,
+          "startInDoc": 2073,
+          "endInDoc": 2085,
           "startInSent": 24,
           "endInSent": 36
         },
@@ -13792,8 +13960,8 @@
         "reference": {
           "entity": "Nicolas Cage",
           "sentence": "I, as you know, am dramatic professor Sean Garrity, and you are now embarking on an odyssey of discussion about an actor who keeps the world asking: Nicolas Cage, good or bad?",
-          "startInDoc": 2789,
-          "endInDoc": 2801,
+          "startInDoc": 2761,
+          "endInDoc": 2773,
           "startInSent": 149,
           "endInSent": 161
         },
@@ -13819,8 +13987,8 @@
         "reference": {
           "entity": "Nicolas Cage",
           "sentence": "Your homework is to watch five Nicolas Cage films by Wednesday, no marathons.",
-          "startInDoc": 3154,
-          "endInDoc": 3166,
+          "startInDoc": 3124,
+          "endInDoc": 3136,
           "startInSent": 31,
           "endInSent": 43
         },
@@ -13846,8 +14014,8 @@
         "reference": {
           "entity": "Lionel Richie",
           "sentence": "This line is for food, not for Lionel Richie tickets.",
-          "startInDoc": 3610,
-          "endInDoc": 3623,
+          "startInDoc": 3576,
+          "endInDoc": 3589,
           "startInSent": 31,
           "endInSent": 44
         },
@@ -13873,8 +14041,8 @@
         "reference": {
           "entity": "Nicolas Cage",
           "sentence": "Nicolas Cage is so weird.",
-          "startInDoc": 4542,
-          "endInDoc": 4554,
+          "startInDoc": 4506,
+          "endInDoc": 4518,
           "startInSent": 0,
           "endInSent": 12
         },
@@ -13900,8 +14068,8 @@
         "reference": {
           "entity": "Robert Downey Jr.",
           "sentence": "Robert Downey Jr., good, Jim Belushi, bad.",
-          "startInDoc": 5046,
-          "endInDoc": 5063,
+          "startInDoc": 5010,
+          "endInDoc": 5027,
           "startInSent": 0,
           "endInSent": 17
         },
@@ -13927,8 +14095,8 @@
         "reference": {
           "entity": "Jim Belushi",
           "sentence": "Robert Downey Jr., good, Jim Belushi, bad.",
-          "startInDoc": 5071,
-          "endInDoc": 5082,
+          "startInDoc": 5035,
+          "endInDoc": 5046,
           "startInSent": 25,
           "endInSent": 36
         },
@@ -13954,8 +14122,8 @@
         "reference": {
           "entity": "Van Damme",
           "sentence": "Van Damme, the good kind of bad, Johnny Depp, the bad kind of good.",
-          "startInDoc": 5054,
-          "endInDoc": 5063,
+          "startInDoc": 5053,
+          "endInDoc": 5062,
           "startInSent": 0,
           "endInSent": 9
         },
@@ -13981,8 +14149,8 @@
         "reference": {
           "entity": "Johnny Depp",
           "sentence": "Van Damme, the good kind of bad, Johnny Depp, the bad kind of good.",
-          "startInDoc": 5123,
-          "endInDoc": 5134,
+          "startInDoc": 5086,
+          "endInDoc": 5097,
           "startInSent": 33,
           "endInSent": 44
         },
@@ -14008,8 +14176,8 @@
         "reference": {
           "entity": "Nicolas Cage",
           "sentence": "Maybe Nicolas Cage is just crazy.",
-          "startInDoc": 7538,
-          "endInDoc": 7550,
+          "startInDoc": 7481,
+          "endInDoc": 7493,
           "startInSent": 6,
           "endInSent": 18
         },
@@ -14035,8 +14203,8 @@
         "reference": {
           "entity": "Nicolas Cage",
           "sentence": "There's no such thing as both, so which one is Nicolas Cage, huh?",
-          "startInDoc": 7714,
-          "endInDoc": 7726,
+          "startInDoc": 7657,
+          "endInDoc": 7669,
           "startInSent": 47,
           "endInSent": 59
         },
@@ -14062,8 +14230,8 @@
         "reference": {
           "entity": "Nicolas Cage",
           "sentence": "Okay, thoughts on Nicolas Cage.",
-          "startInDoc": 9115,
-          "endInDoc": 9127,
+          "startInDoc": 9054,
+          "endInDoc": 9066,
           "startInSent": 18,
           "endInSent": 30
         },
@@ -14089,8 +14257,8 @@
         "reference": {
           "entity": "Nicolas Cage",
           "sentence": "Nicolas Cage, good or bad.",
-          "startInDoc": 9536,
-          "endInDoc": 9548,
+          "startInDoc": 9471,
+          "endInDoc": 9483,
           "startInSent": 0,
           "endInSent": 12
         },
@@ -14116,8 +14284,8 @@
         "reference": {
           "entity": "Nicolas Cage",
           "sentence": "Abed, how much Nicolas Cage did you - Enough!",
-          "startInDoc": 9692,
-          "endInDoc": 9704,
+          "startInDoc": 9627,
+          "endInDoc": 9639,
           "startInSent": 15,
           "endInSent": 27
         },
@@ -14143,8 +14311,8 @@
         "reference": {
           "entity": "Holly Hunter",
           "sentence": "Think of something safe like Holly Hunter, or Don Cheadle!",
-          "startInDoc": 9994,
-          "endInDoc": 10006,
+          "startInDoc": 9929,
+          "endInDoc": 9941,
           "startInSent": 29,
           "endInSent": 41
         },
@@ -14170,8 +14338,8 @@
         "reference": {
           "entity": "Don Cheadle",
           "sentence": "Think of something safe like Holly Hunter, or Don Cheadle!",
-          "startInDoc": 10011,
-          "endInDoc": 10022,
+          "startInDoc": 9946,
+          "endInDoc": 9957,
           "startInSent": 46,
           "endInSent": 57
         },
@@ -14197,8 +14365,8 @@
         "reference": {
           "entity": "Nicolas Cage",
           "sentence": "Then I looked inside Nicolas Cage",
-          "startInDoc": 11983,
-          "endInDoc": 11995,
+          "startInDoc": 11906,
+          "endInDoc": 11918,
           "startInSent": 21,
           "endInSent": 33
         },
@@ -14224,8 +14392,8 @@
         "reference": {
           "entity": "Nicolas Cage",
           "sentence": "So Nicolas Cage is Jesus? -",
-          "startInDoc": 12294,
-          "endInDoc": 12306,
+          "startInDoc": 12215,
+          "endInDoc": 12227,
           "startInSent": 3,
           "endInSent": 15
         },
@@ -14251,8 +14419,8 @@
         "reference": {
           "entity": "Cage",
           "sentence": "There's a spectrum, and Cage is on it.",
-          "startInDoc": 5182,
-          "endInDoc": 5186,
+          "startInDoc": 5145,
+          "endInDoc": 5149,
           "startInSent": 24,
           "endInSent": 28
         },
@@ -14277,9 +14445,9 @@
       {
         "reference": {
           "entity": "Nicolas",
-          "sentence": "Because this this is my reality, this is how I learned to be, and my being doesn't allow for Nicolas freaking Cage,",
-          "startInDoc": 9854,
-          "endInDoc": 9861,
+          "sentence": "Because this this is my reality, this is how I learned to be, and my being doesn't allow for Nicolas freaking Cage, okay?",
+          "startInDoc": 9789,
+          "endInDoc": 9796,
           "startInSent": 93,
           "endInSent": 114
         },
@@ -14309,8 +14477,8 @@
           "sentence": "He'll give you The Rock, Con Air, then Face/Off, and you think you understand, but then Windtalkers, Guarding Tess, The Wicker Man.",
           "startInSent": 15,
           "endInSent": 23,
-          "startInDoc": 4702,
-          "endInDoc": 4710
+          "startInDoc": 4666,
+          "endInDoc": 4674
         },
         "referent": {
           "title": "The Rock",
@@ -14331,8 +14499,8 @@
           "sentence": "He'll give you The Rock, Con Air, then Face/Off, and you think you understand, but then Windtalkers, Guarding Tess, The Wicker Man.",
           "startInSent": 25,
           "endInSent": 32,
-          "startInDoc": 4702,
-          "endInDoc": 4710
+          "startInDoc": 4666,
+          "endInDoc": 4674
         },
         "referent": {
           "title": "Con Air",
@@ -14353,8 +14521,8 @@
           "sentence": "He'll give you The Rock, Con Air, then Face/Off, and you think you understand, but then Windtalkers, Guarding Tess, The Wicker Man.",
           "startInSent": 39,
           "endInSent": 47,
-          "startInDoc": 4702,
-          "endInDoc": 4710
+          "startInDoc": 4666,
+          "endInDoc": 4674
         },
         "referent": {
           "title": "Face/Off",
@@ -14375,8 +14543,8 @@
           "sentence": "He'll give you The Rock, Con Air, then Face/Off, and you think you understand, but then Windtalkers, Guarding Tess, The Wicker Man.",
           "startInSent": 88,
           "endInSent": 99,
-          "startInDoc": 4702,
-          "endInDoc": 4710
+          "startInDoc": 4666,
+          "endInDoc": 4674
         },
         "referent": {
           "title": "Windtalkers",
@@ -14397,8 +14565,8 @@
           "sentence": "He'll give you The Rock, Con Air, then Face/Off, and you think you understand, but then Windtalkers, Guarding Tess, The Wicker Man.",
           "startInSent": 101,
           "endInSent": 114,
-          "startInDoc": 4702,
-          "endInDoc": 4710
+          "startInDoc": 4666,
+          "endInDoc": 4674
         },
         "referent": {
           "title": "Guarding Tess",
@@ -14418,8 +14586,8 @@
           "sentence": "He'll give you The Rock, Con Air, then Face/Off, and you think you understand, but then Windtalkers, Guarding Tess, The Wicker Man.",
           "startInSent": 116,
           "endInSent": 130,
-          "startInDoc": 4779,
-          "endInDoc": 4793
+          "startInDoc": 4743,
+          "endInDoc": 4757
         },
         "referent": {
           "title": "The Wicker Man",
@@ -14440,8 +14608,8 @@
           "sentence": "Yeah, you know, cenobite, like from Hellraiser.",
           "startInSent": 36,
           "endInSent": 46,
-          "startInDoc": 12611,
-          "endInDoc": 12621
+          "startInDoc": 12534,
+          "endInDoc": 12544
         },
         "referent": {
           "title": "Hellraiser",
@@ -14461,8 +14629,8 @@
           "sentence": "You like Hellraiser?",
           "startInSent": 9,
           "endInSent": 19,
-          "startInDoc": 12632,
-          "endInDoc": 12642
+          "startInDoc": 12555,
+          "endInDoc": 12565
         },
         "referent": {
           "title": "Hellraiser",
@@ -14482,8 +14650,8 @@
           "sentence": "You know the word \"Hellraiser\"?",
           "startInSent": 19,
           "endInSent": 29,
-          "startInDoc": 12663,
-          "endInDoc": 12673
+          "startInDoc": 12586,
+          "endInDoc": 12596
         },
         "referent": {
           "title": "Hellraiser",
@@ -14509,8 +14677,8 @@
         "reference": {
           "entity": "Liam Neeson",
           "sentence": "I like Liam Neeson!",
-          "startInDoc": 5889,
-          "endInDoc": 5900,
+          "startInDoc": 5819,
+          "endInDoc": 5830,
           "startInSent": 7,
           "endInSent": 18
         },
@@ -14536,8 +14704,8 @@
         "reference": {
           "entity": "Liam Neeson",
           "sentence": "Liam Neeson?",
-          "startInDoc": 7148,
-          "endInDoc": 7159,
+          "startInDoc": 7062,
+          "endInDoc": 7073,
           "startInSent": 0,
           "endInSent": 11
         },
@@ -14563,8 +14731,8 @@
         "reference": {
           "entity": "John Denver",
           "sentence": "Of course I cheated and floated off the coast of Belize for a year doing coke with John Denver.",
-          "startInDoc": 17994,
-          "endInDoc": 18005,
+          "startInDoc": 17834,
+          "endInDoc": 17845,
           "startInSent": 83,
           "endInSent": 94
         },
@@ -14614,8 +14782,8 @@
           "sentence": "Well, next time, I'll have Cheech and Chong do the warm-up!",
           "startInSent": 27,
           "endInSent": 43,
-          "startInDoc": 8969,
-          "endInDoc": 8985
+          "startInDoc": 8883,
+          "endInDoc": 8899
         },
         "referent": {
           "title": "Cheech and Chong's Next Movie",
@@ -14717,8 +14885,8 @@
         "reference": {
           "entity": "Fidel Castro",
           "sentence": "Mark Zuckerberg is Fidel Castro in flip-flops.",
-          "startInDoc": 2759,
-          "endInDoc": 2771,
+          "startInDoc": 2741,
+          "endInDoc": 2753,
           "startInSent": 19,
           "endInSent": 31
         },
@@ -14920,8 +15088,8 @@
         "reference": {
           "entity": "Donald Sutherland",
           "sentence": "Because the debate team topic is \"Who's hotter, Elliott Gould or Donald Sutherland?\"",
-          "startInDoc": 4205,
-          "endInDoc": 4222,
+          "startInDoc": 4178,
+          "endInDoc": 4195,
           "startInSent": 64,
           "endInSent": 81
         },
@@ -14947,8 +15115,8 @@
         "reference": {
           "entity": "Donald Sutherland",
           "sentence": "Donald Sutherland.",
-          "startInDoc": 4225,
-          "endInDoc": 4242,
+          "startInDoc": 4198,
+          "endInDoc": 4215,
           "startInSent": 0,
           "endInSent": 17
         },
@@ -14974,8 +15142,8 @@
         "reference": {
           "entity": "Dennis Hopper",
           "sentence": "Dennis Hopper is dead, TV shows give no time for theme songs anymore, and Woody Allen did the voice of a cartoon ant.",
-          "startInDoc": 7105,
-          "endInDoc": 7118,
+          "startInDoc": 7048,
+          "endInDoc": 7061,
           "startInSent": 0,
           "endInSent": 13
         },
@@ -15001,8 +15169,8 @@
         "reference": {
           "entity": "Woody Allen",
           "sentence": "Dennis Hopper is dead, TV shows give no time for theme songs anymore, and Woody Allen did the voice of a cartoon ant.",
-          "startInDoc": 7179,
-          "endInDoc": 7190,
+          "startInDoc": 7122,
+          "endInDoc": 7133,
           "startInSent": 74,
           "endInSent": 85
         },
@@ -15187,8 +15355,8 @@
         "reference": {
           "entity": "James Earl Jones",
           "sentence": "I wanted the voice-over to be like James Earl Jones but the James Spader impersonator turned out pretty good.",
-          "startInDoc": 11630,
-          "endInDoc": 11646,
+          "startInDoc": 11518,
+          "endInDoc": 11534,
           "startInSent": 35,
           "endInSent": 51
         },
@@ -15213,8 +15381,8 @@
         "reference": {
           "entity": "James Spader",
           "sentence": "I wanted the voice-over to be like James Earl Jones but the James Spader impersonator turned out pretty good.",
-          "startInDoc": 11655,
-          "endInDoc": 11667,
+          "startInDoc": 11543,
+          "endInDoc": 11555,
           "startInSent": 60,
           "endInSent": 72
         },
@@ -15268,8 +15436,8 @@
         "reference": {
           "entity": "Sidney Poitier",
           "sentence": "And like Sidney Poitier or Meg Ryan before you, you were cast for race.",
-          "startInDoc": 5929,
-          "endInDoc": 5943,
+          "startInDoc": 5883,
+          "endInDoc": 5897,
           "startInSent": 9,
           "endInSent": 23
         },
@@ -15295,8 +15463,8 @@
         "reference": {
           "entity": "Meg Ryan",
           "sentence": "And like Sidney Poitier or Meg Ryan before you, you were cast for race.",
-          "startInDoc": 5947,
-          "endInDoc": 5955,
+          "startInDoc": 5901,
+          "endInDoc": 5909,
           "startInSent": 27,
           "endInSent": 35
         },
@@ -15322,8 +15490,8 @@
         "reference": {
           "entity": "Ralph Macchio",
           "sentence": "Ralph Macchio?",
-          "startInDoc": 13406,
-          "endInDoc": 13419,
+          "startInDoc": 13306,
+          "endInDoc": 13319,
           "startInSent": 0,
           "endInSent": 13
         },
@@ -15353,8 +15521,8 @@
           "sentence": "The Karate Kid is about Kesuke Miyagi, an immigrant who fought against his own people in World War II, while his wife lost a child in an internment camp.",
           "startInSent": 0,
           "endInSent": 14,
-          "startInDoc": 13180,
-          "endInDoc": 13194
+          "startInDoc": 13134,
+          "endInDoc": 13148
         },
         "referent": {
           "title": "The Karate Kid",
@@ -15593,8 +15761,8 @@
         "reference": {
           "entity": "Vin Diesel",
           "sentence": "Well, neither has Vin Diesel but his roommate from film school saw 500 grand.",
-          "startInDoc": 4578,
-          "endInDoc": 4588,
+          "startInDoc": 4518,
+          "endInDoc": 4528,
           "startInSent": 18,
           "endInSent": 28
         },
@@ -15620,8 +15788,8 @@
         "reference": {
           "entity": "Robert Rodriguez",
           "sentence": "Elephant Man, Four Rooms - The Robert Rodriguez segment.",
-          "startInDoc": 4813,
-          "endInDoc": 4829,
+          "startInDoc": 4753,
+          "endInDoc": 4769,
           "startInSent": 31,
           "endInSent": 47
         },
@@ -15647,8 +15815,8 @@
         "reference": {
           "entity": "Steven Spielberg",
           "sentence": "Tell Steven Spielberg to lick my butt.",
-          "startInDoc": 17630,
-          "endInDoc": 17646,
+          "startInDoc": 17436,
+          "endInDoc": 17452,
           "startInSent": 5,
           "endInSent": 21
         },
@@ -15676,8 +15844,8 @@
         "reference": {
           "entity": "Elephant Man",
           "sentence": "Elephant Man, Four Rooms - The Robert Rodriguez segment.",
-          "startInDoc": 4722,
-          "endInDoc": 4734,
+          "startInDoc": 4662,
+          "endInDoc": 4674,
           "startInSent": 0,
           "endInSent": 12
         },
@@ -15697,8 +15865,8 @@
         "reference": {
           "entity": "Four Rooms",
           "sentence": "Elephant Man, Four Rooms - The Robert Rodriguez segment.",
-          "startInDoc": 4736,
-          "endInDoc": 4746,
+          "startInDoc": 4676,
+          "endInDoc": 4686,
           "startInSent": 14,
           "endInSent": 24
         },
@@ -15719,8 +15887,8 @@
           "sentence": "That's like cutting Cowboy out of Midnight Cowboy.",
           "startInSent": 34,
           "endInSent": 49,
-          "startInDoc": 13488,
-          "endInDoc": 13503
+          "startInDoc": 13428,
+          "endInDoc": 13443
         },
         "referent": {
           "title": "Midnight Cowboy",
@@ -15742,8 +15910,8 @@
         "reference": {
           "entity": "John Cusack",
           "sentence": "I've wanted to learn grifting since I saw The Grifters featuring John Cusack, Anjelica Huston and almost no grifting.",
-          "startInDoc": 826,
-          "endInDoc": 837,
+          "startInDoc": 814,
+          "endInDoc": 825,
           "startInSent": 65,
           "endInSent": 76
         },
@@ -15769,8 +15937,8 @@
         "reference": {
           "entity": "Anjelica Huston",
           "sentence": "I've wanted to learn grifting since I saw The Grifters featuring John Cusack, Anjelica Huston and almost no grifting.",
-          "startInDoc": 839,
-          "endInDoc": 854,
+          "startInDoc": 827,
+          "endInDoc": 842,
           "startInSent": 78,
           "endInSent": 93
         },
@@ -15796,8 +15964,8 @@
         "reference": {
           "entity": "Jim Belushi",
           "sentence": "The Jim Belushi of grifts.",
-          "startInDoc": 7629,
-          "endInDoc": 7640,
+          "startInDoc": 7545,
+          "endInDoc": 7556,
           "startInSent": 4,
           "endInSent": 15
         },
@@ -15823,8 +15991,8 @@
         "reference": {
           "entity": "Oscar Wilde",
           "sentence": "I'm reminded of something Oscar Wilde once said when he compared sheep to wolves.",
-          "startInDoc": 12935,
-          "endInDoc": 12946,
+          "startInDoc": 12767,
+          "endInDoc": 12778,
           "startInSent": 26,
           "endInSent": 37
         },
@@ -15874,8 +16042,8 @@
           "sentence": "They had a plan in The Sting.",
           "startInSent": 19,
           "endInSent": 28,
-          "startInDoc": 10594,
-          "endInDoc": 10603
+          "startInDoc": 10510,
+          "endInDoc": 10519
         },
         "referent": {
           "title": "The Sting",
@@ -15894,8 +16062,8 @@
           "sentence": "In The Sting, they withhold stuff from each other.",
           "startInSent": 3,
           "endInSent": 12,
-          "startInDoc": 11001,
-          "endInDoc": 11010
+          "startInDoc": 10917,
+          "endInDoc": 10926
         },
         "referent": {
           "title": "The Sting",
@@ -15914,8 +16082,8 @@
           "sentence": "Also, - Why don't you marry The Sting? -",
           "startInSent": 28,
           "endInSent": 37,
-          "startInDoc": 11111,
-          "endInDoc": 11120
+          "startInDoc": 11027,
+          "endInDoc": 11036
         },
         "referent": {
           "title": "The Sting",
@@ -15934,8 +16102,8 @@
           "sentence": "The Sting.",
           "startInSent": 0,
           "endInSent": 9,
-          "startInDoc": 11578,
-          "endInDoc": 11587
+          "startInDoc": 11494,
+          "endInDoc": 11503
         },
         "referent": {
           "title": "The Sting",
@@ -15954,8 +16122,8 @@
           "sentence": "More activity in Matchstick Men.",
           "startInSent": 17,
           "endInSent": 31,
-          "startInDoc": 12015,
-          "endInDoc": 12029
+          "startInDoc": 11931,
+          "endInDoc": 11945
         },
         "referent": {
           "title": "Matchstick Men",
@@ -15976,8 +16144,8 @@
           "sentence": "But all the briefcases and the swapping and The Sting? I'm not cut out for it.",
           "startInSent": 44,
           "endInSent": 53,
-          "startInDoc": 12329,
-          "endInDoc": 12338
+          "startInDoc": 12245,
+          "endInDoc": 12254
         },
         "referent": {
           "title": "The Sting",
@@ -15996,8 +16164,8 @@
           "sentence": "The Sting is terrible.",
           "startInSent": 0,
           "endInSent": 9,
-          "startInDoc": 12461,
-          "endInDoc": 12470
+          "startInDoc": 12377,
+          "endInDoc": 12386
         },
         "referent": {
           "title": "The Sting",
@@ -16016,8 +16184,8 @@
           "sentence": "Huddled in the closet, watching The Sting like gypsies.",
           "startInSent": 32,
           "endInSent": 41,
-          "startInDoc": 12675,
-          "endInDoc": 12684
+          "startInDoc": 12591,
+          "endInDoc": 12600
         },
         "referent": {
           "title": "The Sting",
@@ -16093,8 +16261,8 @@
         "reference": {
           "entity": "Robert Downey Jr.",
           "sentence": "We're Robert Downey Jr.",
-          "startInDoc": 15827,
-          "endInDoc": 15844,
+          "startInDoc": 15655,
+          "endInDoc": 15672,
           "startInSent": 6,
           "endInSent": 23
         },
@@ -16120,8 +16288,8 @@
         "reference": {
           "entity": "Andy Kaufman",
           "sentence": "Andy Kaufman loved booing.",
-          "startInDoc": 18357,
-          "endInDoc": 18369,
+          "startInDoc": 18175,
+          "endInDoc": 18187,
           "startInSent": 0,
           "endInSent": 12
         },
@@ -16151,8 +16319,8 @@
           "sentence": "Now he's Iron Man.",
           "startInSent": 9,
           "endInSent": 17,
-          "startInDoc": 15909,
-          "endInDoc": 15917
+          "startInDoc": 15737,
+          "endInDoc": 15745
         },
         "referent": {
           "title": "Iron Man",
