@@ -90,6 +90,10 @@ body {
   stroke-width: 1;
 }
 
+.refg {
+  transition: opacity 0.15s;
+}
+
 .tip {
   stroke-width: 2;
 }

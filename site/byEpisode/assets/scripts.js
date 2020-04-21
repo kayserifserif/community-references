@@ -1,3 +1,7 @@
+//////////////
+// PROG BAR //
+//////////////
+
 let svg, width, height, progbar, refs, tips, labels;
 
 let epCode = /s\d{2}e\d{2}/g.exec(location.pathname)[0];
@@ -7,11 +11,12 @@ Promise.all([
 ]).then(init);
 
 function init(files) {
-  // transcript
+
+  // data
+
   let transcript = files[0];
   let totalLength = transcript.split("").length;
 
-  // references
   let references = files[1];
   let epRefs = [];
   for (let refType in references[epCode]) {
@@ -24,7 +29,8 @@ function init(files) {
     return a.pct - b.pct;
   });
 
-  // svg
+  // graphics
+
   svg = d3.select("svg");
 
   progBar = svg
@@ -41,6 +47,15 @@ function init(files) {
     .classed("refg", true)
     .classed("name", (d) => { return "name" in d.referent })
     .classed("title", (d) => { return "title" in d.referent })
+    ;
+  refs
+    .on("mouseover", (val, i, arr) => {
+      refs.style("opacity", 0.15);
+      d3.select(arr[i]).style("opacity", 1);
+    })
+    .on("mouseout", () => {
+      refs.style("opacity", 1);
+    })
     ;
 
   tips = refs
@@ -113,4 +128,12 @@ function updateDimensions(winWidth) {
 
 window.addEventListener("resize", () => {
   render();
+});
+
+/////////////////
+// OTHER STUFF //
+/////////////////
+
+document.getElementById("random").addEventListener("click", () => {
+  
 });

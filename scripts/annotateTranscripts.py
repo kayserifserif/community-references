@@ -175,6 +175,12 @@ def makeAnnotations(epCode, epCodes):
        + "</head>\n"
   html += head
   body = "<body>\n"
+  body += "<nav id='nav'>\n\
+  <a href='/site/byEntity'>By Entity</a>\n\
+  <a href='/site/byEpisode' class='current'>By Episode</a>\n\
+  <a href='/site/byYear'>By Year</a>\n\
+</nav>\n"
+  body += "<a href='#' id='random'>Random episode</a>\n"
   nav = "<nav class='epNav'>"
   # print(epCodes.index(epCode))
   index = epCodes.index(epCode)
@@ -207,7 +213,7 @@ def makeAnnotations(epCode, epCodes):
   titleList += "</ul>\n"
   summary += titleList
   summary += "</div>\n"
-  summary += "<svg>\n"
+  summary += "<svg></svg>\n"
   body += summary
 
   body += "<div id='transcript'>\n"
