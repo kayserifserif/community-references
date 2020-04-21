@@ -1,12 +1,12 @@
 import sys
 from os import listdir, makedirs
 from os import path
-# from os.path import isfile, join
 import json
 import re
 import html
+from bs4 import BeautifulSoup
 
-def makeAnnotations(epCode):
+def makeAnnotations(epCode, epCodes):
   # get transcript for this episode
   with open("./transcripts/community-" + epCode + ".txt", "r") as f:
     transcript = f.read()
@@ -154,16 +154,33 @@ def makeAnnotations(epCode):
   newFile = newDir + "/index.html"
   with open(newFile, "w") as f:
     f.write(html.format(htmlText=html))
-    print(f"Successfully saved to file {newFile}!")
+    print(f"Successfully saved {epCode} to file {newFile}!")
+
+def updateIndex(epCodes):
+  indexFile = "./site/byEpisode/index.html"
+  with open(indexFile, "r") as f:
+    soup = BeautifulSoup(f, "html.parser")
+  for epCode in epCodes:
+    season = epCode[:3]
+    seasonList = soup.find(id=season).ul
+    epItem = soup.new_tag("li")
+    epLink = soup.new_tag("a", href="ep/" + epCode)
+    epLink.string = epCode
+    epItem.append(epLink)
+    seasonList.append(epItem)
+  soup.prettify()
+  with open(indexFile, "w") as f:
+    f.write(str(soup))
+    print(f"Successfully updated index {indexFile}!")
 
 def main():
-  global epCodes
   epCodes = sorted([f[10:16] for f in listdir("./transcripts") if path.isfile(path.join("./transcripts", f))])[1:]
   if len(sys.argv) is 2 and re.match(r"s\d\de\d\d", sys.argv[1]):
-    makeAnnotations(sys.argv[1])
-  elif len(sys.argv) is 2 and re.match("all", sys.argv[1]):
+    makeAnnotations(sys.argv[1], epCodes)
+    updateIndex(epCodes)
+  elif len(sys.argv) is 2 and sys.argv[1] == "all":
     for epCode in epCodes:
-      makeAnnotations(epCode)
+      makeAnnotations(epCode, epCodes)
   else:
     print("usage: \n\
   [epCode]: episode to annotate\n\

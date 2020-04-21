@@ -9,6 +9,14 @@ body {
   font-family: sans-serif;
 }
 
+#seasons {
+  display: flex;
+}
+
+.season {
+  width: 16.7%;
+}
+
 .nav {
   display: flex;
   justify-content: center;
