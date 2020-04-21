@@ -132,18 +132,18 @@ def makeAnnotations(epCode, epCodes):
       years += "</span>"
       popup += years
       if indexSet[3] == "people":
-        professions = "<span class='profs list'>"
+        professions = "<span class='profs popupList'>"
         for p in indexSet[8]:
           professions += f"<span class='tag prof'>{p}</span>"
         professions += "</span>"
         popup += professions
-        knownFor = "<span class='knownFor list'>"
+        knownFor = "<span class='knownFor popupList'>"
         for k in indexSet[9]:
           knownFor += f"<span class='tag knownFor'><a href='https://www.imdb.com/title/{k}'>{k}</a></span>"
         knownFor += "</span>"
         popup += knownFor
       if indexSet[3] == "titles":
-        genres = "<span class='genres list'>"
+        genres = "<span class='genres popupList'>"
         for g in indexSet[9]:
           genres += f"<span class='tag genre'>{g}</span>"
         genres += "</span>"
@@ -192,28 +192,30 @@ def makeAnnotations(epCode, epCodes):
   title = f"<h1 id='title'>{epCode.upper()}</h1>\n"
   body += title
 
-  summary = "<div id='summary'>"
-  summary += "<h2>Summary</h2>"
-  nameList = "<ul class='list' id='peopleList'>"
-  nameList += "<h3 class='listHeader'>People</h3>"
+  summary = "<div id='summary'>\n"
+  summary += "<h2>Summary</h2>\n"
+  nameList = "<ul class='list' id='peopleList'>\n"
+  nameList += "<h3 class='listHeader'>People</h3>\n"
   for name in nameCounts:
-    nameList += f"<li><span class='entity'>{name}</span><span class='count'>{nameCounts[name]}</span></li>"
-  nameList += "</ul>"
+    nameList += f"<li><span class='entity'>{name}</span><span class='count'>{nameCounts[name]}</span></li>\n"
+  nameList += "</ul>\n"
   summary += nameList
-  titleList = "<ul class='list' id='titlesList'>"
-  titleList += "<h3 class='listHeader'>Titles</h3>"
+  titleList = "<ul class='list' id='titlesList'>\n"
+  titleList += "<h3 class='listHeader'>Titles</h3>\n"
   for title in titleCounts:
-    titleList += f"<li><span class='entity'>{title}</span><span class='count'>{titleCounts[title]}</span></li>"
-  titleList += "</ul>"
+    titleList += f"<li><span class='entity'>{title}</span><span class='count'>{titleCounts[title]}</span></li>\n"
+  titleList += "</ul>\n"
   summary += titleList
-  summary += "</div>"
+  summary += "</div>\n"
+  summary += "<svg>\n"
   body += summary
 
   body += "<div id='transcript'>\n"
   body += lines
   body += "\n</div>\n"
   body += nav
-  body += "<script src='../../assets/scripts.js'></script>"
+  body += "<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.min.js'></script>\n"
+  body += "<script src='../../assets/scripts.js'></script>\n"
   body += "</body>\n"
   html += body
   html += "</html>"

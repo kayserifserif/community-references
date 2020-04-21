@@ -47,10 +47,14 @@ body {
 .list {
   margin: 1em;
   list-style-type: none;
-  padding: 1em 2em;
+  padding: 1em;
   display: flex;
   flex-direction: column;
   align-items: start;
+}
+
+.list h3 {
+  margin-top: 0;
 }
 
 #peopleList {
@@ -78,6 +82,31 @@ body {
 #title {
   text-align: center;
 }
+
+/* progBar */
+
+#progBar {
+  stroke: black;
+  stroke-width: 1;
+}
+
+.tip {
+  stroke-width: 2;
+}
+
+.name .tip {
+  stroke: #1d7979;
+}
+
+.title .tip {
+  stroke: #b48842;
+}
+
+.pct {
+  font-size: .5em;
+}
+
+/* progBar end */
 
 #transcript {
   width: 60%;
