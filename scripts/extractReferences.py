@@ -82,7 +82,7 @@ def get_episode_data(code):
 
     data = ""
 
-    with open("./transcripts/community-" + code + ".txt", "r") as f_open:
+    with open("./transcripts/" + code + ".txt", "r") as f_open:
       data = f_open.read()
       data = re.sub("\n", " ", data)
 
@@ -147,7 +147,7 @@ def find(code, search, type):
   if type:
     loadData()
   try:
-    with open("./transcripts/community-" + code + ".txt", "r") as f_open:
+    with open("./transcripts/" + code + ".txt", "r") as f_open:
       data = f_open.read()
       data = re.sub("\n", " ", data)
     results = re.finditer(search, data)
@@ -198,7 +198,7 @@ def main():
       try:
         code = "s" + "{:02}".format(season) + "e" + "{:02}".format(episode)
         # add episode code if file exists
-        with open("./transcripts/community-" + code + ".txt", "r") as f_open:
+        with open("./transcripts/" + code + ".txt", "r") as f_open:
           episode_list.append(code)
           episode += 1
       except IOError:

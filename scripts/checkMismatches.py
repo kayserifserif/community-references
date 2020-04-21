@@ -5,9 +5,9 @@ import json
 import re
 
 transcripts = {};
-epCodes = sorted([f[10:16] for f in listdir("./transcripts") if isfile(join("./transcripts", f))])[1:]
+epCodes = sorted([f[:-4] for f in listdir("./transcripts") if isfile(join("./transcripts", f))])[1:]
 for epCode in epCodes:
-  with open("./transcripts/community-" + epCode + ".txt", "r") as f:
+  with open("./transcripts/" + epCode + ".txt", "r") as f:
     transcripts[epCode] = f.read()
 
 with open("./output/references.json", "r") as f:
