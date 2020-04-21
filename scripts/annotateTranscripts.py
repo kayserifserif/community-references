@@ -1,6 +1,7 @@
 import sys
-from os import listdir
-from os.path import isfile, join
+from os import listdir, makedirs
+from os import path
+# from os.path import isfile, join
 import json
 import re
 import html
@@ -119,7 +120,7 @@ def makeAnnotations(epCode):
   html = "<!DOCTYPE html>\n<html lang='en'>\n"
   head = "<head>\n" \
        + "<meta charset='UTF-8'>\n" \
-       + "<link rel='stylesheet' href='assets/styles.css'>\n" \
+       + "<link rel='stylesheet' href='../../assets/styles.css'>\n" \
        + "</head>\n"
   html += head
   body = "<body>\n"
@@ -142,19 +143,22 @@ def makeAnnotations(epCode):
   body += lines
   body += "\n</div>\n"
   body += nav
-  body += "<script src='assets/scripts.js'></script>"
+  body += "<script src='../../assets/scripts.js'></script>"
   body += "</body>\n"
   html += body
   html += "</html>"
   # output html file
-  fileName = "./site/byEpisode/" + epCode + ".html"
-  with open(fileName, "w") as f:
+  newDir = "./site/byEpisode/ep/" + epCode
+  if not path.exists(newDir):
+    makedirs(newDir)
+  newFile = newDir + "/index.html"
+  with open(newFile, "w") as f:
     f.write(html.format(htmlText=html))
-    print(f"Successfully saved to file {fileName}!")
+    print(f"Successfully saved to file {newFile}!")
 
 def main():
   global epCodes
-  epCodes = sorted([f[10:16] for f in listdir("./transcripts") if isfile(join("./transcripts", f))])[1:]
+  epCodes = sorted([f[10:16] for f in listdir("./transcripts") if path.isfile(path.join("./transcripts", f))])[1:]
   if len(sys.argv) is 2 and re.match(r"s\d\de\d\d", sys.argv[1]):
     makeAnnotations(sys.argv[1])
   elif len(sys.argv) is 2 and re.match("all", sys.argv[1]):
