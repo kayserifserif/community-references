@@ -33,6 +33,31 @@ function init(files) {
 
   svg = d3.select("svg");
 
+  linGrad = document.getElementById("linGrad");
+  let gradVals = [];
+  for (let i = 0; i <= 0.9; i += 0.1) {
+    let counter = 0;
+    for (let ref of epRefs) {
+      if (ref.pct >= i && ref.pct < i + 0.1) {
+        counter++;
+      }
+    }
+    gradVals.push(counter);
+  }
+  let greatest = Math.max(...gradVals);
+  gradVals = gradVals.map(x => x / greatest);
+  console.log(document.getElementsByTagName("stop"));
+  for (let i = 0; i <= 9; i++) {
+    let stop = document.getElementsByTagName("stop")[i];
+    let col = Math.min(Math.max(100, gradVals[i] * 255), 255);
+    stop.setAttribute("stop-color", `rgb(${col}, ${col}, ${col})`);
+    console.log(stop);
+  }
+  gradient = svg
+    .append("rect")
+    .attr("fill", "url(#linGrad)")
+    ;
+
   progBar = svg
     .append("line")
     .attr("id", "progBar")
@@ -91,6 +116,11 @@ function render() {
     .attr("height", height)
     ;
 
+  gradient
+    .attr("width", width)
+    .attr("height", height)
+    ;
+
   progBar
     .attr("x2", window.innerWidth)
     .attr("y1", height * 0.5)
@@ -134,6 +164,6 @@ window.addEventListener("resize", () => {
 // OTHER STUFF //
 /////////////////
 
-document.getElementById("random").addEventListener("click", () => {
+// document.getElementById("random").addEventListener("click", () => {
   
-});
+// });

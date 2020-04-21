@@ -213,7 +213,22 @@ def makeAnnotations(epCode, epCodes):
   titleList += "</ul>\n"
   summary += titleList
   summary += "</div>\n"
-  summary += "<svg></svg>\n"
+  summary += "<svg>\n\
+<defs>\n\
+<linearGradient id='linGrad'>\n\
+<stop offset='0.0'/>\n\
+<stop offset='0.1'/>\n\
+<stop offset='0.2'/>\n\
+<stop offset='0.3'/>\n\
+<stop offset='0.4'/>\n\
+<stop offset='0.5'/>\n\
+<stop offset='0.6'/>\n\
+<stop offset='0.7'/>\n\
+<stop offset='0.8'/>\n\
+<stop offset='0.9'/>\n\
+</linearGradient>\n\
+</defs>\n\
+</svg>\n"
   body += summary
 
   body += "<div id='transcript'>\n"
@@ -255,6 +270,24 @@ def updateIndex(epCodes):
     f.write(str(soup))
     print(f"Successfully updated index {indexFile}!")
 
+def populateAll(epCodes):
+  allFile = "./site/byEpisode/all/index.html"
+  with open(allFile, "r") as f:
+    soup = BeautifulSoup(f, "html.parser")
+  for epCode in epCodes:
+    season = epCode[:3]
+    seasonCont = soup.find(id=season)
+    el = soup.new_tag("div")
+    el["class"] = "episode"
+    heading = BeautifulSoup(f"<h2>{epCode}</h2>")
+    el.append(heading)
+    svg = soup.new_tag("svg")
+    el.append(svg)
+    seasonCont.append(el)
+  with open(allFile, "w") as f:
+    f.write(str(soup))
+    print(f"Successfully updated all page {allFile}!")
+
 def main():
   epCodes = sorted([f[:-4] for f in listdir("./transcripts") if path.isfile(path.join("./transcripts", f))])[1:]
   if len(sys.argv) is 2 and re.match(r"s\d\de\d\d", sys.argv[1]):
@@ -266,11 +299,14 @@ def main():
     updateIndex(epCodes)
   elif len(sys.argv) is 2 and sys.argv[1] == "index":
     updateIndex(epCodes)
+  elif len(sys.argv) is 2 and sys.argv[1] == "allPage":
+    populateAll(epCodes)
   else:
     print("usage: \n\
   [epCode]: episode to annotate\n\
   all: annotate all episodes\n\
-  index: update index page")
+  index: update index page\n\
+  allPage: populate page with all episodes")
 
 if __name__ == "__main__":
   main()
