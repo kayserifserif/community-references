@@ -4,17 +4,23 @@ html {
 
 body {
   height: 100%;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+#nav .current {
+  color: black;
 }
 
 #filter {
   position: fixed;
-  top: 0;
+  top: 6em;
   margin: 1em;
 }
 
 #seasonStats {
   position: fixed;
-  top: 1em;
+  top: 8em;
   margin: 1em;
 }
 
