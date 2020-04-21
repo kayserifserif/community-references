@@ -21,16 +21,57 @@ body {
   width: 16.7%;
 }
 
-.nav {
+.epNav {
   display: flex;
   justify-content: center;
   text-align: center;
   width: 200px;
   margin: auto;
-  
 }
 
-.nav a:first-of-type {
+#summary {
+  width: 33.3%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+  align-items: start;
+  justify-content: center;
+}
+
+#summary h2 {
+  grid-column-end: span 2;
+  text-align: center;
+}
+
+.list {
+  margin: 1em;
+  list-style-type: none;
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+#peopleList {
+  background-color: #c0eeee;
+}
+
+#titlesList {
+  background-color: #eedcc0;
+}
+
+.list li {
+  padding: 0.2em 0.5em;
+  margin: 0.2em 0;
+  background-color: white;
+}
+
+.list li span {
+  margin-right: 0.5em;
+}
+
+.epNav a:first-of-type {
   margin-right: 1em;
 }
 

@@ -5,17 +5,55 @@ import json
 import re
 import html
 from bs4 import BeautifulSoup
+from collections import OrderedDict
 
 def makeAnnotations(epCode, epCodes):
   # get transcript for this episode
-  with open("./transcripts/community-" + epCode + ".txt", "r") as f:
+  with open("./transcripts/" + epCode + ".txt", "r") as f:
     transcript = f.read()
   # get all references
   with open("./output/references.json", "r") as f:
     references = json.load(f)
     epRefs = references[epCode]
+
+  nameCounts = {}
+  titleCounts = {}
+  for ref in epRefs["people"]:
+    referent = ref["referent"]
+    entity = referent["name"]
+    if entity in nameCounts:
+      nameCounts[entity] += 1
+    else:
+      nameCounts[entity] = 1
+  for ref in epRefs["titles"]:
+    referent = ref["referent"]
+    entity = referent["title"]
+    if entity in titleCounts:
+      titleCounts[entity] += 1
+    else:
+      titleCounts[entity] = 1
+  nameCounts = OrderedDict(sorted(nameCounts.items(), key=lambda x: x[1], reverse=True))
+  titleCounts = OrderedDict(sorted(titleCounts.items(), key=lambda x: x[1], reverse=True))
+  # print(nameCounts, titleCounts)
+
   # set up lines
   lines = ""
+#   soup = BeautifulSoup("\
+# <!DOCTYPE html>\
+# <html lang='en'>\
+# <head>\
+# <meta charset='UTF-8'>\
+# <link rel='stylesheet' href='../../assets/styles.css'>\
+# </head>\
+# <body>\
+# <nav class='nav'></nav>\
+# <h1 id='title'></h1>\
+# <div id='transcript'></div>\
+# <nav class='nav'></nav>\
+# <script src='../../assets/scripts.js'></script>\
+# </body>\
+# </html>", "html.parser")
+  # print(soup)
   # collect all indices
   indices = []
   for instance in epRefs["people"]:
@@ -33,6 +71,7 @@ def makeAnnotations(epCode, epCodes):
       referent["professions"],
       referent["knownFor"]
     ])
+    # indices.append(instance)
   for instance in epRefs["titles"]:
     reference = instance["reference"]
     referent = instance["referent"]
@@ -48,13 +87,23 @@ def makeAnnotations(epCode, epCodes):
       referent["endYear"],
       referent["genres"]
     ])
-  indices = sorted(indices)
+  # indices = sorted(indices)
+  # print(indices)
+  # indices = sorted(indices, key=lambda x: x["reference"]["startInDoc"])
+  # print(indices)
   # if there are any references
   if len(indices) > 0:
+  # doc = soup.find(id="transcript")
+  # doc.append(BeautifulSoup("<p>" + transcript[:references]))
+  # print(OrderedDict(epRefs))
+  # for refType in epRefs:
+    # for ref in epRefs[refType]:
+      # print(ref)
     # add the transcript up until the first reference
     lines += transcript[:indices[0][0]]
     # wrap the reference and add it
     for i, indexSet in enumerate(indices):
+      # print(i, indexSet)
       ref = "<span class='ref'>"
       reference = f"<span class='reference {indexSet[3]}'>{indexSet[2]}</span>";
       ref += reference
@@ -106,6 +155,8 @@ def makeAnnotations(epCode, epCodes):
       # continue adding the transcript up until the next reference
       end = indexSet[1]
       if (i is not (len(indices) - 1)):
+        # print(indices)
+        # print(indices[i+1])
         newStart = indices[i+1][0]
         lines += transcript[end:newStart]
       else:
@@ -124,21 +175,40 @@ def makeAnnotations(epCode, epCodes):
        + "</head>\n"
   html += head
   body = "<body>\n"
-  nav = "<nav class='nav'>"
+  nav = "<nav class='epNav'>"
   # print(epCodes.index(epCode))
   index = epCodes.index(epCode)
   if index > 0:
     # previous
     prevCode = epCodes[index - 1]
-    nav += f"<a href='{prevCode}.html'>← {prevCode.upper()}</a>"
+    nav += f"<a href='../{prevCode}'>← {prevCode.upper()}</a>"
   if index < len(epCodes) - 1:
     # next
     nextCode = epCodes[index + 1]
-    nav += f"<a href='{nextCode}.html'>{nextCode.upper()} →</a>"
+    nav += f"<a href='../{nextCode}'>{nextCode.upper()} →</a>"
   nav += "</nav>\n"
   body += nav
+
   title = f"<h1 id='title'>{epCode.upper()}</h1>\n"
   body += title
+
+  summary = "<div id='summary'>"
+  summary += "<h2>Summary</h2>"
+  nameList = "<ul class='list' id='peopleList'>"
+  nameList += "<h3 class='listHeader'>People</h3>"
+  for name in nameCounts:
+    nameList += f"<li><span class='entity'>{name}</span><span class='count'>{nameCounts[name]}</span></li>"
+  nameList += "</ul>"
+  summary += nameList
+  titleList = "<ul class='list' id='titlesList'>"
+  titleList += "<h3 class='listHeader'>Titles</h3>"
+  for title in titleCounts:
+    titleList += f"<li><span class='entity'>{title}</span><span class='count'>{titleCounts[title]}</span></li>"
+  titleList += "</ul>"
+  summary += titleList
+  summary += "</div>"
+  body += summary
+
   body += "<div id='transcript'>\n"
   body += lines
   body += "\n</div>\n"
@@ -147,6 +217,7 @@ def makeAnnotations(epCode, epCodes):
   body += "</body>\n"
   html += body
   html += "</html>"
+  # print(html)
   # output html file
   newDir = "./site/byEpisode/ep/" + epCode
   if not path.exists(newDir):
@@ -160,12 +231,15 @@ def updateIndex(epCodes):
   indexFile = "./site/byEpisode/index.html"
   with open(indexFile, "r") as f:
     soup = BeautifulSoup(f, "html.parser")
+  seasons = soup.find_all(class_="season")
+  for s in seasons:
+    s.ul.clear()
   for epCode in epCodes:
     season = epCode[:3]
     seasonList = soup.find(id=season).ul
     epItem = soup.new_tag("li")
     epLink = soup.new_tag("a", href="ep/" + epCode)
-    epLink.string = epCode
+    epLink.string = epCode.upper()
     epItem.append(epLink)
     seasonList.append(epItem)
   soup.prettify()
@@ -174,17 +248,21 @@ def updateIndex(epCodes):
     print(f"Successfully updated index {indexFile}!")
 
 def main():
-  epCodes = sorted([f[10:16] for f in listdir("./transcripts") if path.isfile(path.join("./transcripts", f))])[1:]
+  epCodes = sorted([f[:-4] for f in listdir("./transcripts") if path.isfile(path.join("./transcripts", f))])[1:]
   if len(sys.argv) is 2 and re.match(r"s\d\de\d\d", sys.argv[1]):
     makeAnnotations(sys.argv[1], epCodes)
-    updateIndex(epCodes)
+    # updateIndex(epCodes)
   elif len(sys.argv) is 2 and sys.argv[1] == "all":
     for epCode in epCodes:
       makeAnnotations(epCode, epCodes)
+    updateIndex(epCodes)
+  elif len(sys.argv) is 2 and sys.argv[1] == "index":
+    updateIndex(epCodes)
   else:
     print("usage: \n\
   [epCode]: episode to annotate\n\
-  all: annotate all episodes")
+  all: annotate all episodes\n\
+  index: update index page")
 
 if __name__ == "__main__":
   main()
