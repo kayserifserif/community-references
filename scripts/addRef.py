@@ -1,5 +1,4 @@
 from PyInquirer import prompt
-# import sys
 import json
 import re
 import csv
@@ -14,18 +13,18 @@ titleTypes = [
   "video"  
 ]
 
-def getReferents():
+# load referents.json
+def getReferents() -> dict:
   try:
     with open("./output/referents.json", "r") as f:
       referents = json.load(f)
       return referents
   except IOError:
     print("Could not open referents file.")
-  return False
+  return
 
 # validate user-entered episode code
-# return: True boolean or error string
-def validateEpCode(val):
+def validateEpCode(val: str) -> bool:
   if not re.match(r"s\d{2}e\d{2}", val):
     return "Episode code should be in the form of \"s01e01\"."
   try:
@@ -36,10 +35,9 @@ def validateEpCode(val):
     return "Could not find episode file."
 
 # get instances of entity in transcript
-# return: list of instances or empty list
-def getInstances(answers):
+def getInstances(answers: dict) -> list:
   if answers["entity"] == "\\N":
-    return None
+    return
   try:
     with open(f"./transcripts/{answers['epCode']}.txt", "r") as f:
       transcript = f.read()
@@ -57,16 +55,18 @@ def getInstances(answers):
   except IOError:
     print("Could not open transcript file.")
 
-def findExistingEntity(entity):
+# check if entity exists in referents
+def findExistingEntity(entity: str) -> dict or None:
   referents = getReferents()
   for refType in referents:
     for ref in referents[refType]:
       if ref == entity:
         details = referents[refType][ref]["details"]
         return details
-  return None
+  return
 
-def askForReference(prevAnswers=None):
+# query user for reference
+def askForReference(prevAnswers: dict = None) -> dict:
   questions = [
     {
       "type": "input",
@@ -169,14 +169,16 @@ REFERENCE\n\
     ]
   ).values())[0]
   if nextStep == "quit":
-    return False
+    print("Okay, exiting program.")
+    return
   elif nextStep == "edit":
     askForReference(answers)
   else:
     return answers
   return answers
 
-def loadAndSearchDb(refType, entity):
+# load database and search through for entity
+def loadAndSearchDb(refType: str, entity: str) -> dict or list:
   includePartial = list(prompt({
     "type": "confirm",
     "name": "include",
@@ -245,7 +247,8 @@ def loadAndSearchDb(refType, entity):
   except IOError:
     print("Could not open database file.")
 
-def findPartialMatch(database, entity):
+# look for partial match in database
+def findPartialMatch(database: list, entity: str) -> dict or None:
   interimMessage = "Searching through database for partial matches..."
   print(interimMessage)
   for row in database:
@@ -270,9 +273,10 @@ def findPartialMatch(database, entity):
       else:
         print(interimMessage)
   print("Partial match could not be found.")
-  return False
+  return
 
-def askForReferent(refType, prevAnswers=None):
+# query user for referent
+def askForReferent(refType: str, prevAnswers: dict = None) -> dict:
   questions = [
     {
       "type": "input",
@@ -360,14 +364,15 @@ def askForReferent(refType, prevAnswers=None):
   ).values())[0]
   if nextStep == "quit":
     print("Okay, exiting program.")
-    return False
+    return
   elif nextStep == "edit":
     askForReferent(refType, answers)
   else:
     return answers
   return answers
 
-def searchForReferent(reference, prevAnswers=None):
+# search for referent in existing file or in database
+def searchForReferent(reference: dict, prevAnswers: dict = None) -> dict or None:
   print("\
 ********\n\
 REFERENT\n\
@@ -390,7 +395,7 @@ REFERENT\n\
       return referent
     else:
       print("Okay, exiting program.")
-      return False
+      return
   else:
     print("Referent could not be detected.")
     refType = list(prompt(
@@ -417,9 +422,10 @@ REFERENT\n\
         return partialResult
       else:
         referent = askForReferent(refType)
-    return False
+    return
 
-def writeToReferences(newRef):
+# save new ref to references file
+def writeToReferences(newRef: dict):
   refFile = "./output/references.json"
   try:
     with open(refFile, "r") as f:
@@ -443,7 +449,8 @@ def writeToReferences(newRef):
   except IOError:
     print("Could not write to references file.")
 
-def getInput(prevReference=None, prevReferent=None, editItem=None):
+# query user for input on reference and referent
+def getInput(prevReference: dict = None, prevReferent: dict = None, editItem: str = None) -> dict or None:
   if not editItem:
     reference = askForReference()
     if not reference:
@@ -521,8 +528,11 @@ def getInput(prevReference=None, prevReferent=None, editItem=None):
   else:
     return newRef
 
+# main function
 def main():
   newRef = getInput()
+  if not newRef:
+    return
   writeToReferences(newRef)
 
 if __name__ == "__main__":
