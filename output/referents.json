@@ -487,10 +487,10 @@
       ]
     },
     "LeVar Burton": {
-      "count": 8,
+      "count": 9,
       "countBySeason": {
         "s01": 1,
-        "s02": 4,
+        "s02": 5,
         "s03": 2,
         "s04": 1,
         "s05": 0,
@@ -557,6 +557,15 @@
           "endInDoc": 7466,
           "startInSent": 11,
           "endInSent": 23,
+          "epCode": "s02e16"
+        },
+        {
+          "entity": "LeVar",
+          "sentence": "I'm LeVar.",
+          "startInDoc": 10921,
+          "endInDoc": 10926,
+          "startInSent": 4,
+          "endInSent": 9,
           "epCode": "s02e16"
         },
         {
@@ -897,7 +906,7 @@
         },
         {
           "entity": "Christian Bale",
-          "sentence": "And--and then we just have to record fake exclusive commentary by Christian Bale.",
+          "sentence": "And\u2014and then we just have to record fake exclusive commentary by Christian Bale.",
           "startInDoc": 2447,
           "endInDoc": 2461,
           "startInSent": 66,
@@ -1208,7 +1217,7 @@
         },
         {
           "entity": "Tom Waits",
-          "sentence": "Tom Waits was-- Agh!",
+          "sentence": "Tom Waits was\u2014Agh!",
           "startInDoc": 12899,
           "endInDoc": 12908,
           "startInSent": 0,
@@ -1730,7 +1739,7 @@
         },
         {
           "entity": "Sean Penn",
-          "sentence": "Sean Penn is an actor who-- I know who Sean Penn is.",
+          "sentence": "Sean Penn is an actor who\u2014I know who Sean Penn is.",
           "startInDoc": 4407,
           "endInDoc": 4416,
           "startInSent": 0,
@@ -1739,7 +1748,7 @@
         },
         {
           "entity": "Sean Penn",
-          "sentence": "Sean Penn is an actor who-- I know who Sean Penn is.",
+          "sentence": "Sean Penn is an actor who\u2014I know who Sean Penn is.",
           "startInDoc": 4446,
           "endInDoc": 4455,
           "startInSent": 39,
@@ -6643,7 +6652,7 @@
       "references": [
         {
           "entity": "Kings of Leon",
-          "sentence": "I'm saying you not listening to me is like metaphorically cutting the brake lines on your own-- look, Kings of Leon!",
+          "sentence": "I'm saying you not listening to me is like metaphorically cutting the brake lines on your own\u2014look, Kings of Leon!",
           "startInSent": 102,
           "endInSent": 115,
           "startInDoc": 15138,
@@ -9823,6 +9832,66 @@
         }
       ]
     },
+    "E.T. the Extra-Terrestrial": {
+      "count": 4,
+      "countBySeason": {
+        "s01": 2,
+        "s02": 1,
+        "s03": 0,
+        "s04": 0,
+        "s05": 1,
+        "s06": 0
+      },
+      "details": {
+        "title": "E.T. the Extra-Terrestrial",
+        "tconst": "tt0083866",
+        "titleType": "movie",
+        "startYear": 1982,
+        "endYear": "\\N",
+        "genres": [
+          "Family",
+          "Sci-Fi"
+        ]
+      },
+      "references": [
+        {
+          "entity": "E.T.",
+          "sentence": "He's like E.T.",
+          "startInSent": 10,
+          "endInSent": 14,
+          "startInDoc": 10862,
+          "endInDoc": 10866,
+          "epCode": "s01e08"
+        },
+        {
+          "entity": "E.T.",
+          "sentence": "Then say goodbye to E.T.",
+          "startInSent": 20,
+          "endInSent": 24,
+          "startInDoc": 11349,
+          "endInDoc": 11353,
+          "epCode": "s01e08"
+        },
+        {
+          "entity": "E.T.",
+          "sentence": "He was like E.T., Edward Scissorhands and Marty McFly combined.",
+          "startInSent": 12,
+          "endInSent": 16,
+          "startInDoc": 2913,
+          "endInDoc": 2932,
+          "epCode": "s02e05"
+        },
+        {
+          "entity": "E.T.",
+          "sentence": "I hated Reese's pieces before E.T. ate them, sorry.",
+          "startInDoc": 6932,
+          "endInDoc": 6936,
+          "startInSent": 30,
+          "endInSent": 35,
+          "epCode": "s05e07"
+        }
+      ]
+    },
     "Entourage": {
       "count": 4,
       "countBySeason": {
@@ -10096,57 +10165,6 @@
           "startInDoc": 15405,
           "endInDoc": 15417,
           "epCode": "s01e21"
-        }
-      ]
-    },
-    "E.T. the Extra-Terrestrial": {
-      "count": 3,
-      "countBySeason": {
-        "s01": 2,
-        "s02": 1,
-        "s03": 0,
-        "s04": 0,
-        "s05": 0,
-        "s06": 0
-      },
-      "details": {
-        "title": "E.T. the Extra-Terrestrial",
-        "tconst": "tt0083866",
-        "titleType": "movie",
-        "startYear": 1982,
-        "endYear": "\\N",
-        "genres": [
-          "Family",
-          "Sci-Fi"
-        ]
-      },
-      "references": [
-        {
-          "entity": "E.T.",
-          "sentence": "He's like E.T.",
-          "startInSent": 10,
-          "endInSent": 14,
-          "startInDoc": 10862,
-          "endInDoc": 10866,
-          "epCode": "s01e08"
-        },
-        {
-          "entity": "E.T.",
-          "sentence": "Then say goodbye to E.T.",
-          "startInSent": 20,
-          "endInSent": 24,
-          "startInDoc": 11349,
-          "endInDoc": 11353,
-          "epCode": "s01e08"
-        },
-        {
-          "entity": "E.T.",
-          "sentence": "He was like E.T., Edward Scissorhands and Marty McFly combined.",
-          "startInSent": 12,
-          "endInSent": 16,
-          "startInDoc": 2913,
-          "endInDoc": 2932,
-          "epCode": "s02e05"
         }
       ]
     },
@@ -10431,7 +10449,7 @@
       "references": [
         {
           "entity": "Hogan's Heroes",
-          "sentence": "Many years ago, before the concept of \"too soon\" existed, there was a show about a bunch of goofy Nazis running a prison camp, and that show was called-- Hogan's Heroes?",
+          "sentence": "Many years ago, before the concept of \"too soon\" existed, there was a show about a bunch of goofy Nazis running a prison camp, and that show was called\u2014Hogan's Heroes?",
           "startInSent": 154,
           "endInSent": 168,
           "startInDoc": 8755,
@@ -11600,7 +11618,7 @@
         },
         {
           "entity": "The Real World",
-          "sentence": "For The Real World # # Oh, I'm gonna apply twice #",
+          "sentence": "# For The Real World #",
           "startInSent": 4,
           "endInSent": 18,
           "startInDoc": 11779,
@@ -13089,7 +13107,7 @@
       "references": [
         {
           "entity": "The Notebook",
-          "sentence": "It's just like The Notebook, except instead of Alzheimer's, Abed has --",
+          "sentence": "It's just like The Notebook, except instead of Alzheimer's, Abed has\u2014",
           "startInSent": 15,
           "endInSent": 27,
           "startInDoc": 985,
@@ -14156,7 +14174,7 @@
       "references": [
         {
           "entity": "Joker",
-          "sentence": "And he was dressed as the Joker for Halloween--motive.",
+          "sentence": "And he was dressed as the Joker for Halloween\u2014motive.",
           "startInSent": 26,
           "endInSent": 31,
           "startInDoc": 7721,

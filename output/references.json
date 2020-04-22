@@ -4998,7 +4998,7 @@
       {
         "reference": {
           "entity": "The Notebook",
-          "sentence": "It's just like The Notebook, except instead of Alzheimer's, Abed has --",
+          "sentence": "It's just like The Notebook, except instead of Alzheimer's, Abed has\u2014",
           "startInSent": 15,
           "endInSent": 27,
           "startInDoc": 985,
@@ -5377,7 +5377,7 @@
           "endInDoc": 4235
         },
         "referent": {
-          "title": "Star Wars: Episode I - The Phantom Menace",
+          "title": "Star Wars: Episode I\u2014The Phantom Menace",
           "tconst": "tt0120915",
           "titleType": "movie",
           "startYear": 1999,
@@ -8120,6 +8120,33 @@
             "tt0117731"
           ]
         }
+      },
+      {
+        "reference": {
+          "entity": "LeVar",
+          "sentence": "I'm LeVar.",
+          "startInDoc": 10921,
+          "endInDoc": 10926,
+          "startInSent": 4,
+          "endInSent": 9
+        },
+        "referent": {
+          "name": "LeVar Burton",
+          "nconst": "nm0000996",
+          "birthYear": 1957,
+          "deathYear": "\\N",
+          "professions": [
+            "actor",
+            "director",
+            "producer"
+          ],
+          "knownFor": [
+            "tt0120844",
+            "tt0075572",
+            "tt0111280",
+            "tt0117731"
+          ]
+        }
       }
     ],
     "titles": [
@@ -8361,7 +8388,7 @@
       {
         "reference": {
           "entity": "The Real World",
-          "sentence": "For The Real World # # Oh, I'm gonna apply twice #",
+          "sentence": "# For The Real World #",
           "startInSent": 4,
           "endInSent": 18,
           "startInDoc": 11779,
@@ -9058,7 +9085,7 @@
       {
         "reference": {
           "entity": "Sean Penn",
-          "sentence": "Sean Penn is an actor who-- I know who Sean Penn is.",
+          "sentence": "Sean Penn is an actor who\u2014I know who Sean Penn is.",
           "startInDoc": 4407,
           "endInDoc": 4416,
           "startInSent": 0,
@@ -9085,7 +9112,7 @@
       {
         "reference": {
           "entity": "Sean Penn",
-          "sentence": "Sean Penn is an actor who-- I know who Sean Penn is.",
+          "sentence": "Sean Penn is an actor who\u2014I know who Sean Penn is.",
           "startInDoc": 4446,
           "endInDoc": 4455,
           "startInSent": 39,
@@ -9498,7 +9525,7 @@
       {
         "reference": {
           "entity": "Christian Bale",
-          "sentence": "And--and then we just have to record fake exclusive commentary by Christian Bale.",
+          "sentence": "And\u2014and then we just have to record fake exclusive commentary by Christian Bale.",
           "startInDoc": 2447,
           "endInDoc": 2461,
           "startInSent": 66,
@@ -9575,7 +9602,7 @@
       {
         "reference": {
           "entity": "Joker",
-          "sentence": "And he was dressed as the Joker for Halloween--motive.",
+          "sentence": "And he was dressed as the Joker for Halloween\u2014motive.",
           "startInSent": 26,
           "endInSent": 31,
           "startInDoc": 7721,
@@ -9683,7 +9710,7 @@
       {
         "reference": {
           "entity": "Kings of Leon",
-          "sentence": "I'm saying you not listening to me is like metaphorically cutting the brake lines on your own-- look, Kings of Leon!",
+          "sentence": "I'm saying you not listening to me is like metaphorically cutting the brake lines on your own\u2014look, Kings of Leon!",
           "startInSent": 102,
           "endInSent": 115,
           "startInDoc": 15138,
@@ -10065,7 +10092,7 @@
       {
         "reference": {
           "entity": "Brando",
-          "sentence": "And you - Fat Brando.",
+          "sentence": "And you\u2014Fat Brando.",
           "startInDoc": 5203,
           "endInDoc": 5209,
           "startInSent": 14,
@@ -10119,7 +10146,7 @@
       {
         "reference": {
           "entity": "Brando",
-          "sentence": "What? - Fat Brando.",
+          "sentence": "What?\u2014Fat Brando.",
           "startInDoc": 5246,
           "endInDoc": 5252,
           "startInSent": 12,
@@ -12322,7 +12349,7 @@
       {
         "reference": {
           "entity": "Hogan's Heroes",
-          "sentence": "Many years ago, before the concept of \"too soon\" existed, there was a show about a bunch of goofy Nazis running a prison camp, and that show was called-- Hogan's Heroes?",
+          "sentence": "Many years ago, before the concept of \"too soon\" existed, there was a show about a bunch of goofy Nazis running a prison camp, and that show was called\u2014Hogan's Heroes?",
           "startInSent": 154,
           "endInSent": 168,
           "startInDoc": 8755,
@@ -12570,6 +12597,27 @@
           "genres": [
             "Action",
             "Adventure"
+          ]
+        }
+      },
+      {
+        "reference": {
+          "entity": "Die Hard",
+          "sentence": "",
+          "startInDoc": 16495,
+          "endInDoc": 16503,
+          "startInSent": "\\N",
+          "endInSent": "\\N"
+        },
+        "referent": {
+          "title": "Die Hard",
+          "tconst": "tt0095016",
+          "titleType": "movie",
+          "startYear": 1988,
+          "endYear": "\\N",
+          "genres": [
+            "Action",
+            "Thriller"
           ]
         }
       }
@@ -13351,7 +13399,7 @@
       {
         "reference": {
           "entity": "Tom Waits",
-          "sentence": "Tom Waits was-- Agh!",
+          "sentence": "Tom Waits was\u2014Agh!",
           "startInDoc": 12899,
           "endInDoc": 12908,
           "startInSent": 0,
@@ -14283,7 +14331,7 @@
       {
         "reference": {
           "entity": "Nicolas Cage",
-          "sentence": "Abed, how much Nicolas Cage did you - Enough!",
+          "sentence": "Abed, how much Nicolas Cage did you\u2014Enough!",
           "startInDoc": 9627,
           "endInDoc": 9639,
           "startInSent": 15,
@@ -14877,7 +14925,29 @@
   },
   "s05e07": {
     "people": [],
-    "titles": []
+    "titles": [
+      {
+        "reference": {
+          "entity": "E.T.",
+          "sentence": "I hated Reese's pieces before E.T. ate them, sorry.",
+          "startInDoc": 6932,
+          "endInDoc": 6936,
+          "startInSent": 30,
+          "endInSent": 35
+        },
+        "referent": {
+          "title": "E.T. the Extra-Terrestrial",
+          "tconst": "tt0083866",
+          "titleType": "movie",
+          "startYear": 1982,
+          "endYear": "\\N",
+          "genres": [
+            "Family",
+            "Sci-Fi"
+          ]
+        }
+      }
+    ]
   },
   "s05e08": {
     "people": [
@@ -15787,7 +15857,7 @@
       {
         "reference": {
           "entity": "Robert Rodriguez",
-          "sentence": "Elephant Man, Four Rooms - The Robert Rodriguez segment.",
+          "sentence": "Elephant Man, Four Rooms\u2014The Robert Rodriguez segment.",
           "startInDoc": 4753,
           "endInDoc": 4769,
           "startInSent": 31,
@@ -15843,7 +15913,7 @@
       {
         "reference": {
           "entity": "Elephant Man",
-          "sentence": "Elephant Man, Four Rooms - The Robert Rodriguez segment.",
+          "sentence": "Elephant Man, Four Rooms\u2014The Robert Rodriguez segment.",
           "startInDoc": 4662,
           "endInDoc": 4674,
           "startInSent": 0,
@@ -15864,7 +15934,7 @@
       {
         "reference": {
           "entity": "Four Rooms",
-          "sentence": "Elephant Man, Four Rooms - The Robert Rodriguez segment.",
+          "sentence": "Elephant Man, Four Rooms\u2014The Robert Rodriguez segment.",
           "startInDoc": 4676,
           "endInDoc": 4686,
           "startInSent": 14,
@@ -16079,7 +16149,7 @@
       {
         "reference": {
           "entity": "The Sting",
-          "sentence": "Also, - Why don't you marry The Sting? -",
+          "sentence": "Also,\u2014Why don't you marry The Sting? -",
           "startInSent": 28,
           "endInSent": 37,
           "startInDoc": 11027,
