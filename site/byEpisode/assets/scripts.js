@@ -2,7 +2,7 @@
 // PROG BAR //
 //////////////
 
-let svg, width, height, progbar, refs, tips, labels;
+let svg, width, height, progbar, refs, tips, labels, pcts;
 
 let epCode = /s\d{2}e\d{2}/g.exec(location.pathname)[0];
 Promise.all([
@@ -26,7 +26,9 @@ function init(files) {
     }
   }
   epRefs.sort((a, b) => {
-    return a.pct - b.pct;
+    // return a.pct - b.pct;
+    // render in reverse for visibility
+    return b.pct - a.pct;
   });
 
   // graphics
@@ -91,13 +93,12 @@ function init(files) {
     .classed("tip", true)
     .attr("x1", 0)
     .attr("x2", 0)
-    .attr("y1", -20)
-    .attr("y2", 10)
     ;
 
   labels = refs
     .append("text")
     .text(d => { return ("name" in d.referent) ? d.referent.name : d.referent.title })
+    .classed("label", true)
     .attr("transform", "translate(5, 0)")
     ;
 
@@ -130,33 +131,78 @@ function render() {
     .attr("y2", height * 0.5)
     ;
 
+  let refYShift = 20;
   refs
     .attr("transform", (d, i) => {
       let x = window.innerWidth * d.pct;
-      let y = height * 0.5 + ((i % 2) * 2 - 1) * 20;
+      let y = height * 0.5 + ((i % 2) * 2 - 1) * refYShift;
       return `translate(${x}, ${y})`
     })
     ;
 
+  labels.attr("transform", (val, i, arr) => {
+    let transform = arr[i].getAttribute("transform");
+    let rect = arr[i].getBoundingClientRect();
+    if (rect.right >= width) {
+      let xy = transform.split("(")[1].split(")")[0].split(", ").map(x => parseInt(x));
+      // xy[0] -= rect.width + 5;
+      xy[0] = -rect.width - 5;
+      transform = `translate(${xy[0]}, ${xy[1]})`;
+      // let sibPct = arr[i].parentNode.getElementsByClassName("pct")[0];
+      // sibPct.setAttribute("transform", "translate(-")
+    } 
+    return transform;
+  });
+
+  for (let x = 0; x < 3; x++) {
+    refs.attr("transform", (val, i, arr) => {
+      let thisRect = arr[i].getElementsByClassName("label")[0].getBoundingClientRect();
+      let transform = arr[i].getAttribute("transform");
+      if (i > 0) {
+        for (let j = 0; j < arr.length; j++) {
+          if (i != j) {
+            let otherRect = arr[j].getElementsByClassName("label")[0].getBoundingClientRect();
+            // console.log(thisRect, otherRect);
+            if (thisRect.x >= otherRect.x &&
+                thisRect.x <= otherRect.right &&
+                thisRect.y == otherRect.y) {
+              let xy = transform.split("(")[1].split(")")[0].split(", ").map(x => parseInt(x));
+              if (xy[1] < height * 0.5) {
+                xy[1] -= refYShift + 10;
+              } else {
+                xy[1] += refYShift + 10;
+              }
+              transform = `translate(${xy[0]}, ${xy[1]})`;
+            }
+          }
+        }
+      }
+      return transform;
+    });
+  }
+
   tips.each((el, i, arr) => {
     let parent = arr[i].parentNode;
-    let parentXY = parent.getAttribute("transform").split("(")[1].split(")")[0].split(", ");
+    let parentXY = parent.getAttribute("transform").split("(")[1].split(")")[0].split(", ").map(x => parseInt(x));
     let tipY1, tipY2;
-    if (parentXY[1] < height * 0.5) {
+    let shift = parentXY[1] - height * 0.5;
+    if (shift < 0) {
       tipY1 = -10;
-      tipY2 = 20;
+      tipY2 = -shift;
     } else {
-      tipY1 = -20;
+      tipY1 = -shift;
       tipY2 = 10;
     }
     arr[i].setAttribute("y1", tipY1);
     arr[i].setAttribute("y2", tipY2);
   })
+
+  
 }
 
 function updateDimensions(winWidth) {
   width = winWidth;
-  height = width * 0.2;
+  height = width * 0.3;
 }
 
 window.addEventListener("resize", () => {
