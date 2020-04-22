@@ -215,18 +215,12 @@ def makeAnnotations(epCode, epCodes):
   summary += "</div>\n"
   summary += "<svg>\n\
 <defs>\n\
-<linearGradient id='linGrad'>\n\
-<stop offset='0.0'/>\n\
-<stop offset='0.1'/>\n\
-<stop offset='0.2'/>\n\
-<stop offset='0.3'/>\n\
-<stop offset='0.4'/>\n\
-<stop offset='0.5'/>\n\
-<stop offset='0.6'/>\n\
-<stop offset='0.7'/>\n\
-<stop offset='0.8'/>\n\
-<stop offset='0.9'/>\n\
-</linearGradient>\n\
+<linearGradient id='linGrad'>\n"
+  numStops = 20
+  for x in range(numStops):
+    summary += f"<stop offset='{x / numStops}'/>\n"
+  summary += "<stop offset='1.0'/>"
+  summary += "</linearGradient>\n\
 </defs>\n\
 </svg>\n"
   body += summary

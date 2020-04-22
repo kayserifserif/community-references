@@ -33,25 +33,28 @@ function init(files) {
 
   svg = d3.select("svg");
 
-  linGrad = document.getElementById("linGrad");
+  // gradient
+  let linGrad = document.getElementById("linGrad");
+  let stops = document.getElementsByTagName("stop");
   let gradVals = [];
-  for (let i = 0; i <= 0.9; i += 0.1) {
+  for (let i = 0; i < stops.length; i++) {
+    let offset = i / (stops.length - 1);
     let counter = 0;
     for (let ref of epRefs) {
-      if (ref.pct >= i && ref.pct < i + 0.1) {
+      if (ref.pct >= offset - 0.05 && ref.pct < offset + 0.05) {
         counter++;
       }
     }
     gradVals.push(counter);
   }
-  let greatest = Math.max(...gradVals);
-  gradVals = gradVals.map(x => x / greatest);
-  console.log(document.getElementsByTagName("stop"));
-  for (let i = 0; i <= 9; i++) {
+  let max = Math.max(...gradVals);
+  if (max) {
+    gradVals = gradVals.map(x => x / max);
+  }
+  for (let i = 0; i < stops.length; i++) {
     let stop = document.getElementsByTagName("stop")[i];
-    let col = Math.min(Math.max(100, gradVals[i] * 255), 255);
+    let col = gradVals[i] * (255 - 200) + 200;
     stop.setAttribute("stop-color", `rgb(${col}, ${col}, ${col})`);
-    console.log(stop);
   }
   gradient = svg
     .append("rect")
