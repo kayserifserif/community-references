@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  padding: 1em;
+  gap: 1em;
+}
+
+.progBar {
+  stroke: black;
+  stroke-width: 1;
+}
+
+.refg {
+  transition: opacity 0.15s;
+}
+
+.label {
+  font-size: 0.6em;
+}
+
+.tip {
+  stroke-width: 1;
+}
+
+.name .tip {
+  stroke: #1d7979;
+}
+
+.title .tip {
+  stroke: #b48842;
+}
+
+.pct {
+  font-size: .5em;
+}
