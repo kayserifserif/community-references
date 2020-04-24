@@ -12,7 +12,7 @@ def makeAnnotations(epCode, epCodes):
   with open("./transcripts/" + epCode + ".txt", "r") as f:
     transcript = f.read()
   # get all references
-  with open("./output/references.json", "r") as f:
+  with open("./data/references.json", "r") as f:
     references = json.load(f)
     epRefs = references[epCode]
 
@@ -282,7 +282,7 @@ def populateAll(epCodes):
     f.write(str(soup))
     print(f"Successfully updated all page {allFile}!")
 
-def main():
+def main(argv):
   epCodes = sorted([f[:-4] for f in listdir("./transcripts") if path.isfile(path.join("./transcripts", f))])[1:]
   if len(sys.argv) is 2 and re.match(r"s\d\de\d\d", sys.argv[1]):
     makeAnnotations(sys.argv[1], epCodes)
@@ -303,4 +303,4 @@ def main():
   allPage: populate page with all episodes")
 
 if __name__ == "__main__":
-  main()
+  main(sys.argv)

@@ -176,7 +176,7 @@ def find(code, search, type):
 # # # # # # # # # # #
 # RESPOND TO INPUT #
 # # # # # # # # # #
-def main():
+def main(argv):
   # get option from command line input
   if len(sys.argv) is 2 and re.match(r"s\d\de\d\d", sys.argv[1]):
 
@@ -221,9 +221,9 @@ def main():
     try:
       j = json.dumps(episode_data, indent=2)
       # print(j)
-      with open("./output/all.json", "w") as f:
+      with open("./data/all.json", "w") as f:
         print(j, file=f)
-        print("Successfully saved to file ./output/all.json!")
+        print("Successfully saved to file ./data/all.json!")
     except IOError:
       print("Could not write to file.")
 
@@ -245,4 +245,4 @@ def main():
     [entityType]: expected entity type, as t for title or p for person")
 
 if __name__ == "__main__":
-  main()
+  main(sys.argv)

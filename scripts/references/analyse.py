@@ -226,8 +226,8 @@ def analyse(argv):
   # print("------------")
   # genders()
 
-def main():
-  analyse(sys.argv)
+def main(argv):
+  analyse(argv)
 
 if __name__ == "__main__":
-  main()
+  main(sys.argv)

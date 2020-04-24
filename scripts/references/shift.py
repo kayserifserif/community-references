@@ -6,7 +6,7 @@ import json
 
 def getReferences():
   references = {}
-  with open("./output/references.json", "r") as f:
+  with open("./data/references.json", "r") as f:
     references = json.load(f)
   return references
 
@@ -49,19 +49,19 @@ def resetIndices(epCode, origStart, origEnd, shiftStart, shiftEnd):
 def writeReferences(references):
   try:
     j = json.dumps(references, indent=2)
-    fileName = "./output/references.json"
+    fileName = "./data/references.json"
     with open(fileName, "w") as f:
       print(j, file=f)
       print(f"Successfully saved to file {fileName}!")
   except IOError:
     print("Could not write to file.")
 
-def main():
-  if len(sys.argv) is 4 and re.match(r"s\d\de\d\d", sys.argv[1]) and sys.argv[2].isdigit() and sys.argv[3].isdigit():
-    shiftIndices(sys.argv[1], int(sys.argv[2]), int(sys.argv[3]))
+def main(argv):
+  if len(argv) is 4 and re.match(r"s\d\de\d\d", argv[1]) and argv[2].isdigit() and argv[3].isdigit():
+    shiftIndices(argv[1], int(argv[2]), int(argv[3]))
 
-  elif len(sys.argv) is 6 and re.match(r"s\d\de\d\d", sys.argv[1]) and sys.argv[2].isdigit() and sys.argv[3].isdigit() and sys.argv[4].isdigit() and sys.argv[5].isdigit():
-    resetIndices(sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), int(sys.argv[4]), int(sys.argv[5]))
+  elif len(argv) is 6 and re.match(r"s\d\de\d\d", argv[1]) and argv[2].isdigit() and argv[3].isdigit() and argv[4].isdigit() and argv[5].isdigit():
+    resetIndices(argv[1], int(argv[2]), int(argv[3]), int(argv[4]), int(argv[5]))
 
   else:
 
@@ -77,4 +77,4 @@ def main():
     [shiftedEnd]: new endInDoc index")
 
 if __name__ == "__main__":
-  main()
+  main(argv)

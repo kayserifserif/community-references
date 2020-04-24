@@ -16,7 +16,7 @@ titleTypes = [
 # load referents.json
 def getReferents() -> dict:
   try:
-    with open("./output/referents.json", "r") as f:
+    with open("./data/referents.json", "r") as f:
       referents = json.load(f)
       return referents
   except IOError:
@@ -426,7 +426,7 @@ REFERENT\n\
 
 # save new ref to references file
 def writeToReferences(newRef: dict):
-  refFile = "./output/references.json"
+  refFile = "./data/references.json"
   try:
     with open(refFile, "r") as f:
       references = json.load(f)

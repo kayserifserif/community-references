@@ -93,7 +93,7 @@ def scrape():
   newEps = getEpPages(existingEps)
   # write(newEps)
 
-def main():
+def main(argv):
   if len(sys.argv) == 2 and sys.argv[1] == "scrape":
     scrape()
   else:
@@ -101,4 +101,4 @@ def main():
       scrape: scrape IMDb for episode data and save to episodes.json")
 
 if __name__ == "__main__":
-  main()
+  main(sys.argv)

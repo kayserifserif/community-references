@@ -4,19 +4,19 @@ import sys
 
 def main():
   if len(sys.argv) is 2 and sys.argv[1] == "add":
-    addRef.main()
+    add.main()
   elif len(sys.argv) > 2 and sys.argv[1] == "analyse":
-    analyse.analyse(sys.argv[1:])
+    analyse.main(sys.argv[1:])
   elif len(sys.argv) is 2 and sys.argv[1] == "check":
-    checkMismatches.main()
+    check.main()
   elif len(sys.argv) is 2 and sys.argv[1] == "extract":
-    extract.main()
+    extract.main(sys.argv[1:])
   elif len(sys.argv) is 2 and sys.argv[1] == "updateReferents":
     updateReferents.main()
   elif len(sys.argv) is 2 and sys.argv[1] == "shift":
-    shiftIndices.main()
+    shift.main(sys.argv[1:])
   else:
-    print("usage: add | analyse | check | extract | shift\n\
+    print("usage: add | analyse | check | extract | updateReferents | shift\n\
   add: add reference through interactive interface\n\
   analyse: generate summary statistics\n\
   check: check indices of references for mismatches\n\

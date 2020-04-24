@@ -11,7 +11,7 @@ def check():
     with open("./transcripts/" + epCode + ".txt", "r") as f:
       transcripts[epCode] = f.read()
 
-  with open("./output/references.json", "r") as f:
+  with open("./data/references.json", "r") as f:
     references = json.load(f)
     for epCode in references:
 
