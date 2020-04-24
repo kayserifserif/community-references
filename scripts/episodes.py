@@ -5,6 +5,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import re
+import sys
 
 file = "./data/episodes.json"
 
@@ -22,7 +23,7 @@ def getEpConsts():
   showTconst = "tt1439629"
   tconsts = {}
   try:
-    with open("./data/title.episode.tsv", "r") as f:
+    with open("./db/title.episode.tsv", "r") as f:
       reader = csv.DictReader(f, dialect="excel-tab")
       counter = 0
       for row in reader:
@@ -86,11 +87,18 @@ def write(episodes):
   except IOError:
     print(f"Could not write to file {file}.")
 
-def main():
+def scrape():
   # tconsts = getEpConsts()
   existingEps = getEpData()
   newEps = getEpPages(existingEps)
-  write(newEps)
+  # write(newEps)
+
+def main():
+  if len(sys.argv) == 2 and sys.argv[1] == "scrape":
+    scrape()
+  else:
+    print("usage: scrape\n\
+      scrape: scrape IMDb for episode data and save to episodes.json")
 
 if __name__ == "__main__":
   main()

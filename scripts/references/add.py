@@ -192,7 +192,7 @@ def loadAndSearchDb(refType: str, entity: str) -> dict or list:
     failMessage = "Exact match could not be found."
   database = []
   try:
-    with open("./data/" + refType + ".basics.tsv", encoding="ISO-8859-1") as f:
+    with open("./db/" + refType + ".basics.tsv", encoding="ISO-8859-1") as f:
       reader = csv.DictReader(f, dialect="excel-tab")
       print(interimMessage)
       for row in reader:

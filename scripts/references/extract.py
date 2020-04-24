@@ -18,7 +18,7 @@ all_people = {}
 all_titles = {}
 
 def loadData():
-  with open("./data/name.basics.min.tsv", newline='') as f_open:
+  with open("./db/name.basics.min.tsv", newline='') as f_open:
     f_open = csv.reader(f_open, delimiter='\t')
     next(f_open) # skip header
     for row in f_open:
@@ -38,7 +38,7 @@ def loadData():
       knownFor = row[5].split(",")
       all_people[row[1]] = [nconst, birthYear, deathYear, professions, knownFor]
 
-  with open("./data/title.basics.min.tsv", newline='') as f_open:
+  with open("./db/title.basics.min.tsv", newline='') as f_open:
     f_open = csv.reader(f_open, delimiter='\t')
     next(f_open) # skip header
     for row in f_open:
@@ -59,7 +59,7 @@ def loadData():
       all_titles[row[2]] = [tconst, titleType, startYear, endYear, genres]
 
   stop_ents = []
-  with open("./data/community-entities.txt", "r") as f_open:
+  with open("./db/community-entities.txt", "r") as f_open:
     f_open = csv.reader(f_open, delimiter='\n')
     for row in f_open:
       stop_ents.append(row[0])

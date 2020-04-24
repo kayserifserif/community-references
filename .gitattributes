@@ -1,1 +1,1 @@
-data/*.tsv filter=lfs diff=lfs merge=lfs -text
+db/*.tsv filter=lfs diff=lfs merge=lfs -text
