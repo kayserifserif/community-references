@@ -29,26 +29,15 @@ def getTranscript(epCode: str) -> str:
     print(f"Could not read {file}.")
     return
 
-def getEpMismatches(references: dict, transcript: str, epCode: str = None) -> dict:
+def getEpMismatches(references: dict, transcript: str, epCode: str = None) -> list:
   epMismatches = []
   for refType in references[epCode]:
     for instance in references[epCode][refType]:
       reference = instance["reference"]
-      expected = reference["entity"]
-      sentence = reference["sentence"]
-      startInDoc = reference["startInDoc"]
-      endInDoc = reference["endInDoc"]
-      # actual = transcripts[epCode][startInDoc:endInDoc]
-      actual = transcript[startInDoc:endInDoc]
-      if actual != expected:
-        errorLog = {
-          "expected": expected,
-          "sentence": sentence,
-          "startInDoc": startInDoc,
-          "endInDoc": endInDoc,
-          "actual": actual
-        }
-        epMismatches.append(errorLog)
+      actual = transcript[reference["startInDoc"]:reference["endInDoc"]]
+      if actual != reference["entity"]:
+        reference["actual"] = actual
+        epMismatches.append(reference)
   return epMismatches
 
 def getMatches(transcript: str, search: str) -> dict:
@@ -66,7 +55,7 @@ def getMatches(transcript: str, search: str) -> dict:
     return
   return matches
 
-def getNewIndices(ref, matches):
+def getNewIndices(ref, matches, run=False):
   matchesList = [
     str(match["startInDoc"]) + "-" + str(match["endInDoc"]) + " in \"" +
     match["context"].replace("\n", "\\n") + "\""
@@ -81,7 +70,10 @@ def getNewIndices(ref, matches):
   print(
     str(closestMatch["startInDoc"]) + "-" + str(closestMatch["endInDoc"]) + " in \"" +
         closestMatch["context"].replace("\n", "\\n") + "\"")
-  confirm = prompt({"type": "confirm", "name": "confirm", "message": "Shift to closest match?"})
+  if not run:
+    confirm = prompt({"type": "confirm", "name": "confirm", "message": "Shift to closest match?"})
+  else:
+    confirm = {"confirm": True}  
   if confirm["confirm"]:
     return (closestMatch["startInDoc"], closestMatch["endInDoc"])
   else:
@@ -97,7 +89,6 @@ def getNewIndices(ref, matches):
 def strAtIndices(transcript: str, indices: tuple) -> str:
   return transcript[indices[0]:indices[1]]
 
-# def shift(references: dict, transcript: str, epCode: str, orig: tuple, shift: tuple):
 def shift(references: dict, transcript: str, epCode: str, orig: dict, shift: tuple):
   origPos = (orig["startInDoc"], orig["endInDoc"])
   posDiff = shift[0] - origPos[0]
@@ -122,6 +113,7 @@ def shift(references: dict, transcript: str, epCode: str, orig: dict, shift: tup
           if reference["entity"] == shiftStr:
             log += "\033[92m ✓\033[0m"
           print(log)
+          reference.pop("actual", None)
   else:
     print("Difference in length.")
     print(f"Resetting {epCode} indices {origPos} to {shift}...")
@@ -130,9 +122,10 @@ def shift(references: dict, transcript: str, epCode: str, orig: dict, shift: tup
       if not found:
         for ref in epRefs[refType]:
           reference = ref["reference"]
-          if reference["startInDoc"] == origPos[0] and reference["entity"] == orig["expected"]:
+          if reference["startInDoc"] == origPos[0] and reference["entity"] == orig["entity"]:
             reference["startInDoc"] = shift[0]
             reference["endInDoc"] = shift[1]
+            reference.pop("actual", None)
   writeReferences(references)
 
 def writeReferences(references: dict):
@@ -143,6 +136,7 @@ def writeReferences(references: dict):
       print(j, file=f)
       print()
       print(f"Successfully saved to file {fileName}!")
+      print()
   except IOError:
     print(f"Could not write to {fileName}.")
 
@@ -188,6 +182,9 @@ def audit(args):
     print(mismatches[ep][0])
     print()
 
+# def fixFirstError():
+  # return
+
 def fix(args):
   epCodes = []
   if len(args.epCode) > 0:
@@ -195,44 +192,75 @@ def fix(args):
   else:
     epCodes = sorted([f[:-4] for f in listdir("./transcripts") if isfile(join("./transcripts", f))])[1:]
 
-  references = getReferences()
-  transcripts = {}
-  mismatches = {}
-  for epCode in epCodes:
-    transcript = getTranscript(epCode)
-    epMismatches = getEpMismatches(references, transcript, epCode)
-    if len(epMismatches) > 0:
-      mismatches[epCode] = epMismatches
-      transcripts[epCode] = transcript
+  if not args.run:
 
-  if not mismatches:
-    print("All indices match up!")
-    return
+    references = getReferences()
+    transcripts = {}
+    mismatches = {}
+    for epCode in epCodes:
+      transcript = getTranscript(epCode)
+      epMismatches = getEpMismatches(references, transcript, epCode)
+      if len(epMismatches) > 0:
+        mismatches[epCode] = epMismatches
+        transcripts[epCode] = transcript
 
-  firstEp = list(mismatches.keys())[0]
-  firstError = mismatches[firstEp][0]
-  print()
-  print(f"First error in {firstEp}:")
-  print("Expected \"" +
-    firstError["expected"] + "\" in \"" +
-    firstError["sentence"] + "\" at indices " +
-    str(firstError["startInDoc"]) + "-" + str(firstError["endInDoc"]) + ", but found \"" +
-    firstError["actual"].encode("unicode_escape").decode("utf-8") + "\" instead.")
-  results = getMatches(transcripts[firstEp], firstError["expected"])
-  shifted = getNewIndices(firstError, results)
-  original = (firstError["startInDoc"], firstError["endInDoc"])
-  print(original, shifted)
-  print()
+    if not mismatches:
+      print("All indices match up!")
+      return
 
-  shift(references, transcripts[firstEp], firstEp, firstError, shifted)
+    firstEp = list(mismatches.keys())[0]
+    firstError = mismatches[firstEp][0]
+    print()
+    print(f"First error in {firstEp}:")
+    sentence = firstError["sentence"][:firstError["startInSent"]] + "[" + firstError["entity"] + "]" + firstError["sentence"][firstError["endInSent"]:]
+    print("Expected \"" +
+      firstError["entity"] + "\" in \"" +
+      sentence + "\" at indices " +
+      str(firstError["startInDoc"]) + "-" + str(firstError["endInDoc"]) + ", but found \"" +
+      firstError["actual"].encode("unicode_escape").decode("utf-8") + "\" instead.")
+    results = getMatches(transcripts[firstEp], firstError["entity"])
+    shifted = getNewIndices(firstError, results, run=False)
+    original = (firstError["startInDoc"], firstError["endInDoc"])
+    print(original, shifted)
+    print()
+    shift(references, transcripts[firstEp], firstEp, firstError, shifted)
+  
+  else:
+
+    references = getReferences()
+    for epCode in epCodes:
+      transcripts = {epCode: getTranscript(epCode)}
+      epMismatches = getEpMismatches(references, transcripts[epCode], epCode)
+
+      while epMismatches:
+        firstError = epMismatches[0]
+        print()
+        sentence = firstError["sentence"][:firstError["startInSent"]] + "[" + firstError["entity"] + "]" + firstError["sentence"][firstError["endInSent"]:]
+        print("Expected \"" +
+          firstError["entity"] + "\" in \"" +
+          sentence + "\" at indices " +
+          str(firstError["startInDoc"]) + "-" + str(firstError["endInDoc"]) + ", but found \"" +
+          firstError["actual"].encode("unicode_escape").decode("utf-8") + "\" instead.")
+        results = getMatches(transcripts[epCode], firstError["entity"])
+        shifted = getNewIndices(firstError, results, run=True)
+        original = (firstError["startInDoc"], firstError["endInDoc"])
+        print(original, shifted)
+        print()
+        shift(references, transcripts[epCode], epCode, firstError, shifted)
+        references = getReferences()
+        epMismatches = getEpMismatches(references, transcripts[epCode], epCode)
+      
+      if not epMismatches:
+        print(f"All indices match up for {epCode}!")
 
 def find(args):
-  transcript = getTranscript(args.epCode).encode("unicode_escape").decode("utf-8")
+  transcript = getTranscript(args.epCode)
   results = re.finditer(args.search, transcript)
   counter = 0
   for result in results:
     counter += 1
-    print(result.start(), result.end(), transcript[result.start() - 20 : result.end() + 20])
+    context = transcript[result.start() - 20 : result.end() + 20].encode("unicode_escape").decode("utf-8")
+    print(result.start(), result.end(), context)
   if counter is 0:
     print("No results found.")
 
@@ -259,6 +287,9 @@ def main(argv):
     help="episode code, e.g. s01e01 for season 1 episode 1",
     type=epCodeType,
     nargs="*")
+  parser_fix.add_argument("-r", "--run",
+    help="Run automatically through all mismatches.",
+    action="store_true")
   parser_fix.set_defaults(func=fix)
   parser_find = subparsers.add_parser("find",
     help="find indices of search string",

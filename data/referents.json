@@ -303,7 +303,7 @@
         },
         {
           "entity": "Nicolas Cage",
-          "sentence": "Abed, how much Nicolas Cage did you - Enough!",
+          "sentence": "Abed, how much Nicolas Cage did you\u2014Enough!",
           "startInDoc": 9627,
           "endInDoc": 9639,
           "startInSent": 15,
@@ -1142,7 +1142,7 @@
       "references": [
         {
           "entity": "Brando",
-          "sentence": "And you - Fat Brando.",
+          "sentence": "And you\u2014Fat Brando.",
           "startInDoc": 5203,
           "endInDoc": 5209,
           "startInSent": 14,
@@ -1151,7 +1151,7 @@
         },
         {
           "entity": "Brando",
-          "sentence": "What? - Fat Brando.",
+          "sentence": "What?\u2014Fat Brando.",
           "startInDoc": 5246,
           "endInDoc": 5252,
           "startInSent": 12,
@@ -8245,7 +8245,7 @@
       "references": [
         {
           "entity": "Robert Rodriguez",
-          "sentence": "Elephant Man, Four Rooms - The Robert Rodriguez segment.",
+          "sentence": "Elephant Man, Four Rooms\u2014The Robert Rodriguez segment.",
           "startInDoc": 4753,
           "endInDoc": 4769,
           "startInSent": 31,
@@ -8761,12 +8761,12 @@
       ]
     },
     "Die Hard": {
-      "count": 11,
+      "count": 12,
       "countBySeason": {
         "s01": 1,
         "s02": 0,
         "s03": 5,
-        "s04": 5,
+        "s04": 6,
         "s05": 0,
         "s06": 0
       },
@@ -8835,6 +8835,15 @@
           "startInDoc": 15763,
           "endInDoc": 15771,
           "epCode": "s03e16"
+        },
+        {
+          "entity": "Die Hard",
+          "sentence": "",
+          "startInDoc": 16495,
+          "endInDoc": 16503,
+          "startInSent": "\\N",
+          "endInSent": "\\N",
+          "epCode": "s04e05"
         },
         {
           "entity": "Die Hard",
@@ -9232,7 +9241,7 @@
         },
         {
           "entity": "The Sting",
-          "sentence": "Also, - Why don't you marry The Sting? -",
+          "sentence": "Also,\u2014Why don't you marry The Sting? -",
           "startInSent": 28,
           "endInSent": 37,
           "startInDoc": 11027,
@@ -13182,7 +13191,7 @@
         }
       ]
     },
-    "Star Wars: Episode I - The Phantom Menace": {
+    "Star Wars: Episode I\u2014The Phantom Menace": {
       "count": 1,
       "countBySeason": {
         "s01": 1,
@@ -13193,7 +13202,7 @@
         "s06": 0
       },
       "details": {
-        "title": "Star Wars: Episode I - The Phantom Menace",
+        "title": "Star Wars: Episode I\u2014The Phantom Menace",
         "tconst": "tt0120915",
         "titleType": "movie",
         "startYear": 1999,
@@ -15778,7 +15787,7 @@
       "references": [
         {
           "entity": "Elephant Man",
-          "sentence": "Elephant Man, Four Rooms - The Robert Rodriguez segment.",
+          "sentence": "Elephant Man, Four Rooms\u2014The Robert Rodriguez segment.",
           "startInDoc": 4662,
           "endInDoc": 4674,
           "startInSent": 0,
@@ -15810,7 +15819,7 @@
       "references": [
         {
           "entity": "Four Rooms",
-          "sentence": "Elephant Man, Four Rooms - The Robert Rodriguez segment.",
+          "sentence": "Elephant Man, Four Rooms\u2014The Robert Rodriguez segment.",
           "startInDoc": 4676,
           "endInDoc": 4686,
           "startInSent": 14,
