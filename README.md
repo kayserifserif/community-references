@@ -1,54 +1,44 @@
 # community-references
 
-A computational analysis of the pop culture profile that Dan Harmon's "Community" creates through textual references.
+A computational analysis of the pop culture profile created through textual references in Dan Harmon's "Community".
 
 ![Pop pop!](https://media.giphy.com/media/xtIYfyKf16xJm/giphy.gif)
 
 ## Installation
 
-1. Install [pipenv](https://pypi.org/project/pipenv/). (I installed it with Homebrew on Mac.)
-```
-brew install pipenv
-```
+1. Install [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
 
-2. Install the project dependencies.
+2. Create a conda environment from the environment.yml file.
 ```
-pipenv install
+conda env create -f environment.yml
 ```
 
 ## Usage
 
 1. Activate the virtual environment. This makes sure that the dependencies the Python scripts need are there.
 ```
-pipenv shell
+conda activate references
 ```
 
-2. Run one of the Python scripts.
+2. Run one of the Python scripts. (Run from the main directory, not the /scripts directory, or it won't be able to find data files!)
 
-**scrape-transcripts.py** scrapes all episode transcripts of Community from [Springfield! Springfield!](https://www.springfieldspringfield.co.uk/episode_scripts.php?tv-show=community) and stores them in the /transcripts folder.
-
-*Note that the transcripts on the website are not always consistent and accurate! Running this command to re-compile the transcripts will delete all of the manual edits I've made.*
-
+For each script, you can access its help file by adding "-h" or "--help" after the file name:
 ```
-python scrape-transcripts.py
+python scripts/references.py -h
 ```
 
-**extract-references.py** uses the [spaCy](https://spacy.io/) natural language processing library and [IMDb databases](https://www.imdb.com/interfaces/) to create lists of people and movie/TV references in the given Community episode(s).
-
-* To generate and print the data for one episode, run the command with the episode code. For example, the command below would print the data for season 1, episode 1.
-
+**scripts/references.py**:
 ```
-python extract-references.py s01e01
-```
-
-* To generate and save the data for all episode files in /transcripts, run the command with "all". This will save the data to "all.json" in /output.
-```
-python extract-references.py all
+usage: add | analyse | indices | updateReferents
+  add: add reference through interactive interface
+  analyse: generate summary statistics
+  indices: manage indices
+  updateReferents: generate referents file from references file
 ```
 
-**analyse-names.py** uses the references data generated from **extract-references.py** to generate descriptive statistics about the people referenced.
+**scripts/site.py**:
 ```
-python analyse-names.py
+usage: annotate | top
+  annotate: generate annotated transcripts
+  top: generate charts for episodes with the most references
 ```
-
-***analyse-titles.py*** *still in progress*
