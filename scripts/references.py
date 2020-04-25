@@ -7,14 +7,12 @@ def main():
     add.main()
   elif len(sys.argv) >= 2 and sys.argv[1] == "analyse":
     analyse.main(sys.argv[1:])
-  elif len(sys.argv) >= 2 and sys.argv[1] == "check":
-    check.main(sys.argv[1:])
   elif len(sys.argv) >= 2 and sys.argv[1] == "extract":
     extract.main(sys.argv[1:])
+  elif len(sys.argv) >= 2 and sys.argv[1] == "indices":
+    indices.main(sys.argv[1:])
   elif len(sys.argv) >= 2 and sys.argv[1] == "updateReferents":
     updateReferents.main()
-  elif len(sys.argv) >= 2 and sys.argv[1] == "shift":
-    shift.main(sys.argv[1:])
   else:
     print("usage: add | analyse | check | extract | updateReferents | shift\n\
   add: add reference through interactive interface\n\
