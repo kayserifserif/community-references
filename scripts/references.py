@@ -3,17 +3,17 @@ from references import *
 import sys
 
 def main():
-  if len(sys.argv) is 2 and sys.argv[1] == "add":
+  if len(sys.argv) >= 2 and sys.argv[1] == "add":
     add.main()
-  elif len(sys.argv) > 2 and sys.argv[1] == "analyse":
+  elif len(sys.argv) >= 2 and sys.argv[1] == "analyse":
     analyse.main(sys.argv[1:])
-  elif len(sys.argv) is 2 and sys.argv[1] == "check":
-    check.main()
-  elif len(sys.argv) is 2 and sys.argv[1] == "extract":
+  elif len(sys.argv) >= 2 and sys.argv[1] == "check":
+    check.main(sys.argv[1:])
+  elif len(sys.argv) >= 2 and sys.argv[1] == "extract":
     extract.main(sys.argv[1:])
-  elif len(sys.argv) is 2 and sys.argv[1] == "updateReferents":
+  elif len(sys.argv) >= 2 and sys.argv[1] == "updateReferents":
     updateReferents.main()
-  elif len(sys.argv) is 2 and sys.argv[1] == "shift":
+  elif len(sys.argv) >= 2 and sys.argv[1] == "shift":
     shift.main(sys.argv[1:])
   else:
     print("usage: add | analyse | check | extract | updateReferents | shift\n\

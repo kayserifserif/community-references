@@ -1,8 +1,12 @@
 import sys
+import argparse
+
 from os import listdir
 from os.path import isfile, join
-import re
+
 import json
+
+import re
 
 def getReferences():
   references = {}
@@ -10,21 +14,22 @@ def getReferences():
     references = json.load(f)
   return references
 
-def shiftIndices(epCode, origi, shifti):
+def shiftIndices(epCode, orig, shift):
   references = getReferences()
   epRefs = references[epCode]
-  diff = shifti - origi
-  print(f"Shifting references {diff} characters if occurring at index {origi} or after...")
+  diff = shift - orig
+  print(f"Shifting references {diff} characters if occurring at index {orig} or after...")
   for refType in epRefs:
     for ref in epRefs[refType]:
       reference = ref["reference"]
       startInDoc = reference["startInDoc"]
-      if startInDoc >= origi:
+      if startInDoc >= orig:
         reference["startInDoc"] += diff
         reference["endInDoc"] += diff
   writeReferences(references)
 
-def resetIndices(epCode, origStart, origEnd, shiftStart, shiftEnd):
+def resetIndices(epCode, origStart, origEnd, shiftStart):
+  shiftEnd = shiftStart + (origEnd - origStart)
   references = getReferences()
   epRefs = references[epCode]
   found = False
@@ -56,25 +61,37 @@ def writeReferences(references):
   except IOError:
     print("Could not write to file.")
 
+def epCode(argStr):
+  if not re.match(r"s\d{2}e\d{2}", argStr):
+    raise argparse.ArgumentTypeError("Couldn't parse episode code. For example, for season 1 episode 1, the episode code should be s01e01.")
+  return argStr
+
 def main(argv):
-  if len(argv) is 4 and re.match(r"s\d\de\d\d", argv[1]) and argv[2].isdigit() and argv[3].isdigit():
-    shiftIndices(argv[1], int(argv[2]), int(argv[3]))
+  parser = argparse.ArgumentParser(
+    description="Shift indices in references file to correct mismatches with transcripts.")
+  parser.add_argument(
+    "epCode",
+    help="Episode code, e.g. s01e01 for season 1 episode 1.",
+    type=epCode)
+  parser.add_argument(
+    "origStart",
+    help="Original start index.",
+    type=int)
+  parser.add_argument(
+    "origEnd",
+    help="Original end index.",
+    type=int)
+  parser.add_argument(
+    "-s", "--shiftTo",
+    help="New start index to shift to.",
+    type=int)
+  
+  args = parser.parse_args()
 
-  elif len(argv) is 6 and re.match(r"s\d\de\d\d", argv[1]) and argv[2].isdigit() and argv[3].isdigit() and argv[4].isdigit() and argv[5].isdigit():
-    resetIndices(argv[1], int(argv[2]), int(argv[3]), int(argv[4]), int(argv[5]))
-
+  if args.shiftTo:
+    resetIndices(args.epCode, args.origStart, args.origEnd, args.shiftTo)
   else:
-
-    print("usage:\n\
-  commands:\n\
-    [episodeCode] [originalStart] [shiftedStart]\n\
-    [episodeCode] [originalStart] [originalEnd] [shiftedStart] [shiftedEnd]\n\
-  arguments:\n\
-    [episodeCode]: code of episode to analyse, in the form of s01e01\n\
-    [originalStart]: original startInDoc index to shift, affecting both the exact reference and those after it\n\
-    [originalEnd]: original endInDoc index to shift\n\
-    [shiftedStart]: new startInDoc index\n\
-    [shiftedEnd]: new endInDoc index")
+    shiftIndices(args.epCode, args.origStart, args.origEnd)
 
 if __name__ == "__main__":
-  main(argv)
+  main(sys.argv)
