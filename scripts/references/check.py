@@ -83,7 +83,7 @@ def main(argv):
     type=epCodeType,
     nargs="*")
 
-  args = parser.parse_args()
+  args = parser.parse_args(argv[1:])
 
   errors = findErrors(args.epCode)
   print()
