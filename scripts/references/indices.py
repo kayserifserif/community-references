@@ -214,6 +214,27 @@ def fix(args):
 
   shift(references, transcripts[firstEp], firstEp, original, shifted)
 
+def find(args):
+  transcript = getTranscript(args.epCode).encode("unicode_escape").decode("utf-8")
+  results = re.finditer(args.search, transcript)
+  counter = 0
+  for result in results:
+    counter += 1
+    print(result.start(), result.end())
+    print(transcript[result.start() - 20 : result.end() + 20])
+  if type == "p":
+    if search in all_people:
+      person_info = all_people[search].copy()
+      person_info.insert(0, search)
+      print(person_info)
+  elif type == "t":
+    if search in all_titles:
+      title_info = all_titles[search].copy()
+      title_info.insert(0, search)
+      print(title_info)
+  if counter is 0:
+    print("No results found.")
+
 def main(argv):
   parser = argparse.ArgumentParser(
     description="Checks references file for mismatches with transcripts, identifies correct indices, and shifts indices.")
@@ -235,6 +256,15 @@ def main(argv):
     type=epCodeType,
     nargs="*")
   parser_fix.set_defaults(func=fix)
+  parser_find = subparsers.add_parser("find",
+    help="find indices of search string",
+    description="Get list of indices for all matches of a search string in an episode. Helpful for a manual indices fix.")
+  parser_find.add_argument("epCode",
+    help="episode code, e.g. s01e01 for season 1 episode 1",
+    type=epCodeType)
+  parser_find.add_argument("search",
+    help="search string in quotes")
+  parser_find.set_defaults(func=find)
   args = parser.parse_args(argv[1:]) if len(argv) > 1 else parser.parse_args(argv)
   args.func(args)
 
