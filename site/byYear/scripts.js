@@ -11,10 +11,10 @@ var referents;
 var people;
 var titles;
 
-// d3.json("/output/referents.json").then(function(data) {
+// d3.json("/data/referents.json").then(function(data) {
 Promise.all([
-  d3.json("/output/references.json"),
-  d3.json("/output/referents.json")
+  d3.json("/data/references.json"),
+  d3.json("/data/referents.json")
 ]).then(function(files) {
   references = files[0];
   referents = files[1];
