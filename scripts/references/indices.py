@@ -97,19 +97,21 @@ def getNewIndices(ref, matches):
 def strAtIndices(transcript: str, indices: tuple) -> str:
   return transcript[indices[0]:indices[1]]
 
-def shift(references: dict, transcript: str, epCode: str, orig: tuple, shift: tuple):
-  posDiff = shift[0] - orig[0]
-  lenDiff = abs((shift[1] - shift[0]) - (orig[1] - orig[0]))
+# def shift(references: dict, transcript: str, epCode: str, orig: tuple, shift: tuple):
+def shift(references: dict, transcript: str, epCode: str, orig: dict, shift: tuple):
+  origPos = (orig["startInDoc"], orig["endInDoc"])
+  posDiff = shift[0] - origPos[0]
+  lenDiff = abs((shift[1] - shift[0]) - (origPos[1] - origPos[0]))
   epRefs = references[epCode]
   if lenDiff == 0:
     print("Difference in position.")
-    print(f"Shifting {epCode} references {posDiff} characters if occurring at index {orig[0]} or after...")
+    print(f"Shifting {epCode} references {posDiff} characters if occurring at index {origPos[0]} or after...")
     for refType in epRefs:
       for ref in epRefs[refType]:
         reference = ref["reference"]
         startInDoc = reference["startInDoc"]
         endInDoc = reference["endInDoc"]
-        if startInDoc >= orig[0]:
+        if startInDoc >= origPos[0]:
           origStr = transcript[startInDoc:endInDoc].replace("\n", "\\n")
           shiftStart = startInDoc + posDiff
           reference["startInDoc"] = shiftStart
@@ -122,13 +124,15 @@ def shift(references: dict, transcript: str, epCode: str, orig: tuple, shift: tu
           print(log)
   else:
     print("Difference in length.")
-    print(f"Resetting {epCode} indices {orig} to {shift}...")
+    print(f"Resetting {epCode} indices {origPos} to {shift}...")
+    found = False
     for refType in epRefs:
-      for ref in epRefs[refType]:
-        if ref["reference"]["startInDoc"] == orig[0]:
-          ref["reference"]["startInDoc"] = shift[0]
-          ref["reference"]["endInDoc"] = shift[1]
-          pass
+      if not found:
+        for ref in epRefs[refType]:
+          reference = ref["reference"]
+          if reference["startInDoc"] == origPos[0] and reference["entity"] == orig["expected"]:
+            reference["startInDoc"] = shift[0]
+            reference["endInDoc"] = shift[1]
   writeReferences(references)
 
 def writeReferences(references: dict):
@@ -168,12 +172,20 @@ def audit(args):
     print("All indices match up!")
     return
 
-  print()
-  print("Mismatches:")
-  for ep in mismatches:
+  if args.all:
+    print()
+    print("Mismatches:")
+    for ep in mismatches:
+      print(ep)
+      for error in mismatches[ep]:
+        print(error)
+      print()
+  else:
+    print()
+    print("First mismatch:")
+    ep = list(mismatches.keys())[0]
     print(ep)
-    for error in mismatches[ep]:
-      print(error)
+    print(mismatches[ep][0])
     print()
 
 def fix(args):
@@ -212,7 +224,7 @@ def fix(args):
   print(original, shifted)
   print()
 
-  shift(references, transcripts[firstEp], firstEp, original, shifted)
+  shift(references, transcripts[firstEp], firstEp, firstError, shifted)
 
 def find(args):
   transcript = getTranscript(args.epCode).encode("unicode_escape").decode("utf-8")
@@ -220,18 +232,7 @@ def find(args):
   counter = 0
   for result in results:
     counter += 1
-    print(result.start(), result.end())
-    print(transcript[result.start() - 20 : result.end() + 20])
-  if type == "p":
-    if search in all_people:
-      person_info = all_people[search].copy()
-      person_info.insert(0, search)
-      print(person_info)
-  elif type == "t":
-    if search in all_titles:
-      title_info = all_titles[search].copy()
-      title_info.insert(0, search)
-      print(title_info)
+    print(result.start(), result.end(), transcript[result.start() - 20 : result.end() + 20])
   if counter is 0:
     print("No results found.")
 
@@ -242,11 +243,14 @@ def main(argv):
     description="command", required=True)
   parser_audit = subparsers.add_parser("audit",
     help="list all mismatches",
-    description="List mismatches between references and transcripts for given episodes. If no epCode is given, all episodes will be checked.")
+    description="List mismatches between references and transcripts for given episodes. If no epCode is given, all episodes will be checked. If --all is not given, only the first result will be shown.")
   parser_audit.add_argument("epCode",
     help="episode code, e.g. s01e01 for season 1 episode 1",
     type=epCodeType,
     nargs="*")
+  parser_audit.add_argument("-a", "--all",
+    help="show all results",
+    action="store_true")
   parser_audit.set_defaults(func=audit)
   parser_fix = subparsers.add_parser("fix",
     help="fix first mismatch",
