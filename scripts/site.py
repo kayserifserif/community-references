@@ -1,4 +1,4 @@
-from references import *
+from web import *
 
 import sys
 

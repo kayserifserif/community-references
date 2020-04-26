@@ -1,6 +1,6 @@
 Promise.all([
-  d3.json("/output/references.json"),
-  d3.json("/output/referents.json")
+  d3.json("/data/references.json"),
+  d3.json("/data/referents.json")
 ]).then(function(files) {
   references = files[0];
   referents = files[1];
