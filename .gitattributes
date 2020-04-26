@@ -1,1 +1,2 @@
-db/*.tsv filter=lfs diff=lfs merge=lfs -text
+./db/name.basics.min.tsv filter=lfs diff=lfs merge=lfs -text
+./db/title.basics.min.tsv filter=lfs diff=lfs merge=lfs -text
