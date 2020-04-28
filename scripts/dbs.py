@@ -8,22 +8,38 @@ def readDb(file):
   try:
     with open(file, "r", encoding="ISO-8859-1") as f:
       reader = csv.DictReader(f, dialect="excel-tab")
-      # db = []
-      db = {}
+      db = []
+      # db = {}
       print(f"Reading {file}...")
       start = time.time()
       if "name.basics" in file:
         for row in reader:
-          db.append(dict(row))
+          # db.append(row)
+          db.append({
+            "nconst": row["nconst"],
+            "name": row["primaryName"],
+            "birthYear": row["birthYear"],
+            "deathYear": row["deathYear"],
+            "professions": row["primaryProfession"],
+            "knownFor": row["knownForTitles"]
+            })
           print("Row: {:7}".format(len(db)), end="\r")
       elif "title.basics" in file:
         for row in reader:
           # if row["runtimeMinutes"].isdigit():
             # row["runtimeMinutes"] = int(row["runtimeMinutes"])
           # db.append(row)
-          tconst = row["tconst"]
-          row.pop("tconst", None)
-          db[tconst] = row
+          db.append({
+            "tconst": row["tconst"],
+            "titleType": row["titleType"],
+            "title": row["primaryTitle"],
+            "startYear": row["startYear"],
+            "endYear": row["endYear"],
+            "genres": row["genres"]
+            })
+          # tconst = row["tconst"]
+          # row.pop("tconst", None)
+          # db[tconst] = row
           print("Row: {:7}".format(len(db)), end="\r")
       elif "title.ratings.tsv" in file:
         for row in reader:
@@ -43,19 +59,19 @@ def readDb(file):
 def writeDb(db, file):
   try:
     with open(file, "w", encoding="ISO-8859-1") as f:
-      # writer = csv.DictWriter(f, fieldnames=db[0].keys(), dialect="excel-tab")
-      fields = ["tconst", "averageRating", "numVotes"]
-      writer = csv.DictWriter(f, fieldnames=fields, dialect="excel-tab")
+      writer = csv.DictWriter(f, fieldnames=db[0].keys(), dialect="excel-tab")
+      # fields = ["tconst", "averageRating", "numVotes"]
+      # writer = csv.DictWriter(f, fieldnames=fields, dialect="excel-tab")
       writer.writeheader()
       print(f"Writing to {file}...")
-      # for row in db:
-        # writer.writerow(row)
-      for tconst in db:
-        writer.writerow({
-          "tconst": tconst,
-          "averageRating": db[tconst]["averageRating"],
-          "numVotes": db[tconst]["numVotes"]
-          })
+      for row in db:
+        writer.writerow(row)
+      # for tconst in db:
+        # writer.writerow({
+        #   "tconst": tconst,
+        #   "averageRating": db[tconst]["averageRating"],
+        #   "numVotes": db[tconst]["numVotes"]
+        #   })
       print(f"Successfully saved to {file}!")
   except IOError:
     print(f"Could not write to {file}.")
@@ -125,8 +141,8 @@ def intersect(db, dbToMatch, key):
 
 def main():
   # # titlesFile = "./db/title.basics.tsv"
-  titlesFile = "./db/title.basics.min.tsv"
-  titles = readDb(titlesFile)
+  # titlesFile = "./db/title.basics.min.tsv"
+  # titles = readDb(titlesFile)
   # print("Titles: " + "{:7}".format(len(titles)) + " rows")
   # titles = removeEntries(titles, [
   #   ("titleType", "short", 0),
@@ -144,7 +160,7 @@ def main():
   # titles = removeEntries(titles, [("genres", "Biography", 2)])
   # titles = removeEntries(titles, [("genres", "\\N", 0)])
   # print("Titles: " + "{:7}".format(len(titles)) + " rows")
-  # writeDb(titles, "./db/title.basics.min.tsv")
+  # writeDb(titles, "./db/title.basics.min1.tsv")
   
   # # namesFile = "./db/name.basics.tsv"
   # namesFile = "./db/name.basics.min.tsv"
@@ -168,16 +184,16 @@ def main():
   #   ("primaryProfession", "transportation_department", 2)
   # ], mustMatchAll=False)
   # print("Names: " + "{:7}".format(len(names)) + " rows")
-  # writeDb(names, "./db/name.basics.min.tsv")
+  # writeDb(names, "./db/name.basics.min1.tsv")
   
-  ratingsFile = "./db/title.ratings.tsv"
-  ratings = readDb(ratingsFile)
-  print("Ratings: " + "{:7}".format(len(ratings)) + " rows")
-  ratings = intersect(ratings, titles, "tconst")
-  print("Ratings: " + "{:7}".format(len(ratings)) + " rows")
-  writeDb(ratings, "./db/title.ratings.min.tsv")
+  # ratingsFile = "./db/title.ratings.tsv"
+  # ratings = readDb(ratingsFile)
+  # print("Ratings: " + "{:7}".format(len(ratings)) + " rows")
+  # ratings = intersect(ratings, titles, "tconst")
+  # print("Ratings: " + "{:7}".format(len(ratings)) + " rows")
+  # writeDb(ratings, "./db/title.ratings.min.tsv")
 
-  # return
+  return
 
 if __name__ == "__main__":
   main()
