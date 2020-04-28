@@ -125,6 +125,15 @@ def getTranscript(code):
     print(f"Could not open {file}.")
     return
 
+def getReferences():
+  file = "./data/references.json"
+  try:
+    with open(file) as f:
+      references = json.load(f)
+    return references
+  except IOError:
+    print(f"Could not read {file}.")
+
 def write(data, file):
   try:
     j = json.dumps(data, indent=2)
@@ -140,16 +149,35 @@ def write(data, file):
 # # # # # # # # # # # # #
 
 def isInNamesInstances(namesInstances, name):
+  # name = name[-1]
   for nconst in namesInstances:
     nameToCheck = namesInstances[nconst][0][0]
-    if name == nameToCheck or name == " ".join(nameToCheck.split(" ")[1:]):
+    split = nameToCheck.split(" ")
+    if name == nameToCheck:
+      # print(name, nameToCheck, "name == nameToCheck", name == nameToCheck)
       return True
+    else:
+      if name == split[0]:
+        return True
+      elif len(split) > 1 and name == split[1]:
+        # print(name, nameToCheck, "name == split[1]", name == split[1])
+        return True
   return False
 
-def isFirstName(names, name):
-  for nconst in names:
-    if name == names[nconst]["name"].split(" ")[0]:
-      return True
+def isFirstName(names, name, nconst):
+  count = 0
+  const = int(nconst[2:])
+  for nconstToMatch in names:
+    split = names[nconstToMatch]["name"].split(" ")
+    if len(split) > 1:
+      if name == split[0]:
+        constToMatch = int(nconstToMatch[2:])
+        if (constToMatch - const) < 300000:
+        # return True
+          count += 1
+  # print(name, count)
+  if count > 1:
+    return True
   return False
 
 def getEpRefs(names, titles, ratings, dictionary, show_ents, nlp, code):
@@ -196,16 +224,23 @@ def getEpRefs(names, titles, ratings, dictionary, show_ents, nlp, code):
               namesInstances[nconst] = [[nameFull, context]]
             print("-", context.encode("unicode_escape").decode("utf-8"))
       else: # name is mononym
-        if const < 100:
-          print(nameFull, nconst)
-          instances = re.finditer(name, transcript)
-          for instance in instances:
-            context = transcript[instance.start() - 20 : instance.end() + 20  ]
-            if name in namesInstances:
-              namesInstances[nconst].append([nameFull, context])
-            else:
-              namesInstances[nconst] = [[nameFull, context]]
-            print("-", context.encode("unicode_escape").decode("utf-8"))
+        if len(nameFull) <= 3:
+          continue
+        if nlp.vocab[nameFull.lower()].is_stop:
+          continue
+        if isInNamesInstances(namesInstances, nameFull):
+          continue
+        if const > 1000000:
+          continue
+        print(nameFull, nconst)
+        instances = re.finditer(name, transcript)
+        for instance in instances:
+          context = transcript[instance.start() - 20 : instance.end() + 20  ]
+          if name in namesInstances:
+            namesInstances[nconst].append([nameFull, context])
+          else:
+            namesInstances[nconst] = [[nameFull, context]]
+          print("-", context.encode("unicode_escape").decode("utf-8"))
     elif surnameFull in transcript and surnameSplit[0] in transcriptSplit:
       if len(surnameFull) <= 3:
         continue
@@ -214,6 +249,8 @@ def getEpRefs(names, titles, ratings, dictionary, show_ents, nlp, code):
       if surnameFull in show_ents:
         continue
       if isInNamesInstances(namesInstances, surnameFull):
+        continue
+      if const > 1000000:
         continue
       firstIndex = transcriptSplit.index(surnameSplit[0])
       if surname == " ".join(transcriptSplit[firstIndex : firstIndex + len(surnameSplit)]):
@@ -234,12 +271,12 @@ def getEpRefs(names, titles, ratings, dictionary, show_ents, nlp, code):
   for nconst, v in list(namesInstances.items()):
     name = v[0][0]
     if len(name.split(" ")) < 2:
-      if isFirstName(names, name):
+      if isFirstName(names, name, nconst):
         print(f"Removing {name}.")
         del namesInstances[nconst]
 
   # if total votes for of a person's all knownFor titles is above a threshold
-  votesThreshold = 5000
+  votesThreshold = 4000
   print(f"Checking popularity of names by checking if their total votes are over {votesThreshold}...")
   for nconst, v in list(namesInstances.items()):
     name = names[nconst]["name"]
@@ -248,13 +285,41 @@ def getEpRefs(names, titles, ratings, dictionary, show_ents, nlp, code):
     for tconst in knownFor:
       if tconst in ratings:
         totalVotes += ratings[tconst]["numVotes"]
-    # print(name, totalVotes)
-    threshold = 5000
-    if totalVotes < threshold:
+    if totalVotes < votesThreshold:
       print(f"Removing {name} ({totalVotes} total votes).")
       del namesInstances[nconst]
 
   print(namesInstances)
+
+  print("".ljust(5) + "EXTRACTED".ljust(34) + "PROCESSED".ljust(34))
+  references = getReferences()
+  extracted = []
+  for nconst in namesInstances:
+    s = " ".join([namesInstances[nconst][0][0], nconst])
+    extracted.append(s)
+  processed = []
+  for ref in references[code]["people"]:
+    referent = ref["referent"]
+    s = " ".join([referent["name"], referent["nconst"]])
+    if s not in processed:
+      processed.append(s)
+  for x in range(max(len(extracted), len(processed))):
+    print(str(x + 1).ljust(5), end="")
+    lineWidth = 43
+    if x < len(extracted):
+      if extracted[x] in processed:
+        print((extracted[x] + " \033[92m✓\033[0m").ljust(lineWidth), end="")
+      else:
+        print(("\033[93m" + extracted[x] + "\033[0m").ljust(lineWidth), end="")
+    else:
+      print(" ".ljust(lineWidth), end="")
+    if x < len(processed):
+      if processed[x] in extracted:
+        print((processed[x] + " \033[92m ✓\033[0m").ljust(lineWidth))
+      else:
+        print(("\033[93m" + processed[x] + "\033[0m").ljust(lineWidth))
+    else:
+      print()
 
   # epNames = []
   # epTitles = []
