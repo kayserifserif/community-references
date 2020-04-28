@@ -1,9 +1,14 @@
+import sys
+from argparse import ArgumentParser
+
 import json
 import spacy
 from spacy.symbols import *
 from spacy import displacy
+
 from collections import OrderedDict
-import sys
+
+import re
 
 def getReferences() -> dict:
   file = "./data/references.json"
@@ -226,8 +231,68 @@ def analyse(argv):
   # print("------------")
   # genders()
 
+def analyse_all(args):
+  print(args)
+
+def analyse_names(args):
+  print(args)
+
+def analyse_titles(args):
+  print(args)
+
+def list_refs(args):
+  epCode = args.epCode
+  references = getReferences()
+  for refType in references[epCode]:
+    for ref in references[epCode][refType]:
+      reference = ref["reference"]
+      referent = ref["referent"]
+      print(reference["entity"], "/", reference["sentence"], "/", end=" ")
+      if "name" in referent:
+        print(referent["name"], referent["nconst"])
+      else:
+        print(referent["title"], referent["tconst"])
+
+def epCodeType(argStr):
+  if not re.match(r"s\d{2}e\d{2}", argStr):
+    raise argparse.ArgumentTypeError("Couldn't parse episode code. For example, for season 1 episode 1, the episode code should be s01e01.")
+  return argStr
+
 def main(argv):
-  analyse(argv)
+  parser = ArgumentParser(
+    description="Explore references and referents data.")
+  subparsers = parser.add_subparsers(
+    description="command", required=True)
+
+  parser_analyse = subparsers.add_parser("analyse",
+    help="analyse referents",
+    description="Analyse referents data.")
+  analyse_subparsers = parser_analyse.add_subparsers(
+    description="command", required=True)
+  parser_all = analyse_subparsers.add_parser("all",
+    help="all of the commands",
+    description="Execute all of the commands.")
+  parser_all.set_defaults(func=analyse_all)
+  parser_names = analyse_subparsers.add_parser("names",
+    help="analyse names",
+    description="Analyse referent names.")
+  parser_names.set_defaults(func=analyse_names)
+  parser_titles = analyse_subparsers.add_parser("titles",
+    help="analyse titles",
+    description="Analyse referent titles.")
+  parser_titles.set_defaults(func=analyse_titles)
+
+  parser_list = subparsers.add_parser("list",
+    help="list references in episode",
+    description="List references in episode.")
+  parser_list.add_argument("epCode",
+    help="episode code, e.g. s01e01 for season 1 episode 1",
+    type=epCodeType)
+  parser_list.set_defaults(func=list_refs)
+
+  args = parser.parse_args(argv[1:]) if len(argv) > 1 else parser.parse_args(argv)
+  args.func(args)
+  # analyse(argv)
 
 if __name__ == "__main__":
   main(sys.argv)
