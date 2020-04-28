@@ -207,8 +207,6 @@ def getEpRefs(names, titles, ratings, dictionary, show_ents, nlp, code):
               namesInstances[nconst] = [[nameFull, context]]
             print("-", context.encode("unicode_escape").decode("utf-8"))
     elif surnameFull in transcript and surnameSplit[0] in transcriptSplit:
-      if nconst == "nm1143053":
-        print(surnameFull, nconst)
       if len(surnameFull) <= 3:
         continue
       if nlp.vocab[surnameFull.lower()].is_stop:
