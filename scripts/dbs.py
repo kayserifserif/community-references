@@ -6,7 +6,7 @@ import time
 
 def readDb(file):
   try:
-    with open(file, "r", encoding="ISO-8859-1") as f:
+    with open(file, "r", encoding="UTF-8") as f:
       reader = csv.DictReader(f, dialect="excel-tab")
       db = []
       # db = {}
@@ -58,7 +58,7 @@ def readDb(file):
 
 def writeDb(db, file):
   try:
-    with open(file, "w", encoding="ISO-8859-1") as f:
+    with open(file, "w", encoding="UTF-8") as f:
       writer = csv.DictWriter(f, fieldnames=db[0].keys(), dialect="excel-tab")
       # fields = ["tconst", "averageRating", "numVotes"]
       # writer = csv.DictWriter(f, fieldnames=fields, dialect="excel-tab")
@@ -140,8 +140,8 @@ def intersect(db, dbToMatch, key):
   return newDb
 
 def main():
-  # # titlesFile = "./db/title.basics.tsv"
-  # titlesFile = "./db/title.basics.min.tsv"
+  # titlesFile = "./db/title.basics.tsv"
+  # # titlesFile = "./db/title.basics.min.tsv"
   # titles = readDb(titlesFile)
   # print("Titles: " + "{:7}".format(len(titles)) + " rows")
   # titles = removeEntries(titles, [
@@ -162,29 +162,29 @@ def main():
   # print("Titles: " + "{:7}".format(len(titles)) + " rows")
   # writeDb(titles, "./db/title.basics.min1.tsv")
   
-  # # namesFile = "./db/name.basics.tsv"
+  namesFile = "./db/name.basics.tsv"
   # namesFile = "./db/name.basics.min.tsv"
-  # names = readDb(namesFile)
-  # print("Names: " + "{:7}".format(len(names)) + " rows")
-  # names = removeEntries(names, [("birthYear", "\\N", 0)])
-  # names = removeEntries(names, [("knownForTitles", "tt0000000,", -1)])
-  # names = removeEntries(names, [
-  #   ("primaryProfession", "", 0),
-  #   ("primaryProfession", "legal", 2),
-  #   ("primaryProfession", "publicist", 2),
-  #   ("primaryProfession", "art_director", 2),
-  #   ("primaryProfession", "animation_department", 2),
-  #   ("primaryProfession", "art_department", 2),
-  #   ("primaryProfession", "special_effects", 2),
-  #   ("primaryProfession", "sound_department", 2),
-  #   ("primaryProfession", "talent_agent", 2),
-  #   ("primaryProfession", "casting_department", 2),
-  #   ("primaryProfession", "visual_effects", 2),
-  #   ("primaryProfession", "location_management", 2),
-  #   ("primaryProfession", "transportation_department", 2)
-  # ], mustMatchAll=False)
-  # print("Names: " + "{:7}".format(len(names)) + " rows")
-  # writeDb(names, "./db/name.basics.min1.tsv")
+  names = readDb(namesFile)
+  print("Names: " + "{:7}".format(len(names)) + " rows")
+  names = removeEntries(names, [("birthYear", "\\N", 0)])
+  names = removeEntries(names, [("knownFor", "tt0000000,", -1)])
+  names = removeEntries(names, [
+    ("professions", "", 0),
+    ("professions", "legal", 2),
+    ("professions", "publicist", 2),
+    ("professions", "art_director", 2),
+    ("professions", "animation_department", 2),
+    ("professions", "art_department", 2),
+    ("professions", "special_effects", 2),
+    ("professions", "sound_department", 2),
+    ("professions", "talent_agent", 2),
+    ("professions", "casting_department", 2),
+    ("professions", "visual_effects", 2),
+    ("professions", "location_management", 2),
+    ("professions", "transportation_department", 2)
+  ], mustMatchAll=False)
+  print("Names: " + "{:7}".format(len(names)) + " rows")
+  writeDb(names, "./db/name.basics.min.tsv")
   
   # ratingsFile = "./db/title.ratings.tsv"
   # ratings = readDb(ratingsFile)
