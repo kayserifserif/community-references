@@ -232,26 +232,36 @@ def analyse(argv):
   # genders()
 
 def analyse_all(args):
-  print(args)
+  analyse(["analyse", "all"])
 
 def analyse_names(args):
   print(args)
 
 def analyse_titles(args):
-  print(args)
+  print(args) 
+
+def printRefs(epRefs, refType):
+  for ref in epRefs[refType]:
+    reference = ref["reference"]
+    referent = ref["referent"]
+    print(reference["entity"], "/", reference["sentence"], "/", end=" ")
+    if "name" in referent:
+      print(referent["name"], referent["nconst"])
+    else:
+      print(referent["title"], referent["tconst"])
 
 def list_refs(args):
   epCode = args.epCode
   references = getReferences()
-  for refType in references[epCode]:
-    for ref in references[epCode][refType]:
-      reference = ref["reference"]
-      referent = ref["referent"]
-      print(reference["entity"], "/", reference["sentence"], "/", end=" ")
-      if "name" in referent:
-        print(referent["name"], referent["nconst"])
-      else:
-        print(referent["title"], referent["tconst"])
+  epRefs = references[epCode]
+  refType = args.type[0]
+  if refType == "all":
+    printRefs(epRefs, "people")
+    printRefs(epRefs, "titles")
+  elif refType == "names":
+    printRefs(epRefs, "people")
+  elif refType == "titles":
+    printRefs(epRefs, "titles")
 
 def epCodeType(argStr):
   if not re.match(r"s\d{2}e\d{2}", argStr):
@@ -288,6 +298,10 @@ def main(argv):
   parser_list.add_argument("epCode",
     help="episode code, e.g. s01e01 for season 1 episode 1",
     type=epCodeType)
+  parser_list.add_argument("--type", "-t",
+    help="type of reference, e.g. names or titles",
+    default="all",
+    nargs=1)
   parser_list.set_defaults(func=list_refs)
 
   args = parser.parse_args(argv[1:]) if len(argv) > 1 else parser.parse_args(argv)
