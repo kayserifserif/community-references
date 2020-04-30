@@ -54,7 +54,7 @@ $ python scripts/references.py -h
     updateReferents: generate referents file from references file
 ```
 
-## Produce site
+### Produce site
 
 **scripts/site.py**:
 
