@@ -29,20 +29,12 @@ def scrape():
     with open("./scrape/" + code + ".txt", "w") as f:
       f.write(script)
 
-def rename():
-  epCodes = sorted([f[10:16] for f in os.listdir("./transcripts") if os.path.isfile(os.path.join("./transcripts", f))])[1:]
-  for epCode in epCodes:
-    os.rename("./transcripts/community-" + epCode + ".txt", "./transcripts/" + epCode + ".txt")
-
 def main():
   if len(sys.argv) is 2 and sys.argv[1] == "scrape":
     scrape()
-  elif len(sys.argv) is 2 and sys.argv[1] == "rename":
-    rename()
   else:
     print("usage: \n\
-  scrape: scrape transcripts into scrape/\n\
-  rename: rename transcripts from community-epCode to epCode")
+  scrape: scrape transcripts into scrape/")
 
 if __name__ == "__main__":
   main()
