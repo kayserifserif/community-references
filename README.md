@@ -26,7 +26,7 @@ Mini-TOC for things we can do:
 
 * [Manage references](#manage-references)
 * [Produce site](#produce-site)
-* [Create episode supercuts](#creating-episode-supercuts)
+* [Create episode supercuts](#create-episode-supercuts)
 
 Before running scripts, make sure you activate the virtual environment. This makes sure that the dependencies the Python scripts need are there. You should see "(references)" at the start of the line.
 
