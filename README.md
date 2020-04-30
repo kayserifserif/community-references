@@ -67,6 +67,26 @@ $ python scripts/site.py -h
     top: generate charts for episodes with the most references
 ```
 
+You can see the site by running the command below and navigating to localhost:3000/site in a web browser.
+
+```bash
+$ python -m http.server 3000
+> Serving HTTP on 0.0.0.0 port 3000 (http://0.0.0.0:3000/) ...
+```
+
+Site directory for reference:
+
+```
+|-- byEntity/
+|-- byEpisode/
+    |-- ep/
+        |-- s01e01/
+        |-- s01e02/
+        ...
+|-- byYear/
+|-- top/
+```
+
 ### Create episode supercuts
 
 Using data/references.json, we can use the incredible Videogrep library to get a generated supercut of all the references in an episode! I'm running into issues making Videogrep work as a Python module, so this is a Python + command line mismash workaround.
