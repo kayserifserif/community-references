@@ -6,8 +6,8 @@ let svg, width, height, progbar, refs, tips, labels, pcts;
 
 let epCode = /s\d{2}e\d{2}/g.exec(location.pathname)[0];
 Promise.all([
-  d3.text(`/transcripts/${epCode}.txt`),
-  d3.json("/data/references.json")
+  d3.text(`/transcripts/community/${epCode}.txt`),
+  d3.json("/data/community/references.json")
 ]).then(init);
 
 function init(files) {

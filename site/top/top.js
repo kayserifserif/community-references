@@ -1,7 +1,7 @@
 // let svg, width, height, progbar, refs, tips, labels, pcts;
 
 let epCodes = Array.from(document.getElementsByClassName("epCode"), x => x.textContent);
-let promises = [d3.json("/data/references.json")];
+let promises = [d3.json("/data/community/references.json")];
 for (let epCode of epCodes) {
   promises.push(d3.text(`/transcripts/${epCode}.txt`));
 }
