@@ -2,9 +2,9 @@ import sys
 from argparse import ArgumentParser
 
 import json
-import spacy
-from spacy.symbols import *
-from spacy import displacy
+# import spacy
+# from spacy.symbols import *
+# from spacy import displacy
 
 from collections import OrderedDict
 
@@ -33,8 +33,13 @@ def getReferents() -> dict:
 def total(data: dict) -> int:
   return len(list(data))
 
-def top(data: dict, num: int = 10) -> list:
-  return list(data)[:num]
+def top(data: dict, num: int = 5) -> list:
+  # top = list(data)[:num]
+  datalist = list(data)
+  lines = []
+  for x in range(num):
+    lines.append(str(x + 1) + ". " + datalist[x] + " (" + str(data[datalist[x]]["count"]) + ")")
+  return "\n".join(lines)
 
 def similes():
   return
@@ -152,93 +157,65 @@ def genders():
   # print(len(actresses))
   # print(list(actresses.items())[:10])
 
-def analyse(argv):
-  # references = getReferences()
-
-  # referents = getReferents()
-  # people = referents["people"]
-  # titles = referents["titles"]
-
-  if len(argv) > 1:
-
-    if argv[1] == "all":
-      referents = getReferents()
-      people = referents["people"]
-      titles = referents["titles"]
-      print(total(people))
-      print(top(people))
-      print(total(titles))
-      print(top(titles))
-      # similes()
-      # genders()
-
-    elif argv[1] == "names":
-      referents = getReferents()
-      people = referents["people"]
-      if len(argv) > 2:
-        if argv[2] == "total":
-          print(total(people))
-        elif argv[2] == "top":
-          if len(argv) > 3 and argv[3].isdigit():
-            print(top(people), int(argv[3]))
-        else:
-          print(total(people))
-          print(top(people))
-
-    elif argv[1] == "titles":
-      referents = getReferents()
-      titles = referents["titles"]
-      if len(argv) > 2:
-        if argv[2] == "total":
-          print(total(titles))
-        elif argv[2] == "top":
-          if len(argv) > 3 and argv[3].isdigit():
-            print(top(titles), int(argv[3]))
-        else:
-          print(total(titles))
-          print(top(titles))
-
-    elif argv[1] == "similes":
-      # similes()
-      return
-    elif argv[1] == "genders":
-      # genders()
-      return
-
-  # print("------------")
-  # print("PEOPLE")
-  # print("------------")
-  # print("* Number of referenced people:")
-  # print(total(people))
-  # print("* Top 10 referenced people:")
-  # print(top(people, 10))
-  # print("------------")
-  # print("TITLES")
-  # print("------------")
-  # print("* Number of referenced titles:")
-  # print(total(titles))
-  # print("* Top 10 referenced titles:")
-  # print(top(titles, 10))
-
-  # print("------------")
-  # print("SIMILES")
-  # print("------------")
-  # similes()
-
-  # # DISCLAIMER KINDA PROBLEMATIC ONLY BINARY "ACTOR" AND "ACTRESS" LABELS
-  # print("------------")
-  # print("ACTORS AND ACTRESSES")
-  # print("------------")
-  # genders()
-
 def analyse_all(args):
-  analyse(["analyse", "all"])
+  referents = getReferents()
+  references = getReferences()
+  analyse_names(None, referents)
+  analyse_titles(None, referents)
+  analyse_episodes(None, references)
 
-def analyse_names(args):
-  print(args)
+def analyse_names(args, referents=None):
+  if not referents:
+    referents = getReferents()
+  people = referents["people"]
+  print("--- NAMES ---")
+  print("Total names:", total(people))
+  print("Top names:")
+  print(top(people))
 
-def analyse_titles(args):
-  print(args) 
+def analyse_titles(args, referents=None):
+  if not referents:
+    referents = getReferents()
+  titles = referents["titles"]
+  print("--- TITLES ---")
+  print("Total titles:", total(titles))
+  print("Top titles:")
+  print(top(titles))
+
+def topCount(countsByEp, countType=2):
+  topCount = 0
+  topCountEp = ""
+  for epCode in countsByEp:
+    if countType == 2:
+      count = countsByEp[epCode][0] + countsByEp[epCode][1]
+    else:
+      count = countsByEp[epCode][countType]
+    if count > topCount:
+      topCount = count
+      topCountEp = epCode
+  return (topCount, topCountEp)
+
+def analyse_episodes(args, references=None):
+  if not references:
+    references = getReferences()
+  countsByEp = {}
+  for epCode in references:
+    ep = references[epCode]
+    nameCount = 0
+    titleCount = 0
+    for name in ep["people"]:
+      nameCount += 1
+    for title in ep["titles"]:
+      titleCount += 1
+    countsByEp[epCode] = [nameCount, titleCount]
+  print("--- EPISODES ---")
+  print("Total episodes:", len(countsByEp))
+  nameCount = topCount(countsByEp, 0)
+  print("Highest name count:", str(nameCount[0]) + " (" + nameCount[1] + ")")
+  titleCount = topCount(countsByEp, 1)
+  print("Highest title count:", str(titleCount[0]) + " (" + titleCount[1] + ")")
+  combinedCount = topCount(countsByEp, 2)
+  print("Highest combined count:", str(combinedCount[0]) + " (" + combinedCount[1] + ")")
 
 def printRefs(epRefs, refType):
   for ref in epRefs[refType]:
@@ -291,6 +268,10 @@ def main(argv):
     help="analyse titles",
     description="Analyse referent titles.")
   parser_titles.set_defaults(func=analyse_titles)
+  parser_titles = analyse_subparsers.add_parser("episodes",
+    help="analyse episodes",
+    description="Analyse reference counts in episodes.")
+  parser_titles.set_defaults(func=analyse_episodes)
 
   parser_list = subparsers.add_parser("list",
     help="list references in episode",
