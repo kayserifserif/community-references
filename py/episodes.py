@@ -19,7 +19,7 @@ def getEpData():
     return
 
 def getEpConsts():
-  epCodes = sorted([f[:-4] for f in listdir("./transcripts") if isfile(join("./transcripts", f))])[1:]
+  epCodes = sorted([f[:-4] for f in listdir("./transcripts/community") if isfile(join("./transcripts/community", f))])[1:]
   showTconst = "tt1439629"
   tconsts = {}
   try:

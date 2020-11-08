@@ -484,7 +484,7 @@ def main(argv):
   elif len(sys.argv) is 2 and sys.argv[1] == "all":
 
     # get list of all episode codes
-    epCodes = sorted([f[:-4] for f in listdir("./transcripts") if isfile(join("./transcripts", f))])[1:]
+    epCodes = sorted([f[:-4] for f in listdir("./transcripts/community/") if isfile(join("./transcripts/community/", f))])[1:]
 
     # get data for all episodes in list
     refs = {}

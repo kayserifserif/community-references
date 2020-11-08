@@ -150,7 +150,7 @@ def audit(args):
   if len(args.epCode) > 0:
     epCodes = args.epCode
   else:
-    epCodes = sorted([f[:-4] for f in listdir("./transcripts") if isfile(join("./transcripts", f))])[1:]
+    epCodes = sorted([f[:-4] for f in listdir("./transcripts/community/") if isfile(join("./transcripts/community/", f))])[1:]
 
   references = getReferences()
   transcripts = {}
@@ -190,7 +190,7 @@ def fix(args):
   if len(args.epCode) > 0:
     epCodes = args.epCode
   else:
-    epCodes = sorted([f[:-4] for f in listdir("./transcripts") if isfile(join("./transcripts", f))])[1:]
+    epCodes = sorted([f[:-4] for f in listdir("./transcripts/community/") if isfile(join("./transcripts/community/", f))])[1:]
 
   if not args.run:
 

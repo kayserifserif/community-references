@@ -3,7 +3,7 @@
 let epCodes = Array.from(document.getElementsByClassName("epCode"), x => x.textContent);
 let promises = [d3.json("/data/community/references.json")];
 for (let epCode of epCodes) {
-  promises.push(d3.text(`/transcripts/${epCode}.txt`));
+  promises.push(d3.text(`/transcripts/community/${epCode}.txt`));
 }
 Promise.all(promises).then(init);
 

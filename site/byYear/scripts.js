@@ -11,7 +11,7 @@ var referents;
 var people;
 var titles;
 
-// d3.json("/data/referents.json").then(function(data) {
+// d3.json("/data/community/referents.json").then(function(data) {
 Promise.all([
   d3.json("/data/community/references.json"),
   d3.json("/data/community/referents.json")

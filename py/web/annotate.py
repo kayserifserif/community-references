@@ -283,7 +283,7 @@ def populateAll(epCodes):
     print(f"Successfully updated all page {allFile}!")
 
 def main(argv):
-  epCodes = sorted([f[:-4] for f in listdir("./transcripts") if path.isfile(path.join("./transcripts", f))])[1:]
+  epCodes = sorted([f[:-4] for f in listdir("./transcripts/community/") if path.isfile(path.join("./transcripts/community/", f))])[1:]
   if len(sys.argv) is 2 and re.match(r"s\d\de\d\d", sys.argv[1]):
     makeAnnotations(sys.argv[1], epCodes)
     # updateIndex(epCodes)
