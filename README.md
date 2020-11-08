@@ -16,7 +16,7 @@ TOC:
 
 2. Create a conda environment from the environment.yml file.
 
-```bash
+```
 $ conda env create -f environment.yml
 ```
 
@@ -30,7 +30,7 @@ Mini-TOC for things we can do:
 
 Before running scripts, make sure you activate the virtual environment. This makes sure that the dependencies the Python scripts need are there. You should see "(references)" at the start of the line.
 
-```bash
+```
 (base) $ conda activate references
 (references) $
 ```
@@ -45,7 +45,7 @@ For each script, you can access its help file by adding "-h" or "--help" after t
 
 Manage references.
 
-```bash
+```
 $ python py/references.py -h
 > usage: add | analyse | indices | updateReferents
     add: add reference through interactive interface
@@ -60,7 +60,7 @@ $ python py/references.py -h
 
 Produce content and files for site.
 
-```bash
+```
 $ python py/site.py -h
 > usage: annotate | top
     annotate: generate annotated transcripts
@@ -69,7 +69,7 @@ $ python py/site.py -h
 
 You can see the site by running the command below and navigating to localhost:3000/site in a web browser.
 
-```bash
+```
 $ python -m http.server 3000
 > Serving HTTP on 0.0.0.0 port 3000 (http://0.0.0.0:3000/) ...
 ```
@@ -89,50 +89,22 @@ Site directory for reference:
 
 ### Create episode supercuts
 
-Using data/community/references.json, we can use the incredible Videogrep library to get a generated supercut of all the references in an episode! I'm running into issues making Videogrep work as a Python module, so this is a Python + command line mismash workaround.
+Using data/community/references.json, we can use the incredible Videogrep library to get a generated supercut video of references!
 
-1. Get search string.
+**py/supercut.py**
 
-**py/getsearch.py**
+Generate a supercut of references in a given episode or season.
 
-Get RegEx search string for use in Videogrep.
-
-```bash
-$ python py/getsearch.py -h
+```
+$ python py/supercut.py -h
 > usage: [season|episode]
     season: s01 for season 1
     episode: s01e01 for season 1 episode 1
 ```
 
-Example for s01e01:
+Videogrep will print out a log and eventually place a video file wit"h a title like supercut-s01e01.mp4" or "supercut-s01.mp4" in video/supercuts/.
 
-```bash
-$ python py/getsearch.py s01e01
-> (Breakfast\ Club|Bill\ Murray|Michael\ Douglas|Seinfeld|Dirty\ Dancing|Seacrest|Slumdog\ Millionaire|Elisabeth\ Shue|The\ Breakfast\ Club|Stripes|Ben\ Affleck|Meatballs)
-> Copied to clipboard!
-```
-
-2. Navigate to video/. (Video files not included in repository.)
-
-```bash
-$ cd video
-```
-
-2. Run Videogrep.
-
-```bash
-$ videogrep -i INPUT -s SEARCH -o OUTPUT
-```
-
-Example for s01e01 using the search string given by getsearch.py (lines broken up for slightly better readability):
-
-```bash
-$ videogrep -i community/Community.S01.Season.1.720p.5.1Ch.Web-DL.ReEnc-DeeJayAhmed/Community.S01E01.720p.5.1Ch.Web-DL.ReEnc-DeeJayAhmed.mkv \
--s "(Elisabeth\ Shue|Michael\ Douglas|Bill\ Murray|Ben\ Affleck|Dirty\ Dancing|Stripes|Meatballs|Slumdog\ Millionaire|Breakfast\ Club|Seacrest|Seinfeld|The\ Breakfast\ Club)" \
--o supercuts/s01e01.mp4
-```
-
-See [Videogrep documentation](https://antiboredom.github.io/videogrep/) for more options!
+See the [Videogrep documentation](https://antiboredom.github.io/videogrep/) for more background.
 
 ### Other helper utilities used
 
@@ -149,7 +121,7 @@ No CLI at the moment, but uncomment lines to get one of:
 
 Scrapes IMDb for all episodes, writing to data/community/episodes.json under each episode code with: tconst, description, writers (name, nconst, credit).
 
-```bash
+```
 $ python py/episodes.py -h
 > usage: scrape
     scrape: scrape IMDb for episode data and save to episodes.json
@@ -159,7 +131,7 @@ $ python py/episodes.py -h
 
 Scrapes episode transcripts from [Springfield! Springfield!](https://www.springfieldspringfield.co.uk/episode_scripts.php?tv-show=community) *(link is no longer live?)* into scrape/.
 
-```bash
+```
 $ python py/transcripts.py
 > usage: scrape
     scrape: scrape transcripts into scrape/
