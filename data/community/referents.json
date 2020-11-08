@@ -397,8 +397,8 @@
         {
           "entity": "Seacrest",
           "sentence": "Looks like the law firm of Seacrest and Slumdog is taking the day off.",
-          "startInDoc": 8507,
-          "endInDoc": 8515,
+          "startInDoc": 8508,
+          "endInDoc": 8516,
           "startInSent": 27,
           "endInSent": 35,
           "epCode": "s01e16"
@@ -2055,8 +2055,8 @@
         {
           "entity": "Jodie Foster",
           "sentence": "They can be put off by her vacuous mannequin face, and her Jodie Foster severity.",
-          "startInDoc": 7352,
-          "endInDoc": 7364,
+          "startInDoc": 7353,
+          "endInDoc": 7365,
           "startInSent": 59,
           "endInSent": 71,
           "epCode": "s01e16"
@@ -4830,8 +4830,8 @@
         {
           "entity": "Scorsese",
           "sentence": "Scorsese drank with De Niro.",
-          "startInDoc": 8374,
-          "endInDoc": 8382,
+          "startInDoc": 8375,
+          "endInDoc": 8383,
           "startInSent": 0,
           "endInSent": 8,
           "epCode": "s01e16"
@@ -4869,8 +4869,8 @@
         {
           "entity": "De Niro",
           "sentence": "Scorsese drank with De Niro.",
-          "startInDoc": 8394,
-          "endInDoc": 8401,
+          "startInDoc": 8395,
+          "endInDoc": 8402,
           "startInSent": 20,
           "endInSent": 27,
           "epCode": "s01e16"
@@ -4908,8 +4908,8 @@
         {
           "entity": "Courtney Love",
           "sentence": "You look about ready to marry Courtney Love.",
-          "startInDoc": 10370,
-          "endInDoc": 10383,
+          "startInDoc": 10371,
+          "endInDoc": 10384,
           "startInSent": 30,
           "endInSent": 43,
           "epCode": "s01e16"
@@ -6382,8 +6382,8 @@
         {
           "entity": "Tony Danza",
           "sentence": "Tony Danza, Judith Light, Alyssa Milano, Who's the Boss caterer Gordon \"Giddy-up\" Galligan.",
-          "startInDoc": 8052,
-          "endInDoc": 8062,
+          "startInDoc": 8055,
+          "endInDoc": 8065,
           "startInSent": 0,
           "endInSent": 10,
           "epCode": "s02e20"
@@ -6421,8 +6421,8 @@
         {
           "entity": "Judith Light",
           "sentence": "Tony Danza, Judith Light, Alyssa Milano, Who's the Boss caterer Gordon \"Giddy-up\" Galligan.",
-          "startInDoc": 8064,
-          "endInDoc": 8076,
+          "startInDoc": 8067,
+          "endInDoc": 8079,
           "startInSent": 12,
           "endInSent": 24,
           "epCode": "s02e20"
@@ -6460,8 +6460,8 @@
         {
           "entity": "Alyssa Milano",
           "sentence": "Tony Danza, Judith Light, Alyssa Milano, Who's the Boss caterer Gordon \"Giddy-up\" Galligan.",
-          "startInDoc": 8078,
-          "endInDoc": 8091,
+          "startInDoc": 8081,
+          "endInDoc": 8094,
           "startInSent": 26,
           "endInSent": 39,
           "epCode": "s02e20"
@@ -9349,8 +9349,8 @@
           "sentence": "Breakfast Club?",
           "startInSent": 0,
           "endInSent": 14,
-          "startInDoc": 9444,
-          "endInDoc": 9458,
+          "startInDoc": 9445,
+          "endInDoc": 9459,
           "epCode": "s01e16"
         },
         {
@@ -9358,8 +9358,8 @@
           "sentence": "And I don't remember the name of the girl in The Breakfast Club.",
           "startInSent": 45,
           "endInSent": 63,
-          "startInDoc": 9707,
-          "endInDoc": 9725,
+          "startInDoc": 9708,
+          "endInDoc": 9726,
           "epCode": "s01e16"
         }
       ]
@@ -9549,8 +9549,8 @@
           "sentence": "Who's the Boss?",
           "startInSent": 0,
           "endInSent": 14,
-          "startInDoc": 3888,
-          "endInDoc": 3902,
+          "startInDoc": 3889,
+          "endInDoc": 3903,
           "epCode": "s02e20"
         },
         {
@@ -9558,8 +9558,8 @@
           "sentence": "I've been watching Who's the Boss?",
           "startInSent": 19,
           "endInSent": 33,
-          "startInDoc": 7904,
-          "endInDoc": 7918,
+          "startInDoc": 7906,
+          "endInDoc": 7920,
           "epCode": "s02e20"
         },
         {
@@ -9567,8 +9567,8 @@
           "sentence": "Who's the Boss caterer Gordon \"Giddy-up\" Galligan.",
           "startInSent": 0,
           "endInSent": 14,
-          "startInDoc": 8093,
-          "endInDoc": 8107,
+          "startInDoc": 8096,
+          "endInDoc": 8110,
           "epCode": "s02e20"
         }
       ]
@@ -9826,8 +9826,8 @@
           "sentence": "But when Chandler saw Rachel naked on Friends, to even the score Rachel needed to see Chandler's penis.",
           "startInSent": 38,
           "endInSent": 45,
-          "startInDoc": 5768,
-          "endInDoc": 5775,
+          "startInDoc": 5769,
+          "endInDoc": 5776,
           "epCode": "s01e16"
         },
         {
@@ -10058,8 +10058,8 @@
           "sentence": "Looks like the law firm of Seacrest and Slumdog is taking the day off.",
           "startInSent": 40,
           "endInSent": 47,
-          "startInDoc": 8520,
-          "endInDoc": 8527,
+          "startInDoc": 8521,
+          "endInDoc": 8528,
           "epCode": "s01e16"
         },
         {
@@ -10205,8 +10205,8 @@
           "sentence": "What doesn't make sense is that you did all this work to put a smile on her face but can't pick up ice cream for Law and Order night because it feels too marriage-y.",
           "startInSent": 113,
           "endInSent": 126,
-          "startInDoc": 11580,
-          "endInDoc": 11593,
+          "startInDoc": 11581,
+          "endInDoc": 11594,
           "epCode": "s01e16"
         },
         {
@@ -13086,8 +13086,8 @@
           "sentence": "He's a young \"the Asian guy from Lost.\" ",
           "startInSent": 33,
           "endInSent": 37,
-          "startInDoc": 6787,
-          "endInDoc": 6791,
+          "startInDoc": 6788,
+          "endInDoc": 6792,
           "epCode": "s01e16"
         }
       ]
@@ -14053,8 +14053,8 @@
           "sentence": "Very impressive, Veronica Mars.",
           "startInSent": 17,
           "endInSent": 30,
-          "startInDoc": 10756,
-          "endInDoc": 10769,
+          "startInDoc": 10759,
+          "endInDoc": 10772,
           "epCode": "s02e20"
         }
       ]
