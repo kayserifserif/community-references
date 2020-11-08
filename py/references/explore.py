@@ -11,7 +11,7 @@ from collections import OrderedDict
 import re
 
 def getReferences() -> dict:
-  file = "./data/references.json"
+  file = "./data/community/references.json"
   try:
     with open(file, "r") as f:
       references = json.load(f)
@@ -21,7 +21,7 @@ def getReferences() -> dict:
     return
 
 def getReferents() -> dict:
-  file = "./data/referents.json"
+  file = "./data/community/referents.json"
   try:
     with open(file, "r") as f:
       referents = json.load(f)

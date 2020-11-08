@@ -11,7 +11,7 @@ season_dir = "Community.S{}.Season.{}.720p.5.1Ch.Web-DL.ReEnc-DeeJayAhmed"
 episode_file = "Community.S{}E{}.720p.5.1Ch.Web-DL.ReEnc-DeeJayAhmed.mkv"
 
 def getReferences():
-  file = "./data/references.json"
+  file = "./data/community/references.json"
   try:
     with open(file) as f:
       references = json.load(f)

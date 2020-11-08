@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 def top():
 
-  with open("./data/references.json", "r") as f:
+  with open("./data/community/references.json", "r") as f:
     references = json.load(f)
 
   countByEp = {}

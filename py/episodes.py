@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 import re
 import sys
 
-file = "./data/episodes.json"
+file = "./data/community/episodes.json"
 
 def getEpData():
   try:
@@ -78,7 +78,7 @@ def getEpPages(episodes):
   return episodes
 
 def write(episodes):
-  file = "./data/episodes.json"
+  file = "./data/community/episodes.json"
   try:
     j = json.dumps(episodes, indent=2)
     with open(file, "w") as f:

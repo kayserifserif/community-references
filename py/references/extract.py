@@ -4,6 +4,7 @@ from spacy import displacy
 import sys
 import re
 import json
+import srt
 
 
 
@@ -106,7 +107,7 @@ def getDictionary():
     return
 
 def getShowEnts():
-  file = "./db/show_ents.txt"
+  file = "./db/show_ents/community.txt"
   try:
     with open(file, "r") as f:
       transcript = f.read().splitlines()
@@ -115,8 +116,14 @@ def getShowEnts():
     print(f"Could not open {file}.")
     return
 
+def loadNLP():
+  print("Loading NLP...")
+  nlp = spacy.load("en_core_web_sm")
+  nlp.vocab[u"okay"].is_stop = True
+  return nlp
+
 def getTranscript(code):
-  file = f"./transcripts/{code}.txt"
+  file = f"./transcripts/community/{code}.txt"
   try:
     with open(file, "r") as f:
       transcript = f.read()
@@ -125,8 +132,19 @@ def getTranscript(code):
     print(f"Could not open {file}.")
     return
 
+def getSubs(code):
+  file = f"./subs/{code}.srt"
+  try:
+    with open(file, "r") as f:
+      subs = f.read()
+    subs = srt.parse(subs)
+    return subs
+  except IOError:
+    print(f"Could not open {file}.")
+    return
+
 def getReferences():
-  file = "./data/references.json"
+  file = "./data/community/references.json"
   try:
     with open(file) as f:
       references = json.load(f)
@@ -180,19 +198,12 @@ def isFirstName(names, name, nconst):
     return True
   return False
 
-def getEpRefs(names, titles, ratings, dictionary, show_ents, nlp, code):
-
-  print(f"Generating results for {code}...")
-
-  transcript = getTranscript(code)
-  if not transcript:
-    return
-
-  epRefs = {}
-
-  namesInstances = {}
+def extractNames(names, ratings, dictionary, show_ents, nlp, code, transcript):
   punc = re.compile("[,.?!—'():;\"# ]")
   transcriptSplit = punc.split(transcript.replace("\n", " "))
+
+  namesInstances = {}
+
   for nconst in names:
     nameFull = names[nconst]["name"]
     name = " ".join(punc.split(nameFull))
@@ -290,36 +301,112 @@ def getEpRefs(names, titles, ratings, dictionary, show_ents, nlp, code):
       del namesInstances[nconst]
 
   print(namesInstances)
+  return namesInstances
 
-  print("".ljust(5) + "EXTRACTED".ljust(34) + "PROCESSED".ljust(34))
-  references = getReferences()
-  extracted = []
-  for nconst in namesInstances:
-    s = " ".join([namesInstances[nconst][0][0], nconst])
-    extracted.append(s)
-  processed = []
-  for ref in references[code]["people"]:
-    referent = ref["referent"]
-    s = " ".join([referent["name"], referent["nconst"]])
-    if s not in processed:
-      processed.append(s)
-  for x in range(max(len(extracted), len(processed))):
-    print(str(x + 1).ljust(5), end="")
-    lineWidth = 43
-    if x < len(extracted):
-      if extracted[x] in processed:
-        print((extracted[x] + " \033[92m✓\033[0m").ljust(lineWidth), end="")
-      else:
-        print(("\033[93m" + extracted[x] + "\033[0m").ljust(lineWidth), end="")
+def inTitlesInstances(titlesInstances, title):
+  for tconst in titlesInstances:
+    titleToCheck = titlesInstances[tconst]["title"]
+    if title in titleToCheck:
+      return True
+  return False
+
+def extractTitles(titles, ratings, dictionary, show_ents, nlp, code, transcript):
+  transcript = transcript.replace("\n", " ")
+
+  doc = nlp(transcript)
+  ents = {}
+  for ent in doc.ents:
+    text = ent.text
+    if text.lower() in dictionary:
+      continue
+    if text in show_ents:
+      continue
+    sent = ent.sent
+    if text in ents:
+      ents[text].append(sent)
     else:
-      print(" ".ljust(lineWidth), end="")
-    if x < len(processed):
-      if processed[x] in extracted:
-        print((processed[x] + " \033[92m ✓\033[0m").ljust(lineWidth))
+      ents[text] = [sent]
+
+  titlesInstances = {}
+  for tconst in titles:
+    title = titles[tconst]["title"]
+    if title.startswith("The "):
+      title = title[4:]
+    elif title.startswith("A "):
+      title = title[2:]
+    # else:
+    #   title_lemma = title
+    if inTitlesInstances(titlesInstances, title):
+      continue
+    if title in ents:
+      titlesInstances[tconst] = {}
+      titlesInstances[tconst]["title"] = title
+      if tconst in ratings:
+        titlesInstances[tconst]["numVotes"] = ratings[tconst]["numVotes"]
       else:
-        print(("\033[93m" + processed[x] + "\033[0m").ljust(lineWidth))
-    else:
-      print()
+        titlesInstances[tconst]["numVotes"] = 0
+      titlesInstances[tconst]["sents"] = ents[title]
+
+  # remove less popular titles
+  votesThreshold = 15000
+  print(f"Checking popularity by removing those with less than {votesThreshold} votes...")
+  for tconst, v in list(titlesInstances.items()):
+    votes = titlesInstances[tconst]["numVotes"]
+    if votes < votesThreshold:
+      title = titlesInstances[tconst]["title"]
+      print(f"Removing {title} ({votes} votes).")
+      del titlesInstances[tconst]
+
+  print([[x[1] for x in v.items()] for v in titlesInstances.values()])
+
+  return titlesInstances
+
+def getEpRefs(names, titles, ratings, dictionary, show_ents, nlp, code):
+
+  print(f"Generating results for {code}...")
+
+  # transcript = getTranscript(code)
+  # if not transcript:
+    # return
+  
+  subs = getSubs(code)
+  if not subs:
+    return
+  transcript = " ".join([sub.content for sub in subs])
+
+  epRefs = {}
+  # namesInstances = extractNames(names, ratings, dictionary, show_ents, nlp, code, transcript)
+  titlesInstances = extractTitles(titles, ratings, dictionary, show_ents, nlp, code, transcript)
+
+  # print("".ljust(5) + "EXTRACTED".ljust(34) + "PROCESSED".ljust(34))
+  # references = getReferences()
+  # extracted = []
+  # for nconst in namesInstances:
+  #   s = " ".join([namesInstances[nconst][0][0], nconst])
+  #   extracted.append(s)
+  # processed = []
+  # for ref in references[code]["people"]:
+  #   referent = ref["referent"]
+  #   s = " ".join([referent["name"], referent["nconst"]])
+  #   if s not in processed:
+  #     processed.append(s)
+  # for x in range(max(len(extracted), len(processed))):
+  #   print(str(x + 1).ljust(5), end="")
+  #   lineWidth = 43
+  #   if x < len(extracted):
+  #     if extracted[x] in processed:
+  #       print((extracted[x] + " \033[92m✓\033[0m").ljust(lineWidth), end="")
+  #     else:
+  #       print(("\033[93m" + extracted[x] + "\033[0m").ljust(lineWidth), end="")
+  #   else:
+  #     print(" ".ljust(lineWidth), end="")
+  #   if x < len(processed):
+  #     if processed[x] in extracted:
+  #       print((processed[x] + " \033[92m ✓\033[0m").ljust(lineWidth))
+  #     else:
+  #       print(("\033[93m" + processed[x] + "\033[0m").ljust(lineWidth))
+  #   else:
+  #     print()
 
   # epNames = []
   # epTitles = []
@@ -378,13 +465,13 @@ def main(argv):
   # get option from command line input
   if len(sys.argv) is 2 and re.match(r"s\d\de\d\d", sys.argv[1]):
 
-    names = getNames()
+    # names = getNames()
+    names = {}
     titles = getTitles()
     ratings = getRatings()
     dictionary = getDictionary()
     show_ents = getShowEnts()
-    nlp = spacy.load("en_core_web_sm")
-    nlp.vocab[u"okay"].is_stop = True
+    nlp = loadNLP()
     results = getEpRefs(names, titles, ratings,
       dictionary, show_ents, nlp,
       sys.argv[1])
@@ -404,7 +491,19 @@ def main(argv):
     for epCode in epCodes:
       refs[epCode] = getEpRefs(epCode)
 
-    # write(epData, "./data/references1.json")
+    # write(epData, "./data/community/references1.json")
+
+  elif len(sys.argv) is 2:
+    # names = getNames()
+    names = {}
+    titles = getTitles()
+    ratings = getRatings()
+    dictionary = getDictionary()
+    show_ents = []
+    nlp = loadNLP()
+    results = getEpRefs(names, titles, ratings,
+      dictionary, show_ents, nlp,
+      sys.argv[1])
 
   else:
     print("usage:\n\

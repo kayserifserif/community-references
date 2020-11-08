@@ -10,7 +10,7 @@ import json
 import re
 
 def getReferences() -> dict:
-  file = "./data/references.json"
+  file = "./data/community/references.json"
   try:
     with open(file, "r") as f:
       references = json.load(f)
@@ -21,7 +21,7 @@ def getReferences() -> dict:
 
 def getTranscript(epCode: str) -> str:
   try:
-    file = "./transcripts/" + epCode + ".txt"
+    file = "./transcripts/community/" + epCode + ".txt"
     with open(file, "r") as f:
       transcript = f.read()
     return transcript
@@ -129,7 +129,7 @@ def shift(references: dict, transcript: str, epCode: str, orig: dict, shift: tup
   writeReferences(references)
 
 def writeReferences(references: dict):
-  fileName = "./data/references.json"
+  fileName = "./data/community/references.json"
   try:
     j = json.dumps(references, indent=2)
     with open(fileName, "w") as f:

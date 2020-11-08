@@ -16,7 +16,7 @@ titleTypes = [
 # load referents.json
 def getReferents() -> dict:
   try:
-    with open("./data/referents.json", "r") as f:
+    with open("./data/community/referents.json", "r") as f:
       referents = json.load(f)
       return referents
   except IOError:
@@ -28,7 +28,7 @@ def validateEpCode(val: str) -> bool:
   if not re.match(r"s\d{2}e\d{2}", val):
     return "Episode code should be in the form of \"s01e01\"."
   try:
-    with open(f"./transcripts/{val}.txt", "r") as f:
+    with open(f"./transcripts/community/{val}.txt", "r") as f:
       f.read()
       return True
   except IOError:
@@ -39,7 +39,7 @@ def getInstances(answers: dict) -> list:
   if answers["entity"] == "\\N":
     return
   try:
-    with open(f"./transcripts/{answers['epCode']}.txt", "r") as f:
+    with open(f"./transcripts/community/{answers['epCode']}.txt", "r") as f:
       transcript = f.read()
       transcript = re.sub("\n", " ", transcript)
     results = re.finditer(answers["entity"], transcript)
@@ -426,7 +426,7 @@ REFERENT\n\
 
 # save new ref to references file
 def writeToReferences(newRef: dict):
-  refFile = "./data/references.json"
+  refFile = "./data/community/references.json"
   try:
     with open(refFile, "r") as f:
       references = json.load(f)

@@ -9,10 +9,10 @@ from collections import OrderedDict
 
 def makeAnnotations(epCode, epCodes):
   # get transcript for this episode
-  with open("./transcripts/" + epCode + ".txt", "r") as f:
+  with open("./transcripts/community/" + epCode + ".txt", "r") as f:
     transcript = f.read()
   # get all references
-  with open("./data/references.json", "r") as f:
+  with open("./data/community/references.json", "r") as f:
     references = json.load(f)
     epRefs = references[epCode]
 

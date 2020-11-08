@@ -3,7 +3,7 @@ from collections import OrderedDict
 
 def update():
 
-  with open("./data/references.json", "r") as f:
+  with open("./data/community/references.json", "r") as f:
     data = json.load(f)
 
   people = {}
@@ -70,9 +70,9 @@ def update():
 
   try:
     j = json.dumps(referents, indent=2)
-    with open("./data/referents.json", "w") as f:
+    with open("./data/community/referents.json", "w") as f:
       print(j, file=f)
-      print("Successfully saved to file ./data/referents.json!")
+      print("Successfully saved to file ./data/community/referents.json!")
   except IOError:
     print("Could not write to file.")
 
