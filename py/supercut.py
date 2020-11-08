@@ -1,7 +1,9 @@
+from videogrep import videogrep
 import sys
 import re
 import json
-from videogrep import videogrep
+from os import listdir
+from os.path import isfile, join
 
 def getReferences():
   file = "./data/community/references.json"
@@ -27,26 +29,49 @@ def compileRefs(code):
   if re.match(r"s\d{2}e\d{2}", code):
     search = search | compileRefsSet(references, code)
   elif re.match(r"s\d{2}", code):
-    epCodes = sorted([f[:-4] for f in listdir("./transcripts") if isfile(join("./transcripts", f)) and code in f])[1:]
+    epCodes = sorted([f[:-4] for f in listdir("transcripts/community/") if isfile(join("transcripts/community/", f)) and code in f])[1:]
     for epCode in epCodes:
       search = search | compileRefsSet(references, epCode)
+  else:
+    return ""
   searchStr = "(" + "|".join(search) + ")"
   print(searchStr)
   return searchStr
 
-def create_supercut(epCode):
-  epCode = epCode
-  inFile = ["video/community/" + epCode[:3] + "/" + epCode + ".mkv"]
-  search = compileRefs(epCode.lower())
-  outFile = "video/supercuts/supercut-" + epCode + ".mp4"
-  videogrep(inFile, outFile, search, "re")
+def create_supercut(code):
+  # inFiles
+  inFiles = []
+  path_temp = "video/community/{}/{}.mkv"
+  if re.match(r"s\d{2}e\d{2}", code):
+    path = path_temp.format(code[:3], code)
+    if isfile(path):
+      inFiles.append(path)
+  elif re.match(r"s\d{2}", code):
+    epCodes = sorted([f[:-4] for f in listdir("video/community/" + code) if isfile(join("video/community/" + code, f)) and code in f])[1:]
+    for epCode in epCodes:
+      path = path_temp.format(epCode[:3], epCode)
+      if isfile(path):
+        inFiles.append(path)
+  if len(inFiles) == 0:
+    return
+  # outFile
+  outFile = "video/supercuts/supercut-" + code + ".mp4"
+  # search
+  search = compileRefs(code)
+  if not search:
+    return
+  # go!
+  videogrep(inFiles, outFile, search, "re")
 
 def main():
-  if len(sys.argv) == 2 and re.match(r"s\d{2}e\d{2}", sys.argv[1]):
+  if len(sys.argv) == 2:
     create_supercut(sys.argv[1])
   else:
     print("usage: \n\
-  epCode: s01e01 for season 1 episode 1")
+  epCode: s01e01 for season 1 episode 1\n\
+  season: s01 for all episodes in season 1")
+    # print("usage: \n\
+  # epCode: s01e01 for season 1 episode 1")
 
 if __name__ == "__main__":
   main()
