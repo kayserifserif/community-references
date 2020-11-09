@@ -19,10 +19,10 @@ TOC:
 
 1. Install [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
 
-2. Create a conda environment from the environment.yml file.
+2. Create a conda environment from the environment.yaml file.
 
 ```
-$ conda env create -f environment.yml
+$ conda env create -f environment.yaml
 ```
 
 ## Usage
@@ -165,3 +165,7 @@ This project uses these very helpful libraries:
 # Acknowledgements
 
 Much appreciated guidance and support from Sarah Ciston and the [Creative Code Collective](https://www.instagram.com/creativecodecollective/), Holly Willis, and the MA+P department :)
+
+# To-do
+
+- Search for entity and generate supercut

@@ -1,8 +1,0 @@
-name: references
-channels:
-  - defaults
-dependencies:
-  - spacy
-  - beautifulsoup4
-prefix: /Users/kathey/miniconda3/envs/references
-
