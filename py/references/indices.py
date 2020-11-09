@@ -1,5 +1,3 @@
-import sys
-import argparse
 from PyInquirer import prompt
 
 from os import listdir
@@ -31,13 +29,12 @@ def getTranscript(epCode: str) -> str:
 
 def getEpMismatches(references: dict, transcript: str, epCode: str = None) -> list:
   epMismatches = []
-  for refType in references[epCode]:
-    for instance in references[epCode][refType]:
-      reference = instance["reference"]
-      actual = transcript[reference["startInDoc"]:reference["endInDoc"]]
-      if actual != reference["entity"]:
-        reference["actual"] = actual
-        epMismatches.append(reference)
+  for instance in references[epCode]:
+    reference = instance["reference"]
+    actual = transcript[reference["startInDoc"]:reference["endInDoc"]]
+    if actual != reference["entity"]:
+      reference["actual"] = actual
+      epMismatches.append(reference)
   return epMismatches
 
 def getMatches(transcript: str, search: str) -> dict:
@@ -97,35 +94,33 @@ def shift(references: dict, transcript: str, epCode: str, orig: dict, shift: tup
   if lenDiff == 0:
     print("Difference in position.")
     print(f"Shifting {epCode} references {posDiff} characters if occurring at index {origPos[0]} or after...")
-    for refType in epRefs:
-      for ref in epRefs[refType]:
-        reference = ref["reference"]
-        startInDoc = reference["startInDoc"]
-        endInDoc = reference["endInDoc"]
-        if startInDoc >= origPos[0]:
-          origStr = transcript[startInDoc:endInDoc].replace("\n", "\\n")
-          shiftStart = startInDoc + posDiff
-          reference["startInDoc"] = shiftStart
-          shiftEnd = endInDoc + posDiff
-          reference["endInDoc"] = shiftEnd
-          shiftStr = transcript[shiftStart:shiftEnd].replace("\n", "\\n")
-          log = origStr + " -> " + shiftStr
-          if reference["entity"] == shiftStr:
-            log += "\033[92m ✓\033[0m"
-          print(log)
-          reference.pop("actual", None)
+    for ref in epRefs:
+      reference = ref["reference"]
+      startInDoc = reference["startInDoc"]
+      endInDoc = reference["endInDoc"]
+      if startInDoc >= origPos[0]:
+        origStr = transcript[startInDoc:endInDoc].replace("\n", "\\n")
+        shiftStart = startInDoc + posDiff
+        reference["startInDoc"] = shiftStart
+        shiftEnd = endInDoc + posDiff
+        reference["endInDoc"] = shiftEnd
+        shiftStr = transcript[shiftStart:shiftEnd].replace("\n", "\\n")
+        log = origStr + " -> " + shiftStr
+        if reference["entity"] == shiftStr:
+          log += "\033[92m ✓\033[0m"
+        print(log)
+        reference.pop("actual", None)
   else:
     print("Difference in length.")
     print(f"Resetting {epCode} indices {origPos} to {shift}...")
     found = False
-    for refType in epRefs:
-      if not found:
-        for ref in epRefs[refType]:
-          reference = ref["reference"]
-          if reference["startInDoc"] == origPos[0] and reference["entity"] == orig["entity"]:
-            reference["startInDoc"] = shift[0]
-            reference["endInDoc"] = shift[1]
-            reference.pop("actual", None)
+    if not found:
+      for ref in epRefs:
+        reference = ref["reference"]
+        if reference["startInDoc"] == origPos[0] and reference["entity"] == orig["entity"]:
+          reference["startInDoc"] = shift[0]
+          reference["endInDoc"] = shift[1]
+          reference.pop("actual", None)
   writeReferences(references)
 
 def writeReferences(references: dict):
@@ -263,45 +258,3 @@ def find(args):
     print(result.start(), result.end(), context)
   if counter is 0:
     print("No results found.")
-
-def main(argv):
-  parser = argparse.ArgumentParser(
-    description="Checks references file for mismatches with transcripts, identifies correct indices, and shifts indices.")
-  subparsers = parser.add_subparsers(
-    description="command", required=True)
-  parser_audit = subparsers.add_parser("audit",
-    help="list all mismatches",
-    description="List mismatches between references and transcripts for given episodes. If no epCode is given, all episodes will be checked. If --all is not given, only the first result will be shown.")
-  parser_audit.add_argument("epCode",
-    help="episode code, e.g. s01e01 for season 1 episode 1",
-    type=epCodeType,
-    nargs="*")
-  parser_audit.add_argument("-a", "--all",
-    help="show all results",
-    action="store_true")
-  parser_audit.set_defaults(func=audit)
-  parser_fix = subparsers.add_parser("fix",
-    help="fix first mismatch",
-    description="Fix first mismatch found. Interactive interface to confirm indices shifts.")
-  parser_fix.add_argument("epCode",
-    help="episode code, e.g. s01e01 for season 1 episode 1",
-    type=epCodeType,
-    nargs="*")
-  parser_fix.add_argument("-r", "--run",
-    help="Run automatically through all mismatches.",
-    action="store_true")
-  parser_fix.set_defaults(func=fix)
-  parser_find = subparsers.add_parser("find",
-    help="find indices of search string",
-    description="Get list of indices for all matches of a search string in an episode. Helpful for a manual indices fix.")
-  parser_find.add_argument("epCode",
-    help="episode code, e.g. s01e01 for season 1 episode 1",
-    type=epCodeType)
-  parser_find.add_argument("search",
-    help="search string in quotes")
-  parser_find.set_defaults(func=find)
-  args = parser.parse_args(argv[1:]) if len(argv) > 1 else parser.parse_args(argv)
-  args.func(args)
-
-if __name__ == "__main__":
-  main(sys.argv)

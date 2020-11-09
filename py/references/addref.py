@@ -58,11 +58,10 @@ def getInstances(answers: dict) -> list:
 # check if entity exists in referents
 def findExistingEntity(entity: str) -> dict or None:
   referents = getReferents()
-  for refType in referents:
-    for ref in referents[refType]:
-      if ref == entity:
-        details = referents[refType][ref]["details"]
-        return details
+  for nametitle in referents:
+    if nametitle == entity:
+      details = referents[nametitle]["details"]
+      return details
   return
 
 # query user for reference
@@ -529,12 +528,8 @@ def getInput(prevReference: dict = None, prevReferent: dict = None, editItem: st
   else:
     return newRef
 
-# main function
-def main():
+def addref(args):
   newRef = getInput()
   if not newRef:
     return
   writeToReferences(newRef)
-
-if __name__ == "__main__":
-  main()

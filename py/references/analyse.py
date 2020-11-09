@@ -1,53 +1,58 @@
 import sys
 from argparse import ArgumentParser
-
+import re
 import json
+
 # import spacy
 # from spacy.symbols import *
 # from spacy import displacy
 
-from collections import OrderedDict
-
-import re
+# # # #
+# DATA #
+# # # #
 
 def get_references() -> dict:
   file = "./data/community/references.json"
   try:
     with open(file, "r") as f:
       references = json.load(f)
-    return references
   except IOError:
     print(f"Could not read {file}.")
     return
+  return references
 
 def populate_referents(names = None, titles = None) -> dict:
   file = "./data/community/referents.json"
   try:
     with open(file, "r") as f:
       referents = json.load(f)
-    for nametitle in referents:
-      ref = referents[nametitle]
-      ref_type = ref["details"]["refType"]
-      if ref_type == "name":
-        if names != None:
-          names[nametitle] = ref
-      else:
-        if titles != None:
-          titles[nametitle] = ref
-    return referents
   except IOError:
     print(f"Could not read {file}.")
     return
+  for nametitle in referents:
+    ref = referents[nametitle]
+    ref_type = ref["details"]["refType"]
+    if ref_type == "name":
+      if names != None:
+        names[nametitle] = ref
+    else:
+      if titles != None:
+        titles[nametitle] = ref
+  return referents
 
 def get_episodes() -> dict:
   file = "./db/community/episodes.json"
   try:
     with open(file, "r") as f:
       episodes = json.load(f)
-    return episodes
   except IOError:
     print(f"Could not read {file}.")
     return
+  return episodes
+
+# # # # # #
+# ANALYSIS #
+# # # # # #
 
 def total(data: dict) -> int:
   return len(list(data))
@@ -61,6 +66,19 @@ def top(data: dict, num: int = 5) -> list:
     count = data[key]["count"]
     lines.append(marker + key + " (" + str(count) + ")")
   return "\n".join(lines)
+
+def top_count(counts_by_ep, count_type=""):
+  top_count = 0
+  top_count_ep = ""
+  for ep_code in counts_by_ep:
+    if not count_type:
+      count = counts_by_ep[ep_code]["name"] + counts_by_ep[ep_code]["title"]
+    else:
+      count = counts_by_ep[ep_code][count_type]
+    if count > top_count:
+      top_count = count
+      top_count_ep = ep_code
+  return (top_count_ep, top_count)
 
 def similes():
   return
@@ -91,8 +109,8 @@ def similes():
   # displacy.serve(doc, style="dep")
   # for ep_code in references:
   #   episode = references[ep_code]
-  #   for refType in episode:
-  #     instances = episode[refType]
+  #   for ref_type in episode:
+  #     instances = episode[ref_type]
   #     for instance in instances:
   #       sentence = instance["reference"]["sentence"]
   #       doc = nlp(sentence)
@@ -119,8 +137,8 @@ def similes():
   # for ep_code in references:
   #   episode = references[ep_code]
   #   if ep_code == "s01e01":
-  #     for refType in episode:
-  #       instances = episode[refType]
+  #     for ref_type in episode:
+  #       instances = episode[ref_type]
   #       for instance in instances:
   #         sentence = instance["reference"]["sentence"]
   #         doc = nlp(sentence)
@@ -178,20 +196,23 @@ def genders():
   # print(len(actresses))
   # print(list(actresses.items())[:10])
 
-def analyse_all(args):
+# # # # # #
+# ACTIONS #
+# # # # # #
+
+def analyse_all():
   names = {}
   titles = {}
   referents = populate_referents(names, titles)
   references = get_references()
-  analyse_names(None, names)
-  analyse_titles(None, titles)
-  analyse_episodes(None, references)
+  analyse_names(names)
+  analyse_titles(titles)
+  analyse_episodes(references)
 
-def analyse_names(args, names=None):
+def analyse_names(names=None):
   if not names:
     names = {}
     populate_referents(names, None)
-  # people = referents["people"]
   print("--- NAMES ---")
   print()
   print("Total names:")
@@ -201,11 +222,10 @@ def analyse_names(args, names=None):
   print(top(names))
   print()
 
-def analyse_titles(args, titles=None):
+def analyse_titles(titles=None):
   if not titles:
     titles = {}
     populate_referents(None, titles)
-  # titles = referents["titles"]
   print("--- TITLES ---")
   print()
   print("Total titles:")
@@ -215,20 +235,7 @@ def analyse_titles(args, titles=None):
   print(top(titles))
   print()
 
-def top_count(counts_by_ep, count_type=""):
-  top_count = 0
-  top_count_ep = ""
-  for ep_code in counts_by_ep:
-    if not count_type:
-      count = counts_by_ep[ep_code]["name"] + counts_by_ep[ep_code]["title"]
-    else:
-      count = counts_by_ep[ep_code][count_type]
-    if count > top_count:
-      top_count = count
-      top_count_ep = ep_code
-  return (top_count_ep, top_count)
-
-def analyse_episodes(args, references=None, episodes=None):
+def analyse_episodes(references=None, episodes=None):
   if not references:
     references = get_references()
   if not episodes:
@@ -256,77 +263,12 @@ def analyse_episodes(args, references=None, episodes=None):
     print(description)
     print()
 
-def printRefs(epRefs, refType):
-  for ref in epRefs[refType]:
-    reference = ref["reference"]
-    referent = ref["referent"]
-    print(reference["entity"], "/", reference["sentence"], "/", end=" ")
-    if referent["refType"]:
-      print(referent["name"], referent["nconst"])
-    else:
-      print(referent["title"], referent["tconst"])
-
-def list_refs(args):
-  ep_code = args.ep_code
-  references = get_references()
-  epRefs = references[ep_code]
-  refType = args.type[0]
-  if refType == "all":
-    printRefs(epRefs, "people")
-    printRefs(epRefs, "titles")
-  elif refType == "names":
-    printRefs(epRefs, "people")
-  elif refType == "titles":
-    printRefs(epRefs, "titles")
-
-def ep_code_type(argStr):
-  if not re.match(r"s\d{2}e\d{2}", argStr):
-    raise argparse.ArgumentTypeError("Couldn't parse episode code. For example, for season 1 episode 1, the episode code should be s01e01.")
-  return argStr
-
-def main(argv):
-  parser = ArgumentParser(
-    description="Explore references and referents data.")
-  subparsers = parser.add_subparsers(
-    description="command", required=True)
-
-  parser_analyse = subparsers.add_parser("analyse",
-    help="analyse referents",
-    description="Analyse referents data.")
-  analyse_subparsers = parser_analyse.add_subparsers(
-    description="command", required=True)
-  parser_all = analyse_subparsers.add_parser("all",
-    help="all of the commands",
-    description="Execute all of the commands.")
-  parser_all.set_defaults(func=analyse_all)
-  parser_names = analyse_subparsers.add_parser("names",
-    help="analyse names",
-    description="Analyse referent names.")
-  parser_names.set_defaults(func=analyse_names)
-  parser_titles = analyse_subparsers.add_parser("titles",
-    help="analyse titles",
-    description="Analyse referent titles.")
-  parser_titles.set_defaults(func=analyse_titles)
-  parser_titles = analyse_subparsers.add_parser("episodes",
-    help="analyse episodes",
-    description="Analyse reference counts in episodes.")
-  parser_titles.set_defaults(func=analyse_episodes)
-
-  parser_list = subparsers.add_parser("list",
-    help="list references in episode",
-    description="List references in episode.")
-  parser_list.add_argument("ep_code",
-    help="episode code, e.g. s01e01 for season 1 episode 1",
-    type=ep_code_type)
-  parser_list.add_argument("--type", "-t",
-    help="type of reference, e.g. names or titles",
-    default="all",
-    nargs=1)
-  parser_list.set_defaults(func=list_refs)
-
-  args = parser.parse_args(argv[1:]) if len(argv) > 1 else parser.parse_args(argv)
-  args.func(args)
-  # analyse(argv)
-
-if __name__ == "__main__":
-  main(sys.argv)
+def analyse(args):
+  if args.type == "names":
+    analyse_names()
+  elif args.type == "titles":
+    analyse_titles()
+  elif args.type == "episodes":
+    analyse_episodes()
+  else:
+    analyse_all()

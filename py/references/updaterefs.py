@@ -46,10 +46,7 @@ def write(referents) -> None:
   except IOError:
     print("Could not write to file.")
 
-def main():
+def updaterefs(args):
   references = get_references()
   referents = generate_referents(references)
   write(referents)
-
-if __name__ == "__main__":
-  main()
