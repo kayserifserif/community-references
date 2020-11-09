@@ -1,1 +1,1 @@
-__all__ = ["add", "explore", "extract", "indices", "updateReferents"]
+__all__ = ["add", "explore", "extract", "indices", "updaterefs"]

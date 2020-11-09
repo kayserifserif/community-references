@@ -436,10 +436,11 @@ def writeToReferences(newRef: dict):
   epCode = newRef["reference"]["epCode"]
   newRef["reference"].pop("epCode", None)
 
-  if "name" in newRef["referent"]:
-    references[epCode]["people"].append(newRef)
-  else:
-    references[epCode]["titles"].append(newRef)
+  # if "name" in newRef["referent"]:
+  #   references[epCode]["people"].append(newRef)
+  # else:
+  #   references[epCode]["titles"].append(newRef)
+  references[epCode].append(newRef())
 
   j = json.dumps(references, indent=2)
   try:
