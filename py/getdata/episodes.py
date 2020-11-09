@@ -64,11 +64,7 @@ def scrape():
   write(updated_eps)
 
 def main(argv):
-  if len(sys.argv) == 2 and sys.argv[1] == "scrape":
-    scrape()
-  else:
-    print("usage: scrape\n\
-      scrape: scrape IMDb for episode data and save to episodes.json")
+  scrape()
 
 if __name__ == "__main__":
   main(sys.argv)

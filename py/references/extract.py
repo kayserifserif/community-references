@@ -107,7 +107,7 @@ def getDictionary():
     return
 
 def getShowEnts():
-  file = "./db/show_ents/community.txt"
+  file = "./db/community/show_entities.txt"
   try:
     with open(file, "r") as f:
       transcript = f.read().splitlines()

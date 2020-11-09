@@ -30,11 +30,7 @@ def scrape():
       f.write(script)
 
 def main():
-  if len(sys.argv) is 2 and sys.argv[1] == "scrape":
-    scrape()
-  else:
-    print("usage: \n\
-  scrape: scrape transcripts into scrape/")
+  scrape()
 
 if __name__ == "__main__":
   main()

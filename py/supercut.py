@@ -1,3 +1,4 @@
+import argparse
 from videogrep import videogrep
 import sys
 import re
@@ -63,14 +64,11 @@ def create_supercut(code):
   videogrep(inFiles, outFile, search, "re")
 
 def main():
-  if len(sys.argv) == 2:
-    create_supercut(sys.argv[1])
-  else:
-    print("usage: \n\
-  epCode: s01e01 for season 1 episode 1\n\
-  season: s01 for all episodes in season 1")
-    # print("usage: \n\
-  # epCode: s01e01 for season 1 episode 1")
+  parser = argparse.ArgumentParser(description="Create supercut videos of references in an episode or season.")
+  parser.add_argument("code", help="code of episode (s01e01) or season (s01) to supercut")
+  args = parser.parse_args()
+  if args.code:
+    create_supercut(args.code)
 
 if __name__ == "__main__":
   main()
