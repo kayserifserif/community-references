@@ -1,15 +1,10 @@
-from os import listdir
-from os.path import isfile, join
-import csv
 import json
 import requests
 from bs4 import BeautifulSoup
-import re
 import sys
 
-file = "./data/community/episodes.json"
-
-def getEpData():
+def get_existing_eps():
+  file = "db/community/episodes.json"
   try:
     with open(file) as f:
       epData = json.load(f)
@@ -18,67 +13,43 @@ def getEpData():
     print(f"Could not open file {file}.")
     return
 
-def getEpConsts():
-  epCodes = sorted([f[:-4] for f in listdir("./transcripts/community") if isfile(join("./transcripts/community", f))])[1:]
-  showTconst = "tt1439629"
-  tconsts = {}
-  try:
-    with open("./db/title.episode.tsv", "r") as f:
-      reader = csv.DictReader(f, dialect="excel-tab")
-      counter = 0
-      for row in reader:
-        counter += 1
-        if len(tconsts) > len(epCodes):
-          continue
-        if row["parentTconst"] == showTconst:
-          season = int(row["seasonNumber"])
-          season = "{:02}".format(season)
-          episode = int(row["episodeNumber"])
-          episode = "{:02}".format(episode)
-          epCode = "s" + season + "e" + episode
-          tconsts[epCode] = {"tconst": row["tconst"]}
-    return tconsts
-  except IOError:
-    print(f"Could not open {file}.")
-    return
-
-def getEpPages(episodes):
-  for epCode in episodes:
-    print(epCode)
+def get_ep_details(episodes):
+  for ep_code in episodes:
+    tconst = episodes[ep_code]["tconst"]
     
-    plotUrl = "https://www.imdb.com/title/" + episodes[epCode]["tconst"] + "/plotsummary"
-    plotRequest = requests.get(plotUrl)
-    plotSoup = BeautifulSoup(plotRequest.text, features="html.parser") # parse page
-    description = plotSoup.find(id="plot-summaries-content").find("p").get_text().strip()
-    episodes[epCode]["description"] = description
+    # get jsonLD (linked data) from imdb page
+    ep_url = "https://www.imdb.com/title/" + tconst
+    ep_soup = BeautifulSoup(requests.get(ep_url).text, features="html.parser") # parse page
+    jsonLD = json.loads(ep_soup.select_one("script[type='application/ld+json']").contents[0])
 
-    creditsUrl = "https://www.imdb.com/title/" + episodes[epCode]["tconst"] + "/fullcredits"
-    creditsRequest = requests.get(creditsUrl)
-    creditsSoup = BeautifulSoup(creditsRequest.text, features="html.parser")
-    table = creditsSoup.findAll("table")[1]
-    rows = table.findAll("tr")
-    writers = []
-    for row in rows:
-      tds = row.findAll("td")
-      if len(tds) == 3:
-        nameA = tds[0].find("a")
-        creditTd = tds[2]
-        name = nameA.get_text().strip()
-        nconst = nameA["href"].split("/")[2]
-        credit = re.compile("[()]").split(creditTd.get_text().strip())[1]
-        writer = {
-          "name": name,
-          "nconst": nconst,
-          "credit": credit
-        }
-        if writer not in writers:
-          writers.append(writer)
-    episodes[epCode]["writers"] = writers
+    # title
+    episodes[ep_code]["title"] = jsonLD["name"]
+    # image
+    episodes[ep_code]["image"] = jsonLD["image"]
+    # description
+    description = ep_soup.select_one("meta[name='description']")["content"]
+    episodes[ep_code]["description"] = ". ".join(description.split(". ")[2:])
+    # date
+    episodes[ep_code]["date"] = jsonLD["datePublished"]
+    # ratings
+    episodes[ep_code]["ratings"] = jsonLD["aggregateRating"]
+    episodes[ep_code]["ratings"].pop("@type")
+    # writers
+    episodes[ep_code]["writers"] = []
+    for creator in jsonLD["creator"]:
+      if creator["@type"] == "Person":
+        creator.pop("@type")
+        creator["nconst"] = creator["url"][6:-1]
+        creator.pop("url")
+        if creator not in episodes[ep_code]["writers"]:
+          episodes[ep_code]["writers"].append(creator)
+
+    print(json.dumps(episodes[ep_code], indent=2))
   
   return episodes
 
 def write(episodes):
-  file = "./data/community/episodes.json"
+  file = "./db/community/episodes_new.json"
   try:
     j = json.dumps(episodes, indent=2)
     with open(file, "w") as f:
@@ -88,10 +59,9 @@ def write(episodes):
     print(f"Could not write to file {file}.")
 
 def scrape():
-  # tconsts = getEpConsts()
-  existingEps = getEpData()
-  newEps = getEpPages(existingEps)
-  # write(newEps)
+  existing_eps = get_existing_eps()
+  updated_eps = get_ep_details(existing_eps)
+  write(updated_eps)
 
 def main(argv):
   if len(sys.argv) == 2 and sys.argv[1] == "scrape":
