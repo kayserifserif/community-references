@@ -1,7 +1,6 @@
-import sys
-from argparse import ArgumentParser
-import re
 import json
+import matplotlib.pyplot as plt
+from pprint import pprint
 
 # import spacy
 # from spacy.symbols import *
@@ -57,14 +56,14 @@ def get_episodes() -> dict:
 def total(data: dict) -> int:
   return len(list(data))
 
-def top(data: dict, num: int = 5) -> list:
+def top(data: dict, key = "count", num: int = 5) -> list:
   keys = list(data)
   lines = []
   for x in range(num):
     marker = str(x + 1) + ". "
-    key = keys[x]
-    count = data[key]["count"]
-    lines.append(marker + key + " (" + str(count) + ")")
+    item = keys[x]
+    count = data[item][key]
+    lines.append(marker + item + " (" + str(count) + ")")
   return "\n".join(lines)
 
 def top_count(counts_by_ep, count_type=""):
@@ -201,13 +200,17 @@ def genders():
 # # # # # #
 
 def analyse_all():
+  references = get_references()
   names = {}
   titles = {}
   referents = populate_referents(names, titles)
-  references = get_references()
+  episodes = get_episodes()
+
   analyse_names(names)
   analyse_titles(titles)
-  analyse_episodes(references)
+  analyse_seasons(references, episodes)
+  analyse_episodes(references, episodes)
+  analyse_writers(references, episodes)
 
 def analyse_names(names=None):
   if not names:
@@ -235,6 +238,67 @@ def analyse_titles(titles=None):
   print(top(titles))
   print()
 
+def analyse_seasons(references=None, episodes=None):
+  if not references:
+    references = get_references()
+  if not episodes:
+    episodes = get_episodes()
+
+  # count references per episode per season
+  seasons = [[] for x in range(6)]
+  for ep_code in references:
+    s_num = int(ep_code[2])
+    ep_num = int(ep_code[-2:])
+    while len(seasons[s_num - 1]) < ep_num:
+      seasons[s_num - 1].append(0)
+    ep = references[ep_code]
+    for instance in ep:
+      seasons[s_num - 1][ep_num - 1] += 1
+  seasons_combined = [ep for s in seasons for ep in s]
+
+  # plot
+  # fig, axs = plt.subplots(2, 1, figsize=(15, 9))
+  fig, ax = plt.subplots(figsize=(15, 9))
+  fig.suptitle("Community references")
+  # by season
+  # for s in range(len(seasons)):
+  #   axs[0].plot([x + 1 for x in range(len(seasons[s]))], seasons[s], label="Season " + str(s + 1))
+  # axs[0].set_title("References through each season")
+  # axs[0].set_xlabel("Episode number of season")
+  # axs[0].set_ylabel("Number of references")
+  # axs[0].set_ylim(0)
+  # axs[0].legend()
+  # through series
+  ax.plot([x + 1 for x in range(len(seasons_combined))], seasons_combined)
+  ax.set_title("References throughout the series")
+  ax.set_xlabel("Episode number of series")
+  ax.set_ylabel("Number of references")
+  ax.set_ylim(0)
+  last_ep_nums = []
+  for s in range(len(seasons)):
+    if len(last_ep_nums) == 0:
+      last_ep_nums.append(len(seasons[s]))
+    else:
+      last_ep_nums.append(len(seasons[s]) + last_ep_nums[-1])
+  ax.vlines([e + 0.5 for e in last_ep_nums], 0, 1, transform=ax.get_xaxis_transform(), colors='r')
+  top_ep_codes = []
+  for s in range(len(seasons)):
+    top_ep = 0
+    for ep in range(len(seasons[s])):
+      if seasons[s][ep] > seasons[s][top_ep]:
+        top_ep = ep
+    top_ep_codes.append((s, top_ep))
+  for ep in top_ep_codes:
+    s_num = ep[0] + 1
+    ep_num = ep[1] + 1
+    cumulative_num = ep_num - 1
+    for x in range(s_num - 1):
+      cumulative_num += len(seasons[x])
+    code = f"s{s_num:02}e{ep_num:02}"
+    ax.text(cumulative_num, seasons_combined[cumulative_num], code + " (" + str(seasons_combined[cumulative_num]) + ")", horizontalalignment="center")
+    ax.text(cumulative_num, seasons_combined[cumulative_num] - 1, episodes[code]["title"], horizontalalignment="center")
+  plt.show()
+
 def analyse_episodes(references=None, episodes=None):
   if not references:
     references = get_references()
@@ -261,14 +325,73 @@ def analyse_episodes(references=None, episodes=None):
     print(f"{count[0]}: {title} ({count[1]})")
     description = episodes[count[0]]["description"]
     print(description)
+    writers = episodes[count[0]]["writers"]
+    print(f"Written by: {', '.join([writer['name'] for writer in writers])}")
     print()
+
+def analyse_writers(references=None, episodes=None):
+  if not references:
+    references = get_references()
+  if not episodes:
+    episodes = get_episodes()
+
+  # count episodes for each writer
+  writers = {}
+  for ep_code in episodes:
+    ep = episodes[ep_code]
+    for writer in ep["writers"]:
+      name = writer["name"]
+      if name in writers:
+        writers[name]["episodes"].append(ep_code)
+      else:
+        writers[name] = {
+          "episodes": [ep_code],
+          "references": 0,
+          "refsPerEp": 0
+        }
+
+  # count references for each writer
+  for ep_code in references:
+    for name in writers:
+      writer = writers[name]
+      if ep_code in writer["episodes"]:
+        for instance in references[ep_code]:
+          writer["references"] += 1
+          writer["refsPerEp"] = writer["references"]/len(writer["episodes"])
+
+  writers_regulars = {}
+  regular_threshold = 10
+  for name in writers:
+    if len(writers[name]["episodes"]) > regular_threshold:
+      writers_regulars[name] = writers[name]
+
+  print("--- WRITERS ---")
+  print()
+  print("Total writers:")
+  print(total(writers))
+  print()
+  print(f"Total \"regular\" writers (on more than {regular_threshold} episodes):")
+  print(total(writers_regulars))
+  print()
+  print("Writers by references:")
+  writers = dict(sorted(writers.items(), key=lambda item: len(item[1]["episodes"]), reverse=True))
+  print(top(writers, "references"))
+  print()
+  print("Regular writers by references per episode:")
+  writers_regulars = dict(sorted(writers_regulars.items(), key=lambda item: item[1]["refsPerEp"], reverse=True))
+  print(top(writers_regulars, "refsPerEp"))
+  print()
 
 def analyse(args):
   if args.type == "names":
     analyse_names()
   elif args.type == "titles":
     analyse_titles()
+  elif args.type == "seasons":
+    analyse_seasons()
   elif args.type == "episodes":
     analyse_episodes()
+  elif args.type == "writers":
+    analyse_writers()
   else:
     analyse_all()

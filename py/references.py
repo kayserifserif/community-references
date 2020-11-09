@@ -18,10 +18,10 @@ def main():
       By default, analyses everything (names, titles, episodes).\
       Add -h to see more options.",
     description="Analyse references and referents data.\
-      By default analyses everything (names, titles, episodes).\
-      Add -t or --type followed by one of {names,titles,episodes} to see analysis of only that thing.")
+      By default, analyses everything.\
+      Add -t or --type followed by one of the options to see analysis of only that thing.")
   parser_analyse.add_argument("--type", "-t",
-    choices=["names", "titles", "episodes"],
+    choices=["names", "titles", "seasons", "episodes", "writers"],
     help="analyse only one type")
   parser_analyse.set_defaults(func=analyse.analyse)
 
