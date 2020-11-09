@@ -17,10 +17,9 @@ def getReferences():
 
 def compileRefsSet(references, code):
   search = set()
-  for refType in references[code]:
-    for ref in references[code][refType]:
-      entity = re.escape(ref["reference"]["entity"])
-      search.add(entity)
+  for ref in references[code]:
+    entity = re.escape(ref["reference"]["entity"])
+    search.add(entity)
   return search
 
 def compileRefs(code):
