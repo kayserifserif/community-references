@@ -5,15 +5,11 @@ A computational analysis of the pop culture profile created through textual refe
 ![Pop pop!](https://media.giphy.com/media/xtIYfyKf16xJm/giphy.gif)
 
 TOC:
-- [Thoughts for context](#thoughts-for-context)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 - [Acknowledgements](#acknowledgements)
-
-## Thoughts for context
-
-- Reference: an instance of referring to something. Referent: the thing being referred to.
+- [Notes](#notes)
 
 ## Installation
 
@@ -151,7 +147,7 @@ Scrapes IMDb for all episodes, writing to data/community/episodes.json under eac
 
 Scrapes episode transcripts from [Springfield! Springfield!](https://www.springfieldspringfield.co.uk/episode_scripts.php?tv-show=community) *(link is no longer live?)* into scrape/.
 
-# Dependencies
+## Dependencies
 
 This project uses these very helpful libraries:
 
@@ -162,10 +158,13 @@ This project uses these very helpful libraries:
 - [spaCy](https://spacy.io/)
 - [Videogrep](https://antiboredom.github.io/videogrep/)
 
-# Acknowledgements
+## Acknowledgements
 
 Much appreciated guidance and support from Sarah Ciston and the [Creative Code Collective](https://www.instagram.com/creativecodecollective/), Holly Willis, and the MA+P department :)
 
-# To-do
+## Notes
 
+- Reference: an instance of referring to something. Referent: the thing being referred to.
 - Search for entity and generate supercut
+- [Mosaic](https://trac.ffmpeg.org/wiki/Create%20a%20mosaic%20out%20of%20several%20input%20videos)
+- [Pattern](https://web.archive.org/web/20190318015618/https://www.clips.uantwerpen.be/pages/pattern-search)
